@@ -646,6 +646,16 @@ footer a {
     }
 }
 @media (max-width: 414px) {
+    h2 {
+        margin-left: 0;
+        font-size: 21px;
+    }
+    article:after {
+        display: none;
+    }
+    aside .inner:first-child:after {
+        display: none;
+    }
     .logo.mobile {
         float: none;
         margin: 0 auto;
