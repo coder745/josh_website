@@ -1,6 +1,6 @@
 ---
 layout: defaults
-title: Josh Young
+title: Home
 weight: 0
 ---
 <section>
