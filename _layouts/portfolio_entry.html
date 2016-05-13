@@ -7,7 +7,7 @@ layout: defaults
     <article class='subpage'>
         <h2>{{page.title}}</h2>
         <div class="date">
-            {{ page.date }}
+            {{ page.date | date: '%m/%d/%Y' }}
         </div>
         <p>
             {{ content }}

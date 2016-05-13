@@ -56,7 +56,7 @@
                 {% assign pages = site.html_pages | sort: "weight"  %}
                 <ul>
                   {% for p in pages %}
-                      {% if p.title != 'Josh Young' %}
+                      {% if p.title != 'Home' %}
                       {% if p.title != 'Search' %}
                         <li>
                           <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">

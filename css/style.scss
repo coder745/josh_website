@@ -382,7 +382,6 @@ section {
     position: relative;
     max-width: 500px;
     float: left;
-    text-align: center;
     margin-right: 50px;
     margin-left: 40px;
     font-size: 16px;
@@ -391,6 +390,11 @@ section {
         border: solid 1px #000;
         float: left;
         margin: 10px 10px 10px 0;
+    }
+    ul {
+        margin-left: 10px;
+        list-style-type: disc;
+        list-style-position: inside;
     }
 }
 
