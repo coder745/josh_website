@@ -56,7 +56,7 @@ weight: 4
         <a name='network'></a>
         <h3>Network+</h3>
         <p>This certification was all about Networking fundamentals.</p>
-        <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
+        <a href='https://certification.comptia.org/certifications/network'>About Certification</a>
     </article>
 
     <article>
@@ -105,7 +105,7 @@ weight: 4
         <a name='a'></a>
         <h3>A+</h3>
         <p>This certification was all about Computer Hardware.</p>
-        <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
+        <a href='https://certification.comptia.org/certifications/a'>About Certification</a>
     </article>
 
 </section>

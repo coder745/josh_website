@@ -101,7 +101,7 @@ body {
     }
     input[type='submit'] {
         float: right;
-        width: 50px;
+        width: 60px;
     }
 }
 
@@ -312,6 +312,9 @@ ul.social a {
     display: block;
     margin: 10px 10px 5px 0;
 }
+ul.books li {
+    font-size: 12px;
+}
 
 a.twitter {
     background: url('../img/twitter1.svg') no-repeat;
@@ -342,7 +345,7 @@ main {
 
 .date {
     text-align: left;
-    color: #ccc;
+    color: #262626;
     font-size: 12px;
     margin-left: 10px;
     font-style: italic;
@@ -373,7 +376,7 @@ section.content article {
             margin: 10px 0;
         }
         li:before {
-            content: '- ';
+            //content: '- ';
         }
     }
 section {

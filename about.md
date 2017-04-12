@@ -21,19 +21,48 @@ weight: 10
     <article>
         <h3>Books</h3>
         <p>In my spare time, I try to keep up with the latest in technology. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
-        <ul>
+        <ul class='books'>
             <li>The Design of Everyday Things</li>
             <li>Don't Make Me Think by Steve Krug</li>
             <li>Designing the Obvious by Robert Hoekman, jr.</li>
             <li>Thinking with Type by Ellen Lupton</li>
+            <li>The iOS 5 Developer's Cookbook</li>
+            <li>Smashing Book 5</li>
+            <li>Penetration Testing: A Hands-On Introduction to Hacking</li>
+            <li>Build Your Own ASP.NET Website Using C# and VB.NET</li>
+            <li>The Hacker Playbook: Practical Guide To Penetration Testing</li>
+            <li>Rtfm: Red Team Field Manual</li>
+            <li>Nmap Network Scanning</li>
+            <li>CompTIA A+ 2006 in Depth</li>
+            <li>All-In-One: CompTIA Network+</li>
+            <li>JavaScript by Peter-Paul Koch</li>
+            <li>Developer's Library: MySQL by Paul DuBois</li>
+            <li>Learning JavaScript</li>
+            <li>Learning PHP and MySQL</li>
+            <li>O'Reilly Web Studio: Designing with JavaScript: Creating Dynamic Web Pages</li>
+            <li>JavaScript Patterns</li>
+            <li>JavaScript: The Good Parts</li>
+            <li>The Elements of C# Style </li>
+            <li>Learning Perl</li>
+            <li>Learning the Vi and Vim Editors</li>
+            <li>HTML and CSS: Design and Build Websites</li>
+            <li>JavaScript and JQuery: Interactive Front-End Web Development </li>
+            <li>Counter Hack Reloaded</li>
+            <li>Perl Specialist Instructior Guide</li>
+            <li>Penetration Testing with Kali Linux v1.0.4</li>
+            <li>Phparchitects Zend Php 5 Certification Study Guide</li>
         </ul>
     </article>
 
     <article>
         <h3>About Site</h3>
-        <div>Icons made by <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        <div>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        <div>Designed by me. Running Jekyll.</div>
+        <div>
+        Icons made by 
+        <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> 
+        and by
+        <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a>.
+        </div>
+        <div>Designed by <a href='joshyoung.me/about'>me</a>. Running <a href='https://jekyllrb.com'>Jekyll</a>.</div>
     </article>
 
 </section>
