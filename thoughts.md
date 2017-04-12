@@ -2,7 +2,7 @@
 layout: defaults
 title: Thoughts
 permalink: /thoughts
-weight: 0
+weight: 10
 ---
 
 <section>

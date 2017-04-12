@@ -1,8 +1,8 @@
 ---
 layout: defaults
-title: History
+title: Resume
 permalink: /resume
-weight: 6
+weight: 30
 ---
 
 <section class='content'>

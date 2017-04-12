@@ -61,7 +61,7 @@
                         <li>
                           <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
                             {{ p.title }}
-                            {% if p.title == 'History' %}
+                            {% if p.title == 'Resume' %}
                                 <span>of Jobs</span>
                             {% endif %}
                             {% if p.title == 'Thoughts' %}
@@ -76,6 +76,9 @@
                             {% if p.title == 'Certs' %}
                                 <span>i've Aquired</span>
                             {% endif %}
+                            {% if p.title == 'Classes' %}
+                                <span>Continuing Education</span>
+                            {% endif %}
                           </a>
                         </li>
                         {% endif %}
@@ -85,7 +88,7 @@
             </nav>
             <ul class='social'>
                 <!-- <li><a class='twitter' href="#"></a></li> -->
-                <li><a class='linkedin' href="#"></a></li>
+                <li><a class='linkedin' href="https://www.linkedin.com/in/joshuayoung1"></a></li>
                 <li><a class='github' href="https://github.com/coder745"></a></li>
             </ul>
         </aside>

@@ -2,7 +2,7 @@
 layout: defaults
 title: About
 permalink: /me
-weight: 10
+weight: 40
 ---
 
 <section class='content'>
@@ -15,7 +15,7 @@ weight: 10
 
     <article>
         <h3>Hobbies</h3>
-        <p>My hobbies usually end up relating in large part to my job. I spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. If I am not working on servers or code, I spend my time playing my harmonicas, reading, or researching health related subjects.</p>
+        <p>My hobbies usually end up relating in large part to my job. I spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. If I am not working on servers or code, I spend my time playing my harmonicas, reading, or researching health related subjects.</p>
     </article>
 
     <article>
@@ -33,6 +33,14 @@ weight: 10
             <li>The Hacker Playbook: Practical Guide To Penetration Testing</li>
             <li>Rtfm: Red Team Field Manual</li>
             <li>Nmap Network Scanning</li>
+            <li>Web Form Design: Filling in the Blanks</li>
+            <li>Content Strategy for Mobile</li>
+            <li>Responsive Design: Patterns & Principles</li>
+            <li>CSS3 for Web Designers</li>
+            <li>Mobile First</li>
+            <li>The Elements of Content Strategy</li>
+            <li>On Web Typography</li>
+            <li>HTML5 for Web Designers</li>
             <li>CompTIA A+ 2006 in Depth</li>
             <li>All-In-One: CompTIA Network+</li>
             <li>JavaScript by Peter-Paul Koch</li>
