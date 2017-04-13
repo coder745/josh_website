@@ -5,7 +5,8 @@ permalink: /thoughts
 weight: 10
 ---
 
-<section>
+<section class='content'>
+<div class='inner-section'>
   {% for post in site.posts %}
     <article>
       <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
@@ -13,4 +14,5 @@ weight: 10
         <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
     </article>
   {% endfor %}
+</div><!-- inner-section -->
 </section>

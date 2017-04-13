@@ -6,6 +6,7 @@ weight: 40
 ---
 
 <section class='content'>
+<div class='inner-section'>
 <h2>About Me</h2>
     <article>
         <h3>My Job</h3>
@@ -105,5 +106,5 @@ weight: 40
         Designed by <a href='joshyoung.me/about'>me</a>. Running <a href='https://jekyllrb.com'>Jekyll</a>.
         </p>
     </article>
-
+</div><!-- inner-section -->
 </section>

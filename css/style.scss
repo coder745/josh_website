@@ -1,6 +1,399 @@
 ---
 ---
 
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+html, 
 body {
-    background: white;
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: #F8F8F8;
+    background-image: url('../img/bac.png'),
+                      url('../img/circle.png'),
+                      /* Background pattern from subtlepatterns.com */
+                      url('../img/concrete_seamless.png');
+
+    background-repeat: repeat-y,
+                       repeat,
+                       repeat;
+
+    background-position: top right,
+                         105px 10px,
+                         bottom right;
+}
+.wrap {
+    min-height: 100%;
+    overflow: hidden;
+}
+.border {
+    background: #267F54;
+    height: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+    border-bottom: dashed 1px #ccc;
+    color: #1a1a1a;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        color: #267F54;
+    }
+    &:visited {
+        color: green;
+    }
+}
+ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+p {
+    margin-bottom: 0;
+}
+
+.logo {
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+    position: relative;
+    box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+    font: 35px 'Kaushan Script';
+    background: #f8f8f8;
+    color: #267F54;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 200px;
+    div {
+        margin-left: 10px;
+        font: 11px Georgia;
+    }
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #267F54;
+    position: absolute;
+    top: 5px;
+    left: -14px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+ ul.tags {
+     list-style-type: none;
+            li {
+                float: left;
+                &:before {
+                    content: '';
+                }
+            }
+            a {
+                padding: 5px;
+            }
+        }
+
+aside {
+    .inner {
+        overflow: hidden;
+        background: rgba(253,253,253,0.7);
+        border: 1px solid #98db81;
+        line-height: 1.3;
+        box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+        position: relative;
+        padding: 15px;
+        margin: 20px;
+    }
+    ul {
+        list-style-type: none;
+        margin-left: 0;
+    }
+    li:before {
+        content: '- ';
+    }
+}
+
+form.inner {
+    fieldset {
+        border: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    legend {
+        display: none;
+    }
+    input[type='text'] {
+        width: 69%;
+        padding: 10px;
+        float: left;
+        background: rgba(253,253,253,0.7);
+        border: solid 1px #ccc;
+    }
+    input[type='submit'] {
+        width: 30%;
+        background: rgba(253,253,253,0.7);
+        border: solid 1px #ccc;
+        float: right;
+        padding: 10px;
+    }
+}
+
+nav {
+    clear: both;
+    margin: 0 auto;
+    width: 227px;
+    overflow: hidden;
+    li:before {
+        content: '';
+    }
+    li {
+        float: left;
+        span {
+            display: none;
+        }
+    }
+    a {
+        display: inline-block;
+        padding: 10px;
+    }
+}
+ul.social {
+    display: none;
+}
+
+section {
+    margin: 0 auto;
+    line-height: 2;
+    h2 {
+        margin-left: 30px;
+    }
+}
+
+article {
+    margin: 0 20px 40px 20px; 
+    border-bottom: 2px solid #267F54;
+    padding-bottom: 10px;
+    &:last-child {
+        border-bottom: none;
+    }
+    a {
+        color: #267554;
+    }
+}
+
+footer {
+    clear: both;
+
+    .copy-info {
+        float: right;
+    }
+    height: 39px;
+    text-align: right;
+    width: 100%;
+    font-size: 13px;
+    background: #e8e8e8;
+    padding: 13px 0;
+    border-top: 1px solid #98db81;
+    border-right: 5px #267F54 solid;
+    padding-right: 10px;
+}
+
+/* Thoughs and Home page only */
+body.landing {
+    h2 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 28px;
+        color: #000;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .date {
+        color: #262626;
+        font-size: 12px;
+        margin-left: 10px;
+        font-style: italic;
+        &:before {
+            content: '- ';
+        }
+    }
+    article {
+        background: rgba(253,253,253,0.7);
+        position: relative;
+        margin: 0 30px 40px 30px;
+        border: solid 1px #ccc;
+        box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+        padding: 90px 40px;
+        span {
+            color: #267554;
+        }
+        &.alt {
+            padding: 20px;
+            overflow: hidden;
+        }
+    }
+    article:after {
+        content: '';
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background: #98DB81;
+        box-shadow: 1px 1px 1px #888;
+        position: absolute;
+        bottom: -14px;
+    }
+    article:nth-child(even):after {
+        left: -14px;
+    }
+    article:nth-child(odd):after {
+        right: -14px;
+    }
+}
+/* end - Thoughts and Home page only */
+
+@media (min-width : 768px) {
+    header {
+        float: left;
+        position: fixed;
+    }
+    .logo {
+        box-shadow: none;
+        border-right: solid 1px #000;
+    }
+    article.alt {
+        width: 40%;
+        float: left;
+    }
+    aside.left-aside {
+        position: fixed;
+        background: #fdfdfd;
+        clear: both;
+        width: 200px;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1000;
+        margin-top: 98px;
+        border-right: solid 1px #000;
+    }
+    nav {
+        width: auto;
+        border-top: solid 1px #000;
+        min-height: 100%;
+        margin-bottom: -137px;
+    }
+    nav li {
+        float: none;
+    }
+    nav li span {
+        display: block;
+        font-size: 11px;
+        color: #000;
+        margin-top: 4px;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #f0f0f0;
+        &.active {
+            background: #98D881;
+            color: #fff;
+        }
+        &:hover {
+            background: #f2f2f2;
+            span:before {
+                content: ' -- ';
+                font-style: italic;
+            }
+        }
+        &.active:hover {
+            background: #98D881;
+            color: #fff;
+        }
+    }
+    ul.social {
+        display: block;
+        height: 38px;
+        background: #FdFdFd;
+        display: block;
+        border-top: 1px solid #98db81;
+        li {
+            float: right;
+            &:before {
+                content: '';
+            }
+        }
+        a {
+            display: block;
+            margin: 10px 10px 5px 0;
+            line-height: 0;
+            font-size: 0;
+            color: transparent;
+        }
+        a.linkedin {
+            background: url(../img/linkedin.svg) no-repeat;
+            width: 15px;
+            height: 15px;
+        }
+        a.github {
+            background: url(../img/git.svg) no-repeat;
+            width: 15px;
+            height: 15px;
+            position: relative;
+            top: 2px;
+        }
+    }
+    section.content {
+        float: left;
+        width: 100%;
+        margin-top: 60px;
+        max-width: 1200px;
+        margin-left: 200px;
+        //margin-right: -200px;
+        //margin-right: -300px;
+        .inner-section {
+            //margin-left: 200px;
+            margin-right: 500px;
+        }
+    }
+    aside.right-aside {
+        float: right;
+        margin-top: 60px;
+        width: 300px;
+        margin-left: -500px;
+    }
+    footer ul {
+        display: block;
+    }
+}
+
+@media (min-width : 1024px) {
+    body {
+        //background: green;
+    }
 }

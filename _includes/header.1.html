@@ -8,7 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans' rel='stylesheet' />
         <link rel='shortcut icon' href='/favicon.ico' type='image/icon' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-         <!--<meta http-equiv='refresh' content='5' /> -->
+         <meta http-equiv='refresh' content='5' /> 
         <script type='text/javascript'>
             document.createElement('main');
         </script>
@@ -20,14 +20,39 @@
             <div class='inner'>
                 <a href='/'>
                     <div class='logo'>
-                        <div id='triangle'></div>
-                        Josh<span>Young</span>
-                        <div>My Thoughts on Web Development</div>
+                        Josh<em>Young</em>
+                        <span>My Thoughts on Web Development</span>
                     </div>
                 </a>
+                <nav class='mobile'>
+                    {% assign pages = site.html_pages | sort:"weight"  %}
+                    <ul>
+                      {% for p in pages %}
+                          {% if p.title != 'Home' %}
+                          {% if p.title != 'Search' %}
+                            <li>
+                              <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
+                                {{ p.title }}
+                              </a>
+                            </li>
+                            {% endif %}
+                            {% endif %}
+                      {% endfor %}
+                    </ul>
+                </nav>
+            </div><!-- inner -->
         </header>
         <aside class='left-aside'>
-            <nav>
+            <div id='triangle'></div>
+            <a class='logo_border' href='/'>
+                    <div class='logo'>
+                        <div id='ham'></div>
+                        Josh <em>Young</em>
+                        <span>My Thoughts on Web Development</span>
+                    </div>
+            </a><!-- logo_border -->
+
+            <nav class='full'>
                 {% assign pages = site.html_pages | sort: "weight"  %}
                 <ul>
                   {% for p in pages %}

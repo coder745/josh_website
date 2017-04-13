@@ -6,9 +6,8 @@ weight: 30
 ---
 
 <section class='content'>
+<div class='inner-section'>
     <h2>Resume</h2>
-
-
 <article>
     <h3>Experienced Full Stack Web Developer</h3>
     <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and IT structures. Desires a long-term position, conducive to professional growth and advancement.</p>
@@ -132,6 +131,5 @@ weight: 30
             <li>Blogging System: PHP, MySQL, HTML, CSS, JavaScript (Summer 2008)</li>
         </ul>
     </article>
-
-
+</div><!-- inner-section -->
 </section>

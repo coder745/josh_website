@@ -5,6 +5,7 @@ permalink: /classes
 weight: 25
 ---
 <section class='content'>
+<div class='inner-section'>
 <h2>Classes</h2>
     <article>
         <p>
@@ -156,5 +157,5 @@ weight: 25
         <h3>Linux Administration 110 - System Installation and Configuration</h3>
         <p>Even though I had taken Linux classes in school, my company offered to send me to this class prior to taking on more Linux system administration duties at work. This class was mostly review for me since I had previous Linux experience and training but it served as a good review and preparation for the classes that followed. This class went over basic Linux information such as the filesystem, input, output, process management, etc.</p>
     </article>
-
+</div><!-- inner-section -->
 </section>

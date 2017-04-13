@@ -5,6 +5,7 @@ permalink: /certs
 weight: 20
 ---
 <section class='content'>
+<div class='inner-section'>
 <h2>Certs</h2>
     <article>
         <p>
@@ -104,5 +105,5 @@ weight: 20
         <p>This certification was all about Computer Hardware.</p>
         <a href='https://certification.comptia.org/certifications/a'>About Certification</a>
     </article>
-
+</div><!-- inner-section -->
 </section>
