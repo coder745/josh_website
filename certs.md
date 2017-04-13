@@ -11,6 +11,7 @@ weight: 20
         Here is a list of the certifications that I have attained over the past few years.
         Most of these certs required passing more than one test to attain. Below is a more
         in-depth explanation of each of my certifications:
+        </p>
         <ul>
             <li><a href='#security'>CompTIA Security+</a></li>
             <li><a href='#ceh'>Certified Ethical Hacker</a></li>
@@ -22,9 +23,8 @@ weight: 20
             <li><a href='#javascript'>CIW JavaScript Specialist</a></li>
             <li><a href='#linux'>CompTIA Linux+</a></li>
             <li><a href='#lpci'>LPCI</a></li>
-            <li><a href='#a'>CompTIA A+</a></li>
+            <li><a href='#aplus'>CompTIA A+</a></li>
         </ul>
-        </p>
     </article>
 
     <article>
@@ -99,7 +99,7 @@ weight: 20
     </article>
 
     <article>
-        <a name='a'></a>
+        <a name='aplus'></a>
         <h3>CompTIA A+</h3>
         <p>This certification was all about Computer Hardware.</p>
         <a href='https://certification.comptia.org/certifications/a'>About Certification</a>

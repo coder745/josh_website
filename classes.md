@@ -9,11 +9,12 @@ weight: 25
     <article>
         <p>
         In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed the classes both classroom and online that I have attended over the years.
-        Here is a list of the certifications that I have attained over the past few years.</p>
+        Here is a list of the certifications that I have attained over the past few years.
+        </p>
         <ul class='anchor-list'>
             <li><a href='#reactclass'>React for Beginners</a></li>
             <li><a href='#treehouse'>Tree House (SQL and Ruby classes)</a></li>
-            <li><a href='#pluralsite'>Pluralsite Courses</a></li>
+            <li><a href='#pluralsite'>PluralSite Courses</a></li>
             <li><a href='#codeschool'>Code School Classes</a></li>
             <li><a href='#fedvte'>FedVTE Training</a></li>
             <li><a href='#kali'>Penetration Testing with Kali Linux</a></li>
@@ -98,18 +99,17 @@ weight: 25
             <li><a href='https://www.codeschool.com/courses/blasting-off-with-bootstrap'>Blasting Off with Bootstrap</a></li>
             <li><a href='https://www.codeschool.com/courses/fundamentals-of-design'>Fundamentals of Design</a></li>
         </ul>
-
     </article>
 
     <article>
         <a name='fedvte'></a>
         <h3>FedVTE Training</h3>
         <p>These are free courses offered to government employees by the Department of Homeland Security.</p>
-    <ul class='classes'>
-        <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Demilitarized Zone (DMZ) with IDS/IPS</a></li>
-        <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Linux Operating System Security</a></li>
-        <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Penetration Testing</a></li>
-    </ul>
+        <ul class='classes'>
+            <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Demilitarized Zone (DMZ) with IDS/IPS</a></li>
+            <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Linux Operating System Security</a></li>
+            <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Penetration Testing</a></li>
+        </ul>
     </article>
 
     <article>
@@ -122,7 +122,7 @@ weight: 25
     <article>
         <a name='securityplus'></a>
         <h3>CompTIA Security+ Certification Training</h3>
-        <p>In preparation for the Security+ certification, I took this class that covered teh fundamentals in teh Comptia Security+ certification exam. This class was offered as a night class by the University of Alabama in Huntsville (UAH).</p>
+        <p>In preparation for the Security+ certification, I took this class that covered teh fundamentals in the CompTIA Security+ certification exam. This class was offered as a night class by the University of Alabama in Huntsville (UAH).</p>
         <a href='http://www.uah.edu/'>University of Alabama in Huntsville</a>
     </article>
 

@@ -4,10 +4,10 @@ title: Projects
 permalink: /projects
 weight: 26
 ---
+
 <section class='content'>
 <h2>Projects</h2>
     <article>
-        <p>
         <ul>
             <li><a href='#laravel_note_url'>Laravel Note/URL System (2017):</a></li>
             <li><a href='#web_template'>Web Best Practices Template (2016):</a></li>
@@ -16,7 +16,6 @@ weight: 26
             <li><a href='#ticketing_system'>Ticketing System v1 (2010):</a></li>
             <li><a href='blogging_system'>Blogging System (2008):</a></li>
         </ul>
-        </p>
     </article>
 
     <article>

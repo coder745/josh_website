@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-        <meta charset="utf-8" />
+        <meta charset='utf-8' />
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/css/reset.css" media="screen" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-        <link rel="stylesheet" href="/css/style.css" media="screen" />
-        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css' />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/icon" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-         <!--<meta http-equiv="refresh" content="5" /> -->
-        <script type="text/javascript">
-            document.createElement("main");
+        <link rel='stylesheet' href='/css/normalize.css' media='screen' />
+        <link rel='stylesheet' href='/css/style.css' media='screen' />
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans' rel='stylesheet' />
+        <link rel='shortcut icon' href='/favicon.ico' type='image/icon' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+         <!--<meta http-equiv='refresh' content='5' /> -->
+        <script type='text/javascript'>
+            document.createElement('main');
         </script>
     </head>
-    <body {% if page.title == "Thoughts" or page.title == "Home" %} class="landing" {% endif %}>
-        <div class="wrap">
-            <div class="border"></div>
+    <body {% if page.title == 'Thoughts' or page.title == 'Home' %} class='landing' {% endif %}>
+        <div class='wrap'>
+            <div class='border'></div>
         <header>
-            <div class="inner">
+            <div class='inner'>
                 <a href='/'>
-                    <div class="logo mobile">
-                        Josh <em>Young</em>
+                    <div class='logo mobile'>
+                        Josh<em>Young</em>
                         <span>My Thoughts on Web Development</span>
                     </div>
                 </a>
@@ -32,7 +31,7 @@
                           {% if p.title != 'Home' %}
                           {% if p.title != 'Search' %}
                             <li>
-                              <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                              <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
                                 {{ p.title }}
                               </a>
                             </li>
@@ -41,17 +40,17 @@
                       {% endfor %}
                     </ul>
                 </nav>
-            </div><!-- E_inner -->
+            </div><!-- inner -->
         </header>
         <aside class='left-aside'>
             <div id='triangle'></div>
             <a class='logo_border' href='/'>
-                    <div class="logo">
+                    <div class='logo'>
                         <div id='ham'></div>
                         Josh <em>Young</em>
                         <span>My Thoughts on Web Development</span>
                     </div>
-            </a><!-- E_logo_border -->
+            </a><!-- logo_border -->
 
             <nav class='full'>
                 {% assign pages = site.html_pages | sort: "weight"  %}
@@ -61,7 +60,7 @@
                       {% if p.title != 'Search' %}
                       {% if p.title != 'Tags' %}
                         <li>
-                          <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                          <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
                             {{ p.title }}
                             {% if p.title == 'Resume' %}
                                 <span>of Jobs</span>
@@ -90,7 +89,7 @@
                 </ul>
             </nav>
             <ul class='social'>
-                <li><a class='linkedin' href="https://www.linkedin.com/in/joshuayoung1"></a></li>
-                <li><a class='github' href="https://github.com/coder745"></a></li>
+                <li><a class='linkedin' href='https://www.linkedin.com/in/joshuayoung1'>LinkedIn</a></li>
+                <li><a class='github' href='https://github.com/coder745'>GitHub</a></li>
             </ul>
         </aside>

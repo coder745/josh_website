@@ -14,7 +14,7 @@ This tag search solution is somewhat hacky. There are other ways to do this incl
   <article style='display:none;' class='single_post'>
     <h2 class='single_title'>{{ post.title }}</h2>
     <div style='display: none;' class='single_tags'>{% for tag in post.tags %}{{ tag }}-{% endfor %}</div>
-    <div class="date">{{ post.date | date: '%B %d, %Y' }}</div>
+    <div class='date'>{{ post.date | date: '%B %d, %Y' }}</div>
     <p class='single_content'>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
   </article>
 {% endfor %}

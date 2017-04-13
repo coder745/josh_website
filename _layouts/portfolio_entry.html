@@ -2,15 +2,12 @@
 layout: defaults
 ---
 
-
 <section class='content'>
     <article>
         <h2>{{page.title}}</h2>
-        <div class="date">
+        <div class='date'>
             {{ page.date | date: '%m/%d/%Y' }}
         </div>
-        <p>
-            {{ content }}
-        </p>
+        <p>{{ content }}</p>
     </article>
 </section>
