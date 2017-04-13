@@ -56,7 +56,7 @@ weight: 40
             <li>HTML and CSS: Design and Build Websites by Jon Duckett</li>
             <li>JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett</li>
             <li>Counter Hack Reloaded by Edward Skoudis</li>
-            <li>Perl Specialist Instructior Guide</li>
+            <li>Perl Specialist Instructor Guide</li>
             <li>Penetration Testing with Kali Linux v1.0.4</li>
             <li>Phparchitects Zend Php 5 Certification Study Guide by Davey Shafik</li>
         </ul>

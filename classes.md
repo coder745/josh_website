@@ -22,7 +22,7 @@ weight: 25
             <li><a href='#unified'>Unified Threat Management Introduction Course (pfSense)</a></li>
             <li><a href='#linuxsteelpivot3'>Linux Administration 310 - Service Configuration, Management, and LAMP Servers</a></li>
             <li><a href='#linuxsteelpivot2'>Linux Administration 210 - System and Network Management</a></li>
-            <li><a href='#linuxsteelpivot1'>Linux Adminitration 110 - System Installation and Configuration</a></li>
+            <li><a href='#linuxsteelpivot1'>Linux Administration 110 - System Installation and Configuration</a></li>
         </ul>
     </article>
 
@@ -154,7 +154,7 @@ weight: 25
     <article>
         <a name='linuxsteelpivot1'></a>
         <h3>Linux Administration 110 - System Installation and Configuration</h3>
-        <p>Even though I had taken Linux classes in school, my company offered to send me to this class prior to taking on more Linux system administration duties at work. This class was mostly review for me since I had previous Linux experience and training but it served as a good review and preperation for the classes that followed. This class went over basic Linux information such as the filesystem, input, output, process management, etc.</p>
+        <p>Even though I had taken Linux classes in school, my company offered to send me to this class prior to taking on more Linux system administration duties at work. This class was mostly review for me since I had previous Linux experience and training but it served as a good review and preparation for the classes that followed. This class went over basic Linux information such as the filesystem, input, output, process management, etc.</p>
     </article>
 
 </section>

@@ -5,6 +5,10 @@ permalink: /tags
 weight: 100
 ---
 
+<!-- 
+This tag search solution is somewhat hacky. There are other ways to do this including setting up some additional Ruby code within the Jekyll version that you are running. Eventually, I may switch this to using a different search method.
+-->
+
 <section>
 {% for post in site.posts %}
   <article style='display:none;' class='single_post'>

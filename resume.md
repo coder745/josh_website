@@ -27,7 +27,7 @@ weight: 30
         <li>Server Technologies</li>
         <li>Apache</li>
         <li>IIS</li>
-        <li>nginX</li>
+        <li>nginx</li>
         <li>MS Servers 2008/2012</li>
         <li>Linux (Debian/Red Hat)</li>
     </ul>
@@ -72,7 +72,7 @@ weight: 30
 
     <article class='professional-experience'>
         <h3>Professional Experience</h3>
-            <h4>Systems Analyst (Web Development)</h4>
+            <h4>Systems Analyst (Web Developer)</h4>
             <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
             <ul class='books'>
                 <li>Developed and maintained web and mobile applications using PHP, C#, Objective C, and other languages</li>
@@ -108,9 +108,9 @@ weight: 30
         <h3>Certification</h3>
         <p>I have listed more details about each one of these certifications on my <a href='/certs'>certification</a> page.</p>
         <ul class='books'>
-            <li>Comptia A+</li>
-            <li>Comptia Linux+</li>
-            <li>Comptia Network+</li>
+            <li>CompTIA A+</li>
+            <li>CompTIA Linux+</li>
+            <li>CompTIA Network+</li>
             <li>CIW Perl Specialist</li>
             <li>CIW JavaScript Specialist</li>
             <li>CIW Database Design Specialist</li>
@@ -118,7 +118,7 @@ weight: 30
             <li>Zend Certified PHP Engineer</li>
             <li>Linux Professional Institute LPIC-1</li>
             <li>Certified Ethical Hacker</li>
-            <li>Comptia Security+</li>
+            <li>CompTIA Security+</li>
         </ul>
     </article>
 
