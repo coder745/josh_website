@@ -15,7 +15,7 @@ weight: 40
 
     <article>
         <h3>Hobbies</h3>
-        <p>My hobbies usually end up relating in large part to my job. I spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. If I am not working on servers or code, I spend my time playing my harmonicas, reading, or researching health related subjects.</p>
+        <p>My hobbies usually end up relating in large part to my job. I spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting and a good working knowleged of computer security and specifically web application security is very helpful for web developers. If I am not working on servers or code, I spend my time playing my harmonicas, reading, or researching health related subjects.</p>
     </article>
 
     <article>

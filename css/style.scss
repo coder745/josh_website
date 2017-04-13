@@ -19,6 +19,26 @@ a {
     text-decoration: none;
 }
 
+h4 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+h3 {
+    border-bottom: dashed 1px #ccc;;
+}
+
+p.small {
+    font-size: 12px;
+}
+
+p.nobottom {
+    margin-bottom: 0;
+}
+
+p.resume-top {
+    margin: 10px;
+}
+
 a:active,
 a:focus {
     color: #267F54;
@@ -228,6 +248,7 @@ nav.full {
         position: relative;
         display: block;
         padding: 15px 0;
+        padding: 11px 0;
         font-size: 20px;
         text-align: center;
         color: #F0F0F0;
@@ -312,8 +333,52 @@ ul.social a {
     display: block;
     margin: 10px 10px 5px 0;
 }
+ul.anchor-list li {
+    line-height: normal;
+    padding: 5px 0;
+    padding-left: 30px;
+    text-indent: -30px;
+}
 ul.books li {
     font-size: 12px;
+    padding-left: 30px;
+    text-indent: -30px;
+}
+ul.classes {
+    li {
+        line-height: normal;
+    }
+    a { 
+        font-size: 14px;
+    }
+}
+
+ul.tech-skills {
+    &:last-child {
+        border-bottom: none;
+    }
+    margin-left: 10px !important;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    clear: both;
+    list-style-type: none;
+    li {
+        float: left;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    li:first-child {
+        clear: both;
+        font-weight: bold;
+        &:after {
+            content: ': ';
+        }
+    }
+
+}
+
+ul.job-details {
+    font-size: 14px;
 }
 
 a.twitter {
@@ -358,6 +423,15 @@ article.subpage {
     h2 {
         text-align: left;
         margin-left: 0;
+    }
+}
+
+article.professional-experience {
+    p:first-child {
+        background: red;
+    }
+    p {
+        //margin-bottom: 40px;
     }
 }
 

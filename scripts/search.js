@@ -27,6 +27,9 @@ jQuery(function() {
     $("#site_search").submit(function(event) {
         event.preventDefault();
         var query = $("#search_box").val(); // Get the value for the text field
+
+        if (query.trim() === '') { return; }
+
         var results = window.idx.search(query); // Get lunr to perform a search
         display_search_results(results); // Hand the results off to be displayed
     });
