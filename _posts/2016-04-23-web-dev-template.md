@@ -2,7 +2,10 @@
 layout: portfolio_entry
 title: Developing a Web Template
 category: markup
-tags: html5 css javascript
+tags: 
+- html5 
+- css 
+- javascript
 excerpt_separator: <!--more-->
 ---
 

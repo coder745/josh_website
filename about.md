@@ -22,20 +22,20 @@ weight: 40
         <h3>Books</h3>
         <p>In my spare time, I try to keep up with the latest in technology. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
         <ul class='books'>
-            <li>The Design of Everyday Things</li>
+            <li>The Design of Everyday Things by Donald A. Norman</li>
             <li>Don't Make Me Think by Steve Krug</li>
             <li>Designing the Obvious by Robert Hoekman, jr.</li>
             <li>Thinking with Type by Ellen Lupton</li>
-            <li>The iOS 5 Developer's Cookbook</li>
-            <li>Smashing Book 5</li>
-            <li>Penetration Testing: A Hands-On Introduction to Hacking</li>
-            <li>Build Your Own ASP.NET Website Using C# and VB.NET</li>
-            <li>The Hacker Playbook: Practical Guide To Penetration Testing</li>
-            <li>Rtfm: Red Team Field Manual</li>
-            <li>Nmap Network Scanning</li>
-            <li>Web Form Design: Filling in the Blanks</li>
-            <li>Content Strategy for Mobile</li>
-            <li>Responsive Design: Patterns & Principles</li>
+            <li>The iOS 5 Developer's Cookbook by Erica Sadun</li>
+            <li>Smashing Book 5 by Smashing Magazine</li>
+            <li>Penetration Testing: A Hands-On Introduction to Hacking by Georgia Weidman</li>
+            <li>Build Your Own ASP.NET Website Using C# and VB.NET by Zak Ruvalcaba</li>
+            <li>The Hacker Playbook: Practical Guide To Penetration Testing by Peter Kim</li>
+            <li>Rtfm: Red Team Field Manual by Ben Clark</li>
+            <li>Nmap Network Scanning by Gordon Fyodor Lyon</li>
+            <li>Web Form Design: Filling in the Blanks by Luke Wroblewski</li>
+            <li>Content Strategy for Mobile by Karen McGrane</li>
+            <li>Responsive Design: Patterns & Principles by Ethan Marcotte</li>
             <li>CSS3 for Web Designers by Dan Cederholm</li>
             <li>Mobile First by Luke Wroblewski</li>
             <li>The Elements of Content Strategy by Erin Kissane</li>

@@ -13,8 +13,8 @@ weight: 20
         in-depth explanation of each of my certifications:
         <ul>
             <li><a href='#security'>CompTIA Security+</a></li>
-            <li><a href='#ceh'>CEH</a></li>
-            <li><a href='#pce'>PCE</a></li>
+            <li><a href='#ceh'>Certified Ethical Hacker</a></li>
+            <li><a href='#pce'>Zend Certified PHP Engineer</a></li>
             <li><a href='#network'>CompTIA Network+</a></li>
             <li><a href='#professional'>CIW Web Development Professional</a></li>
             <li><a href='#database'>CIW Database Design Specialist</a></li>
@@ -43,9 +43,10 @@ weight: 20
 
     <article>
         <a name='pce'></a>
-        <h3>PCE</h3>
-        <p>This certification was all about the details of PHP.</p>
-        <a href=''>About Certification</a>
+        <h3>Zend Certified PHP Engineer (ZCPE)</h3>
+        <p>This certification was all about the details of PHP. Below I have linked to the yellow pages entry.</p>
+        <a href='https://www.zend.com/en/yellow-pages/ZEND024785'>Josh Young - ZCPE</a><br />
+        <a href='https://www.zend.com/en/services/certification/php-certification'>About Certification</a>
     </article>
 
     <article>
@@ -87,7 +88,7 @@ weight: 20
         <a name='linux'></a>
         <h3>CompTIA Linux+</h3>
         <p>This certification was all about Linux fundamentals.</p>
-        <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
+        <a href='https://certification.comptia.org/certifications/linux'>About Certification</a>
     </article>
 
     <article>

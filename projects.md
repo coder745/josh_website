@@ -9,17 +9,36 @@ weight: 26
     <article>
         <p>
         <ul>
-            <li><a href='#lpci'>LPCI</a></li>
-            <li><a href='#a'>A+</a></li>
+            <li><a href='#note_system_flask'>Note Taking System: Python, Flask, SQLite (2014)</a></li>
+            <li><a href='#ticketing_system'>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</a></li>
+            <li><a href='#ticketing_system_alt'>Ticketing System: C#, MSSQL, ASP.NET, CSS, JavaScript (2010)</a></li>
+            <li><a href='blogging_system'>Blogging System: PHP, MySQL, HTML, CSS, JavaScript (Summer 2008)</a></li>
         </ul>
         </p>
     </article>
 
     <article>
-        <a name='security'></a>
-        <h3>Security+</h3>
-        <p>This certification was all about security as it relates to the enterprise.</p>
-        <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
+        <a name='note_system_flask'></a>
+        <h3>Note Taking System (Python, Flask, SQLite)</h3>
+        <p></p>
+    </article>
+
+    <article>
+        <a name='ticketing_system'></a>
+        <h3>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</h3>
+        <p></p>
+    </article>
+
+    <article>
+        <a name='ticketing_system_alt'></a>
+        <h3>Ticketing System: C#, MSSQL, ASP.NET, CSS, JavaScript (2010)</h3>
+        <p></p>
+    </article>
+
+    <article>
+        <a name='blogging_system'></a>
+        <h3>Blogging System: PHP, MySQL, HTML, CSS, JavaScript (Summer 2008)</h3>
+        <p></p>
     </article>
 
 </section>

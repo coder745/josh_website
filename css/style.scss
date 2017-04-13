@@ -6,6 +6,9 @@ header { }
 html {
     box-sizing: border-box;
 }
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
 
 *, *:before, *:after {
     box-sizing: inherit;
@@ -18,6 +21,8 @@ html {
 a {
     text-decoration: none;
 }
+a:visited {
+}
 
 h4 {
     font-weight: bold;
@@ -25,6 +30,7 @@ h4 {
 }
 h3 {
     border-bottom: dashed 1px #ccc;;
+    color: #1a1a1a;
 }
 
 p.small {
@@ -236,8 +242,6 @@ nav.full:before {
     clear:both;
 }
 nav.full {
-    font-family: Helvetica;
-    font-family: Arial;
     display: block;
     min-height: 100%;
     margin-bottom: -38px;
@@ -395,6 +399,8 @@ a.github {
     background: url('../img/git.svg') no-repeat;
     width: 15px;
     height: 15px;
+    position: relative;
+    top: 2px;
 }
 
 main {
@@ -441,6 +447,9 @@ section.content article {
     border: none;
     text-align: left;
     border-bottom: 2px solid #267F54;
+    &:last-child {
+        border-bottom: none;
+    }
 }
     section.content article:after {
         display: none;
@@ -462,7 +471,6 @@ section {
     margin-right: 50px;
     margin-left: 40px;
     font-size: 16px;
-    font-family: Arial;
     img {
         border: solid 1px #000;
         float: left;
