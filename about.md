@@ -19,6 +19,39 @@ weight: 40
     </article>
 
     <article>
+    <h3>Recommended Podcasts</h3>
+    <p>
+    Below I have listed the tech blogs that I listen to on a weekly basis. These are a great way to keep up with the latest changes in development. Yes, I listen to a lot of podcasts. :) Actually, I listen to some other non-technological postcasts that I did not list here. If you use a podcast app such as <a href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly.</p>
+    <ul class='books'>
+        <li><a href='https://www.dotnetrocks.com/'>.NET Rocks</a></li>
+        <li><a href='https://www.bsdnow.tv/episodes/'>BSD Now</a></li>
+        <li><a href='https://changelog.com/podcast'>The Changelog</a></li>
+        <li><a href='http://www.fullstackradio.com/'>Full Stack Radio</a></li>
+        <li><a href='http://packetpushers.net/series/datanauts-podcast/'>Packet Pushers Datanauts</a></li>
+        <li><a href='https://twit.tv/shows/security-now'>Security Now</a></li>
+        <li><a href='https://softwareengineeringdaily.com/'>Software Engineering Daily</a></li>
+        <li><a href='https://responsivewebdesign.com/podcast/'>A Responsive Web Design Podcast</a></li>
+        <li><a href='http://5by5.tv/bigwebshow'>The Big Web Show</a></li>
+        <li><a href='https://blog.codepen.io/radio/'>CodePen Radio</a></li>
+        <li><a href='https://ctrlclickcast.com/episodes/archive'>CTRL+CLICK CAST</a></li>
+        <li><a href='https://twit.tv/shows/floss-weekly'>FLOSS Weekly</a></li>
+        <li><a href='http://frontendhappyhour.com/'>Front End Happy Hour</a></li>
+        <li><a href='https://devchat.tv/js-jabber'>JavaScript Jabber</a></li>
+        <li><a href='https://laracasts.simplecast.fm/'>The Laracasts Snippet</a></li>
+        <li><a href='http://www.laravelpodcast.com/'>The Laravel Podcast</a></li>
+        <li><a href='http://www.jupiterbroadcasting.com/show/linuxactionshow/'>The Linux Action Show</a></li>
+        <li><a href='https://www.phproundtable.com/'>The PHP Roundtable</a></li>
+        <li><a href='https://www.relay.fm/presentable'>Presentable</a></li>
+        <li><a href='https://changelog.com/rfc'>Request for Commits</a></li>
+        <li><a href='https://itunes.apple.com/us/podcast/scale-your-code-podcast/id987253051?mt=2'>Scale Your Code Podcast</a></li>
+        <li><a href='http://shoptalkshow.com/'>ShopTalk Show</a></li>
+        <li><a href='http://www.jupiterbroadcasting.com/show/techsnap/'>TechSNAP</a></li>
+        <li><a href='http://www.toolsday.io/#episode-area'>Toolsday</a></li>
+        <li><a href='http://5by5.tv/webahead'>The Web Ahead</a></li>
+    </ul>
+    </article>
+
+    <article>
         <h3>Books</h3>
         <p>In my spare time, I try to keep up with the latest in technology. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
         <ul class='books'>
