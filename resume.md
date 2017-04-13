@@ -106,7 +106,7 @@ weight: 30
 
     <article>
         <h3>Certification</h3>
-        <p class='nobottom'>I have listed more details about each one of these certifications on my <a href=''>certification</a> page.</p>
+        <p>I have listed more details about each one of these certifications on my <a href='/certs'>certification</a> page.</p>
         <ul class='books'>
             <li>Comptia A+</li>
             <li>Comptia Linux+</li>
@@ -124,6 +124,7 @@ weight: 30
 
     <article>
         <h3>Work and Personal Projects</h3>
+        <p>I have listed more details about each one of these projects on the <a href='/projects'>projects</a> page.</p>
         <ul class='books'>
             <li>Note Taking System: Python, Flask, SQLite (2014)</li>
             <li>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</li>

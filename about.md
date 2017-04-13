@@ -36,29 +36,29 @@ weight: 40
             <li>Web Form Design: Filling in the Blanks</li>
             <li>Content Strategy for Mobile</li>
             <li>Responsive Design: Patterns & Principles</li>
-            <li>CSS3 for Web Designers</li>
-            <li>Mobile First</li>
-            <li>The Elements of Content Strategy</li>
-            <li>On Web Typography</li>
-            <li>HTML5 for Web Designers</li>
-            <li>CompTIA A+ 2006 in Depth</li>
-            <li>All-In-One: CompTIA Network+</li>
-            <li>JavaScript by Peter-Paul Koch</li>
+            <li>CSS3 for Web Designers by Dan Cederholm</li>
+            <li>Mobile First by Luke Wroblewski</li>
+            <li>The Elements of Content Strategy by Erin Kissane</li>
+            <li>On Web Typography by Jason Santa Maria</li>
+            <li>HTML5 for Web Designers by Jeremy Keith</li>
+            <li>CompTIA A+ 2006 in Depth by Jean Andrews</li>
+            <li>All-In-One: CompTIA Network+ by Mike Meyers</li>
+            <li>ppk on JavaScript by Peter-Paul Koch</li>
             <li>Developer's Library: MySQL by Paul DuBois</li>
-            <li>Learning JavaScript</li>
-            <li>Learning PHP and MySQL</li>
-            <li>O'Reilly Web Studio: Designing with JavaScript: Creating Dynamic Web Pages</li>
-            <li>JavaScript Patterns</li>
-            <li>JavaScript: The Good Parts</li>
-            <li>The Elements of C# Style </li>
-            <li>Learning Perl</li>
-            <li>Learning the Vi and Vim Editors</li>
-            <li>HTML and CSS: Design and Build Websites</li>
-            <li>JavaScript and JQuery: Interactive Front-End Web Development </li>
-            <li>Counter Hack Reloaded</li>
+            <li>Learning JavaScript by Ethan Brown</li>
+            <li>Learning PHP and MySQL by Michele E. Davis and Jon A. Phillips</li>
+            <li>O'Reilly Web Studio: Designing with JavaScript: Creating Dynamic Web Pages by Nick Heinle, and Bill Pena</li>
+            <li>JavaScript Patterns by Stoyan Stefanov</li>
+            <li>JavaScript: The Good Parts by Douglas Crockford</li>
+            <li>The Elements of C# Style by Kenneth Baldwin, Andrew Gray, and Trevor Misfeldt</li>
+            <li>Learning Perl by Randal L. Schwartz, Brian D Foy, and Tom Phoenix</li>
+            <li>Learning the Vi and Vim Editors by Arnold Robbins, Elbert Hannah, and Linda Lamb</li>
+            <li>HTML and CSS: Design and Build Websites by Jon Duckett</li>
+            <li>JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett</li>
+            <li>Counter Hack Reloaded by Edward Skoudis</li>
             <li>Perl Specialist Instructior Guide</li>
             <li>Penetration Testing with Kali Linux v1.0.4</li>
-            <li>Phparchitects Zend Php 5 Certification Study Guide</li>
+            <li>Phparchitects Zend Php 5 Certification Study Guide by Davey Shafik</li>
         </ul>
     </article>
 

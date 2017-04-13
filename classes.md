@@ -9,21 +9,21 @@ weight: 25
     <article>
         <p>
         In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed the classes both classroom and online that I have attended over the years.
-        Here is a list of the certifications that I have attained over the past few years.
+        Here is a list of the certifications that I have attained over the past few years.</p>
         <ul class='anchor-list'>
             <li><a href='#reactclass'>React for Beginners</a>
             <li><a href='#treehouse'>Tree House (SQL and Ruby classes)</a></li>
+            <li><a href='#pluralsite_docker'>Pluralsite Docker</a></li>
             <li><a href='#codeschool'>Code School Classes</a></li>
             <li><a href='#fedvte'>FedVTE Training</a></li>
             <li><a href='#kali'>Penetration Testing with Kali Linux</a></li>
             <li><a href='#securityplus'>Security+ Certification Class</a></li>
             <li><a href='#ceh'>CEH - Ethical Hacking and Countermeasures</a></li>
-            <li><a href='unified'>Unified Threat Management Introduction Course (pfSense)</a></li>
+            <li><a href='#unified'>Unified Threat Management Introduction Course (pfSense)</a></li>
             <li><a href='#linuxsteelpivot3'>Linux Administration 310 - Service Configuration, Management, and LAMP Servers</a></li>
             <li><a href='#linuxsteelpivot2'>Linux Administration 210 - System and Network Management</a></li>
             <li><a href='#linuxsteelpivot1'>Linux Adminitration 110 - System Installation and Configuration</a></li>
         </ul>
-        </p>
     </article>
 
     <article>
@@ -53,6 +53,12 @@ weight: 25
         <li><a href='https://teamtreehouse.com/library/rails-routes-and-resources'>Rails Routes and Resources</a></li>
         <li><a href='https://teamtreehouse.com/library/ruby-gems'>Ruby Gems</a></li>
     </ul>
+    </article>
+
+    <article>
+        <a name='pluralsite_docker'></a>
+        <h3>Pluralsite Docker</h3>
+        <p>Details</p>
     </article>
 
     <article>
@@ -120,6 +126,12 @@ weight: 25
         <h3>CEH - Ethical Hacking and Countermeasures</h3>
         <p>In preparation for the CEH certification, I took this class to teach me the fundamentals of ethical hacking.</p>
         <a href='https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/'>About Class</a>
+    </article>
+
+    <article>
+        <a name='unified'></a>
+        <h3>Unified Threat Management Introduction Course (pfSense)</h3>
+        <p>Add Details</p>
     </article>
 
     <article>

@@ -12,24 +12,24 @@ weight: 20
         Most of these certs required passing more than one test to attain. Below is a more
         in-depth explanation of each of my certifications:
         <ul>
-            <li><a href='#security'>Security+</a></li>
+            <li><a href='#security'>CompTIA Security+</a></li>
             <li><a href='#ceh'>CEH</a></li>
             <li><a href='#pce'>PCE</a></li>
-            <li><a href='#network'>Network+</a></li>
+            <li><a href='#network'>CompTIA Network+</a></li>
             <li><a href='#professional'>CIW Web Development Professional</a></li>
             <li><a href='#database'>CIW Database Design Specialist</a></li>
             <li><a href='#perl'>CIW Perl Specialist</a></li>
             <li><a href='#javascript'>CIW JavaScript Specialist</a></li>
-            <li><a href='#linux'>Linux+</a></li>
+            <li><a href='#linux'>CompTIA Linux+</a></li>
             <li><a href='#lpci'>LPCI</a></li>
-            <li><a href='#a'>A+</a></li>
+            <li><a href='#a'>CompTIA A+</a></li>
         </ul>
         </p>
     </article>
 
     <article>
         <a name='security'></a>
-        <h3>Security+</h3>
+        <h3>CompTIA Security+</h3>
         <p>This certification was all about security as it relates to the enterprise.</p>
         <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
     </article>
@@ -50,7 +50,7 @@ weight: 20
 
     <article>
         <a name='network'></a>
-        <h3>Network+</h3>
+        <h3>CompTIA Network+</h3>
         <p>This certification was all about Networking fundamentals.</p>
         <a href='https://certification.comptia.org/certifications/network'>About Certification</a>
     </article>
@@ -85,7 +85,7 @@ weight: 20
 
     <article>
         <a name='linux'></a>
-        <h3>Linux+</h3>
+        <h3>CompTIA Linux+</h3>
         <p>This certification was all about Linux fundamentals.</p>
         <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
     </article>
@@ -99,7 +99,7 @@ weight: 20
 
     <article>
         <a name='a'></a>
-        <h3>A+</h3>
+        <h3>CompTIA A+</h3>
         <p>This certification was all about Computer Hardware.</p>
         <a href='https://certification.comptia.org/certifications/a'>About Certification</a>
     </article>
