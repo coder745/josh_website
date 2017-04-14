@@ -1,5 +1,5 @@
----
----
+--- 
+--- 
 
 $light_green: #98D881;
 $dark_green: #267F54;
@@ -8,11 +8,12 @@ $space_between: 30px;
 @mixin redb() {
     //border: solid 1px red;
 }
+
 @mixin boxstyle() {
-    background: rgba(253,253,253,0.7);
+    background: rgba(253, 253, 253, 0.7);
     position: relative;
     border: solid 1px #ccc;
-    box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+    box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
     padding: 20px;
 }
 
@@ -20,22 +21,30 @@ html {
     box-sizing: border-box;
 }
 
-*, 
-*:before, 
+*,
+*:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     margin: 0;
     padding: 0;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: 'Kaushan Script', cursive;
 }
+
 h1 {
     font-size: 35px;
 }
+
 h3 {
     border-bottom: dashed 1px #ccc;
     color: #1a1a1a;
@@ -44,8 +53,12 @@ h3 {
 a {
     text-decoration: none;
     color: #000;
-    &:hover { color: $dark_green; }
-    &:visited { color: $dark_green; }
+    &:hover {
+        color: $dark_green;
+    }
+    &:visited {
+        color: $dark_green;
+    }
 }
 
 ul {
@@ -58,6 +71,7 @@ ul {
         }
     }
 }
+
 p {
     margin: 0;
     &.small {
@@ -66,12 +80,12 @@ p {
 }
 
 .clearfix:after {
-  content: '';
-  display: table;
-  clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
-html, 
+html,
 body {
     height: 100%;
 }
@@ -81,18 +95,10 @@ body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin: 0;
     background: #F8F8F8;
-    background-image: url('../img/bac.png'),
-                      url('../img/circle.png'),
-                      /* Background pattern from subtlepatterns.com */
-                      url('../img/concrete_seamless.png');
-
-    background-repeat: repeat-y,
-                       repeat,
-                       repeat;
-
-    background-position: top right,
-                         105px 10px,
-                         bottom right;
+    background-image: url('../img/bac.png'), url('../img/circle.png'), /* Background pattern from subtlepatterns.com */
+    url('../img/concrete_seamless.png');
+    background-repeat: repeat-y, repeat, repeat;
+    background-position: top right, 105px 10px, bottom right;
 }
 
 .wrap {
@@ -113,7 +119,7 @@ body {
     text-align: center;
     text-shadow: 1px 1px 1px #ccc;
     position: relative;
-    box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+    box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
     background: #f8f8f8;
     color: $dark_green;
     padding: 10px 0 25px 0;
@@ -147,10 +153,10 @@ body {
 aside {
     .inner {
         overflow: hidden;
-        background: rgba(253,253,253,0.7);
+        background: rgba(253, 253, 253, 0.7);
         border: 1px solid #98db81;
         line-height: 1.3;
-        box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+        box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
         position: relative;
         padding: 15px;
         margin: 0 20px $space_between 20px;
@@ -181,8 +187,12 @@ nav {
     }
     li {
         float: left;
-        span { display: none; }
-        &:before { content: ''; }
+        span {
+            display: none;
+        }
+        &:before {
+            content: '';
+        }
     }
     a {
         display: inline-block;
@@ -205,10 +215,15 @@ ul.social {
 }
 
 #search_results {
-    h3 { border: none; margin-left: 0; }
-    ul { list-style-position: inside; }
+    h3 {
+        border: none;
+        margin-left: 0;
+    }
+    ul {
+        list-style-position: inside;
+    }
     .inner-search {
-        margin: 0 20px $space_between 20px; 
+        margin: 0 20px $space_between 20px;
         @include boxstyle();
     }
 }
@@ -253,7 +268,7 @@ section.home {
 }
 
 article {
-    margin: 0 20px $space_between 20px; 
+    margin: 0 20px $space_between 20px;
     border-bottom: 2px solid $dark_green;
     padding-bottom: 10px;
     @include redb();
@@ -304,9 +319,13 @@ ul.tags {
     list-style-type: none;
     li {
         float: left;
-        &:before { content: ''; }
+        &:before {
+            content: '';
+        }
     }
-    a { padding: 5px; }
+    a {
+        padding: 5px;
+    }
 }
 
 form.inner {
@@ -324,7 +343,7 @@ form.inner {
         width: 69%;
         padding: 10px;
         float: left;
-        background: rgba(253,253,253,0.7);
+        background: rgba(253, 253, 253, 0.7);
         border: solid 1px #ccc;
         &:focus {
             background: #f2f2f2;
@@ -332,7 +351,7 @@ form.inner {
     }
     input[type='submit'] {
         width: 30%;
-        background: rgba(253,253,253,0.7);
+        background: rgba(253, 253, 253, 0.7);
         border: solid 1px #ccc;
         float: right;
         padding: 10px;
@@ -355,13 +374,18 @@ footer {
     margin-top: $space_between;
 }
 
-@media (min-width : 600px) {
+@media (min-width: 600px) {
     nav {
         width: 452px;
     }
     section.home {
+        article:first-child {
+            padding: 50px 20px;
+        }
         article.glance {
-            li { width: 50%; }
+            li {
+                width: 50%;
+            }
             li:nth-child(even) {
                 float: left;
                 clear: right;
@@ -374,13 +398,13 @@ footer {
     }
 }
 
-@media (min-width : 768px) {
+@media (min-width: 768px) {
     header {
         position: fixed;
     }
     .logo {
         box-shadow: none;
-        box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+        box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
         border-right: solid 1px #bbb;
         width: 200px;
     }
@@ -389,7 +413,7 @@ footer {
         background: #f9f9f9;
         width: 200px;
         height: 100%;
-        box-shadow: 1px 1px 1px 2px rgba(204,204,204,0.4);
+        box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
         margin-top: $top_margin;
         border-right: solid 1px #bbb;
     }
@@ -468,7 +492,7 @@ footer {
     }
     #search_results {
         margin-left: 230px;
-        float:left;
+        float: left;
     }
     section {
         margin-left: 200px;
@@ -480,11 +504,9 @@ footer {
     aside.right-aside {
         margin-left: 200px;
     }
-    
 }
 
 @media (min-width: 1000px) {
-
     section {
         float: left;
         width: 100%;
@@ -492,7 +514,6 @@ footer {
             margin-right: 520px;
         }
     }
-
     /* Circle */
     section.home article:after,
     section.thoughts article:after {
@@ -504,7 +525,7 @@ footer {
         box-shadow: 1px 1px 1px #888;
         position: absolute;
         bottom: -14px;
-    }    
+    }
     article:nth-child(even):after {
         left: -14px;
     }
@@ -512,17 +533,15 @@ footer {
         right: -14px;
     }
     /* end Circle */
-
     aside.right-aside {
         float: right;
         margin-top: $top_margin;
         width: 320px;
         margin-left: -520px;
     }
-
 }
 
-@media (min-width : 1024px) {
+@media (min-width: 1024px) {
     .wrap {
         max-width: 1200px;
     }
