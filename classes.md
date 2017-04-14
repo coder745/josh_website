@@ -50,22 +50,16 @@ weight: 25
         <a name='treehouse'></a>
         <h3>Tree House Class</h3>
         <p>I took all of the classes as a part of a snort Tree House membership. These classes were largly review for me, but some of the content was beneficial.</p>
+
         <ul class='smaller'>
-            <li><a href='https://teamtreehouse.com/library/ruby-basics'>Ruby Basics</a></li>
-            <li><a href='https://teamtreehouse.com/library/ruby-operators-and-control-structures'>Ruby Operators and Control Structures</a></li>
-            <li><a href='https://teamtreehouse.com/library/ruby-collections'>Ruby Collections</a></li>
-            <li><a href='https://teamtreehouse.com/library/ruby-loops'>Ruby Loops</a></li>
-            <li><a href='https://teamtreehouse.com/library/ruby-objects-and-classes'>Ruby Objects and Classes</a></li>
-            <li><a href='https://teamtreehouse.com/library/design-foundations'>Design Foundations</a></li>
-            <li><a href='https://teamtreehouse.com/library/logo-design-basics'>Logo Design Basics</a></li>
-            <li><a href='https://teamtreehouse.com/library/modifying-data-with-sql'>Modifying Data with SQL</a></li>
-            <li><a href='https://teamtreehouse.com/library/reporting-with-sql'>Reporting with SQL</a></li>
-            <li><a href='https://teamtreehouse.com/library/querying-relational-databases'>Querying Relational Databases</a></li>
-            <li><a href='https://teamtreehouse.com/library/building-web-apps-with-sinatra'>Building Web Apps with Sinatra</a></li>
-            <li><a href='https://teamtreehouse.com/library/ruby-on-rails-5-basics'>Ruby on Rails 5 Basics</a></li>
-            <li><a href='https://teamtreehouse.com/library/rails-routes-and-resources'>Rails Routes and Resources</a></li>
-            <li><a href='https://teamtreehouse.com/library/ruby-gems'>Ruby Gems</a></li>
+            {% assign sorted_treehouses = site.data.treehouses | sort: 'title' %}
+            {% for treehouse in sorted_treehouses %}
+                {% if treehouse.display != false %}
+                    <li><a href='{{ treehouse.url }}'>{{ treehouse.title }}</a></li>
+                {% endif %}
+            {% endfor %}
         </ul>
+
     </article>
 
     <article>
@@ -82,35 +76,16 @@ weight: 25
         <a name='codeschool'></a>
         <h3>Code School Classes Completed</h3>
         <p>The Code School site offers excellent classes. I took some of these as review and many as a way to level up my knowledge.</p>
+
         <ul class='smaller'>
-            <li><a href='https://www.codeschool.com/courses/javascript-road-trip-part-1'>JavaScript Road Trip Part 1</a></li>
-            <li><a href='https://www.codeschool.com/courses/javascript-road-trip-part-2'>JavaScript Road Trip Part 2</a></li>
-            <li><a href='https://www.codeschool.com/courses/javascript-road-trip-part-3'>JavaScript Road Trip Part 3</a></li>
-            <li><a href='https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come'>ES2015: The Shape of JavaScript to Come</a></li>
-            <li><a href='https://www.codeschool.com/courses/javascript-best-practices'>JavaScript Best Practices</a></li>
-            <li><a href='https://www.codeschool.com/courses/try-jquery'>Try jQuery</a></li>
-            <li><a href='https://www.codeschool.com/courses/jquery-the-return-flight'>jQuery: The Return Flight</a></li>
-            <li><a href='https://www.codeschool.com/courses/try-ember'>Try Ember</a></li>
-            <li><a href='https://www.codeschool.com/courses/shaping-up-with-angularjs'>Shaping Up with AngularJS</a></li>
-            <li><a href='https://www.codeschool.com/courses/staying-sharp-with-angularjs'>Staying Sharp with AngularJS</a></li>
-            <li><a href='https://www.codeschool.com/courses/anatomy-of-backbone-js'>Anatomy of Backbone.js</a></li>
-            <li><a href='https://www.codeschool.com/courses/anatomy-of-backbone-js-part-2'>Anatomy of Backbone.js Part 2</a></li>
-            <li><a href='https://www.codeschool.com/courses/real-time-web-with-node-js'>Real-time Web with Node.js</a></li>
-            <li><a href='https://www.codeschool.com/courses/building-blocks-of-express-js'>Building Blocks of Express.js</a></li>
-            <li><a href='https://www.codeschool.com/courses/coffeescript'>CoffeeScript</a></li>
-            <li><a href='https://www.codeschool.com/courses/the-magical-marvels-of-mongodb'>The Magic Marvels of MongoDB</a></li>
-            <li><a href='https://www.codeschool.com/courses/front-end-foundations'>Front-end Foundations</a></li>
-            <li><a href='https://www.codeschool.com/courses/front-end-formations'>Front-end Formations</a></li>
-            <li><a href='https://www.codeschool.com/courses/css-cross-country'>CSS Cross-Country</a></li>
-            <li><a href='https://www.codeschool.com/courses/journey-into-mobile'>Journey Into Mobile</a></li>
-            <li><a href='https://www.codeschool.com/courses/unmasking-html-emails'>Unmasking HTML Emails</a></li>
-            <li><a href='https://www.codeschool.com/courses/adventures-in-web-animations'>Adventures in Web Animations</a></li>
-            <li><a href='https://www.codeschool.com/courses/you-me-svg'>You, Me & SVG</a></li>
-            <li><a href='https://www.codeschool.com/courses/assembling-sass'>Assemblying SASS</a></li>
-            <li><a href='https://www.codeschool.com/courses/assembling-sass-part-2'>Assemblying SASS Part 2</a></li>
-            <li><a href='https://www.codeschool.com/courses/blasting-off-with-bootstrap'>Blasting Off with Bootstrap</a></li>
-            <li><a href='https://www.codeschool.com/courses/fundamentals-of-design'>Fundamentals of Design</a></li>
+            {% assign sorted_codeschools = site.data.codeschools | sort: 'title' %}
+            {% for codeschool in sorted_codeschools %}
+                {% if codeschool.display != false %}
+                    <li><a href='{{ codeschool.url }}'>{{ codeschool.title }}</a></li>
+                {% endif %}
+            {% endfor %}
         </ul>
+
     </article>
 
     <article>
