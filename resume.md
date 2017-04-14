@@ -5,9 +5,9 @@ permalink: /resume
 weight: 30
 ---
 
-<section class='content'>
+<section>
 <div class='inner-section'>
-    <h2>Resume</h2>
+    <h2>My Resume</h2>
 <article>
     <h3>Experienced Full Stack Web Developer</h3>
     <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and IT structures. Desires a long-term position, conducive to professional growth and advancement.</p>
@@ -73,7 +73,7 @@ weight: 30
         <h3>Professional Experience</h3>
             <h4>Systems Analyst (Web Developer)</h4>
             <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
-            <ul class='books'>
+            <ul class='smaller'>
                 <li>Developed and maintained web and mobile applications using PHP, C#, Objective C, and other languages</li>
                 <li>Revised and rewrote old code to support progressive enhancement and newer standards</li>
                 <li>Administered and supported corporate Windows and Linux servers</li>
@@ -81,22 +81,22 @@ weight: 30
             </ul>
             <h4>Systems Support Analyst</h4>
             <h5>Nelson Brothers Mining Services - Birmingham, AL (Nov. 2009 – June 2010)</h5>
-            <ul class='books'>
+            <ul class='smaller'>
                 <li>Worked with Windows Server 2003 and Active Directory Environment</li>
                 <li>Administered a proprietary database system and manipulated tickets for the accounting office</li>
                 <li>Assisted users remotely via VNC and Remote Desktop connection</li>
-                <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS X</li>
+                <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS</li>
             </ul>
             <h4>Web Intern</h4>
             <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
-            <ul class='books'>
+            <ul class='smaller'>
                 <li>Maintained the college website via XHTML, CSS, and a content management system (MODX)</li>
                 <li>Developed athletic pages for each athletic department and email templates for the athletic director  </li>
                 <li>Corrected ASP.NET and C# code to insure correct functioning of the school website</li>
             </ul>
             <h4>IT Internship</h4>
             <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
-            <ul class='books'>
+            <ul class='smaller'>
                 <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports</li>
                 <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment</li>
                 <li>Remoted into client's computers to set up software and troubleshoot technical problems</li>
@@ -106,7 +106,7 @@ weight: 30
     <article>
         <h3>Certification</h3>
         <p>I have listed more details about each one of these certifications on my <a href='/certs'>certification</a> page.</p>
-        <ul class='books'>
+        <ul class='smaller'>
             <li>CompTIA A+</li>
             <li>CompTIA Linux+</li>
             <li>CompTIA Network+</li>
@@ -124,7 +124,7 @@ weight: 30
     <article>
         <h3>Work and Personal Projects</h3>
         <p>I have listed more details about each one of these projects on the <a href='/projects'>projects</a> page.</p>
-        <ul class='books'>
+        <ul class='smaller'>
             <li>Note Taking System: Python, Flask, SQLite (2014)</li>
             <li>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</li>
             <li>Ticketing System: C#, MSSQL, ASP.NET, CSS, JavaScript (2010)</li>

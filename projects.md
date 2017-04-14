@@ -5,7 +5,7 @@ permalink: /projects
 weight: 26
 ---
 
-<section class='content'>
+<section>
 <div class='inner-section'>
 <h2>Projects</h2>
     <article>

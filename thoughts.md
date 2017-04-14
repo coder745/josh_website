@@ -5,7 +5,7 @@ permalink: /thoughts
 weight: 10
 ---
 
-<section class='content'>
+<section>
 <div class='inner-section'>
   {% for post in site.posts %}
     <article>

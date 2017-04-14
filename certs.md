@@ -4,9 +4,9 @@ title: Certs
 permalink: /certs
 weight: 20
 ---
-<section class='content'>
+<section>
 <div class='inner-section'>
-<h2>Certs</h2>
+<h2>My Certifications</h2>
     <article>
         <p>
         Here is a list of the certifications that I have attained over the past few years.

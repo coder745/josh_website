@@ -10,6 +10,7 @@ This tag search solution is somewhat hacky. There are other ways to do this incl
 -->
 
 <section>
+<div class='inner-section'>
 {% for post in site.posts %}
   <article style='display:none;' class='single_post'>
     <h2 class='single_title'>{{ post.title }}</h2>
@@ -26,6 +27,7 @@ This tag search solution is somewhat hacky. There are other ways to do this incl
       Please try a different tag. Thanks for visiting the site.
     </p>
   </article>
+</div><!-- inner-section -->
 </section>
 
 <script>

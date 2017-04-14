@@ -5,7 +5,7 @@ permalink: /me
 weight: 40
 ---
 
-<section class='content'>
+<section>
 <div class='inner-section'>
 <h2>About Me</h2>
     <article>
@@ -23,7 +23,7 @@ weight: 40
     <h3>Recommended Podcasts</h3>
     <p>
     Below I have listed the tech blogs that I listen to on a weekly basis. These are a great way to keep up with the latest changes in development. Yes, I listen to a lot of podcasts. :) Actually, I listen to some other non-technological postcasts that I did not list here. If you use a podcast app such as <a href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly.</p>
-    <ul class='books'>
+    <ul class='smaller'>
         <li><a href='https://www.dotnetrocks.com/'>.NET Rocks</a></li>
         <li><a href='https://www.bsdnow.tv/episodes/'>BSD Now</a></li>
         <li><a href='https://changelog.com/podcast'>The Changelog</a></li>
@@ -55,7 +55,7 @@ weight: 40
     <article>
         <h3>Books</h3>
         <p>In my spare time, I try to keep up with the latest in technology. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
-        <ul class='books'>
+        <ul class='smaller'>
             <li>The Design of Everyday Things by Donald A. Norman</li>
             <li>Don't Make Me Think by Steve Krug</li>
             <li>Designing the Obvious by Robert Hoekman, jr.</li>

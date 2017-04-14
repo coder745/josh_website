@@ -4,15 +4,16 @@ title: Classes
 permalink: /classes
 weight: 25
 ---
-<section class='content'>
+<section>
 <div class='inner-section'>
-<h2>Classes</h2>
+<h2>Classes I've Taken</h2>
     <article>
         <p>
         In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed the classes both classroom and online that I have attended over the years.
         Here is a list of the certifications that I have attained over the past few years.
         </p>
         <ul class='anchor-list'>
+            <li><a href='#laracastsclasses'>Laracast Courses</a></li>
             <li><a href='#reactclass'>React for Beginners</a></li>
             <li><a href='#treehouse'>Tree House (SQL and Ruby classes)</a></li>
             <li><a href='#pluralsite'>PluralSite Courses</a></li>
@@ -29,6 +30,16 @@ weight: 25
     </article>
 
     <article>
+        <a name='laracastsclasses'></a>
+        <h3>Laracast Courses</h3>
+        <p>Jeffery Way teaches some great courses at this site <a href='laracasts.com'>laracasts.com</a>. I ahve taken the two courses listed below from his site.</p>
+        <ul>
+            <li><a href='https://laracasts.com/series/laravel-from-scratch-2017'>Laravel 5.4 from Scratch</a></li>
+            <li><a href='https://laracasts.com/series/webpack-for-everyone'>Webpack for Everyone</a></li>
+        </ul>
+    </article>
+
+    <article>
         <a name='reactclass'></a>
         <h3>React for Beginners</h3>
         <p>This was a great class by Wes Boss and a great introduction to the React framework.</p>
@@ -39,7 +50,7 @@ weight: 25
         <a name='treehouse'></a>
         <h3>Tree House Class</h3>
         <p>I took all of the classes as a part of a snort Tree House membership. These classes were largly review for me, but some of the content was beneficial.</p>
-        <ul class='classes'>
+        <ul class='smaller'>
             <li><a href='https://teamtreehouse.com/library/ruby-basics'>Ruby Basics</a></li>
             <li><a href='https://teamtreehouse.com/library/ruby-operators-and-control-structures'>Ruby Operators and Control Structures</a></li>
             <li><a href='https://teamtreehouse.com/library/ruby-collections'>Ruby Collections</a></li>
@@ -61,7 +72,7 @@ weight: 25
         <a name='pluralsite'></a>
         <h3>PluralSite Courses</h3>
         <p>PluralSite also offers some good content. It is not as focused as other plat forms such as Code School though. I have taken a few courses from PluralSite which I have listed below.</p>
-        <ul class='classes'>
+        <ul>
             <li><a href='https://app.pluralsight.com/library/courses/emmet-getting-started/table-of-contents'>Getting Started with Emmet</a></li>
             <li><a href='https://app.pluralsight.com/library/courses/docker-web-development/table-of-contents'>Docker for Web Developers</a></li>
         </ul>
@@ -71,7 +82,7 @@ weight: 25
         <a name='codeschool'></a>
         <h3>Code School Classes Completed</h3>
         <p>The Code School site offers excellent classes. I took some of these as review and many as a way to level up my knowledge.</p>
-        <ul class='classes'>
+        <ul class='smaller'>
             <li><a href='https://www.codeschool.com/courses/javascript-road-trip-part-1'>JavaScript Road Trip Part 1</a></li>
             <li><a href='https://www.codeschool.com/courses/javascript-road-trip-part-2'>JavaScript Road Trip Part 2</a></li>
             <li><a href='https://www.codeschool.com/courses/javascript-road-trip-part-3'>JavaScript Road Trip Part 3</a></li>
@@ -106,7 +117,7 @@ weight: 25
         <a name='fedvte'></a>
         <h3>FedVTE Training</h3>
         <p>These are free courses offered to government employees by the Department of Homeland Security.</p>
-        <ul class='classes'>
+        <ul>
             <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Demilitarized Zone (DMZ) with IDS/IPS</a></li>
             <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Linux Operating System Security</a></li>
             <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Penetration Testing</a></li>

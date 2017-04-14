@@ -1,6 +1,9 @@
         {% include header.html %}
         <main>
-            <ul id='search_results'></ul>
+            <div id='search_results'>
+                <div class='inner-search'>
+                </div>
+            </div>
             {{ content }}
             <aside class='right-aside'>
                 <form class='inner' action='/search' id='site_search' method='get'>
