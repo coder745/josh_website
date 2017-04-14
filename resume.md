@@ -16,7 +16,7 @@ weight: 30
 <article>
     <h3>Education</h3>
     <h4>Bryan College, Dayton Tennessee (2006 - 2009)</h4>
-    <h5>Bachelor of Science, Computer Science</h5>
+    <h5><strong>Bachelor of Science, Computer Science</strong></h5>
     <p class='small'>(Also see my continuing eduction under my <a href=''>classes</a> page.)</p>
 </article>
 
@@ -36,7 +36,7 @@ weight: 30
         <li>Mac</li>
         <li>VMWare ESXi</li>
         <li>Linux</li>
-        <li>freeBSD</li>
+        <li>FreeBSD</li>
     </ul>
     <ul class='tech-skills'>
         <li>Networking</li>
@@ -63,7 +63,7 @@ weight: 30
         <li>HTML5</li>
         <li>CSS</li>
         <li>XML</li>
-        <li>aJAX</li>
+        <li>Ajax</li>
         <li>JSON</li>
         <li>SASS</li>
     </ul>
@@ -71,36 +71,36 @@ weight: 30
 
     <article class='professional-experience'>
         <h3>Professional Experience</h3>
-            <h4>Systems Analyst (Web Developer)</h4>
-            <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
-            <ul class='smaller'>
-                <li>Developed and maintained web and mobile applications using PHP, C#, Objective C, and other languages</li>
-                <li>Revised and rewrote old code to support progressive enhancement and newer standards</li>
-                <li>Administered and supported corporate Windows and Linux servers</li>
-                <li>Maintained company databases and SQL Report Server</li>
-            </ul>
-            <h4>Systems Support Analyst</h4>
-            <h5>Nelson Brothers Mining Services - Birmingham, AL (Nov. 2009 – June 2010)</h5>
-            <ul class='smaller'>
-                <li>Worked with Windows Server 2003 and Active Directory Environment</li>
-                <li>Administered a proprietary database system and manipulated tickets for the accounting office</li>
-                <li>Assisted users remotely via VNC and Remote Desktop connection</li>
-                <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS</li>
-            </ul>
-            <h4>Web Intern</h4>
-            <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
-            <ul class='smaller'>
-                <li>Maintained the college website via XHTML, CSS, and a content management system (MODX)</li>
-                <li>Developed athletic pages for each athletic department and email templates for the athletic director  </li>
-                <li>Corrected ASP.NET and C# code to insure correct functioning of the school website</li>
-            </ul>
-            <h4>IT Internship</h4>
-            <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
-            <ul class='smaller'>
-                <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports</li>
-                <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment</li>
-                <li>Remoted into client's computers to set up software and troubleshoot technical problems</li>
-            </ul>
+        <h4>Systems Analyst (Web Developer)</h4>
+        <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
+        <ul class='smaller'>
+            <li>Developed and maintained web and mobile applications using PHP, C#, Objective C, and other languages</li>
+            <li>Revised and rewrote old code to support progressive enhancement and newer standards</li>
+            <li>Administered and supported corporate Windows and Linux servers</li>
+            <li>Maintained company databases and SQL Report Server</li>
+        </ul>
+        <h4>Systems Support Analyst</h4>
+        <h5>Nelson Brothers Mining Services - Birmingham, AL (Nov. 2009 – June 2010)</h5>
+        <ul class='smaller'>
+            <li>Worked with Windows Server 2003 and Active Directory Environment</li>
+            <li>Administered a proprietary database system and manipulated tickets for the accounting office</li>
+            <li>Assisted users remotely via VNC and Remote Desktop connection</li>
+            <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS</li>
+        </ul>
+        <h4>Web Intern</h4>
+        <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
+        <ul class='smaller'>
+            <li>Maintained the college website via XHTML, CSS, and a content management system (MODX)</li>
+            <li>Developed athletic pages for each athletic department and email templates for the athletic director  </li>
+            <li>Corrected ASP.NET and C# code to insure correct functioning of the school website</li>
+        </ul>
+        <h4>IT Internship</h4>
+        <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
+        <ul class='smaller'>
+            <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports</li>
+            <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment</li>
+            <li>Remoted into client's computers to set up software and troubleshoot technical problems</li>
+        </ul>
     </article>
 
     <article>

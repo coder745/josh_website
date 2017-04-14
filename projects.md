@@ -7,7 +7,7 @@ weight: 26
 
 <section>
 <div class='inner-section'>
-<h2>Projects</h2>
+<h2>Development Projects</h2>
     <article>
         <ul>
             <li><a href='#laravel_note_url'>Laravel Note/URL System (2017):</a></li>

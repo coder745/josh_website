@@ -3,15 +3,23 @@ layout: defaults
 title: Home
 weight: 0
 ---
-<section>
+<section class='home'>
     <div class='inner-section'>
+
+
+    {{ site.data.books }}
+{% for book in site.data.books %}
+    {{ book }}
+{% endfor %}
+
+
     <article>
         <h2>My name is <span><a href='/me'>Josh</a></span>. I am a Web Developer. Here I write about web development and projects I am currently working on.
           Check out my <a href='/thoughts'>Blog</a> to see what I am currently writing.</h2>
     </article>
 
     {% if page.title == 'Home' %}
-        <article class='alt glance'>
+        <article class='glance'>
             <h3>At a Glance</h3>
             <ul>
                 <li><a href='/about#books'>Books I've Read</a></li>
@@ -23,7 +31,7 @@ weight: 0
             </ul>
             <div style='clear:both;'></div>
         </article>
-        <article class='alt'>
+        <article>
             <h3>Tags</h3>
             <ul class='tags'>
             {% for tag in site.tags %}

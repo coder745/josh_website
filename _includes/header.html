@@ -5,7 +5,7 @@
         <title>{{ page.title }}</title>
         <link rel='stylesheet' href='/css/normalize.css' media='screen' />
         <link rel='stylesheet' href='/css/style.css' media='screen' />
-        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans' rel='stylesheet' />
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans:400,700" rel="stylesheet">
         <link rel='shortcut icon' href='/favicon.ico' type='image/icon' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
          <!--<meta http-equiv='refresh' content='5' /> -->
@@ -13,15 +13,15 @@
             document.createElement('main');
         </script>
     </head>
-    <body {% if page.title == 'Thoughts' or page.title == 'Home' %} class='landing' {% endif %}>
-        <div class='wrap'>
-            <div class='border'></div>
+    <body>
+        <div class='wrap clearfix'>
+        <div class='border'></div>
         <header>
             <div class='inner'>
                 <a href='/'>
                     <div class='logo'>
-                        <div id='triangle'></div>
-                        Josh<span>Young</span>
+                        <div class='triangle'></div>
+                        <h1>Josh<span>Young</span></h1>
                         <div>My Thoughts on Web Development</div>
                     </div>
                 </a>

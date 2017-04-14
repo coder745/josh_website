@@ -56,6 +56,11 @@ weight: 40
         <h3>Books</h3>
         <p>In my spare time, I try to keep up with the latest in technology. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
         <ul class='smaller'>
+        {% for book in site.data.books %}
+            <li>{{ book.title }}</li>
+        {% endfor %}
+
+
             <li>The Design of Everyday Things by Donald A. Norman</li>
             <li>Don't Make Me Think by Steve Krug</li>
             <li>Designing the Obvious by Robert Hoekman, jr.</li>
