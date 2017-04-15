@@ -273,6 +273,9 @@ article {
     border-bottom: 2px solid $dark_green;
     padding-bottom: 10px;
     @include redb();
+    p {
+        margin-bottom: 15px;
+    }
     &:last-child {
         border-bottom: none;
         margin-bottom: 0;

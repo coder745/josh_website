@@ -1,8 +1,9 @@
 ---
 layout: portfolio_entry
 title: Developing a Web Template
+date: 2016-04-23
 category: markup
-tags: html5 css javascript
+tags: HTML5 CSS JavaScript
 excerpt_separator: <!--more-->
 ---
 

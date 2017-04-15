@@ -11,7 +11,7 @@ weight: 10
             <article>
                 <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
                 <div class='date'>{{ post.date | date: '%B %d, %Y' }}</div>
-                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 65 }}</p>
             </article>
         {% endfor %}
     </div><!-- inner-section -->
