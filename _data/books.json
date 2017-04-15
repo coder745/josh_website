@@ -1,4 +1,5 @@
-[{
+[
+    {
         "title": "The Design of Everyday Things",
         "author": "Donald A. Norman",
         "url": "",
@@ -145,6 +146,7 @@
     {
         "title": "The Elements of C# Style",
         "author": "Kenneth Baldwin, Andrew Gray, and Trevor Misfeldt",
+        "truncated_authors": "Kenneth Baldwin, Andrew Gray...",
         "url": "",
         "display": true
     },
@@ -175,6 +177,7 @@
     {
         "title": "Learning the Vi and Vim Editors",
         "author": "Arnold Robbins, Elbert Hannah, and Linda Lamb",
+        "truncated_authors": "Arnold Robbins, Elbert Hannah...",
         "url": "",
         "display": true
     },
@@ -199,6 +202,38 @@
     {
         "title": "Penetration Testing with Kali Linux v1.0.4",
         "author": "",
+        "url": "",
+        "display": true
+    },
+    {
+        "title": "CEH Certified Ethical Hacker All-in-One Exam Guide",
+        "author": "Matt Walker",
+        "url": "",
+        "display": true
+    },
+    {
+        "title": "Database Design Specialist Instructor Guide",
+        "author": "",
+        "url": "",
+        "display": true
+    },
+    {
+        "title": "JavaScript Specialist Instructor Guide",
+        "author": "",
+        "url": "",
+        "display": true
+    },
+    {
+        "title": "The Pragmatic Programmer: From Journeyman to Master",
+        "short_title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt and David Thomas",
+        "url": "",
+        "display": true
+    },
+    {
+        "title": "Metasploit: The Penetration Tester's Guide",
+        "short_title": "Metasploit",
+        "author": "David Kennedy, Jim O'Gorman, Devon Kearns, and Mati Aharoni",
         "url": "",
         "display": true
     },

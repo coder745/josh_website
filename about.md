@@ -17,7 +17,7 @@ weight: 40
         <article>
             <a name='hobbies'></a>
             <h3>Hobbies</h3>
-            <p>My hobbies usually end up relating in large part to my job. I spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting and a good working knowleged of computer security and specifically web application security is very helpful for web developers. If I am not working on servers or code, I spend my time playing my harmonicas, reading, or researching health related subjects.</p>
+            <p>My hobbies usually end up relating in large part to my job. I spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting and a good working knowledge of computer security and specifically web application security is very helpful for web developers. If I am not working on servers or code, I spend my time playing my harmonicas, reading, or researching health related subjects.</p>
         </article>
 
         <article>
@@ -45,7 +45,19 @@ weight: 40
                 {% assign sorted_books = site.data.books | sort: 'title' %}
                 {% for book in sorted_books | sort book.title %}
                     {% if book.display != false %}
-                        <li>{{ book.title }} by {{ book.author }}</li>
+                        <li>
+                        {% if book.short_title %}
+                            {{ book.short_title }} 
+                        {% else %}
+                            {{ book.title }} 
+                        {% endif %}
+                        by 
+                        {% if book.truncated_authors %}
+                            {{ book.truncated_authors }} 
+                        {% else %}
+                            {{ book.author }} 
+                        {% endif %}
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>
