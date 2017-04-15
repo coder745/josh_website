@@ -1,3 +1,13 @@
+var scroll_site_top = function() {
+    $('html,body').animate({
+        scrollTop:0
+    }, 'slow')
+};
+
+$('#go_to_top').click(function() {
+    scroll_site_top();
+});
+
 jQuery(function() {
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
@@ -45,20 +55,25 @@ jQuery(function() {
                 $search_results.empty(); // Clear any old results
 
                 // Iterate over the results
-                $search_results.append("<div class='inner-search'><h3>Search Results:</h3><ul>");
+
+                var appendString = '';
                 results.forEach(function(result) {
                     var item = loaded_data[result.ref];
 
                     // Build a snippet of HTML for this result
-                    appendString = '<li><a href="' + item.url + '">' + item.title + '</a></li>';
+                    appendString += '<li><a href="' + item.url + '">' + item.title + '</a></li>';
 
-                    // Add it to the results
-                    $search_results.append(appendString);
                 });
-                $search_results.append('</ul></div>');
+                // Add it to the results
+                var opening_elements = "<div class='inner-search'><h3>Search Results:</h3><ul>";
+                var closing_elements = "</ul></div>";
+                //$search_results.append();
+                $search_results.append(opening_elements + appendString + closing_elements);
+                //$search_results.append('</ul></div>');
             } else {
                 $search_results.html("<div class='inner-search'><h3>Search Results:</h3><ul><li>No results found</li></ul></div>");
             }
+            scroll_site_top();
         });
     }
 });

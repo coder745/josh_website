@@ -179,7 +179,7 @@ aside {
 }
 
 nav {
-    margin: $space_between auto;
+    margin: ($space_between - 15) auto;
     width: 227px;
     overflow: hidden;
     @include redb();
@@ -224,8 +224,9 @@ ul.social {
         list-style-position: inside;
     }
     .inner-search {
-        margin: 0 20px $space_between 20px;
-        @include boxstyle();
+        //margin: $top_margin 20px ($space_between - $top_margin) 0;
+        //@include boxstyle();
+        margin: 0 0 $space_between 30px;
     }
 }
 
@@ -371,6 +372,20 @@ form.inner {
     }
 }
 
+a.scroll_top {
+    background: $light_green;
+    padding: 5px;
+    color: #fff;
+    width: 70px;
+    text-align: center;
+    display: block;
+    float: right;
+    margin: 10px 20px 0 0;
+    &:hover {
+        background: $dark_green;
+    }
+}
+
 footer {
     height: 40px;
     text-align: right;
@@ -379,7 +394,7 @@ footer {
     border-top: 1px solid #98db81;
     border-right: 5px $dark_green solid;
     padding: 13px 10px 13px 0;
-    margin-top: $space_between;
+    margin-top: ($space_between + 15);
 }
 
 @media (min-width: 600px) {
@@ -501,6 +516,9 @@ footer {
     #search_results {
         margin-left: 230px;
         float: left;
+        .inner-search {
+            margin: $top_margin 20px ($space_between - $top_margin) 0;
+        }
     }
     section {
         padding-left: 200px;
