@@ -16,7 +16,7 @@ weight: 25
             <ul class='anchor-list'>
                 <li><a href='#laracastsclasses'>Laracast Courses</a></li>
                 <li><a href='#reactclass'>React for Beginners</a></li>
-                <li><a href='#treehouse'>Tree House (SQL and Ruby classes)</a></li>
+                <li><a href='#treehouse'>Tree House Classes</a></li>
                 <li><a href='#pluralsite'>PluralSite Courses</a></li>
                 <li><a href='#codeschool'>Code School Classes</a></li>
                 <li><a href='#fedvte'>FedVTE Training</a></li>
@@ -49,7 +49,7 @@ weight: 25
 
         <article>
             <a name='treehouse'></a>
-            <h3>Tree House Class</h3>
+            <h3>Tree House Classes</h3>
             <p>I took all of the classes as a part of a snort Tree House membership. These classes were largly review for me, but some of the content was beneficial.</p>
 
             <ul class='smaller'>

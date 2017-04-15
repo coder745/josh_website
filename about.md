@@ -38,7 +38,7 @@ weight: 40
 
         <article>
             <a name='books'></a>
-            <h3>Books</h3>
+            <h3>Books I've Read</h3>
             <p>In my spare time, I try to keep up with the latest in technology. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
 
             <ul class='smaller'>

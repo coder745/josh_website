@@ -19,10 +19,17 @@ weight: 26
             </ul>
         </article>
 
+        <article class='imp'>
+            <h3>I am Still in the Process of Adding Content to This Page</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
+        </article>
+
         <article>
             <a name='laravel_note_url'></a>
-            <h3>Laravel Note/URL System (2017):</h3>
-            <p></p>
+            <h3>Laravel Note/URL System (2017)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
         </article>
 
         <article>

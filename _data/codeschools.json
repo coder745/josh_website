@@ -31,7 +31,7 @@
     {
         "title": "Shaping Up with AngularJS",
         "url": "https://www.codeschool.com/courses/shaping-up-with-angularjs",
-        "display": ""
+        "display": false
     },
     {
         "title": "Try Ember",

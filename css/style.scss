@@ -5,6 +5,7 @@ $light_green: #98D881;
 $dark_green: #267F54;
 $top_margin: 100px;
 $space_between: 30px;
+$imp_color: rgb(255, 111, 62);
 @mixin redb() {
     //border: solid 1px red;
 }
@@ -287,6 +288,9 @@ article {
             margin-top: 20px;
         }
     }
+    &.imp {
+        background: $imp_color;
+    }
 }
 
 ul.tech-skills {
@@ -497,12 +501,14 @@ footer {
     section {
         margin-left: 200px;
         margin-top: $top_margin;
+        float: left;
     }
     form.inner {
         border-bottom: solid 3px $dark_green;
     }
     aside.right-aside {
         margin-left: 200px;
+        float: left;
     }
 }
 

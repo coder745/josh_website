@@ -17,7 +17,7 @@ weight: 30
             <h3>Education</h3>
             <h4>Bryan College, Dayton Tennessee (2006 - 2009)</h4>
             <h5><strong>Bachelor of Science, Computer Science</strong></h5>
-            <p class='small'>(Also see my continuing eduction under my <a href=''>classes</a> page.)</p>
+            <p class='small'>(Also see my continuing eduction under my <a href='/classes'>classes</a> page.)</p>
         </article>
 
         <article>
@@ -125,6 +125,8 @@ weight: 30
             <h3>Work and Personal Projects</h3>
             <p>I have listed more details about each one of these projects on the <a href='/projects'>projects</a> page.</p>
             <ul class='smaller'>
+                <li>Laravel Note/URL System: PHP, Laravel, Postgres SQL (2017)</li>
+                <li>Web Best Practices Template: HTML, CSS, JavaScript (2016)</li>
                 <li>Note Taking System: Python, Flask, SQLite (2014)</li>
                 <li>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</li>
                 <li>Ticketing System: C#, MSSQL, ASP.NET, CSS, JavaScript (2010)</li>
