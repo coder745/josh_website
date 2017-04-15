@@ -1,27 +1,27 @@
 [{
         "title": "Ruby Loops",
         "url": "https://teamtreehouse.com/library/ruby-loops",
-        "display": ""
+        "display": true
     },
     {
         "title": "Ruby Objects and Classes",
         "url": "https://teamtreehouse.com/library/ruby-objects-and-classes",
-        "display": ""
+        "display": true
     },
     {
         "title": "Design Foundations",
         "url": "https://teamtreehouse.com/library/design-foundations",
-        "display": ""
+        "display": true
     },
     {
         "title": "Ruby Collections",
         "url": "https://teamtreehouse.com/library/ruby-collections",
-        "display": ""
+        "display": true
     },
     {
         "title": "Ruby Operators and Control Structures",
         "url": "https://teamtreehouse.com/library/ruby-operators-and-control-structures",
-        "display": ""
+        "display": true
     },
     {
         "title": "Ruby Basics",
@@ -31,27 +31,27 @@
     {
         "title": "Building Web Apps with Sinatra",
         "url": "https://teamtreehouse.com/library/building-web-apps-with-sinatra",
-        "display": ""
+        "display": true
     },
     {
         "title": "Querying Relational Databases",
         "url": "https://teamtreehouse.com/library/querying-relational-databases",
-        "display": ""
+        "display": true
     },
     {
         "title": "Reporting with SQL",
         "url": "https://teamtreehouse.com/library/reporting-with-sql",
-        "display": ""
+        "display": true
     },
     {
         "title": "Modifying Data with SQL",
         "url": "https://teamtreehouse.com/library/modifying-data-with-sql",
-        "display": ""
+        "display": true
     },
     {
         "title": "Logo Design Basics",
         "url": "https://teamtreehouse.com/library/logo-design-basics",
-        "display": ""
+        "display": true
     },
     {
         "title": "Ruby Gems",
@@ -61,11 +61,11 @@
     {
         "title": "Rails Routes and Resources",
         "url": "https://teamtreehouse.com/library/rails-routes-and-resources",
-        "display": ""
+        "display": true
     },
     {
         "title": "Ruby on Rails 5 Basics",
         "url": "https://teamtreehouse.com/library/ruby-on-rails-5-basics",
-        "display": ""
+        "display": true
     }
 ]

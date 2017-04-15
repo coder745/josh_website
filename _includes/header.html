@@ -4,7 +4,7 @@
         <meta charset='utf-8' />
         <title>{{ page.title }}</title>
         <link rel='stylesheet' href='/css/normalize.css' media='screen' />
-        <link rel='stylesheet' href='/css/style.css' media='screen' />
+        <link rel='stylesheet' href='/css/style.css?{{ site.time | date: '%s%N' }}' media='screen' />
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans:400,700" rel="stylesheet">
         <link rel='shortcut icon' href='/favicon.ico' type='image/icon' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />

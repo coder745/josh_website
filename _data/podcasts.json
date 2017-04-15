@@ -2,126 +2,126 @@
     {
         "title" : "Full Stack Radio",
         "url" : "http://www.fullstackradio.com",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The Changelog",
         "url" : "https://changelog.com/podcast",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "BSD Now",
         "url" : "https://www.bsdnow.tv/episodes",
-        "display" : ""
+        "display": true
     },
     {
         "title" : ".NET Rocks",
         "url" : "https://www.dotnetrocks.com",
-        "display" : ""
+        "display": false
     },
     {
         "title" : "Software Engineering Daily",
         "url" : "https://softwareengineeringdaily.com",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "Security Now",
         "url" : "https://twit.tv/shows/security-now",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "Packet Pushers Datanauts",
         "url" : "http://packetpushers.net/series/datanauts-podcast",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "CTRL+CLICK CAST",
         "url" : "https://ctrlclickcast.com/episodes/archive",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "CodePen Radio",
         "url" : "https://blog.codepen.io/radio",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The Big Web Show",
         "url" : "http://5by5.tv/bigwebshow",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "A Responsive Web Design Podcast",
         "url" : "https://responsivewebdesign.com/podcast",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "FLOSS Weekly",
         "url" : "https://twit.tv/shows/floss-weekly",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "Front End Happy Hour",
         "url" : "http://frontendhappyhour.com",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "JavaScript Jabber",
         "url" : "https://devchat.tv/js-jabber",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The Laracasts Snippet",
         "url" : "https://laracasts.simplecast.fm/",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The Laravel Podcast",
         "url" : "http://www.laravelpodcast.com",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The Linux Action Show",
         "url" : "http://www.jupiterbroadcasting.com/show/linuxactionshow",
-        "display" : ""
+        "display": false
     },
     {
         "title" : "Request for Commits",
         "url" : "https://changelog.com/rfc",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "Presentable",
         "url" : "https://www.relay.fm/presentable",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The PHP Roundtable",
         "url" : "https://www.phproundtable.com",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "TechSNAP",
         "url" : "http://www.jupiterbroadcasting.com/show/techsnap",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "Scale Your Code Podcast",
         "url" : "https://itunes.apple.com/us/podcast/scale-your-code-podcast/id987253051?mt=2",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "ShopTalk Show",
         "url" : "http://shoptalkshow.com",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "The Web Ahead",
         "url" : "http://5by5.tv/webahead",
-        "display" : ""
+        "display": true
     },
     {
         "title" : "Toolsday",
         "url" : "http://www.toolsday.io/#episode-area",
-        "display" : ""
+        "display": true
     }
 ]

@@ -232,6 +232,7 @@ ul.social {
 section {
     margin: 0 auto;
     line-height: 2;
+    @include redb();
     h2 {
         margin-left: 20px;
         line-height: 1;
@@ -502,7 +503,7 @@ footer {
         float: left;
     }
     section {
-        margin-left: 200px;
+        padding-left: 200px;
         margin-top: $top_margin;
         float: left;
     }
@@ -521,6 +522,9 @@ footer {
         width: 100%;
         .inner-section {
             margin-right: 520px;
+        }
+        article {
+            margin-right: -200px;
         }
     }
     /* Circle */

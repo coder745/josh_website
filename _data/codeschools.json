@@ -6,7 +6,7 @@
     {
         "title": "JavaScript Best Practices",
         "url": "https://www.codeschool.com/courses/javascript-best-practices",
-        "display": ""
+        "display": true
     },
     {
         "title": "JavaScript Road Trip Part 1",
@@ -26,7 +26,7 @@
     {
         "title": "ES2015: The Shape of JavaScript to Come",
         "url": "https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come",
-        "display": ""
+        "display": true
     },
     {
         "title": "Shaping Up with AngularJS",
@@ -36,7 +36,7 @@
     {
         "title": "Try Ember",
         "url": "https://www.codeschool.com/courses/try-ember",
-        "display": ""
+        "display": true
     },
     {
         "title": "jQuery: The Return Flight",
@@ -46,12 +46,12 @@
     {
         "title": "Staying Sharp with AngularJS",
         "url": "https://www.codeschool.com/courses/staying-sharp-with-angularjs",
-        "display": ""
+        "display": true
     },
     {
         "title": "Real-time Web with Node.js",
         "url": "https://www.codeschool.com/courses/real-time-web-with-node-js",
-        "display": ""
+        "display": true
     },
     {
         "title": "Anatomy of Backbone.js Part 2",
@@ -66,17 +66,17 @@
     {
         "title": "Building Blocks of Express.js",
         "url": "https://www.codeschool.com/courses/building-blocks-of-express-js",
-        "display": ""
+        "display": true
     },
     {
         "title": "CoffeeScript",
         "url": "https://www.codeschool.com/courses/coffeescript",
-        "display": ""
+        "display": true
     },
     {
         "title": "The Magic Marvels of MongoDB",
         "url": "https://www.codeschool.com/courses/the-magical-marvels-of-mongodb",
-        "display": ""
+        "display": true
     },
     {
         "title": "Front-end Formations",
@@ -116,7 +116,7 @@
     {
         "title": "Fundamentals of Design",
         "url": "https://www.codeschool.com/courses/fundamentals-of-design",
-        "display": ""
+        "display": true
     },
     {
         "title": "You, Me & SVG",
@@ -126,7 +126,7 @@
     {
         "title": "Assemblying SASS",
         "url": "https://www.codeschool.com/courses/assembling-sass",
-        "display": ""
+        "display": true
     },
     {
         "title": "Assemblying SASS Part 2",
