@@ -10,6 +10,7 @@
         <link rel='apple-touch-icon' sizes='72x72' href='/img/site_apple.png' />
         <link rel='apple-touch-icon' sizes='114x114' href='/img/site_apple_retina.png' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta name='description' content='{{ site.description }}' />
         <script type='text/javascript'>
             document.createElement('main');
         </script>
@@ -50,7 +51,7 @@
                             {% if p.title == 'About' %}
                                 <span>Me</span>
                             {% endif %}
-                            {% if p.title == 'Certs' %}
+                            {% if p.title == 'Certifications' %}
                                 <span>i've Aquired</span>
                             {% endif %}
                             {% if p.title == 'Classes' %}
@@ -65,7 +66,7 @@
                 </ul>
             </nav>
             <ul class='social'>
-                <li><a class='linkedin' href='https://www.linkedin.com/in/joshuayoung1'>LinkedIn</a></li>
-                <li><a class='github' href='https://github.com/coder745'>GitHub</a></li>
+                <li><a class='linkedin' href='{{linkedin_url }}'>LinkedIn</a></li>
+                <li><a class='github' href='{{ github_url }}'>GitHub</a></li>
             </ul>
         </aside>

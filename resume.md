@@ -9,8 +9,8 @@ weight: 30
     <div class='inner-section'>
         <h2>My Resume</h2>
         <article>
-            <h3>Experienced Full Stack Web Developer</h3>
-            <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and IT structures. Desires a long-term position, conducive to professional growth and advancement.</p>
+            <h3>Experienced - Full Stack Web Developer</h3>
+            <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and other related technologies. Desires a long-term position, conducive to professional growth and advancement.</p>
         </article>
 
         <article>
@@ -29,23 +29,25 @@ weight: 30
                 <li>nginx</li>
                 <li>MS Servers 2008/2012</li>
                 <li>Linux (Debian/Red Hat)</li>
+                <li>freeBSD</li>
             </ul>
             <ul class='tech-skills'>
                 <li>Operating Systems</li>
                 <li>Windows 7/10</li>
                 <li>Mac</li>
                 <li>VMWare ESXi</li>
-                <li>Linux</li>
-                <li>FreeBSD</li>
+                <li>Linux (Arch, Fedora, Ubuntu)</li>
             </ul>
             <ul class='tech-skills'>
                 <li>Networking</li>
                 <li>TCP/IP</li>
                 <li>Routing/Switching</li>
+                <li>VLANs</li>
                 <li>DNS</li>
                 <li>DHCP</li>
                 <li>SSH</li>
-                <li>FTP</li>
+                <li>(S)FTP</li>
+                <li>TLS</li>
             </ul>
             <ul class='tech-skills'>
                 <li>Programming Languages</li>
@@ -54,16 +56,20 @@ weight: 30
                 <li>Perl</li>
                 <li>Python</li>
                 <li>JavaScript</li>
+                <li>Ruby</li>
                 <li>SQL</li>
+                <li>Perl</li>
                 <li>Bash/Batch</li>
                 <li>Objective C</li>
             </ul>
             <ul class='tech-skills'>
-                <li>Design/Markup Languages</li>
-                <li>HTML5</li>
+                <li>Markup Languages/Protocols</li>
+                <li>HTTP(S)</li>
+                <li>XHTML/HTML5</li>
                 <li>CSS</li>
                 <li>XML</li>
-                <li>Ajax</li>
+                <li>SVG</li>
+                <li>REST</li>
                 <li>JSON</li>
                 <li>SASS</li>
             </ul>
@@ -74,38 +80,40 @@ weight: 30
             <h4>Systems Analyst (Web Developer)</h4>
             <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
             <ul class='smaller'>
-                <li>Developed and maintained web and mobile applications using PHP, C#, Objective C, and other languages</li>
-                <li>Revised and rewrote old code to support progressive enhancement and newer standards</li>
-                <li>Administered and supported corporate Windows and Linux servers</li>
-                <li>Maintained company databases and SQL Report Server</li>
+                <li>Developed and maintained web and mobile applications using HTML, JavaScript, PHP, C#, Objective C, and other languages.</li>
+                <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
+                <li>Worked with department heads to build web applications that interface with other systems to provide a more usable interface.</li>
+                <li>Designed and developed email templates for use with bill notifications</li>
+                <li>Redesigned and developed intranet site to support the latest web standards</li>
+                <li>Administered and supported corporate Windows and Linux servers.</li>
+                <li>Worked with various technologies as the need arose including: SCADA, Oracle, SAP, WordPress, Microsoft SQL, Microsoft SQL Server, among many others.</li>
             </ul>
             <h4>Systems Support Analyst</h4>
             <h5>Nelson Brothers Mining Services - Birmingham, AL (Nov. 2009 – June 2010)</h5>
             <ul class='smaller'>
-                <li>Worked with Windows Server 2003 and Active Directory Environment</li>
-                <li>Administered a proprietary database system and manipulated tickets for the accounting office</li>
-                <li>Assisted users remotely via VNC and Remote Desktop connection</li>
-                <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS</li>
+                <li>Worked with Windows Server 2003 and Active Directory Environment.</li>
+                <li>Administered a proprietary database system and manipulated tickets for the accounting office.</li>
+                <li>Assisted users remotely via VNC and Remote Desktop connection.</li>
+                <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS.</li>
             </ul>
             <h4>Web Intern</h4>
             <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
             <ul class='smaller'>
-                <li>Maintained the college website via XHTML, CSS, and a content management system (MODX)</li>
-                <li>Developed athletic pages for each athletic department and email templates for the athletic director  </li>
-                <li>Corrected ASP.NET and C# code to insure correct functioning of the school website</li>
+                <li>Maintained the college website via XHTML, CSS, and a content management system (MODX).</li>
+                <li>Developed athletic pages for each athletic department and email templates for the athletic director.</li>
+                <li>Corrected ASP.NET and C# code to insure correct functioning of the school website.</li>
             </ul>
             <h4>IT Internship</h4>
             <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
             <ul class='smaller'>
-                <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports</li>
-                <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment</li>
-                <li>Remoted into client's computers to set up software and troubleshoot technical problems</li>
+                <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports.</li>
+                <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment.</li>
+                <li>Remoted into client's computers to set up software and troubleshoot technical problems.</li>
             </ul>
         </article>
 
         <article>
             <h3>Certification</h3>
-            <p>I have listed more details about each one of these certifications on my <a href='/certs'>certification</a> page.</p>
             <ul class='smaller'>
                 <li>CompTIA A+</li>
                 <li>CompTIA Linux+</li>
@@ -119,6 +127,7 @@ weight: 30
                 <li>Certified Ethical Hacker</li>
                 <li>CompTIA Security+</li>
             </ul>
+            <p>I have listed more details about each one of these certifications on my <a href='/certifications'>certification</a> page.</p>
         </article>
 
         <article>

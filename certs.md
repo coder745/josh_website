@@ -1,6 +1,6 @@
 ---
 layout: defaults
-title: Certs
+title: Certifications
 permalink: /certs
 weight: 20
 ---
