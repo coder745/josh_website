@@ -1,0 +1,6 @@
+/* TEAM */
+Your Title: Josh Young.
+Last Updated: {{ 'now' | date: "%m-d-Y" }}.
+Standards: HTML5, CSS3.
+Components: jQuery.
+Software: Jekyll.

@@ -77,11 +77,12 @@ weight: 40
         <article>
             <h3>About Site</h3>
             <p>
-            Icons made by <a href='http://www.flaticon.com/authors/icomoon' title='Icomoon'>Icomoon</a> 
-            and by
+            Icons made by <a href='http://www.flaticon.com/authors/icomoon' title='Icomoon'>Icomoon</a>,
+            <a href="http://www.freepik.com" title="Freepik">Freepik</a>,
+            and
             <a href='http://www.flaticon.com/authors/simpleicon' title='SimpleIcon'>SimpleIcon</a>.
             <br />
-            Designed by <a href='joshyoung.me/about'>me</a>. Running <a href='https://jekyllrb.com'>Jekyll</a>.
+            Website designed by <a href='joshyoung.me/about'>me</a>. Running <a href='https://jekyllrb.com'>Jekyll</a>.
             </p>
         </article>
     </div><!-- inner-section -->

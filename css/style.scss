@@ -7,13 +7,13 @@ $top_margin: 100px;
 $space_between: 30px;
 $imp_color: rgb(255, 111, 62);
 @mixin redb() {
-    //border: solid 1px red;
+    //border: 1px solid red;
 }
 
 @mixin boxstyle() {
     background: rgba(253, 253, 253, 0.7);
     position: relative;
-    border: solid 1px #ccc;
+    border: 1px solid #ccc;
     box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
     padding: 20px;
 }
@@ -47,7 +47,7 @@ h1 {
 }
 
 h3 {
-    border-bottom: dashed 1px #ccc;
+    border-bottom: 1px dashed #ccc;
     color: #1a1a1a;
 }
 
@@ -348,12 +348,13 @@ form.inner {
     legend {
         display: none;
     }
-    input[type='text'] {
+    input[type='text'],
+    input[type='search'] {
         width: 69%;
         padding: 10px;
         float: left;
         background: rgba(253, 253, 253, 0.7);
-        border: solid 1px #ccc;
+        border: 1px solid #ccc;
         &:focus {
             background: #f2f2f2;
         }
@@ -361,7 +362,7 @@ form.inner {
     input[type='submit'] {
         width: 30%;
         background: rgba(253, 253, 253, 0.7);
-        border: solid 1px #ccc;
+        border: 1px solid #ccc;
         float: right;
         padding: 10px;
         &:hover {
@@ -428,7 +429,7 @@ footer {
     .logo {
         box-shadow: none;
         box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
-        border-right: solid 1px #bbb;
+        border-right: 1px solid #bbb;
         width: 200px;
     }
     aside.left-aside {
@@ -438,11 +439,11 @@ footer {
         height: 100%;
         box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
         margin-top: $top_margin;
-        border-right: solid 1px #bbb;
+        border-right: 1px solid #bbb;
     }
     nav {
         width: auto;
-        border-top: solid 1px #bbb;
+        border-top: 1px solid #bbb;
         min-height: 100%;
         margin-bottom: -140px;
         margin-top: 0;
@@ -499,17 +500,19 @@ footer {
             line-height: 0;
             font-size: 0;
             color: transparent;
-        }
-        a.linkedin {
-            background: url(../img/linkedin.svg) no-repeat;
-            width: 15px;
-            height: 15px;
-        }
-        a.github {
-            background: url(../img/git.svg) no-repeat;
             width: 15px;
             height: 15px;
             position: relative;
+        }
+        a.codepen {
+            background: url(../img/codepen.svg) no-repeat;
+            top: 2px;
+        }
+        a.linkedin {
+            background: url(../img/linkedin.svg) no-repeat;
+        }
+        a.github {
+            background: url(../img/git.svg) no-repeat;
             top: 2px;
         }
     }
@@ -526,7 +529,7 @@ footer {
         float: left;
     }
     form.inner {
-        border-bottom: solid 3px $dark_green;
+        border-bottom: 3px solid $dark_green;
     }
     aside.right-aside {
         margin-left: 200px;
