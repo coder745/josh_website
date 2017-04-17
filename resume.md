@@ -75,6 +75,15 @@ weight: 30
                 <li>YAML</li>
                 <li>SASS</li>
             </ul>
+            <ul class='tech-skills'>
+                <li>Security</li>
+                <li>NMAP</li>
+                <li>Kali Linux</li>
+                <li>WireShark</li>
+                <li>Vulnerability Scanning</li>
+                <li>Network Scanning</li>
+                <li>Footprinting</li>
+            </ul>
         </article>
 
         <article class='professional-experience'>
@@ -84,9 +93,9 @@ weight: 30
             <ul class='smaller'>
                 <li>Developed and maintained web and mobile applications using HTML, JavaScript, PHP, C#, Objective C, and other languages.</li>
                 <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
-                <li>Worked with department heads to build web applications that interface with other systems to provide a more usable interface.</li>
-                <li>Designed and developed email templates for use with bill notifications</li>
-                <li>Redesigned and developed intranet site to support the latest web standards</li>
+                <li>Worked with department heads to build web applications that pull information from other systems to provide a more usable interface.</li>
+                <li>Designed and developed email templates for use with bill notifications.</li>
+                <li>Redesigned and developed intranet site to support the latest web standards.</li>
                 <li>Administered and supported corporate Windows and Linux servers.</li>
                 <li>Worked with various technologies as the need arose including: SCADA, Oracle, SAP, WordPress, Microsoft SQL, Microsoft SQL Server, among many others.</li>
             </ul>
@@ -117,17 +126,17 @@ weight: 30
         <article>
             <h3>Certification</h3>
             <ul class='smaller'>
-                <li>CompTIA A+</li>
-                <li>CompTIA Linux+</li>
+                <li>CompTIA Security+</li>
+                <li>Zend Certified PHP Engineer</li>
+                <li>Certified Ethical Hacker</li>
                 <li>CompTIA Network+</li>
+                <li>CIW Web Development Professional</li>
                 <li>CIW Perl Specialist</li>
                 <li>CIW JavaScript Specialist</li>
                 <li>CIW Database Design Specialist</li>
-                <li>CIW Web Development Professional</li>
-                <li>Zend Certified PHP Engineer</li>
                 <li>Linux Professional Institute LPIC-1</li>
-                <li>Certified Ethical Hacker</li>
-                <li>CompTIA Security+</li>
+                <li>CompTIA Linux+</li>
+                <li>CompTIA A+</li>
             </ul>
             <p>I have listed more details about each one of these certifications on my <a href='/certifications'>certification</a> page.</p>
         </article>

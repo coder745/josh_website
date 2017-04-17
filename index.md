@@ -24,7 +24,7 @@ weight: 0
                     <li><a href='/me#hobbies'>My Hobbies</a></li>
                     <li><a href='{{ linkedin_url }}'>LinkedIn Profile</a></li>
                     <li><a href='{{ github_url }}'>GitHub Profile</a></li>
-                    <li><a href='{{ codepen_url }}'>CodePen</a></li>
+                    <li><a href='{{ codepen_url }}'>CodePen Profile</a></li>
                 </ul>
                 <div style='clear:both;'></div>
             </article>

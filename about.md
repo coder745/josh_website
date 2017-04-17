@@ -12,28 +12,28 @@ weight: 40
 
         <article>
             <h3>Me</h3>
-            <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. Health and nutrition is also something I really enjoy learning. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey or at the very least provide a central place for me to document what I learning when working through new projects.</p>
+            <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. Health and nutrition is also something I really enjoy. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
         </article>
 
         <article>
             <h3>My Job</h3>
             <p>For my day job,
-            I maintain web applications, websites, apps, and web servers for my employer, <a href='www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do in internal to the company and not hosted publicly. In a typical day I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
-            <p>As opportunities are provided, I am always open to using additional languages and technologies. Over my time at Huntsville Utilities, I have had the opportunity to use other languages in my day-to-day job such as Objective-C, C#, ASP.NET and Python. Since I do maintain many of my web servers, I work with Linux and Windows and their accompanying web servers. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
+            I maintain web applications, websites, other apps for my employer, <a href='www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do is internal to the company and not hosted publicly. In a typical day I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
+            <p>As opportunities are provided, I am always open to using additional languages and technologies. Over my time at Huntsville Utilities, I have had the opportunity to use other languages in my day-to-day job such as Objective-C, C#, ASP.NET and Python. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
         </article>
 
         <article>
             <a name='hobbies'></a>
             <h3>Hobbies</h3>
-            <p>My hobbies usually end up relating in large part to my job. I enjoy coding and desigining web applications and web sites. When it comes to web development, I enjoy the whole stack from front end to back end. Therefore, I spend a significant amount of my free time staying up with and learning the latest language and frameworks. When possible, I try to implement this additional knowlege into a software tool that I can use to make my life easier.</p>
-            <p>I also spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting and a good working knowledge of computer security and specifically web application security is very helpful for a web developer. If I am not working on servers or code, I spend my time playing my harmonicas, biking, reading, or researching health related subjects.</p>
+            <p>Many of my hobbies usually end up relating to technology and development. I enjoy coding and desigining web applications and web sites. When it comes to web development, I enjoy the whole stack from front end to back end. Therefore, I spend a significant amount of my free time staying up with and learning the latest language and frameworks. When possible, I try to implement this additional knowlege into a software tool that I can use to make my life easier.</p>
+            <p>I also spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting. A good working knowledge of computer security and specifically web application security is very helpful as a web developer. If I am not working on servers or code, I spend my time playing my harmonicas, biking, reading, or researching nutrition.</p>
         </article>
 
         <article>
             <a name='podcasts'></a>
             <h3>Recommended Podcasts</h3>
-            <p>Below I have listed the tech podcasts that I listen to on a weekly basis. These are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoy learning and staying up-to-date with the latest tech.</p>
-            <p>Yes, I listen to a lot of podcasts. Actually, I listen to some other non-technological podcasts that I did not list here. If you use a podcast app such as <a href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly.</p>
+            <p>Below I have listed the tech podcasts that I listen to on a weekly basis. These are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
+            <p>Yes, I listen to a lot of podcasts. Actually, I listen to some other non-technological podcasts that I did not list here. If you use a podcast app such as <a href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly!</p>
 
             <ul class='smaller'>
                 {% assign sorted_podcasts = site.data.podcasts | sort: 'title' %}
@@ -49,7 +49,7 @@ weight: 40
         <article>
             <a name='books'></a>
             <h3>Books I've Read</h3>
-            <p>In my spare time, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that sometimes buying a physical book or a kindle book is beneficial. Below I have listed some of the books I have read over the years that have contributed to where I am today.</p>
+            <p>In my spare time, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that sometimes buying a book about a particular technology is a beneficial deep-dive experience. Below I have listed some of the books I have read over the years that have contributed to where I am today (listed in alphabetical order).</p>
 
             <ul class='smaller'>
                 {% assign sorted_books = site.data.books | sort: 'title' %}
@@ -61,11 +61,11 @@ weight: 40
                         {% else %}
                             {{ book.title }} 
                         {% endif %}
-                        by 
                         {% if book.truncated_authors %}
-                            {{ book.truncated_authors }} 
+                           by {{ book.truncated_authors }} 
+                        {% else if book.author != "" %}
+                            by {{ book.author }}
                         {% else %}
-                            {{ book.author }} 
                         {% endif %}
                         </li>
                     {% endif %}
