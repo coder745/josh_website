@@ -1,6 +1,7 @@
 ---
 layout: defaults
 title: Resume
+description: Josh Young's detailed resume and job history.
 permalink: /resume
 weight: 30
 ---
@@ -71,6 +72,7 @@ weight: 30
                 <li>SVG</li>
                 <li>REST</li>
                 <li>JSON</li>
+                <li>YAML</li>
                 <li>SASS</li>
             </ul>
         </article>

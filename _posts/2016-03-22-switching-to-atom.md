@@ -1,6 +1,7 @@
 ---
 layout: portfolio_entry
 title: Switching to Atom
+description: Switching to Atom and the plugin that I found useful.
 date: 2016-03-22
 excerpt_separator: <!--more-->
 tags: Atom Vim

@@ -1,6 +1,7 @@
 ---
 layout: portfolio_entry
 title: Starting with React
+description: Learning and using React.
 date: 2017-01-09
 excerpt_separator: <!--more-->
 tags: React JavaScript

@@ -1,6 +1,7 @@
 ---
 layout: defaults
 title: Home
+description: Josh Young's personal site - web developer and programmer.
 weight: 0
 ---
 <section class='home'>

@@ -10,11 +10,13 @@
         <link rel='apple-touch-icon' sizes='72x72' href='/img/site_apple.png' />
         <link rel='apple-touch-icon' sizes='114x114' href='/img/site_apple_retina.png' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='description' content='{{ site.description }}' />
+        {% if page.description %}
+            <meta name='description' content='{{ page.description }}' />
+        {% else %}
+            <meta name='description' content='{{ site.description }}' />
+        {%endif %}
         <meta name='author' content='Josh Young' />
-
-        <link type='text/plain' rel='author' href='humans.txt' />
-
+        <link type='text/plain' rel='author' href='/humans.txt' />
         <script type='text/javascript'>
             document.createElement('main');
         </script>

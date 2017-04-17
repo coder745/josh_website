@@ -1,6 +1,6 @@
 /* TEAM */
 Your Title: Josh Young.
-Last Updated: {{ 'now' | date: "%m-d-Y" }}.
+Last Updated: 04-16-2017.
 Standards: HTML5, CSS3.
-Components: jQuery.
+Components: jQuery, Sitemap.xml Generator (https://github.com/kinnetica/jekyll-plugins), lunr (https://lunrjs.com/)
 Software: Jekyll.

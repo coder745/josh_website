@@ -1,9 +1,17 @@
-title: Site Title
+title: Josh Young's Web Development Portfolio
 description: Josh Young's site about web development, blog, and personal projects.
 permalink: /:year/:title/
+url: joshyoung.me
 linkedin_url: https://www.linkedin.com/in/joshuayoung1
 github_url: https://github.com/coder745
 codepen_url: 
-
+sitemap: 
+    exclude: 
+        - /webtemplate.html
+    include_posts: 
+        - /thoughts.md
 sass:
     style: compressed
+
+gems:
+  - jekyll-sitemap

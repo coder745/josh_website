@@ -1,6 +1,7 @@
 ---
 layout: defaults
 title: Certifications
+description: Certifications that Josh Young has attained and a short summary of each one.
 permalink: /certs
 weight: 20
 ---

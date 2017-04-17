@@ -1,6 +1,7 @@
 ---
 layout: defaults
 title: About
+description: About Josh Young and his job, hobbies, podcasts, and books. About this site.
 permalink: /me
 weight: 40
 ---
@@ -13,7 +14,6 @@ weight: 40
             <h3>Me</h3>
             <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. Health and nutrition is also something I really enjoy learning. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey or at the very least provide a central place for me to document what I learning when working through new projects.</p>
         </article>
-
 
         <article>
             <h3>My Job</h3>
@@ -53,7 +53,7 @@ weight: 40
 
             <ul class='smaller'>
                 {% assign sorted_books = site.data.books | sort: 'title' %}
-                {% for book in sorted_books | sort book.title %}
+                {% for book in sorted_books %}
                     {% if book.display != false %}
                         <li>
                         {% if book.short_title %}
