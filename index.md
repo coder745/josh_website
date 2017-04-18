@@ -9,7 +9,7 @@ weight: 0
         <article>
             <h2>
             My name is <span><a href='/me'>Josh</a></span>. I am a Web Developer. Here I write 
-            about web development and my tech projects. Check out my <a href='/thoughts'>Blog</a> 
+            about web development and my current tech projects. Check out my <a href='/thoughts'>Blog</a> 
             to see what I am writing or my <a href='/projects'>Projects</a> 
             to see what I am building.
             </h2>

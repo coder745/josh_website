@@ -18,7 +18,7 @@ weight: 30
             <h3>Education</h3>
             <h4>Bryan College, Dayton Tennessee (2006 - 2009)</h4>
             <h5><strong>Bachelor of Science, Computer Science</strong></h5>
-            <p class='small'>(Also see my continuing eduction under my <a href='/classes'>classes</a> page.)</p>
+            <p class='small'>(Also see my continuing education under my <a href='/classes'>classes</a> page.)</p>
         </article>
 
         <article>
@@ -29,14 +29,14 @@ weight: 30
                 <li>IIS</li>
                 <li>nginx</li>
                 <li>MS Servers 2008/2012</li>
-                <li>Linux (Debian/Red Hat)</li>
-                <li>freeBSD</li>
+                <li>Linux (Debian/Red Hat/CentOS)</li>
+                <li>FreeBSD</li>
             </ul>
             <ul class='tech-skills'>
                 <li>Operating Systems</li>
                 <li>Windows 7/10</li>
                 <li>Mac</li>
-                <li>VMWare ESXi</li>
+                <li>VMware</li>
                 <li>Linux (Arch, Fedora, Ubuntu)</li>
             </ul>
             <ul class='tech-skills'>
@@ -79,7 +79,7 @@ weight: 30
                 <li>Security</li>
                 <li>NMAP</li>
                 <li>Kali Linux</li>
-                <li>WireShark</li>
+                <li>Wireshark</li>
                 <li>Vulnerability Scanning</li>
                 <li>Network Scanning</li>
                 <li>Footprinting</li>
@@ -145,7 +145,7 @@ weight: 30
             <h3>Work and Personal Projects</h3>
             <p>I have listed more details about each one of these projects on the <a href='/projects'>projects</a> page.</p>
             <ul class='smaller'>
-                <li>Laravel Note/URL System: PHP, Laravel, Postgres SQL (2017)</li>
+                <li>Laravel Note/URL System: PHP, Laravel, PostgreSQL (2017)</li>
                 <li>Web Best Practices Template: HTML, CSS, JavaScript (2016)</li>
                 <li>Note Taking System: Python, Flask, SQLite (2014)</li>
                 <li>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</li>

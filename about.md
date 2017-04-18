@@ -12,7 +12,7 @@ weight: 40
 
         <article>
             <h3>Me</h3>
-            <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. Health and nutrition is also something I really enjoy. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
+            <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
         </article>
 
         <article>
@@ -25,14 +25,14 @@ weight: 40
         <article>
             <a name='hobbies'></a>
             <h3>Hobbies</h3>
-            <p>Many of my hobbies usually end up relating to technology and development. I enjoy coding and desigining web applications and web sites. When it comes to web development, I enjoy the whole stack from front end to back end. Therefore, I spend a significant amount of my free time staying up with and learning the latest language and frameworks. When possible, I try to implement this additional knowlege into a software tool that I can use to make my life easier.</p>
-            <p>I also spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and freeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting. A good working knowledge of computer security and specifically web application security is very helpful as a web developer. If I am not working on servers or code, I spend my time playing my harmonicas, biking, reading, or researching nutrition.</p>
+            <p>Many of my hobbies usually end up relating to technology and development. I enjoy coding and designing web applications and web sites. When it comes to web development, I enjoy the whole stack from front end to back end. Therefore, I spend a significant amount of my free time keeping up with and learning the latest languages and frameworks. When possible, I try to implement this additional knowledge into software tools that I can use to make my life easier.</p>
+            <p>I also spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and FreeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting. A good working knowledge of computer security and specifically web application security is very helpful as a web developer. If I am not working on servers or code, I spend my time playing my harmonica, biking, reading, or researching nutrition.</p>
         </article>
 
         <article>
             <a name='podcasts'></a>
             <h3>Recommended Podcasts</h3>
-            <p>Below I have listed the tech podcasts that I listen to on a weekly basis. These are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
+            <p>Below I have listed the tech podcasts that I listen to on a weekly basis. They are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
             <p>Yes, I listen to a lot of podcasts. Actually, I listen to some other non-technological podcasts that I did not list here. If you use a podcast app such as <a href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly!</p>
 
             <ul class='smaller'>
@@ -49,24 +49,27 @@ weight: 40
         <article>
             <a name='books'></a>
             <h3>Books I've Read</h3>
-            <p>In my spare time, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that sometimes buying a book about a particular technology is a beneficial deep-dive experience. Below I have listed some of the books I have read over the years that have contributed to where I am today (listed in alphabetical order).</p>
+            <p>Frequently, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that buying a book about a particular technology can be a beneficial deep-dive experience. Below I have listed some of the books I have read over the years that have contributed to where I am today (listed in alphabetical order).</p>
 
-            <ul class='smaller'>
+            <ul class='smaller books'>
                 {% assign sorted_books = site.data.books | sort: 'title' %}
                 {% for book in sorted_books %}
                     {% if book.display != false %}
                         <li>
+
                         {% if book.short_title %}
                             {{ book.short_title }} 
                         {% else %}
                             {{ book.title }} 
                         {% endif %}
+
                         {% if book.truncated_authors %}
                            by {{ book.truncated_authors }} 
-                        {% else if book.author != "" %}
-                            by {{ book.author }}
+                        {% elsif book.author != '' %}
+                            by <span>{{ book.author }}</span>
                         {% else %}
                         {% endif %}
+
                         </li>
                     {% endif %}
                 {% endfor %}
@@ -79,6 +82,7 @@ weight: 40
             <p>
             Icons made by <a href='http://www.flaticon.com/authors/icomoon' title='Icomoon'>Icomoon</a>,
             <a href="http://www.freepik.com" title="Freepik">Freepik</a>,
+            <a href="http://www.flaticon.com/authors/agata-kuczminska" title="Agata Kuczminska">Agata Kuczminska</a>,
             and
             <a href='http://www.flaticon.com/authors/simpleicon' title='SimpleIcon'>SimpleIcon</a>.
             <br />
