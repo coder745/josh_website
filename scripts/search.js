@@ -1,7 +1,7 @@
 var scroll_site_top = function() {
     $('html,body').animate({
         scrollTop:0
-    }, 'slow')
+    }, 1000)
 };
 
 $('#go_to_top').click(function() {

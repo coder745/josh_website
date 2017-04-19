@@ -11,14 +11,13 @@ weight: 40
         <h2>About Me</h2>
 
         <article>
-            <h3>Me</h3>
             <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
         </article>
 
         <article>
             <h3>My Job</h3>
             <p>For my day job,
-            I maintain web applications, websites, other apps for my employer, <a href='www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do is internal to the company and not hosted publicly. In a typical day I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
+            I maintain web applications, websites, other apps for my employer, <a href='https://www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do is internal to the company and not hosted publicly. In a typical day I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
             <p>As opportunities are provided, I am always open to using additional languages and technologies. Over my time at Huntsville Utilities, I have had the opportunity to use other languages in my day-to-day job such as Objective-C, C#, ASP.NET and Python. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
         </article>
 
