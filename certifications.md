@@ -1,6 +1,6 @@
 ---
 layout: defaults
-title: Certifications
+title: Certs
 description: Certifications that Josh Young has attained and a short summary of each one.
 permalink: /certifications
 weight: 20
@@ -37,7 +37,7 @@ weight: 20
         <article>
             <a name='ceh'></a>
             <h3>Certified Ethical Hacker (CEH)</h3>
-            <p>The Certified Ethical Hacker certification covered many areas of computer security including: footprinting, scanning, enumeration, penetration, SQL injection, etc. By gaining a better understanding of the tactics use by ethical hackers, I have acquired valuable information to facilitate building better defenses and more secure web applications.</p>
+            <p>The Certified Ethical Hacker certification covered many areas of computer security including: footprinting, scanning, enumeration, penetration, SQL injection, etc. By gaining a better understanding of the tactics use by ethical hackers, I acquired valuable information to facilitate building better defenses and more secure web applications.</p>
             <a href='https://www.eccouncil.org/Certification/certified-ethical-hacker'>About Certification</a>
         </article>
 
