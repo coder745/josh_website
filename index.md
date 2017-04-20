@@ -18,7 +18,7 @@ weight: 0
         {% if page.title == 'Home' %}
             <article class='glance'>
                 <h3>At a Glance</h3>
-                <ul>
+                <ul class='clearfix'>
                     <li><a href='/me#books'>Books I've Read</a></li>
                     <li><a href='/me#podcasts'>Podcasts I Enjoy</a></li>
                     <li><a href='/me#hobbies'>My Hobbies</a></li>
@@ -26,16 +26,14 @@ weight: 0
                     <li><a href='{{ github_url }}'>GitHub Profile</a></li>
                     <li><a href='{{ codepen_url }}'>CodePen Profile</a></li>
                 </ul>
-                <div style='clear:both;'></div>
             </article>
             <article>
                 <h3>Tags</h3>
-                <ul class='tags'>
+                <ul class='tags clearfix'>
                 {% for tag in site.tags %}
                     <li><a href='/tags/{{ tag[0] }}' class='tag'>{{ tag[0] }}</a></li>
                 {% endfor %}
                 </ul>
-                <div style='clear:both;'></div>
             </article>
         {% endif %}
     </div><!-- inner-section -->

@@ -123,6 +123,13 @@ p {
     }
 }
 
+.highlight {
+    background: black;
+    color: #a0a0a0;
+    overflow: scroll;
+    padding: 10px;
+}
+
 .clearfix:after {
     content: '';
     display: table;
