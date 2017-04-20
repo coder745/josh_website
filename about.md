@@ -30,11 +30,11 @@ weight: 40
 
         <article>
             <a name='podcasts'></a>
-            <h3>Recommended Podcasts</h3>
-            <p>Below I have listed the tech podcasts that I listen to on a weekly basis. They are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
+            <h3 id='recommended_podcasts'>Recommended Podcasts</h3>
+            <p id='recommended_podcasts_description'>Below I have listed the tech podcasts that I listen to on a weekly basis. They are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
             <p>Yes, I listen to a lot of podcasts. Actually, I listen to some other non-technological podcasts that I did not list here. If you use a podcast app such as <a href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly!</p>
 
-            <ul class='smaller'>
+            <ul aria-labelledby='recommended_podcasts' aria-describedby='recommended_podcasts_description' class='smaller'>
                 {% assign sorted_podcasts = site.data.podcasts | sort: 'title' %}
                 {% for podcast in sorted_podcasts %}
                     {% if podcast.display != false %}
@@ -47,10 +47,10 @@ weight: 40
 
         <article>
             <a name='books'></a>
-            <h3>Books I've Read</h3>
-            <p>Frequently, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that buying a book about a particular technology can be a beneficial deep-dive experience. Below I have listed some of the books I have read over the years that have contributed to where I am today (listed in alphabetical order).</p>
+            <h3 id='books_ive_read'>Books I've Read</h3>
+            <p id='books_ive_read_description'>Frequently, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that buying a book about a particular technology can be a beneficial deep-dive experience. Below I have listed some of the books I have read over the years that have contributed to where I am today (listed in alphabetical order).</p>
 
-            <ul class='smaller books'>
+            <ul aria-labelledby='books_ive_read' aria-describedby='books_ive_read_description' class='smaller books'>
                 {% assign sorted_books = site.data.books | sort: 'title' %}
                 {% for book in sorted_books %}
                     {% if book.display != false %}

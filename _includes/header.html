@@ -31,9 +31,10 @@
         </script>
     </head>
     <body>
+        <a id='go_to_content' href='#main_content'>skip to main content</a>
         <div class='wrap clearfix'>
         <div class='border'></div>
-        <header>
+        <header role='banner'>
             <div class='inner'>
                 <a href='/'>
                     <div class='logo'>
@@ -44,7 +45,7 @@
                 </a>
         </header>
         <aside class='left-aside'>
-            <nav>
+            <nav role='navigation'>
                 {% assign pages = site.html_pages | sort: "weight"  %}
                 <ul>
                   {% for p in pages %}

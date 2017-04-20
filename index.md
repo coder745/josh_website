@@ -28,8 +28,8 @@ weight: 0
                 </ul>
             </article>
             <article>
-                <h3>Tags</h3>
-                <ul class='tags clearfix'>
+                <h3 id='tags'>Tags</h3>
+                <ul aria-labelledby='tags' class='tags clearfix'>
                 {% for tag in site.tags %}
                     <li><a href='/tags/{{ tag[0] }}' class='tag'>{{ tag[0] }}</a></li>
                 {% endfor %}

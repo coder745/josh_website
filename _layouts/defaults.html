@@ -1,13 +1,13 @@
         {% include header.html %}
-        <main>
+        <main id='main_content' role='main'>
             <div id='search_results'>
             </div>
             {{ content }}
             <aside class='right-aside'>
-                <form class='inner' action='/search' id='site_search' method='get'>
+                <form role='search' class='inner' action='' id='site_search' method='get'>
                     <fieldset>
                         <legend>Site Search</legend>
-                        <input placeholder='Search Blog' type='search' id='search_box' />
+                        <input placeholder='Search Blog' type='search' id='search_box' value='' />
                         <input type='submit' value='Search' />
                     </fieldset>
                 </form>
@@ -32,8 +32,8 @@
 
                 {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
                     <div class='inner'>
-                        <h3>Tags</h3>
-                        <ul class='tags'>
+                        <h3 id='tags'>Tags</h3>
+                        <ul aria-labelledby='tags' class='tags'>
                         {% for tag in site.tags %}
                             <li><a href='/tags/{{ tag[0] }}' class='tag'>{{ tag[0] }}</a></li>
                         {% endfor %}
