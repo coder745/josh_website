@@ -117,6 +117,12 @@ ul {
             font-style: italic;
         }
     }
+    &.tech_list {
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 p {

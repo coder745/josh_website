@@ -9,6 +9,8 @@ tags: Security CSP
 
 After recently learning about Content Security Policy (CSP), I decided to implement it on this site. For the uninitiated, CSP is essentually a way to lock down which scripts, styles, images, etc. are allowed to run on your site. This was implemented in an effort to restrict prevent security issues such as Cross Site Scripting (XSS) attacks. 
 
+<!--more-->
+
 If you have more control over your site hosting, you should be able to setup CSP by configuring the header values that are sent wich each request. Since I host this site on GitHub pages, I am unable to specify header values. For these types of situations, you can specify CSP values with a `meta` tag on your site. Below, I have displayed the CSP that I used on this site.
 
 ```html

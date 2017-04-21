@@ -32,23 +32,10 @@
 
                 {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
                     <div class='inner'>
-                        <h3 id='tags'>Tags</h3>
-                        <ul aria-labelledby='tags' class='tags'>
-                        {% for tag in site.tags %}
-                            <li><a href='/tags/{{ tag[0] }}' class='tag'>{{ tag[0] }}</a></li>
-                        {% endfor %}
-                        </ul>
+                        {% include tags.html %}
                     </div><!-- inner -->
                     <div class='inner'>
-                        <h3>At a Glance</h3>
-                        <ul>
-                            <li><a href='/me#books'>Books I've Read</a></li>
-                            <li><a href='/me#podcasts'>Podcasts I Enjoy</a></li>
-                            <li><a href='/me#hobbies'>My Hobbies</a></li>
-                            <li><a href='{{ site.linkedin_url }}'>LinkedIn Profile</a></li>
-                            <li><a href='{{ site.github_url }}'>GitHub Profile</a></li>
-                            <li><a href='{{ site.codepen_url }}'>CodePen</a></li>
-                        </ul>
+                        {% include glance.html %}
                     </div><!-- inner -->
                 {% endif %}
             </aside>

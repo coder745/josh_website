@@ -17,23 +17,10 @@ weight: 0
 
         {% if page.title == 'Home' %}
             <article class='glance'>
-                <h3>At a Glance</h3>
-                <ul class='clearfix'>
-                    <li><a href='/me#books'>Books I've Read</a></li>
-                    <li><a href='/me#podcasts'>Podcasts I Enjoy</a></li>
-                    <li><a href='/me#hobbies'>My Hobbies</a></li>
-                    <li><a href='{{ linkedin_url }}'>LinkedIn Profile</a></li>
-                    <li><a href='{{ github_url }}'>GitHub Profile</a></li>
-                    <li><a href='{{ codepen_url }}'>CodePen Profile</a></li>
-                </ul>
+                {% include glance.html %}
             </article>
             <article>
-                <h3 id='tags'>Tags</h3>
-                <ul aria-labelledby='tags' class='tags clearfix'>
-                {% for tag in site.tags %}
-                    <li><a href='/tags/{{ tag[0] }}' class='tag'>{{ tag[0] }}</a></li>
-                {% endfor %}
-                </ul>
+                {% include tags.html %}
             </article>
         {% endif %}
     </div><!-- inner-section -->
