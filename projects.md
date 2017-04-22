@@ -12,9 +12,13 @@ weight: 26
             <ul>
                 <li><a href='#laravel_note_url'>Laravel Note/URL System (2017):</a></li>
                 <li><a href='#web_template'>Web Best Practices Template (2016):</a></li>
+                <li><a href='joshyoung'>Joshyoung.me Website (2016):</a></li>
                 <li><a href='#note_system_flask'>Note Taking System (2014):</a></li>
                 <li><a href='#ticketing_system_alt'>Ticketing System v2 (2010):</a></li>
                 <li><a href='#ticketing_system'>Ticketing System v1 (2010):</a></li>
+                <li><a href='codeitcreations'>Code It Creation Website (2010):</a></li>
+                <li><a href='joshayoung'>Joshayoung Website (2010):</a></li>
+                <li><a href='commentsandcapers'>Comments and Capers Website (2009):</a></li>
                 <li><a href='blogging_system'>Blogging System (2008):</a></li>
             </ul>
         </article>
@@ -40,6 +44,13 @@ weight: 26
         </article>
 
         <article>
+            <a name='joshyoung'></a>
+            <h3>This Website (joshyoung.me - 2016)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
+        </article>
+
+        <article>
             <a name='note_system_flask'></a>
             <h3>Note Taking System (Python, Flask, SQLite)</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
@@ -56,6 +67,27 @@ weight: 26
         <article>
             <a name='ticketing_system_alt'></a>
             <h3>Ticketing System: C#, MSSQL, ASP.NET, CSS, JavaScript (2010)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
+        </article>
+
+        <article>
+            <a name='codeitcreation'></a>
+            <h3>Business Website (codeitcreations.com - 2010)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
+        </article>
+
+        <article>
+            <a name='joshayoung'></a>
+            <h3>Personal Website (joshayoung.com - 2010)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
+        </article>
+
+        <article>
+            <a name='commentsandcapers'></a>
+            <h3>Family Website (commentsandcapers.com - 2009)</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
             Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque fel</p>
         </article>

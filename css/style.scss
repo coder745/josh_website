@@ -48,6 +48,8 @@ $top_margin: pxToRem(100px);
     }
 }
 
+.hide { display: none !important; }
+
 html {
     box-sizing: border-box;
     font-size: $html_font_size;
@@ -418,10 +420,6 @@ article {
     p {
         margin-bottom: 15px;
         margin-bottom: pxToRem(15px);
-    }
-    &:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
     }
     a {
         color: #267554;

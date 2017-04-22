@@ -87,6 +87,7 @@ weight: 30
         </article>
 
         <article class='professional-experience'>
+
             <h3>Professional Experience</h3>
             <h4>Systems Analyst (Web Developer)</h4>
             <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
@@ -99,14 +100,26 @@ weight: 30
                 <li>Administered and supported corporate Windows and Linux servers.</li>
                 <li>Worked with various technologies as the need arose including: SCADA, Oracle, SAP, WordPress, Microsoft SQL, Microsoft SQL Server, among many others.</li>
             </ul>
-            <h4>Systems Support Analyst</h4>
-            <h5>Nelson Brothers Mining Services - Birmingham, AL (Nov. 2009 – June 2010)</h5>
+
+            <h4>Freelancing Development</h4>
+            <h5>Web Developer/Designer August 2009 - September 2011</h5>
             <ul class='smaller'>
-                <li>Worked with Windows Server 2003 and Active Directory Environment.</li>
-                <li>Administered a proprietary database system and manipulated tickets for the accounting office.</li>
-                <li>Assisted users remotely via VNC and Remote Desktop connection.</li>
-                <li>Supported Microsoft Office Suite, Windows XP, Vista, Windows 7, and Mac OS.</li>
+                <li>Performed freelance work supporting individuals on their websites.</li>
+                <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
+                <li>Installed and maintained WordPress installations.</li>
+                <li>Creates web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
+                <li>Formats images using PhotoShop and implements them using the appropriate web standards.</li>
             </ul>
+
+            <h4>Developer</h4>
+            <h5>ASI Software &amp; Web Solutions, Hoover, AL (Nov. 2009 – June 2010)</h5>
+            <ul class='smaller'>
+                <li>Worked with clients to identify back-end issues with PHP code correct them.</li>
+                <li>Used PhotoShop mockups to create CSS/HTML layouts.</li>
+                <li>Identified and correct bugs in CSS code.</li>
+                <li>Implemented JavaScript solutions to web problems.</li>
+            </ul>
+
             <h4>Web Intern</h4>
             <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
             <ul class='smaller'>
@@ -114,13 +127,25 @@ weight: 30
                 <li>Developed athletic pages for each athletic department and email templates for the athletic director.</li>
                 <li>Corrected ASP.NET and C# code to insure correct functioning of the school website.</li>
             </ul>
-            <h4>IT Internship</h4>
+
+            <h4>Ledford Research Project (PHP Blogging System)</h4>
+            <h5>Student Researcher/Developer - Birmingham AL (Summer 2008)</h5>
+            <ul class='smaller'>
+                <li>Set-up Linux server for hosting website content and MySQL database.</li>
+                <li>Developed website design using HTML and CSS.</li>
+                <li>Used PHP scripting language to interact with website content and MySQL database.</li>
+                <li>Implemented secure PHP practices and MySQL database schema.</li>
+                <li>Arranged results of research into down-loadable content for placement on website.</li>
+            </ul>
+
+            <h4>IT Internship (Development Work)</h4>
             <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
             <ul class='smaller'>
                 <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports.</li>
                 <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment.</li>
                 <li>Remoted into client's computers to set up software and troubleshoot technical problems.</li>
             </ul>
+
         </article>
 
         <article>
