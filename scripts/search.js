@@ -4,9 +4,12 @@ var scroll_site_top = function() {
     }, 1000)
 };
 
-$('#go_to_top').click(function() {
+var go_to_top = document.getElementById('go_to_top');
+go_to_top.href = '#0';
+
+go_to_top.onclick = function() {
     scroll_site_top();
-});
+}
 
 jQuery(function() {
     // Initalize lunr with the fields it will be searching on. I've given title

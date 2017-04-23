@@ -1,6 +1,8 @@
 # josh_website
 This repository houses the code for my website: joshyoung.me. This site is built with Jekyll and hosted on GitHub pages.
 
+Maybe the notes below will help someonee else if they decide to setup their own Jekyll site and host it on GitHub.
+
 # Setup:
 - This steps are listed here as notes for me when I setup a new computer.
 - Install [Ruby](https://www.ruby-lang.org/en/documentation/installation).

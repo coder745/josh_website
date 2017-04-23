@@ -4,6 +4,26 @@
         "class": "css_resources",
         "data": [
             {
+                "title" : "Colour Lovers",
+                "url": "http://www.colourlovers.com",
+                "display": true
+            },
+            {
+                "title" : "Git Cheat Sheet",
+                "url": "https://gist.github.com/hofmannsven/6814451",
+                "display": true
+            },
+            {
+                "title" : "Isotope",
+                "url": "http://isotope.metafizzy.co",
+                "display": true
+            },
+            {
+                "title" : "Formalize",
+                "url": "https://formalize.me",
+                "display": true
+            },
+            {
                 "title" : "What Is My Screen Resolution",
                 "url": "http://www.whatismyscreenresolution.com",
                 "display": true

@@ -1,5 +1,5 @@
---- 
---- 
+---
+---
 
 $light_green: #98D881;
 $dark_green: #267F54;
@@ -368,7 +368,7 @@ section {
 
 section.home,
 section.thoughts {
-    h2 {
+    h2:not(.thought) {
         margin-left: 0;
         font-size: 23px;
         font-size: pxToRem(23px);
@@ -376,7 +376,7 @@ section.thoughts {
     .date {
         @include datestyle();
     }
-    article {
+    article:not(.thought) {
         @include boxstyle();
         &:hover {
             background: rgba(253, 253, 253, 0.4);
@@ -436,6 +436,9 @@ article {
     }
     &.imp {
         background: $imp_color;
+    }
+    &.last {
+        border-bottom: none;
     }
 }
 
@@ -785,6 +788,9 @@ footer {
     }
     article:nth-child(odd):after {
         right: -14px;
+    }
+    section.thoughts article.thought:after {
+        display: none;
     }
     /* end Circle */
     aside.right-aside {

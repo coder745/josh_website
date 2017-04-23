@@ -18,7 +18,7 @@ grouped into categories below.</p>
     <ul class='tech_list'>
         {% for tech in resources.data %}
             {% if tech.display %}
-                <li><a href='{{ tech.url }}'>{{ tech.title }}</a></li>
+                <li><a target='_blank' href='{{ tech.url }}'>{{ tech.title }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>

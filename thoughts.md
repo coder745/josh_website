@@ -8,7 +8,12 @@ weight: 10
 
 <section class='thoughts'>
     <div class='inner-section'>
-        {% for post in site.posts %}
+        <h2 class='thought'>Thoughts</h2>
+        <article class='thought'>
+            <p>Here I document things that I am learning or have recently discovered related to web development and programming. Many times these posts are very short, as I am not a prolific blogger. However, hopefully something I list here will be helpful to anyone who is viewing my site.</p>
+            <p>I have list my top five posts here. If you want to see all of my posts, check out the complete list <a href='/all'>here</a>.</p>
+        </article>
+        {% for post in site.posts limit:5 %}
             <article>
                 <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
                 <div class='date'>{{ post.date | date: '%B %d, %Y' }}</div>
@@ -18,5 +23,10 @@ weight: 10
                     {% endif %}
             </article>
         {% endfor %}
+
+            <article class='thought last'>
+                -- <a href='/all'>See All Thoughts</a>
+            </article>
+
     </div><!-- inner-section -->
 </section>
