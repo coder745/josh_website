@@ -13,7 +13,8 @@ grouped into categories below.</p>
 
 <!--more-->
 
-<p>{% for resources in site.data.web_development_resources %}
+{% assign sorted_resources = site.data.web_development_resources | sort: 'title' %}
+<p>{% for resources in sorted_resources %}
     <h3>{{ resources.title }}</h3>
     <ul class='tech_list'>
         {% for tech in resources.data %}

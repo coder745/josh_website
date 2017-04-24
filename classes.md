@@ -88,7 +88,7 @@ weight: 25
         <article>
             <a name='fedvte'></a>
             <h3>FedVTE Training</h3>
-            <p>These are free courses offered to government employees by the Department of Homeland Security. I complete the following courses through FedVTE.</p>
+            <p>These are free courses offered to government employees by the Department of Homeland Security. I completed the following courses through FedVTE.</p>
             <ul>
                 <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Demilitarized Zone (DMZ) with IDS/IPS</a></li>
                 <li><a href='https://fedvte.usalearning.gov/pdf/FedVTE_Training_Catalog.pdf'>Linux Operating System Security</a></li>
@@ -113,7 +113,7 @@ weight: 25
         <article>
             <a name='ceh'></a>
             <h3>CEH - Ethical Hacking and Countermeasures</h3>
-            <p>In preparation for the CEH certification, I took this class to teach me the fundamentals of ethical hacking. The training was offered by Dynetics in Huntsville, AL, but I do not have a direct link to a description of the training. However, I have included a link to Dynetics below along with more information about the CEH certification.</p>
+            <p>In preparation for the CEH certification, I took this class to teach me the fundamentals of ethical hacking. The training was offered by Dynetics in Huntsville, AL. I do not have a direct link to a description of the training; however, I have included a link to Dynetics below along with more information about the CEH certification.</p>
             <a href='http://www.dynetics.com/services/space/training'>Dynetics</a><br />
             <a href='https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/'>About CEH</a>
         </article>

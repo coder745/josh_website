@@ -11,20 +11,20 @@ weight: 40
         <h2>About Me</h2>
 
         <article>
-            <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy posting concise thoughts about what I am currently working with or technologies that I am learning and using. Maybe something I say here will help someone out in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
+            <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently working with or technologies that I am using. Maybe something I say here will help someone in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
         </article>
 
         <article>
             <h3>My Job</h3>
-            <p>For my day job,
-            I maintain web applications, websites, other apps for my employer, <a href='https://www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do is internal to the company and not hosted publicly. In a typical day I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
-            <p>As opportunities are provided, I am always open to using additional languages and technologies. Over my time at Huntsville Utilities, I have had the opportunity to use other languages in my day-to-day job such as Objective-C, C#, ASP.NET and Python. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
+            <p>For my day job, I maintain web applications, websites, other apps for my employer, 
+            <a href='https://www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do is internal to the company and not hosted publicly. In a typical day I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
+            <p>As opportunities are provided, I am always open to using additional languages and technologies. Over my time at Huntsville Utilities, I have had the opportunity to work with other technologies such as Objective-C, C#, ASP.NET and Python. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
         </article>
 
         <article>
             <a name='hobbies'></a>
             <h3>Hobbies</h3>
-            <p>Many of my hobbies usually end up relating to technology and development. I enjoy coding and designing web applications and web sites. When it comes to web development, I enjoy the whole stack from front end to back end. Therefore, I spend a significant amount of my free time keeping up with and learning the latest languages and frameworks. When possible, I try to implement this additional knowledge into software tools that I can use to make my life easier.</p>
+            <p>Many of my hobbies relate to technology and development. I enjoy coding and designing web applications and web sites. When it comes to web development, I enjoy the whole stack from front end to back end. Therefore, I spend a significant amount of my free time keeping up with and learning the latest languages and frameworks. When possible, I try to implement this additional knowledge into the software stack that I use.</p>
             <p>I also spend a lot of time maintaining my home network, firewall, fileserver, git server, among other open-source applications. I enjoy Linux and FreeBSD so I spend time configuring these systems in my free time as well. As evident by some of my certifications and training, I also dabble in computer security. I find the subject interesting. A good working knowledge of computer security and specifically web application security is very helpful as a web developer. If I am not working on servers or code, I spend my time playing my harmonica, biking, reading, or researching nutrition.</p>
         </article>
 
@@ -85,7 +85,7 @@ weight: 40
             and
             <a href='http://www.flaticon.com/authors/simpleicon' title='SimpleIcon'>SimpleIcon</a>.
             <br />
-            Website designed by <a href='joshyoung.me/about'>me</a>. Running <a href='https://jekyllrb.com'>Jekyll</a>.
+            Website designed by <a href='/me'>me</a>. Running <a href='https://jekyllrb.com'>Jekyll</a>.
             </p>
         </article>
     </div><!-- inner-section -->

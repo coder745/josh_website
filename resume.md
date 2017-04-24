@@ -58,10 +58,18 @@ weight: 30
                 <li>Python</li>
                 <li>JavaScript</li>
                 <li>Ruby</li>
-                <li>SQL</li>
-                <li>Perl</li>
                 <li>Bash/Batch</li>
                 <li>Objective C</li>
+            </ul>
+            <ul class='tech-skills'>
+                <li>Databases</li>
+                <li>MySQL</li>
+                <li>MS SQL</li>
+                <li>Oracle</li>
+                <li>SQLite</li>
+                <li>NoSQL (MongoDB)</li>
+                <li>Firebase</li>
+                <li>Normalization</li>
             </ul>
             <ul class='tech-skills'>
                 <li>Markup Languages/Protocols</li>
@@ -81,7 +89,7 @@ weight: 30
                 <li>Kali Linux</li>
                 <li>Wireshark</li>
                 <li>Vulnerability Scanning</li>
-                <li>Network Scanning</li>
+                <li>Enumeration</li>
                 <li>Footprinting</li>
             </ul>
         </article>
@@ -94,11 +102,11 @@ weight: 30
             <ul class='smaller'>
                 <li>Developed and maintained web and mobile applications using HTML, JavaScript, PHP, C#, Objective C, and other languages.</li>
                 <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
-                <li>Worked with department heads to build web applications that pull information from other systems to provide a more usable interface.</li>
                 <li>Designed and developed email templates for use with bill notifications.</li>
-                <li>Redesigned and developed intranet site to support the latest web standards.</li>
-                <li>Administered and supported corporate Windows and Linux servers.</li>
-                <li>Worked with various technologies as the need arose including: SCADA, Oracle, SAP, WordPress, Microsoft SQL, Microsoft SQL Server, among many others.</li>
+                <li>Worked with department heads to build web applications that pull information from other systems to provide more usable interfaces.</li>
+                <li>Designed and developed intranet site to support the latest web standards.</li>
+                <li>Created web layouts using design tools such as Sketch.</li>
+                <li>Worked with various other technologies as needed including: WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, SCADA, and SAP.</li>
             </ul>
 
             <h4>Freelancing Development</h4>
@@ -107,16 +115,16 @@ weight: 30
                 <li>Performed freelance work supporting individuals on their websites.</li>
                 <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
                 <li>Installed and maintained WordPress installations.</li>
-                <li>Creates web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
-                <li>Formats images using PhotoShop and implements them using the appropriate web standards.</li>
+                <li>Created web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
+                <li>Designed and edited web mockups using PhotoShop.</li>
             </ul>
 
             <h4>Developer</h4>
             <h5>ASI Software &amp; Web Solutions, Hoover, AL (Nov. 2009 – June 2010)</h5>
             <ul class='smaller'>
-                <li>Worked with clients to identify back-end issues with PHP code correct them.</li>
+                <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
                 <li>Used PhotoShop mockups to create CSS/HTML layouts.</li>
-                <li>Identified and correct bugs in CSS code.</li>
+                <li>Identified and correct bugs in HTML/CSS code.</li>
                 <li>Implemented JavaScript solutions to web problems.</li>
             </ul>
 
@@ -124,7 +132,7 @@ weight: 30
             <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
             <ul class='smaller'>
                 <li>Maintained the college website via XHTML, CSS, and a content management system (MODX).</li>
-                <li>Developed athletic pages for each athletic department and email templates for the athletic director.</li>
+                <li>Developed web pages for each athletic department and email templates for the athletic director.</li>
                 <li>Corrected ASP.NET and C# code to insure correct functioning of the school website.</li>
             </ul>
 
@@ -150,32 +158,58 @@ weight: 30
 
         <article>
             <h3>Certification</h3>
+            <p>More information about each certification is listed on on my <a href='/certifications'>certification</a> page.</p>
             <ul class='smaller'>
-                <li>CompTIA Security+</li>
-                <li>Zend Certified PHP Engineer</li>
-                <li>Certified Ethical Hacker</li>
-                <li>CompTIA Network+</li>
-                <li>CIW Web Development Professional</li>
-                <li>CIW Perl Specialist</li>
-                <li>CIW JavaScript Specialist</li>
-                <li>CIW Database Design Specialist</li>
-                <li>Linux Professional Institute LPIC-1</li>
-                <li>CompTIA Linux+</li>
-                <li>CompTIA A+</li>
+                <li><a href='#security'>CompTIA Security+</a></li>
+                <li><a href='#ceh'>Certified Ethical Hacker</a></li>
+                <li><a href='#pce'>Zend Certified PHP Engineer</a></li>
+                <li><a href='#network'>CompTIA Network+</a></li>
+                <li><a href='#professional'>CIW Web Development Professional</a></li>
+                <li><a href='#database'>CIW Database Design Specialist</a></li>
+                <li><a href='#perl'>CIW Perl Specialist</a></li>
+                <li><a href='#javascript'>CIW JavaScript Specialist</a></li>
+                <li><a href='#linux'>CompTIA Linux+</a></li>
+                <li><a href='#lpci'>LPCI-1</a></li>
+                <li><a href='#aplus'>CompTIA A+</a></li>
             </ul>
-            <p>I have listed more details about each one of these certifications on my <a href='/certifications'>certification</a> page.</p>
         </article>
 
         <article>
             <h3>Work and Personal Projects</h3>
-            <p>I have listed more details about each one of these projects on the <a href='/projects'>projects</a> page.</p>
+            <p>I have listed more details about each one of these projects on my <a href='/projects'>projects</a> page.</p>
             <ul class='smaller'>
-                <li>Laravel Note/URL System: PHP, Laravel, PostgreSQL (2017)</li>
-                <li>Web Best Practices Template: HTML, CSS, JavaScript (2016)</li>
-                <li>Note Taking System: Python, Flask, SQLite (2014)</li>
-                <li>Ticketing System: PHP, MySQL, HTML, CSS, JavaScript (2010)</li>
-                <li>Ticketing System: C#, MSSQL, ASP.NET, CSS, JavaScript (2010)</li>
-                <li>Blogging System: PHP, MySQL, HTML, CSS, JavaScript (Summer 2008)</li>
+                <li>
+                    <a href='/projects/#note_url_system'>Note/URL System</a>
+                    <span>(PHP, Laravel, PostgreSQL - 2017)</span>
+                </li>
+                <li>
+                    <a href='/projects/#note_system_flask'>Note Taking System</a>
+                    <span>(Python, Flask, SQLite - 2014)</span>
+                </li>
+                <li>
+                    <a href='joshayoung'>Joshayoung Website</a>
+                    <span>(HTML, CSS, JavaScript - 2012)</span>
+                </li>
+                <li>
+                    <a href='codeitcreations'>Code It Creation Website</a>
+                    <span>(HTML, CSS, JavaScript - 2011)</span>
+                </li>
+                <li>
+                    <a href='/projects/#ticket_system_alt'>Ticketing System v2</a>
+                    <span>(C#, MSSQL, ASP.NET, CSS, JavaScript - 2010)</span>
+                </li>
+                <li>
+                    <a href='/projects/#ticketing_system'>Ticketing System v1</a>
+                    <span>(PHP, MySQL, HTML, CSS, JavaScript - 2010)</span>
+                </li>
+                <li>
+                    <a href='commentsandcapers'>Comments and Capers Website</a>
+                    <span>(HTML, CSS, JavaScript - 2009)</span>
+                </li>
+                <li>
+                    <a href='/projects/#blogging_system'>Blogging System</a>
+                    <span>(PHP, MySQL, HTML, CSS, JavaScript - Summer 2008)</span>
+                </li>
             </ul>
         </article>
     </div><!-- inner-section -->

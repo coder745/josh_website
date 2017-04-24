@@ -11,7 +11,7 @@ weight: 20
         <h2>My Certifications</h2>
         <article>
             <p>Below I have included a list of certifications that I have attained over the past few years.
-            Many of these certs required passing more than one test. Here I have included a short summary of each certification along with a link to a better explanation of each one.</p>
+            Many of these certs required passing more than one test. I have included a short summary of each certification along with a link to a better explanation of each one.</p>
             <ul>
                 <li><a href='#security'>CompTIA Security+</a></li>
                 <li><a href='#ceh'>Certified Ethical Hacker</a></li>
@@ -44,7 +44,7 @@ weight: 20
         <article>
             <a name='pce'></a>
             <h3>Zend Certified PHP Engineer (ZCPE)</h3>
-            <p>The Zend Certified PHP Engineer certification required exhaustive knowledge of the PHP language. Many of the areas that were tested included: functions, arrays, object oriented programming, security, strings, program logic error detection, debugging, etc.</p>
+            <p>The Zend Certified PHP Engineer certification required exhaustive knowledge of the PHP language. Many of the areas that were tested included: functions, arrays, object oriented programming, security, strings, program logic, error detection, debugging, etc.</p>
             <a href='https://www.zend.com/en/yellow-pages/ZEND024785'>Josh Young - ZCPE</a><br />
             <a href='https://www.zend.com/en/services/certification/php-certification'>About Certification</a>
         </article>
@@ -59,7 +59,7 @@ weight: 20
         <article>
             <a name='professional'></a>
             <h3>CIW Web Development Professional</h3>
-            <p>The CIW Web Development certification was award as a result of achieving the following certifications: CIW JavaScript Specialist, CIW Perl Specialist, CIW Database Design Specialist.</p>
+            <p>The CIW Web Development certification was awarded as a result of achieving the following certifications: CIW JavaScript Specialist, CIW Perl Specialist, and CIW Database Design Specialist.</p>
             <a href='http://www.ciwcertified.com/certifications/Web_Development_Series/development.php'>About Certification</a>
         </article>
 
@@ -73,7 +73,7 @@ weight: 20
         <article>
             <a name='perl'></a>
             <h3>CIW Perl Specialist</h3>
-            <p>The CIW Perl Specialist certification required knowledge in the following areas of the Perl language: Perl interpreter, loops, regular expressions, hashes, subroutines, reading/writing data, modules, object oriented programming techniques, database interaction, debugging, etc.</p>
+            <p>The CIW Perl Specialist certification required knowledge in the following areas of the Perl language: loops, regular expressions, the interpreter, hashes, subroutines, reading/writing data, modules, object oriented programming techniques, database interaction, debugging, etc.</p>
             <a href='http://www.ciwcertified.com/Certifications/Web_Development_Series/perl.php'>About Certification</a>
         </article>
 
@@ -81,14 +81,14 @@ weight: 20
             <a name='javascript'></a>
             <h3>CIW JavaScript Specialist</h3>
             <p>The CIW JavaScript Specialist certification covered the JavaScript language
-            including: topics such as program flow, debugging, validation, DOM manipulation, libraries, AJAX, JavaScript security, libraries, etc.</p>
+            including topics such as: program flow, debugging, validation, DOM manipulation, libraries, AJAX, JavaScript security, libraries, etc.</p>
             <a href='http://www.ciwcertified.com/Certifications/Web_Development_Series/javascript.php'>About Certification</a>
         </article>
 
         <article>
             <a name='linux'></a>
             <h3>CompTIA Linux+</h3>
-            <p>The CompTIA Linux+ certification required a very thorough knowledge of Linux. Here are just a few of the knowledge areas: file systems, run levels, package management, file management, process manipulation, command line regular expressions, scripting, security, shells, network configuration, scheduled task configuration.</p>
+            <p>The CompTIA Linux+ certification required a very thorough knowledge of Linux. Here are just a few of the knowledge areas: file systems, run levels, package management, file management, process manipulation, command line regular expressions, scripting, security, shells, network configuration, and scheduled task configuration.</p>
             <a href='https://certification.comptia.org/certifications/linux'>About Certification</a>
         </article>
 
@@ -102,7 +102,7 @@ weight: 20
         <article>
             <a name='aplus'></a>
             <h3>CompTIA A+</h3>
-            <p>The CompTIA A+ certification was an extensive coverage of computer hardware and required knowledge in many areas including: BIOS configuration, motherboards, RAM, installation and configuration of computers and peripherals, network cable types, TCP/IP, TCP/UDP ports, networking tools, and troubleshooting.</p>
+            <p>The CompTIA A+ certification required knowledge in many areas of computer hardware including: BIOS configuration, motherboards, RAM, installation and configuration of computers and peripherals, network cable types, TCP/IP, TCP/UDP ports, networking tools, and troubleshooting.</p>
             <a href='https://certification.comptia.org/certifications/a'>About Certification</a>
         </article>
     </div><!-- inner-section -->

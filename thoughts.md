@@ -10,8 +10,7 @@ weight: 10
     <div class='inner-section'>
         <h2 class='thought'>Thoughts</h2>
         <article class='thought'>
-            <p>Here I document things that I am learning or have recently discovered related to web development and programming. Many times these posts are very short, as I am not a prolific blogger. However, hopefully something I list here will be helpful to anyone who is viewing my site.</p>
-            <p>I have list my top five posts here. If you want to see all of my posts, check out the complete list <a href='/all'>here</a>.</p>
+            <p>Here I document concise posts about things I am learning or have recently discovered related to web development and programming. Many times these entries are very short, as I am not a prolific blogger. However, hopefully something I list here will be helpful to others.</p>
         </article>
         {% for post in site.posts limit:5 %}
             <article>
