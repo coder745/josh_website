@@ -1,43 +1,8 @@
 [
     {
-        "title": "CSS Resources",
+        "title": "CSS",
         "class": "css_resources",
         "data": [
-            {
-                "title" : "Colour Lovers",
-                "url": "http://www.colourlovers.com",
-                "display": true
-            },
-            {
-                "title" : "Git Cheat Sheet",
-                "url": "https://gist.github.com/hofmannsven/6814451",
-                "display": true
-            },
-            {
-                "title" : "Isotope",
-                "url": "http://isotope.metafizzy.co",
-                "display": true
-            },
-            {
-                "title" : "Formalize",
-                "url": "https://formalize.me",
-                "display": true
-            },
-            {
-                "title" : "What Is My Screen Resolution",
-                "url": "http://www.whatismyscreenresolution.com",
-                "display": true
-            },
-            {
-                "title" : "PlaceHold.it",
-                "url": "https://placehold.it",
-                "display": true
-            },
-            {
-                "title": "Performance Budget Calculator",
-                "url": "http://www.performancebudget.io",
-                "display": true
-            },
             {
                 "title": "Ceaser CSS Easing Animation Tool",
                 "url": "https://matthewlein.com/ceaser",
@@ -51,22 +16,33 @@
         ]
     },
     {
-        "title": "HTML Resources",
-        "class": "html_resources",
+        "title": "Compatibility",
+        "class": "compatibility_resources",
         "data": [
             {
-                "title": "HTML5 Please",
-                "url": "http://html5please.com",
-                "display": true
-            },
-            {
-                "title": "Subtle Patterns",
-                "url": "https://www.toptal.com/designers/subtlepatterns",
+                "title": "Compatibility Overview",
+                "url": "https://www.quirksmode.org/compatibility.html",
                 "display": true
             },
             {
                 "title": "Can I Use",
                 "url": "https://caniuse.com",
+                "display": true
+            },
+            {
+                "title": "Mobile",
+                "url": "https://www.quirksmode.org/mobile",
+                "display": true
+            }
+        ]
+    },
+    {
+        "title": "Performance",
+        "class": "performance_resources",
+        "data": [
+            {
+                "title": "Performance Budget Calculator",
+                "url": "http://www.performancebudget.io",
                 "display": true
             },
             {
@@ -77,23 +53,90 @@
         ]
     },
     {
-        "title": "Programming Resources",
+        "title": "HTML",
+        "class": "html_resources",
+        "data": [
+            {
+                "title": "HTML5 Please",
+                "url": "http://html5please.com",
+                "display": true
+            },
+            {
+                "title" : "What Is My Screen Resolution",
+                "url": "http://www.whatismyscreenresolution.com",
+                "display": true
+            },
+            {
+                "title" : "PlaceHold.it",
+                "url": "https://placehold.it",
+                "display": true
+            },
+            {
+                "title" : "Formalize",
+                "url": "https://formalize.me",
+                "display": true
+            }
+        ]
+    },
+    {
+        "title": "Programming",
         "class": "programming_resources",
         "data": [
             {
                 "title": "RegExr",
                 "url": "http://regexr.com",
                 "display": true
+            },
+            {
+                "title" : "Git Cheat Sheet",
+                "url": "https://gist.github.com/hofmannsven/6814451",
+                "display": true
+            },
+            {
+                "title": "PHP Manual",
+                "url": "https://secure.php.net/manual/en",
+                "display": true
             }
         ]
     },
     {
-        "title": "JavaScript Resources",
+        "title": "Design",
+        "class": "design_resources",
+        "data": [
+            {
+                "title" : "Colour Lovers",
+                "url": "http://www.colourlovers.com",
+                "display": true
+            },
+            {
+                "title": "Subtle Patterns",
+                "url": "https://www.toptal.com/designers/subtlepatterns",
+                "display": true
+            },
+            {
+                "title" : "Kuler",
+                "url": "https://color.adobe.com/create/color-wheel",
+                "display": true
+            }
+        ]
+    },
+    {
+        "title": "JavaScript",
         "class": "javascript_resources",
         "data": [
             {
                 "title": "You Might Not Need jQuery",
                 "url": "http://youmightnotneedjquery.com",
+                "display": true
+            },
+            {
+                "title": "jQAPI",
+                "url": "http://jqapi.com",
+                "display": true
+            },
+            {
+                "title": "JSFiddle",
+                "url": "https://jsfiddle.net",
                 "display": true
             }
         ]
@@ -143,6 +186,16 @@
                 "title": "A11Y Project",
                 "url": "http://a11yproject.com",
                 "display": true
+            },
+            {
+                "title": "WAIA11Y Project",
+                "url": "https://www.w3.org/WAI",
+                "display": true
+            },
+            {
+                "title": "Web Accessibility Resources",
+                "url": "https://marcysutton.com/web-accessibility-resources",
+                "display": true
             }
         ]
     },
@@ -156,7 +209,6 @@
                 "display": true
             }
         ]
-
     },
     {
         "title": "News",
@@ -181,6 +233,11 @@
             {
                 "title": "Microsoft Documentation",
                 "url": "https://docs.microsoft.com/en-us",
+                "display": true
+            },
+            {
+                "title": "MDN",
+                "url": "https://developer.mozilla.org/en-US",
                 "display": true
             },
             {

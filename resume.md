@@ -110,7 +110,7 @@ weight: 30
             </ul>
 
             <h4>Freelancing Development</h4>
-            <h5>Web Developer/Designer August 2009 - September 2011</h5>
+            <h5>Web Developer/Designer (2009 - 2011)</h5>
             <ul class='smaller'>
                 <li>Performed freelance work supporting individuals on their websites.</li>
                 <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
@@ -120,7 +120,7 @@ weight: 30
             </ul>
 
             <h4>Developer</h4>
-            <h5>ASI Software &amp; Web Solutions, Hoover, AL (Nov. 2009 – June 2010)</h5>
+            <h5>ASI Software &amp; Web Solutions, Hoover, AL (November 2009 – August 2010)</h5>
             <ul class='smaller'>
                 <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
                 <li>Used PhotoShop mockups to create CSS/HTML layouts.</li>
@@ -160,17 +160,17 @@ weight: 30
             <h3>Certification</h3>
             <p>More information about each certification is listed on on my <a href='/certifications'>certification</a> page.</p>
             <ul class='smaller'>
-                <li><a href='#security'>CompTIA Security+</a></li>
-                <li><a href='#ceh'>Certified Ethical Hacker</a></li>
-                <li><a href='#pce'>Zend Certified PHP Engineer</a></li>
-                <li><a href='#network'>CompTIA Network+</a></li>
-                <li><a href='#professional'>CIW Web Development Professional</a></li>
-                <li><a href='#database'>CIW Database Design Specialist</a></li>
-                <li><a href='#perl'>CIW Perl Specialist</a></li>
-                <li><a href='#javascript'>CIW JavaScript Specialist</a></li>
-                <li><a href='#linux'>CompTIA Linux+</a></li>
-                <li><a href='#lpci'>LPCI-1</a></li>
-                <li><a href='#aplus'>CompTIA A+</a></li>
+                <li><a href='/certifications/#security'>CompTIA Security+</a></li>
+                <li><a href='/certifications/#ceh'>Certified Ethical Hacker</a></li>
+                <li><a href='/certifications/#pce'>Zend Certified PHP Engineer</a></li>
+                <li><a href='/certifications/#network'>CompTIA Network+</a></li>
+                <li><a href='/certifications/#professional'>CIW Web Development Professional</a></li>
+                <li><a href='certificications/#database'>CIW Database Design Specialist</a></li>
+                <li><a href='/certifications/#perl'>CIW Perl Specialist</a></li>
+                <li><a href='/certifications/#javascript'>CIW JavaScript Specialist</a></li>
+                <li><a href='/certifications/#linux'>CompTIA Linux+</a></li>
+                <li><a href='/certifications/#lpci'>LPCI-1</a></li>
+                <li><a href='/certifications/#aplus'>CompTIA A+</a></li>
             </ul>
         </article>
 
@@ -187,15 +187,15 @@ weight: 30
                     <span>(Python, Flask, SQLite - 2014)</span>
                 </li>
                 <li>
-                    <a href='joshayoung'>Joshayoung Website</a>
+                    <a href='/projects/#joshayoung'>Joshayoung Website</a>
                     <span>(HTML, CSS, JavaScript - 2012)</span>
                 </li>
                 <li>
-                    <a href='codeitcreations'>Code It Creation Website</a>
+                    <a href='/projects/#codeitcreations'>Code It Creation Website</a>
                     <span>(HTML, CSS, JavaScript - 2011)</span>
                 </li>
                 <li>
-                    <a href='/projects/#ticket_system_alt'>Ticketing System v2</a>
+                    <a href='/projects/#ticketing_system_alt'>Ticketing System v2</a>
                     <span>(C#, MSSQL, ASP.NET, CSS, JavaScript - 2010)</span>
                 </li>
                 <li>
@@ -203,7 +203,7 @@ weight: 30
                     <span>(PHP, MySQL, HTML, CSS, JavaScript - 2010)</span>
                 </li>
                 <li>
-                    <a href='commentsandcapers'>Comments and Capers Website</a>
+                    <a href='/projects/#commentsandcapers'>Comments and Capers Website</a>
                     <span>(HTML, CSS, JavaScript - 2009)</span>
                 </li>
                 <li>

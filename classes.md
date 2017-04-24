@@ -3,7 +3,7 @@ layout: defaults
 title: Classes
 description: Classess that Josh Young has taken including a short summary of each class.
 permalink: /classes
-weight: 25
+weight: 26
 ---
 
 <section>

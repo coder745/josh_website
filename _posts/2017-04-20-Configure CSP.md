@@ -11,7 +11,7 @@ After recently learning about Content Security Policy (CSP), I decided to implem
 
 <!--more-->
 
-If you have more control over your site hosting, you should be able to setup CSP by configuring the header values that are sent with each request. Since I host this site on GitHub pages, I am unable to specify header values. For these types of situations, you can specify CSP values with a `meta` tag on your site. Below, I have displayed the CSP that I used on this site, as of the writing of this post.
+If you have more control over your site's hosting, you should be able to setup CSP by configuring the header values that are sent with each request. Since I host this site on GitHub pages, I am unable to specify header values. For these types of situations, you can set CSP values with a `meta` tag on your site. Below, I have displayed the CSP that I used on this site, as of the writing of this post.
 
 ```html
 
@@ -27,9 +27,9 @@ connect-src 'self'">
 
 ```
 
-As you can see, I am defaulting to allow nothing to load that is not specified via the `default-src 'none'` declaration. Then I am allowing images to load from localhost by using the `self` keyword. On the `script-src`, I decided to keep one declaration incline. To allow this to work I had to include that script's sha256 hash in the `script-src` list. I had to specify other scripts that are loading styles and fonts and also allow local `XHRHttpRequests` via the `content-src 'self'` tag.
+As you can see, by default I am allowing nothing to load that is not specified via the `default-src 'none'` declaration. Then I am allowing images to load from the local site by using the `self` keyword. I decided to keep two declarations inline. To allow this to work, I had to include that script's sha256 hash in the `script-src` list. I also had to list other scripts that are loading styles and fonts as well. To allow local `XHRHttpRequests`, I used the `content-src 'self'` tag.
 
-If you decide to implement CSP on your site, here are a few helpful resources that I used:
+If you decide to implement Content Security Policy on your site, here are a few helpful resources that I used:
 
 * [Implementing Content Security Policy](https://hacks.mozilla.org/2016/02/implementing-content-security-policy)
 * [Content Security Policy Cheat Sheet](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)

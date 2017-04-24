@@ -2,7 +2,7 @@
 layout: defaults
 title: Projects
 permalink: /projects
-weight: 26
+weight: 25
 ---
 
 <section>
@@ -10,15 +10,15 @@ weight: 26
         <h2>Development Projects</h2>
         <article>
             <ul>
-                <li><a href='#note_url_system'>Note/URL System (2017):</a></li>
-                <li><a href='#joshyoung'>Joshyoung.me Website (2016):</a></li>
-                <li><a href='#note_system_flask'>Note Taking System (2014):</a></li>
-                <li><a href='#joshayoung'>Joshayoung Website (2012):</a></li>
-                <li><a href='#codeitcreations'>Code It Creation Website (2011):</a></li>
-                <li><a href='#ticketing_system_alt'>Ticketing System v2 (2010):</a></li>
-                <li><a href='#ticketing_system'>Ticketing System v1 (2010):</a></li>
-                <li><a href='#commentsandcapers'>Comments and Capers Website (2009):</a></li>
-                <li><a href='#blogging_system'>Blogging System (2008):</a></li>
+                <li><a href='#note_url_system'>Note/URL System (2017)</a></li>
+                <li><a href='#joshyoung'>Joshyoung.me Website (2016)</a></li>
+                <li><a href='#note_system_flask'>Note Taking System (2014)</a></li>
+                <li><a href='#joshayoung'>Joshayoung Website (2012)</a></li>
+                <li><a href='#codeitcreations'>Code It Creation Website (2011)</a></li>
+                <li><a href='#ticketing_system_alt'>Ticketing System v2 (2010)</a></li>
+                <li><a href='#ticketing_system'>Ticketing System v1 (2010)</a></li>
+                <li><a href='#commentsandcapers'>Comments and Capers Website (2009)</a></li>
+                <li><a href='#blogging_system'>Blogging System (2008)</a></li>
             </ul>
         </article>
 
@@ -61,7 +61,7 @@ weight: 26
 
         <article>
             <a name='ticketing_system_alt'></a>
-            <h3>Ticketing System v2: (2010)</h3>
+            <h3>Ticketing System v2 (2010)</h3>
             <h4>C#, MSSQL, ASP.NET, CSS, JavaScript</h4>
             <p>This project was exactly identical to the project listed below. However, I decided to re-write it in C#/ASP.NET. By doing this, I was able to better learn the Microsoft development stack. I was also able to interact with the Microsoft SQL Server, which has come in handy during subsequent development tasks.</p>
         </article>
