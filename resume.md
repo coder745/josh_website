@@ -9,9 +9,109 @@ weight: 30
 <section>
     <div class='inner-section'>
         <h2>My Resume</h2>
+
         <article>
             <h3>Experienced - Full Stack Web Developer</h3>
             <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and other related technologies. Desires a long-term position, conducive to professional growth and advancement.</p>
+        </article>
+
+        <article class='professional-experience'>
+            <h3>Professional Experience</h3>
+            <h4>Systems Analyst (Web Developer)</h4>
+            <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
+            <ul class='smaller'>
+                <li>Developed and maintained web and mobile applications using HTML, JavaScript, PHP, C#, Objective C, and other languages.</li>
+                <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
+                <li>Designed and developed email templates for use with bill notifications.</li>
+                <li>Worked with department heads to build web applications that pull information from other systems to provide more usable interfaces.</li>
+                <li>Designed and developed intranet site to support the latest web standards.</li>
+                <li>Created web layouts using design tools such as Sketch.</li>
+                <li>Worked with various other technologies as needed including: WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, SCADA, and SAP.</li>
+            </ul>
+
+            <h4>Freelancing Development</h4>
+            <h5>Web Developer/Designer (2009 - 2011)</h5>
+            <ul class='smaller'>
+                <li>Performed freelance work supporting individuals on their websites.</li>
+                <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
+                <li>Installed and maintained WordPress installations.</li>
+                <li>Created web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
+                <li>Designed and edited web mockups using PhotoShop.</li>
+            </ul>
+
+            <h4>Developer</h4>
+            <h5>ASI Software &amp; Web Solutions, Hoover, AL (November 2009 – August 2010)</h5>
+            <ul class='smaller'>
+                <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
+                <li>Used PhotoShop mockups to create CSS/HTML layouts.</li>
+                <li>Identified and correct bugs in HTML/CSS code.</li>
+                <li>Implemented JavaScript solutions to web problems.</li>
+            </ul>
+
+            <h4>Web Intern</h4>
+            <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
+            <ul class='smaller'>
+                <li>Maintained the college website via XHTML, CSS, and a content management system (MODX).</li>
+                <li>Developed web pages for each athletic department and email templates for the athletic director.</li>
+                <li>Corrected ASP.NET and C# code to insure correct functioning of the school website.</li>
+            </ul>
+
+            <h4>Ledford Research Project (PHP Blogging System)</h4>
+            <h5>Student Researcher/Developer - Birmingham AL (Summer 2008)</h5>
+            <ul class='smaller'>
+                <li>Set-up Linux server for hosting website content and MySQL database.</li>
+                <li>Developed website design using HTML and CSS.</li>
+                <li>Used PHP scripting language to interact with website content and MySQL database.</li>
+                <li>Implemented secure PHP practices and MySQL database schema.</li>
+                <li>Arranged results of research into down-loadable content for placement on website.</li>
+            </ul>
+
+            <h4>IT Internship (Development Work)</h4>
+            <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
+            <ul class='smaller'>
+                <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports.</li>
+                <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment.</li>
+                <li>Remoted into client's computers to set up software and troubleshoot technical problems.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Work and Personal Projects</h3>
+            <p>I have listed more details about each one of these projects on my <a href='/projects'>projects</a> page.</p>
+            <ul class='smaller'>
+                <li>
+                    <a href='/projects/#note_url_system'>Note/URL System</a>
+                    <span>(PHP, Laravel, PostgreSQL - 2017)</span>
+                </li>
+                <li>
+                    <a href='/projects/#note_system_flask'>Note Taking System</a>
+                    <span>(Python, Flask, SQLite - 2014)</span>
+                </li>
+                <li>
+                    <a href='/projects/#joshayoung'>Joshayoung Website</a>
+                    <span>(HTML, CSS, JavaScript - 2012)</span>
+                </li>
+                <li>
+                    <a href='/projects/#codeitcreations'>Code It Creation Website</a>
+                    <span>(HTML, CSS, JavaScript - 2011)</span>
+                </li>
+                <li>
+                    <a href='/projects/#ticketing_system_alt'>Ticketing System v2</a>
+                    <span>(C#, MSSQL, ASP.NET, CSS, JavaScript - 2010)</span>
+                </li>
+                <li>
+                    <a href='/projects/#ticketing_system'>Ticketing System v1</a>
+                    <span>(PHP, MySQL, HTML, CSS, JavaScript - 2010)</span>
+                </li>
+                <li>
+                    <a href='/projects/#commentsandcapers'>Comments and Capers Website</a>
+                    <span>(HTML, CSS, JavaScript - 2009)</span>
+                </li>
+                <li>
+                    <a href='/projects/#blogging_system'>Blogging System</a>
+                    <span>(PHP, MySQL, HTML, CSS, JavaScript - Summer 2008)</span>
+                </li>
+            </ul>
         </article>
 
         <article>
@@ -19,6 +119,24 @@ weight: 30
             <h4>Bryan College, Dayton Tennessee (2006 - 2009)</h4>
             <h5><strong>Bachelor of Science, Computer Science</strong></h5>
             <p class='small'>(Also see my continuing education under my <a href='/classes'>classes</a> page.)</p>
+        </article>
+
+        <article>
+            <h3>Certification</h3>
+            <p>More information about each certification is listed on on my <a href='/certifications'>certification</a> page.</p>
+            <ul class='smaller'>
+                <li><a href='/certifications/#security'>CompTIA Security+</a></li>
+                <li><a href='/certifications/#ceh'>Certified Ethical Hacker</a></li>
+                <li><a href='/certifications/#pce'>Zend Certified PHP Engineer</a></li>
+                <li><a href='/certifications/#network'>CompTIA Network+</a></li>
+                <li><a href='/certifications/#professional'>CIW Web Development Professional</a></li>
+                <li><a href='certificications/#database'>CIW Database Design Specialist</a></li>
+                <li><a href='/certifications/#perl'>CIW Perl Specialist</a></li>
+                <li><a href='/certifications/#javascript'>CIW JavaScript Specialist</a></li>
+                <li><a href='/certifications/#linux'>CompTIA Linux+</a></li>
+                <li><a href='/certifications/#lpci'>LPCI-1</a></li>
+                <li><a href='/certifications/#aplus'>CompTIA A+</a></li>
+            </ul>
         </article>
 
         <article>
@@ -94,123 +212,5 @@ weight: 30
             </ul>
         </article>
 
-        <article class='professional-experience'>
-
-            <h3>Professional Experience</h3>
-            <h4>Systems Analyst (Web Developer)</h4>
-            <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
-            <ul class='smaller'>
-                <li>Developed and maintained web and mobile applications using HTML, JavaScript, PHP, C#, Objective C, and other languages.</li>
-                <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
-                <li>Designed and developed email templates for use with bill notifications.</li>
-                <li>Worked with department heads to build web applications that pull information from other systems to provide more usable interfaces.</li>
-                <li>Designed and developed intranet site to support the latest web standards.</li>
-                <li>Created web layouts using design tools such as Sketch.</li>
-                <li>Worked with various other technologies as needed including: WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, SCADA, and SAP.</li>
-            </ul>
-
-            <h4>Freelancing Development</h4>
-            <h5>Web Developer/Designer (2009 - 2011)</h5>
-            <ul class='smaller'>
-                <li>Performed freelance work supporting individuals on their websites.</li>
-                <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
-                <li>Installed and maintained WordPress installations.</li>
-                <li>Created web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
-                <li>Designed and edited web mockups using PhotoShop.</li>
-            </ul>
-
-            <h4>Developer</h4>
-            <h5>ASI Software &amp; Web Solutions, Hoover, AL (November 2009 – August 2010)</h5>
-            <ul class='smaller'>
-                <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
-                <li>Used PhotoShop mockups to create CSS/HTML layouts.</li>
-                <li>Identified and correct bugs in HTML/CSS code.</li>
-                <li>Implemented JavaScript solutions to web problems.</li>
-            </ul>
-
-            <h4>Web Intern</h4>
-            <h5>IT Department Bryan College - Dayton, TN (2007 – 2009)</h5>
-            <ul class='smaller'>
-                <li>Maintained the college website via XHTML, CSS, and a content management system (MODX).</li>
-                <li>Developed web pages for each athletic department and email templates for the athletic director.</li>
-                <li>Corrected ASP.NET and C# code to insure correct functioning of the school website.</li>
-            </ul>
-
-            <h4>Ledford Research Project (PHP Blogging System)</h4>
-            <h5>Student Researcher/Developer - Birmingham AL (Summer 2008)</h5>
-            <ul class='smaller'>
-                <li>Set-up Linux server for hosting website content and MySQL database.</li>
-                <li>Developed website design using HTML and CSS.</li>
-                <li>Used PHP scripting language to interact with website content and MySQL database.</li>
-                <li>Implemented secure PHP practices and MySQL database schema.</li>
-                <li>Arranged results of research into down-loadable content for placement on website.</li>
-            </ul>
-
-            <h4>IT Internship (Development Work)</h4>
-            <h5>APAC Mid-South - Birmingham, AL (Summer 2008)</h5>
-            <ul class='smaller'>
-                <li>Interacted with Microsoft SharePoint and SQL Server to formulate SQL reports.</li>
-                <li>Worked with ASP.NET, HTML, and CSS within a Windows Server 2003 environment.</li>
-                <li>Remoted into client's computers to set up software and troubleshoot technical problems.</li>
-            </ul>
-
-        </article>
-
-        <article>
-            <h3>Certification</h3>
-            <p>More information about each certification is listed on on my <a href='/certifications'>certification</a> page.</p>
-            <ul class='smaller'>
-                <li><a href='/certifications/#security'>CompTIA Security+</a></li>
-                <li><a href='/certifications/#ceh'>Certified Ethical Hacker</a></li>
-                <li><a href='/certifications/#pce'>Zend Certified PHP Engineer</a></li>
-                <li><a href='/certifications/#network'>CompTIA Network+</a></li>
-                <li><a href='/certifications/#professional'>CIW Web Development Professional</a></li>
-                <li><a href='certificications/#database'>CIW Database Design Specialist</a></li>
-                <li><a href='/certifications/#perl'>CIW Perl Specialist</a></li>
-                <li><a href='/certifications/#javascript'>CIW JavaScript Specialist</a></li>
-                <li><a href='/certifications/#linux'>CompTIA Linux+</a></li>
-                <li><a href='/certifications/#lpci'>LPCI-1</a></li>
-                <li><a href='/certifications/#aplus'>CompTIA A+</a></li>
-            </ul>
-        </article>
-
-        <article>
-            <h3>Work and Personal Projects</h3>
-            <p>I have listed more details about each one of these projects on my <a href='/projects'>projects</a> page.</p>
-            <ul class='smaller'>
-                <li>
-                    <a href='/projects/#note_url_system'>Note/URL System</a>
-                    <span>(PHP, Laravel, PostgreSQL - 2017)</span>
-                </li>
-                <li>
-                    <a href='/projects/#note_system_flask'>Note Taking System</a>
-                    <span>(Python, Flask, SQLite - 2014)</span>
-                </li>
-                <li>
-                    <a href='/projects/#joshayoung'>Joshayoung Website</a>
-                    <span>(HTML, CSS, JavaScript - 2012)</span>
-                </li>
-                <li>
-                    <a href='/projects/#codeitcreations'>Code It Creation Website</a>
-                    <span>(HTML, CSS, JavaScript - 2011)</span>
-                </li>
-                <li>
-                    <a href='/projects/#ticketing_system_alt'>Ticketing System v2</a>
-                    <span>(C#, MSSQL, ASP.NET, CSS, JavaScript - 2010)</span>
-                </li>
-                <li>
-                    <a href='/projects/#ticketing_system'>Ticketing System v1</a>
-                    <span>(PHP, MySQL, HTML, CSS, JavaScript - 2010)</span>
-                </li>
-                <li>
-                    <a href='/projects/#commentsandcapers'>Comments and Capers Website</a>
-                    <span>(HTML, CSS, JavaScript - 2009)</span>
-                </li>
-                <li>
-                    <a href='/projects/#blogging_system'>Blogging System</a>
-                    <span>(PHP, MySQL, HTML, CSS, JavaScript - Summer 2008)</span>
-                </li>
-            </ul>
-        </article>
     </div><!-- inner-section -->
 </section>
