@@ -20,30 +20,31 @@ weight: 30
             <h4>Systems Analyst (Web Developer)</h4>
             <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
             <ul class='smaller'>
-                <li>Developed and maintained web and mobile applications using HTML, JavaScript, PHP, C#, Objective C, and other languages.</li>
+                <li>Developed web and mobile applications using HTML, JavaScript, PHP, ASP.NET, and C#.</li>
+                <li>Develop and maintain mobile applications using Objective C and Xcode.</li>
                 <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
-                <li>Designed and developed email templates for use with bill notifications.</li>
-                <li>Worked with department heads to build web applications that pull information from other systems to provide more usable interfaces.</li>
+                <li>Designed and developed email templates for use in company communication.</li>
+                <li>Build applications to group disparate information into more more professional web interfaces.</li>
                 <li>Designed and developed intranet site to support the latest web standards.</li>
                 <li>Created web layouts using design tools such as Sketch.</li>
-                <li>Worked with various other technologies as needed including: WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, SCADA, and SAP.</li>
+                <li>Worked with various other technologies including: React, Laravel, Concrete5, WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, SCADA, and SAP.</li>
             </ul>
 
             <h4>Freelancing Development</h4>
             <h5>Web Developer/Designer (2009 - 2011)</h5>
             <ul class='smaller'>
-                <li>Performed freelance work supporting individuals on their websites.</li>
+                <li>Performed freelance work supporting individual websites.</li>
                 <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
                 <li>Installed and maintained WordPress installations.</li>
                 <li>Created web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
-                <li>Designed and edited web mockups using PhotoShop.</li>
+                <li>Designed and edited web mockups using Adobe Photoshop.</li>
             </ul>
 
             <h4>Developer</h4>
             <h5>ASI Software &amp; Web Solutions, Hoover, AL (November 2009 – August 2010)</h5>
             <ul class='smaller'>
                 <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
-                <li>Used PhotoShop mockups to create CSS/HTML layouts.</li>
+                <li>Sliced Adobe Photoshop mockups to create CSS/HTML layouts.</li>
                 <li>Identified and correct bugs in HTML/CSS code.</li>
                 <li>Implemented JavaScript solutions to web problems.</li>
             </ul>
@@ -57,13 +58,13 @@ weight: 30
             </ul>
 
             <h4>Ledford Research Project (PHP Blogging System)</h4>
-            <h5>Student Researcher/Developer - Birmingham AL (Summer 2008)</h5>
+            <h5>Student Researcher/Developer - Birmingham, AL (Summer 2008)</h5>
             <ul class='smaller'>
                 <li>Set-up Linux server for hosting website content and MySQL database.</li>
                 <li>Developed website design using HTML and CSS.</li>
                 <li>Used PHP scripting language to interact with website content and MySQL database.</li>
                 <li>Implemented secure PHP practices and MySQL database schema.</li>
-                <li>Arranged results of research into down-loadable content for placement on website.</li>
+                <li>Arranged results of research into downloadable content for placement on website.</li>
             </ul>
 
             <h4>IT Internship (Development Work)</h4>
@@ -118,6 +119,7 @@ weight: 30
             <h3>Education</h3>
             <h4>Bryan College, Dayton Tennessee (2006 - 2009)</h4>
             <h5><strong>Bachelor of Science, Computer Science</strong></h5>
+            <h6>Minor: Business Administration</h6>
             <p class='small'>(Also see my continuing education under my <a href='/classes'>classes</a> page.)</p>
         </article>
 

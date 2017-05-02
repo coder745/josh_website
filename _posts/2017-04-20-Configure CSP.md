@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 tags: Security CSP
 ---
 
-After recently learning about Content Security Policy (CSP), I decided to implement it on this site. For the uninitiated, CSP is essentually a way to lock down which scripts, styles, images, etc. are allowed to run on your site. This was implemented in an effort to prevent security issues such as Cross Site Scripting (XSS) attacks. 
+After recently learning about Content Security Policy (CSP), I decided to implement it on this site. For the uninitiated, CSP is essentually a way to lock down which scripts, styles, images, etc are allowed to run on your site. This was implemented in an effort to prevent security issues such as Cross Site Scripting (XSS) attacks. 
 
 <!--more-->
 

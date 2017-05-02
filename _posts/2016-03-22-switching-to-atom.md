@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 tags: Atom Vim
 ---
 
-I recently made the switch to Atom from Sublime Text 2. My first thoughts are that the Vim support is much better. Over the years I have bounced around between a few different development environments, but Atom is by far the best so far.
+I recently made the switch to Atom from Sublime Text 2. My first thoughts are that the Vim support is much better. Over the years, I have tried a few different code editors, but Atom is by far the best.
 
 <!--more-->
 
@@ -17,6 +17,6 @@ I have found the following plugins useful:
 * ex-mode
 * color-picker
 * relative-numbers
-* git-plug
+* git-plus
 * git-time-machine
 * todo-show

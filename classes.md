@@ -10,10 +10,10 @@ weight: 26
     <div class='inner-section'>
         <h2>Classes I've Taken</h2>
         <article>
-            <p>In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed classes (both classroom and online) that I have completed over the years.</p>
+            <p>In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed courses (both classroom and online) that I have completed over the years.</p>
             <ul class='anchor-list'>
                 <li><a href='#laracastsclasses'>Laracast Courses</a></li>
-                <li><a href='#reactclass'>React for Beginners</a></li>
+                <li><a href='#wesbos'>Wes Bos Classes</a></li>
                 <li><a href='#treehouse'>Tree House Classes</a></li>
                 <li><a href='#pluralsight'>PluralSight Courses</a></li>
                 <li><a href='#codeschool'>Code School Classes</a></li>
@@ -21,7 +21,7 @@ weight: 26
                 <li><a href='#kali'>Penetration Testing with Kali Linux</a></li>
                 <li><a href='#securityplus'>Security+ Certification Class</a></li>
                 <li><a href='#ceh'>CEH - Ethical Hacking and Countermeasures</a></li>
-                <li><a href='#unified'>Unified Threat Management Introduction Course (pfSense)</a></li>
+                <li><a href='#unified'>Unified Threat Management Introduction Course</a></li>
                 <li><a href='#linuxsteelpivot3'>Linux Administration 310 - Service Configuration, Management, and LAMP Servers</a></li>
                 <li><a href='#linuxsteelpivot2'>Linux Administration 210 - System and Network Management</a></li>
                 <li><a href='#linuxsteelpivot1'>Linux Administration 110 - System Installation and Configuration</a></li>
@@ -39,10 +39,13 @@ weight: 26
         </article>
 
         <article>
-            <a name='reactclass'></a>
-            <h3>React for Beginners</h3>
-            <p>This was a great class by Wes Boss and a great introduction to the React framework.</p>
-            <a href='https://reactforbeginners.com/'>React for Beginners</a>
+            <a name='wesbos'></a>
+            <h3>Wes Bos Classes</h3>
+            <p>Wes Bos delivers some excellent content at his <a href='http://wesbos.com/courses/'>website</a>. His classes have a web front-end focus and include topics such as: React, Redux, JavaScript, and CSS.</p>
+            <ul>
+                <li><a href='https://learnredux.com'>Learn Redux</a></li>
+                <li><a href='https://reactforbeginners.com'>React for Beginners</a></li>
+            </ul>
         </article>
 
         <article>
@@ -99,21 +102,21 @@ weight: 26
         <article>
             <a name='kali'></a>
             <h3>Penetration Testing with Kali Linux</h3>
-            <p>I took this class in preparation for Offensive Security's certification exam (OSCP). Unfortunately, I did not pass my first exam attempt and have not had time to re-test. After speaking with a few individuals who passed the exam, it seems that no one passes it on their first attempt anyway. For me it was a great way to learn more about security and many different security techniques that relate to web development. For these reasons, the class time alone was extremely informative!</p>
+            <p>I took this class in preparation for Offensive Security's certification exam (<a href='https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/'>OSCP</a>). Unfortunately, I did not pass my first exam attempt and have not had time to re-test. After speaking with a few individuals who passed the exam, it seems that no one passes it on their first attempt anyway. For me it was a great way to learn more about security and many different security techniques that relate to web development. For these reasons, the class time alone was extremely beneficial!</p>
             <a href='https://www.offensive-security.com/information-security-training/penetration-testing-training-kali-linux/'>Penetration Testing with Kali Linux</a>
         </article>
 
         <article>
             <a name='securityplus'></a>
             <h3>CompTIA Security+ Certification Training</h3>
-            <p>In preparation for the Security+ certification, I took this class covering the fundamentals on the CompTIA Security+ certification exam. This class was offered as a night class by the University of Alabama in Huntsville (UAH).</p>
+            <p>In preparation for the Security+ certification, I took this class covering the fundamentals on the CompTIA Security+ certification exam. This class was offered as a night course by the University of Alabama in Huntsville (UAH).</p>
             <a href='http://www.uah.edu/'>University of Alabama in Huntsville</a>
         </article>
 
         <article>
             <a name='ceh'></a>
             <h3>CEH - Ethical Hacking and Countermeasures</h3>
-            <p>In preparation for the CEH certification, I took this class to teach me the fundamentals of ethical hacking. The training was offered by Dynetics in Huntsville, AL. I do not have a direct link to a description of the training; however, I have included a link to Dynetics below along with more information about the CEH certification.</p>
+            <p>In preparation for the CEH certification, I took this class covering the fundamentals of ethical hacking. The training was offered by Dynetics in Huntsville, AL. I do not have a direct link to a description of the training; however, I have included a link to Dynetics below along with more information about the CEH certification.</p>
             <a href='http://www.dynetics.com/services/space/training'>Dynetics</a><br />
             <a href='https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/'>About CEH</a>
         </article>

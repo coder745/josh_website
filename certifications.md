@@ -30,14 +30,14 @@ weight: 20
         <article>
             <a name='security'></a>
             <h3>CompTIA Security+</h3>
-            <p>The CompTIA Security+ certification addressed many IT security subjects such as: cryptography, network security, compliance, threats, access control, etc. This was a very good introduction to security subjects as they related to computers and networks.</p>
+            <p>The CompTIA Security+ certification addressed many IT security subjects such as: cryptography, network security, compliance, threats, access control, etc. This was a very good introduction to security subjects as they relate to computers and networks.</p>
             <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
         </article>
 
         <article>
             <a name='ceh'></a>
             <h3>Certified Ethical Hacker (CEH)</h3>
-            <p>The Certified Ethical Hacker certification covered many areas of computer security including: footprinting, scanning, enumeration, penetration, SQL injection, etc. By gaining a better understanding of the tactics use by ethical hackers, I acquired valuable information to facilitate building better defenses and more secure web applications.</p>
+            <p>The Certified Ethical Hacker certification covered many areas of computer security including: footprinting, scanning, enumeration, penetration testing, SQL injection, etc. By gaining a better understanding of the tactics use by ethical hackers, I acquired valuable information to facilitate building better defenses and more secure web applications.</p>
             <a href='https://www.eccouncil.org/Certification/certified-ethical-hacker'>About Certification</a>
         </article>
 
@@ -52,14 +52,14 @@ weight: 20
         <article>
             <a name='network'></a>
             <h3>CompTIA Network+</h3>
-            <p>The CompTIA Network+ certification required knowledge in many network related areas. Here are a few of these areas: routing, network topologies, virtualization, network segmentation, switch port security, user authentication, firewalls, network access control, etc.</p>
+            <p>The CompTIA Network+ certification required knowledge in many network related areas. Here are a few of the subjects covered: routing, network topologies, virtualization, network segmentation, switch port security, user authentication, firewalls, network access control, etc.</p>
             <a href='https://certification.comptia.org/certifications/network'>About Certification</a>
         </article>
 
         <article>
             <a name='professional'></a>
             <h3>CIW Web Development Professional</h3>
-            <p>The CIW Web Development certification was awarded as a result of achieving the following certifications: CIW JavaScript Specialist, CIW Perl Specialist, and CIW Database Design Specialist.</p>
+            <p>The CIW Web Development Professional certification was awarded as a result of achieving the following certifications: CIW JavaScript Specialist, CIW Perl Specialist, and CIW Database Design Specialist.</p>
             <a href='http://www.ciwcertified.com/certifications/Web_Development_Series/development.php'>About Certification</a>
         </article>
 
