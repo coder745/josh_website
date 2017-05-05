@@ -71,6 +71,7 @@ h2 {
 h1 {
     font-size: 35px;
     font-size: pxToRem(35px);
+    font-size: 35px;
 }
 
 h3 {
@@ -174,6 +175,7 @@ header a {
 .wrap {
     min-height: 100%;
     @include redb();
+    max-width: 1400px; 
 }
 
 .border {
@@ -196,6 +198,7 @@ header a {
     margin: 0 auto;
     width: 90%;
     height: $top_margin;
+    min-height: $top_margin;
     h1 {
         margin: pxToRem(7px) 0 pxToRem(6px) 0;
         &:hover {
@@ -204,6 +207,7 @@ header a {
     }
     div {
         font: pxToRem(11px) Georgia;
+        font: 11px Georgia;
         color: #000;
         &:hover {
             color: $light_blue;
@@ -477,6 +481,7 @@ a.scroll_top {
     display: block;
     float: right;
     margin: pxToRem(10px) pxToRem(20px) 0 0;
+    margin: 10px pxToRem(20px) 0 0;
     &:hover {
         background: $dark_green;
     }
@@ -484,12 +489,14 @@ a.scroll_top {
 
 footer {
     height: pxToRem(40px);
+    height: 40px;
     font-size: pxToRem(13px);
     text-align: right;
     background: #e8e8e8;
     border-top: 1px solid #98db81;
     border-right: 4px $dark_green solid;
     padding: pxToRem(13px) pxToRem(10px) pxToRem(13px) 0;
+    padding: 13px pxToRem(10px) 13px 0;
     margin-top: ($space_between + 15);
 }
 
@@ -580,6 +587,7 @@ footer {
     ul.social {
         display: block;
         height: pxToRem(40px);
+        height: 40px;
         background: #FdFdFd;
         border-top: 1px solid #98db81;
         li {
@@ -674,9 +682,72 @@ footer {
     }
 }
 
-@media (min-width: pxToRem(1700px)) {
-    .inner-section {
-        max-width: 1500px;
+@media (min-width: pxToRem(1400px)) {
+    .logo {
+        height: 108px;
     }
-    .wrap { max-width: 3500px; }
+    aside.left-aside {
+        margin-top: 108px;
+    }
+    section,
+    aside.right-aside {
+        margin-top: 108px;
+    }
+    nav {
+        margin-bottom: -148px;
+    }
+}
+@media (min-width: pxToRem(2000px)) {
+    .logo {
+        height: 150px;
+    }
+    aside.left-aside {
+        margin-top: 150px;
+    }
+    section,
+    aside.right-aside {
+        margin-top: 150px;
+    }
+    /* was not repositioning correctly on very large screen sizes, maybe because of rem based margin or padding */
+    nav {
+        margin-bottom: -191px;
+    }
+}
+@media (min-width: pxToRem(2500px)) {
+    .wrap {
+        min-width: 2200px;
+    }
+}
+@media (min-width: pxToRem(3000px)) {
+    .logo {
+        height: 200px;
+    }
+    aside.left-aside {
+        margin-top: 200px;
+    }
+    section,
+    aside.right-aside {
+        margin-top: 200px;
+    }
+    /* was not repositioning correctly on very large screen sizes, maybe because of rem based margin or padding */
+    nav {
+        margin-bottom: -260px;
+    }
+    footer {
+        height: 60px;
+    }
+    .social {
+        height: 60px;
+    }
+}
+@media (min-width: pxToRem(4000px)) {
+    nav {
+        margin-bottom: -280px;
+    }
+    footer {
+        height: 80px;
+    }
+    .social {
+        height: 80px;
+    }
 }
