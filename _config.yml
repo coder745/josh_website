@@ -3,7 +3,7 @@ description: Josh Young's site about web development, blog, and personal project
 permalink: /:year/:title/
 url: joshyoung.me
 linkedin_url: https://www.linkedin.com/in/joshuayoung1
-github_url: https://github.com/coder745
+github_url: https://github.com/joshayoung
 codepen_url: 
 sitemap: 
     exclude: 
