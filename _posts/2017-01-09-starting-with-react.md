@@ -11,4 +11,6 @@ I have always loved JavaScript. In fact, it is probably my favorite language. On
 
 <!--more-->
 
-They all have their pluses and minuses, but it seems that React gives you the most flexibility to use other systems for the back-end. After all, React is just a view. I have started taking Wes Bos' course on React and found it very helpful. I plan to integrate React into some of my existing and new projects at work.
+They all have their pluses and minuses, but it seems that React gives you the most flexibility to use other systems for the back-end. After all, React is just a view. I have started taking Wes Bos' course on [React][1] and found it very helpful. I plan to integrate React into some of my existing and new projects at work.
+
+[1]: https://reactforbeginners.com

@@ -46,6 +46,7 @@ weight: 26
                 <li><a href='https://flexbox.io'>What The Flexbox?!</a></li>
                 <li><a href='https://learnredux.com'>Learn Redux</a></li>
                 <li><a href='https://reactforbeginners.com'>React for Beginners</a></li>
+                <li><a href='https://masteringmarkdown.com'>Mastering Markdown</a></li>
             </ul>
         </article>
 

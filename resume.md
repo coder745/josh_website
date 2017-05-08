@@ -195,6 +195,7 @@ weight: 30
                 <li>Markup Languages/Protocols</li>
                 <li>HTTP(S)</li>
                 <li>XHTML/HTML5</li>
+                <li>Markdown</li>
                 <li>CSS</li>
                 <li>XML</li>
                 <li>SVG</li>
