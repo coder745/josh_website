@@ -2,45 +2,8 @@
 ---
 
 @import 'normalize';
-
-$dark_blue: #3862e0;
-$light_blue: #4f74e3;
-$light_green: #98D881;
-$dark_green: #267F54;
-$imp_color: rgb(255, 111, 62);
-$html_font_size: 15px;
-$space_between: 30px;
-$top_margin: 100px;
-
-@function pxToRem($px) {
-  $rem_size: $px / $html_font_size;
-  @return #{$rem_size}rem;
-}
-
-@mixin redb() {
-    //border: 1px solid red;
-}
-
-@mixin fontSize($s) {
-  font-size: $s;
-  font-size: pxToRem($s);
-}
-
-@mixin boxstyle() {
-    background: rgba(253, 253, 253, 0.7);
-    position: relative;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
-    padding: pxToRem(20px);
-}
-
-@mixin datestyle() {
-    font-style: italic;
-    font-size: pxToRem(12px);
-    &:before {
-        content: '- ';
-    }
-}
+@import 'variables';
+@import 'mixins';
 
 .hide { display: none !important; }
 
@@ -71,8 +34,6 @@ h2 {
 }
 
 h1 {
-    font-size: 35px;
-    font-size: pxToRem(35px);
     font-size: 35px;
 }
 
@@ -149,11 +110,14 @@ body {
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin: 0;
-    background: #F8F8F8;
-    background-image: url('../img/bac.png'), url('../img/circle.png'), /* Background pattern from subtlepatterns.com */
-    url('../img/concrete_seamless.png');
-    background-repeat: repeat-y, repeat, repeat;
-    background-position: top right, 105px 10px, bottom right;
+    background: {
+        color: #F8F8F8;
+        image: url('../img/bac.png'), url('../img/circle.png'), 
+               //Background pattern from subtlepatterns.com
+               url('../img/concrete_seamless.png');
+        repeat: repeat-y, repeat, repeat;
+        position: top right, 105px 10px, bottom right;
+    }
 }
 
 #go_to_content {
@@ -190,8 +154,10 @@ header a {
 }
 
 .logo {
-    text-align: center;
-    text-shadow: 1px 1px 1px #ccc;
+    text: {
+        align: center;
+        shadow: 1px 1px 1px #ccc;
+    }
     position: relative;
     box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
     background: #f8f8f8;
@@ -607,19 +573,16 @@ footer {
             width: pxToRem(15px);
             height:pxToRem(15px);
             position: relative;
-        }
-        a.codepen {
-            background: url(../img/codepen.svg) no-repeat;
-            top: 2px;
-        }
-        a.linkedin {
-            background: url(../img/linkedin.svg) no-repeat;
-        }
-        a.github {
-            background: url(../img/git.svg) no-repeat;
-            top: 2px;
+            svg {
+                width: 15px;
+                height: 15px;
+            }
         }
     }
+    .codepen { top: 2px; }
+    .linkedin { }
+    .github { top: 1px; }
+
     #search_results {
         float: left;
         .inner-search {
@@ -654,7 +617,8 @@ footer {
             margin-right: -(pxToRem(200px));
         }
     }
-    /* Circle */
+
+    //Circle
     section.home article:after,
     section.thoughts article:after {
         content: '';
@@ -675,7 +639,8 @@ footer {
     section.thoughts article.thought:after {
         display: none;
     }
-    /* end Circle */
+    //end Circle
+
     aside.right-aside {
         float: right;
         margin-top: $top_margin;

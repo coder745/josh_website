@@ -1,0 +1,24 @@
+@function pxToRem($px) {
+  $rem_size: $px / $html_font_size;
+  @return #{$rem_size}rem;
+}
+
+@mixin redb() {
+    //border: 1px solid red;
+}
+
+@mixin boxstyle() {
+    background: rgba(253, 253, 253, 0.7);
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
+    padding: pxToRem(20px);
+}
+
+@mixin datestyle() {
+    font-style: italic;
+    font-size: pxToRem(12px);
+    &:before {
+        content: '- ';
+    }
+}
