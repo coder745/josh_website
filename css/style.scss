@@ -247,6 +247,7 @@ nav {
         text-decoration: none;
         transition: all 0.4s ease-in-out;
         &:hover {
+            cursor: pointer;
             transform: scale(1.07);
         }
         &.active {
@@ -735,4 +736,10 @@ footer {
     .social {
         height: 80px;
     }
+}
+
+#search_results {
+    margin-left: 200px;
+    margin-top: 100px;
+    border: solid 1px red;
 }
