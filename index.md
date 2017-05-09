@@ -16,10 +16,10 @@ weight: 0
         </article>
 
         {% if page.title == 'Home' %}
-            <article class='glance alt'>
+            <article class='glance'>
                 {% include glance.html %}
             </article>
-            <article class='alt'>
+            <article class='tags'>
                 {% include tags.html %}
             </article>
         {% endif %}

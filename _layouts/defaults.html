@@ -7,7 +7,6 @@
                     <fieldset>
                         <legend>Site Search</legend>
                         <input placeholder='Search Blog' type='search' id='search_box' value='' />
-                        <!--<input type='submit' value='Search' />-->
                     </fieldset>
                 </form>
                 <div class='inner'>
@@ -30,10 +29,10 @@
                 </div><!-- inner -->
 
                 {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
-                    <div class='inner'>
+                    <div class='inner tags'>
                         {% include tags.html %}
                     </div><!-- inner -->
-                    <div class='inner'>
+                    <div class='inner glance'>
                         {% include glance.html %}
                     </div><!-- inner -->
                 {% endif %}
