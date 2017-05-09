@@ -1,4 +1,4 @@
 The SVG images in this folder were optimized with the node 'svgo' command below:
-svgo --pretty git.svg git_optimized.svg
+svgo --pretty [filename] [optimized filename]
 
-I Moved them into this folder and then took the code from these files and implemented into the html page via Inline SVG Sprites.
+I moved them into this folder and then took the code from these files and implemented it into the html page.

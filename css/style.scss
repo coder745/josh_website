@@ -579,9 +579,23 @@ footer {
             }
         }
     }
-    .codepen { top: 2px; }
-    .linkedin { }
-    .github { top: 1px; }
+    .codepen { 
+        top: 2px; 
+        svg {
+            fill: lighten($dark_green, 5);
+        }
+    }
+    .linkedin { 
+        svg {
+            fill: lighten($dark_green, 6);
+        }
+    }
+    .github { 
+        top: 1px; 
+        svg {
+            fill: lighten($dark_green, 7);
+        }
+    }
 
     #search_results {
         float: left;
