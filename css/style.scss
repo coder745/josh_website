@@ -245,6 +245,10 @@ nav {
         display: inline-block;
         padding: pxToRem(10px);
         text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+            transform: scale(1.07);
+        }
         &.active {
             background: $light_green;
             color: #fff;
@@ -542,10 +546,12 @@ footer {
             &:nth-child(odd) {
                 background: $light_green;
             }
+            /*
             span:before {
                 content: ' -- ';
                 font-style: italic;
             }
+            */
         }
         &.active:hover {
             background: $light_green;
