@@ -1,3 +1,14 @@
+var scroll_site_top = function() {
+    window.scrollTo(0,0);
+};
+
+var go_to_top = document.getElementById('go_to_top');
+go_to_top.href = '#0';
+
+go_to_top.onclick = function() {
+    scroll_site_top();
+}
+
 //Adopted from: http://kushagragour.in/blog/2015/06/search-in-jekyll-blog/
 
 var xmlhttp=new XMLHttpRequest();
@@ -64,8 +75,16 @@ function onInputChange(e) {
 		}
 	});
 
-	document.querySelector('#search_results').innerHTML = matchingPosts.map(function (post) {
-		date = new Date(post.pubDate);
-		return '' + post.title + '' + date.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '';
-	}).join('');
+    var search_input = document.querySelector('#search_results');
+    search_input.className = 'show';
+
+    if (matchingPosts.length > 0) {
+        search_input.innerHTML = matchingPosts.map(function (post) {
+            date = new Date(post.pubDate);
+            return '<a href="' + post.url + '">' + post.title + '</a> - ' + date.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '';
+        }).join('');
+    } else {
+        search_input.innerHTML = 'No Results Found.';
+    }
+    scroll_site_top();
 }
