@@ -214,6 +214,65 @@ aside {
         h3 {
             margin-bottom: pxToRem(15px);
         }
+        &.glance {
+            background: none;
+            border: none;
+            box-shadow: none;
+            padding: 0;
+            clear: both;
+            h3 {
+                background: lighten($dark_green, 10);
+                color: #fff;
+               padding: 5px 0 5px 20px;
+            }
+            li:before {
+                content: '';
+            }
+            a {
+                display: block;
+                float: left;
+                padding: 4px;
+                margin: 0 4px;
+                min-width: 130px;
+            }
+        }
+        &.tags {
+            background: none;
+            border: none;
+            box-shadow: none;
+            padding: 0;
+            h3 {
+                background: $dark_green;
+                border-bottom: none;
+                padding: 5px 0 5px 20px;
+                color: #fff;
+                padding-left: 20px;
+            }
+            li:before {
+                content: '';
+            }
+            li:nth-child(odd) {
+                a {
+                    background: $light_green;
+                    &:hover {
+                        background: #000;
+                    }
+                }
+            }
+            a {
+                float: left;
+                padding: 4px;
+                background: $dark_green;
+                text-decoration:none;
+                color: #fff;
+                font-size: 12px;
+                border-radius: 2px;
+                margin: 2px;
+                &:hover {
+                    background: #000;
+                }
+            }
+        }
     }
     ul {
         list-style-type: none;
@@ -290,6 +349,81 @@ section.thoughts {
         @include boxstyle();
         &:hover {
             background: rgba(253, 253, 253, 0.4);
+        }
+        &.glance {
+            padding: 0;
+            background: none;
+            border: none;
+            box-shadow: none;
+            h3 {
+                background: lighten($dark_green, 10);
+                color: #fff;
+                margin-left: 0;
+                padding-left: 20px;
+                border-bottom: none;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+            }
+            li {
+                float: left;
+            }
+            a {
+                display: block;
+                padding: 1px 4px;
+                margin: 1px 10px;
+                text-decoration: none;
+                border-bottom: solid 1px lighten($dark_green, 10);
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            &:after {
+                display: none;
+            }
+        }
+        &.tags {
+            background: none;
+            border: none;
+            box-shadow: none;
+            padding: 0;
+            &:after {
+                display: none;
+            }
+            h3 {
+                border-bottom: none;
+                background: #4d4d4d;
+                color: #fff;
+                padding-left: 20px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+            }
+            li {
+                &:nth-child(odd) a {
+                    background: lighten($dark_green, 20);
+                    &:hover {
+                        background: #000;
+                    }
+                }
+            }
+            a {
+                float: left;
+                text-decoration: none;
+                margin: 4px;
+                background: $dark_green;
+                padding: 0 5px;
+                border-radius: 2px;
+                color: #fff;
+                &:hover {
+                    background: #000;
+                }
+            }
+        }
+        &:after {
+            display: none;
         }
     }
 }
@@ -378,6 +512,7 @@ ul.tech-skills {
 
 form.inner {
     margin-top: 0;
+    display: none;
     fieldset {
         border: none;
         width: 100%;
@@ -559,7 +694,7 @@ footer {
     }
     aside.right-aside {
         margin-left: pxToRem(200px);
-        float: left;
+        margin-top: 0;
     }
 }
 
