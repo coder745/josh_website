@@ -120,6 +120,93 @@ body {
     }
 }
 
+#start_search {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    height: 50px;
+    background: url('../img/magnifier-tool_2.png') center center no-repeat;
+}
+
+#main_content {
+    position: relative;
+    border: solid 1px red;
+}
+#nav_search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../img/magnifier-tool_2.png') center center no-repeat;
+}
+
+#search {
+    position: absolute;
+    top: 0px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 100px;
+    display: none;
+}
+
+form.inner {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border: solid 1px blue;
+    margin-top: -100px;
+    margin-right: -100px;
+    fieldset { 
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+    legend { 
+        display: none;
+    }
+    input[type='text'],
+    input[type='search'] { 
+        border: none;
+        font-size: 40px;
+        height: 100px;
+        display: block;
+        border: 0;
+        text-align: center;
+        width: 100%;
+        &:focus {
+            border: none;
+        }
+    }
+}
+
+.close-form {
+    margin-top: -100px;
+    float: left;
+    width: 100px;
+    background: red;
+    height: 100px;
+    background: #000 url('../img/delete.png') center center no-repeat;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#search_results {
+}
+#search_results div {
+    clear: both;
+    background: #fff;
+    padding: 10px;
+    color: #000;
+    width: 100%;
+    margin: 10px 0;
+}
+
 #go_to_content {
     padding: 1rem;
     position: absolute;
@@ -510,30 +597,6 @@ ul.tech-skills {
     margin-top: $space_between;
 }
 
-form.inner {
-    margin-top: 0;
-    display: none;
-    fieldset {
-        border: none;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    legend {
-        display: none;
-    }
-    input[type='text'],
-    input[type='search'] {
-        width: 100%;
-        padding: pxToRem(10px);
-        float: left;
-        background: rgba(253, 253, 253, 0.7);
-        border: 1px solid #ccc;
-        &:focus {
-            background: #f2f2f2;
-        }
-    }
-}
 
 a.scroll_top {
     background: $light_green;
@@ -578,6 +641,16 @@ footer {
     header {
         position: fixed;
     }
+
+    #start_search {
+        width: 50px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 50px;
+        background: url('../img/magnifier-tool.png') center center no-repeat;
+    }
+
     .logo {
         box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
         border-right: 1px solid #bbb;
@@ -688,9 +761,6 @@ footer {
         h2 {
             font-size: pxToRem(35px);
         }
-    }
-    form.inner {
-        border-bottom: 3px solid $dark_green;
     }
     aside.right-aside {
         margin-left: pxToRem(200px);

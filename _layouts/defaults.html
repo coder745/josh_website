@@ -1,14 +1,8 @@
         {% include header.html %}
         <main id='main_content' role='main'>
-            <div id='search_results'></div>
+            <a id='nav_search' onclick='showsearch()' href='#'></a>
             {{ content }}
             <aside class='right-aside'>
-                <form role='search' class='inner' action='' id='site_search' method='get'>
-                    <fieldset>
-                        <legend>Site Search</legend>
-                        <input placeholder='Search Blog' type='search' id='search_box' value='' />
-                    </fieldset>
-                </form>
 
                 {% if page.title == 'Home' %}
                     <div class='inner'>
