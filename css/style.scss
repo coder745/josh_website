@@ -127,11 +127,13 @@ body {
     right: 10px;
     height: 50px;
     background: url('../img/magnifier-tool_2.png') center center no-repeat;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 #main_content {
     position: relative;
-    border: solid 1px red;
 }
 #nav_search {
     position: absolute;
@@ -141,15 +143,15 @@ body {
 }
 
 #search {
-    position: absolute;
-    top: 0px;
-    background: #000;
+    background: rgba(50, 166, 110, 0.97);
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
     margin-top: 100px;
     display: none;
 }
@@ -157,7 +159,6 @@ body {
 form.inner {
     float: left;
     width: 100%;
-    background: #fff;
     border: solid 1px blue;
     margin-top: -100px;
     margin-right: -100px;
@@ -178,6 +179,7 @@ form.inner {
         border: 0;
         text-align: center;
         width: 100%;
+        background: rgba(255, 255, 255, 0.957);
         &:focus {
             border: none;
         }
@@ -188,16 +190,15 @@ form.inner {
     margin-top: -100px;
     float: left;
     width: 100px;
-    background: red;
     height: 100px;
-    background: #000 url('../img/delete.png') center center no-repeat;
+    background: #4d4d4f url('../img/delete.png') center center no-repeat;
+    background: rgba(77, 77, 79, 0.957) url('../img/delete.png') center center no-repeat;
     &:hover {
         cursor: pointer;
+        background: #666666 url('../img/delete.png') center center no-repeat;
     }
 }
 
-#search_results {
-}
 #search_results div {
     clear: both;
     background: #fff;
@@ -640,6 +641,7 @@ footer {
 @media (min-width: pxToRem(768px)) {
     header {
         position: fixed;
+        z-index: 2;
     }
 
     #start_search {
@@ -647,8 +649,12 @@ footer {
         position: absolute;
         top: 10px;
         right: 10px;
+        z-index: 1;
         height: 50px;
         background: url('../img/magnifier-tool.png') center center no-repeat;
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     .logo {
@@ -658,6 +664,7 @@ footer {
     }
     aside.left-aside {
         position: fixed;
+        z-index: 2;
         background: #f9f9f9;
         width: pxToRem(200px);
         height: 100%;

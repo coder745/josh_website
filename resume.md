@@ -27,7 +27,7 @@ weight: 30
                 <li>Build applications to group disparate information into more more professional web interfaces.</li>
                 <li>Designed and developed intranet site to support the latest web standards.</li>
                 <li>Created web layouts using design tools such as Sketch.</li>
-                <li>Worked with various other technologies including: React, Laravel, Concrete5, WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, SCADA, and SAP.</li>
+                <li>Worked with various other technologies including: React, Laravel, Concrete5, WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, CodeIgniter, SCADA, and SAP.</li>
             </ul>
 
             <h4>Freelancing Development</h4>

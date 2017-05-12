@@ -1,6 +1,15 @@
 var scroll_site_top = function() {
-    window.scrollTo(0,0);
+	scrollUpSlowly();
 };
+
+function scrollUpSlowly() {
+	if (window.scrollY !== 0) {
+		setTimeout(function() {
+			window.scrollTo(0, (window.scrollY - 30));
+			scrollUpSlowly();
+		}, 30)
+	}
+}
 
 document.getElementById('start_search').onclick = function() {
 	document.getElementById('search').style.display = 'block';

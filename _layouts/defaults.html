@@ -23,6 +23,12 @@
                     </div><!-- inner -->
                 {% endif %}
 
+                {% if page.layout == 'portfolio_entry' %}
+                    <div class='inner tags'>
+                        {% include tags.html %}
+                    </div><!-- inner -->
+                {% endif %}
+
                 <div class='inner'>
                     <h3>Latest Posts</h3>
                     <ul>
@@ -32,7 +38,7 @@
                     </ul>
                 </div><!-- inner -->
 
-                {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
+                {% if page.title != 'Home' and page.layout != 'portfolio_entry' and page.title != 'Tags' %}
                     <div class='inner tags'>
                         {% include tags.html %}
                     </div><!-- inner -->
