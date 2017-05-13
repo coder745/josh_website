@@ -103,5 +103,4 @@ function onInputChange(e) {
     } else {
         search_input.innerHTML = '<div>No Results Found.</div>';
     }
-    scroll_site_top();
 }

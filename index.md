@@ -6,7 +6,7 @@ weight: 0
 ---
 <section class='home'>
     <div class='inner-section'>
-        <article>
+        <article class='landing'>
             <h2>
             My name is <span><a href='/me'>Josh</a></span>. I am a Web Developer. Here I write 
             about web development and my current tech projects. Check out my <a href='/thoughts'>Blog</a> 

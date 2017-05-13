@@ -50,6 +50,9 @@ a {
     &:link {
         color: #000;
     }
+    .landing &:link {
+        color: $dark_green;
+    }
     &:visited {
         color: $dark_green;
     }
@@ -129,11 +132,14 @@ body {
         cursor: pointer;
         svg {
             fill: $dark_green;
+            transform: rotate(90deg);
         }
     }
     svg {
         width: 20px;
         height: 20px;
+        fill: #8c8c8c;
+        transition: all 0.5s ease-in-out;
     }
 }
 
@@ -185,14 +191,19 @@ body {
     float: left;
     background: rgba(77, 77, 79, 0.957);
     svg {
-        width: 60px;
-        height: 60px;
-        margin: 20px auto;
+        width: 50px;
+        height: 50px;
+        margin: 30px auto;
         display: block;
+        fill: #fff;
+        transition: all 0.5s ease-in-out;
     }
     &:hover {
         background-color: $dark_green;
         cursor: pointer;
+        svg {
+            transform: rotate(90deg);
+        }
     }
 }
 
@@ -350,9 +361,9 @@ aside {
             }
             li:nth-child(odd) {
                 a {
-                    background: $light_green;
+                    background: lighten($dark_green, 15);
                     &:hover {
-                        background: #000;
+                        background: #262626;
                     }
                 }
             }
@@ -366,7 +377,7 @@ aside {
                 border-radius: 2px;
                 margin: 2px;
                 &:hover {
-                    background: #000;
+                    background: #262626;
                 }
             }
         }
@@ -500,9 +511,9 @@ section.thoughts {
             }
             li {
                 &:nth-child(odd) a {
-                    background: lighten($dark_green, 20);
+                    background: lighten($dark_green, 15);
                     &:hover {
-                        background: #000;
+                        background: #262626;
                     }
                 }
             }
@@ -515,7 +526,7 @@ section.thoughts {
                 border-radius: 2px;
                 color: #fff;
                 &:hover {
-                    background: #000;
+                    background: #262626;
                 }
             }
         }
@@ -609,7 +620,7 @@ ul.tech-skills {
 
 
 a.scroll_top {
-    background: $light_green;
+    background: $dark_green;
     padding: pxToRem(5px);
     color: #fff;
     width: pxToRem(70px);
@@ -619,7 +630,7 @@ a.scroll_top {
     margin: pxToRem(10px) pxToRem(20px) 0 0;
     margin: 10px pxToRem(20px) 0 0;
     &:hover {
-        background: $dark_green;
+        background: lighten($dark_green, 10);
     }
 }
 
@@ -711,12 +722,6 @@ footer {
             &:nth-child(odd) {
                 background: $light_green;
             }
-            /*
-            span:before {
-                content: ' -- ';
-                font-style: italic;
-            }
-            */
         }
         &.active:hover {
             background: $light_green;
@@ -753,7 +758,7 @@ footer {
     .codepen { 
         top: 2px; 
         svg {
-            fill: lighten($dark_green, 5);
+            fill: $dark_green;
         }
     }
     .linkedin { 
