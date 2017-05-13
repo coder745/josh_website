@@ -1,4 +1,6 @@
 The SVG images in this folder were optimized with the node 'svgo' command below:
 svgo --pretty [filename] [optimized filename]
 
+example: svgo --pretty img/git.svg img/optimized/git_optimized.svg
+
 I moved them into this folder and then took the code from these files and implemented it into the html page.
