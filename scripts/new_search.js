@@ -11,12 +11,12 @@ function scrollUpSlowly() {
 	}
 }
 
-document.getElementById('start_search').onclick = function() {
-	document.getElementById('search').style.display = 'block';
+document.getElementById('open_search').onclick = function() {
+	document.getElementById('search_cont').className = 'search_area open';
 }
 
 document.getElementById('close_search').onclick = function() {
-	document.getElementById('search').style.display = 'none';
+	document.getElementById('search_cont').className = 'search_area close';
 }
 
 var go_to_top = document.getElementById('go_to_top');
