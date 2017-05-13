@@ -82,7 +82,6 @@ weight: 40
             Icons made by <a href='http://www.flaticon.com/authors/icomoon' title='Icomoon'>Icomoon</a>,
             <a href="http://www.freepik.com" title="Freepik">Freepik</a>,
             <a href="http://www.flaticon.com/authors/agata-kuczminska" title="Agata Kuczminska">Agata Kuczminska</a>,
-            <a href="http://www.freepik.com" title="Freepik">Freepik</a>,
             and
             <a href='http://www.flaticon.com/authors/simpleicon' title='SimpleIcon'>SimpleIcon</a>.
             <br />
