@@ -126,7 +126,7 @@ body {
     position: absolute;
     top: 100px;
     right: 10px;
-    background: url('../img/magnifier-tool_2.png') center center no-repeat;
+    background: url('../img/magnifier-tool.svg') center center no-repeat;
     z-index: 3;
     &:hover {
         cursor: pointer;
@@ -179,7 +179,7 @@ body {
     height: 100px;
     width: 100px;
     float: left;
-    background: rgba(77, 77, 79, 0.957) url('../img/delete.png') center center no-repeat;
+    background: rgba(77, 77, 79, 0.957) url('../img/close-cross.svg') center center no-repeat;
     &:hover {
         background-color: $dark_green;
         cursor: pointer;
@@ -640,7 +640,7 @@ footer {
 @media (min-width: pxToRem(768px)) {
     .start_search {
         top: 10px;
-        background: url('../img/magnifier-tool.png') center center no-repeat;
+        background: url('../img/magnifier-tool.svg') center center no-repeat;
     }
     input[type='search'] {
         text-align: center;
