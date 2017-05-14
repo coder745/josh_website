@@ -11,16 +11,20 @@ function scrollUpSlowly() {
 	}
 }
 
-document.getElementById('open_search').onclick = function() {
-	document.getElementById('search_cont').className = 'search_area open';
-}
+var open_search = document.getElementById('open_search'),
+	close_search = document.getElementById('close_search'),
+	search_cont = document.getElementById('search_cont'),
+	go_to_top = document.getElementById('go_to_top');
 
-document.getElementById('close_search').onclick = function() {
-	document.getElementById('search_cont').className = 'search_area close';
-}
-
-var go_to_top = document.getElementById('go_to_top');
 go_to_top.href = '#0';
+
+open_search.onclick = function() {
+	search_cont.className = 'search_area open';
+}
+
+close_search.onclick = function() {
+	search_cont.className = 'search_area close';
+}
 
 go_to_top.onclick = function() {
     scroll_site_top();

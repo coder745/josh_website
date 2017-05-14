@@ -154,6 +154,18 @@ body {
     margin-top: 0;
     transition: all 0.5s ease-in-out;
     transform: translateY(-100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    > * {
+        flex: 1 0 100px;
+    }
+    #search_results {
+        display: block;
+        height: 100px;
+        width: 100%;
+        flex-basis: 100%;
+    }
     &.open {
         transform: translateY(0);
     }
@@ -168,17 +180,12 @@ body {
         margin: 0;
         padding: 0;
     }
-    form {
-        width: 100%;
-        margin-right: -100px;
-        float: left;
-    }
     input[type='search'] {
-        width: 100%;
         padding: 0 110px 0 30px;
         border: 0;
         font-size: 30px;
         height: 100px;
+        width: 100%;
         &:focus {
             outline: none;
         }
@@ -188,8 +195,8 @@ body {
 .stop_search {
     height: 100px;
     width: 100px;
-    float: left;
     background: rgba(77, 77, 79, 0.957);
+    flex-grow: 0;
     svg {
         width: 50px;
         height: 50px;
@@ -208,8 +215,6 @@ body {
 }
 
 #search_results {
-    overflow: hidden;
-    clear: both;
     div {
         padding: 10px;
         background: #fff;
@@ -338,7 +343,6 @@ aside {
             }
             a {
                 display: block;
-                float: left;
                 padding: 4px;
                 margin: 0 4px;
                 min-width: 130px;
@@ -349,6 +353,13 @@ aside {
             border: none;
             box-shadow: none;
             padding: 0;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+                li {
+                    flex: 0 1 50px;
+                }
             h3 {
                 background: $dark_green;
                 border-bottom: none;
@@ -368,7 +379,6 @@ aside {
                 }
             }
             a {
-                float: left;
                 padding: 4px;
                 background: $dark_green;
                 text-decoration:none;
@@ -376,6 +386,8 @@ aside {
                 font-size: 12px;
                 border-radius: 2px;
                 margin: 2px;
+                display: block;
+                text-align: center;
                 &:hover {
                     background: #262626;
                 }
@@ -398,9 +410,11 @@ nav {
     @include redb();
     ul {
         list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
     }
     li {
-        float: left;
+        flex: 1 1 70px;
         span {
             display: none;
         }
@@ -473,9 +487,11 @@ section.thoughts {
             ul {
                 list-style-type: none;
                 margin: 0;
+                display: flex;
+                flex-wrap: wrap;
             }
             li {
-                float: left;
+                flex: 0 1 150px;
             }
             a {
                 display: block;
@@ -508,8 +524,11 @@ section.thoughts {
             ul {
                 list-style-type: none;
                 margin: 0;
+                display: flex;
+                flex-wrap: wrap;
             }
             li {
+                flex: 0 1 80px;
                 &:nth-child(odd) a {
                     background: lighten($dark_green, 15);
                     &:hover {
@@ -518,12 +537,13 @@ section.thoughts {
                 }
             }
             a {
-                float: left;
                 text-decoration: none;
                 margin: 4px;
                 background: $dark_green;
                 padding: 0 5px;
                 border-radius: 2px;
+                display: block;
+                text-align: center;
                 color: #fff;
                 &:hover {
                     background: #262626;
@@ -596,11 +616,14 @@ ul.tech-skills {
     border-bottom: 1px solid #ccc;
     overflow: hidden;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     &:last-child {
         border-bottom: none;
     }
     li {
-        float: left;
+        flex: 0 1 auto;
         padding: 0 6px;
         font-size: pxToRem(12px);
         padding: 0 pxToRem(6px);
@@ -618,7 +641,6 @@ ul.tech-skills {
     margin-top: $space_between;
 }
 
-
 a.scroll_top {
     background: $dark_green;
     padding: pxToRem(5px);
@@ -626,8 +648,10 @@ a.scroll_top {
     width: pxToRem(70px);
     text-align: center;
     display: block;
-    float: right;
     margin: pxToRem(10px) pxToRem(20px) 0 0;
+    position: absolute;
+    bottom: 45px;
+    right: 0;
     margin: 10px pxToRem(20px) 0 0;
     &:hover {
         background: lighten($dark_green, 10);
@@ -645,6 +669,7 @@ footer {
     padding: pxToRem(13px) pxToRem(10px) pxToRem(13px) 0;
     padding: 13px pxToRem(10px) 13px 0;
     margin-top: ($space_between + 15);
+    position: relative;
 }
 
 @media (min-width: pxToRem(600px)) {
@@ -669,6 +694,10 @@ footer {
     input[type='search'] {
         text-align: center;
         padding: 0 110px;
+        //Prevent rounded corners on focus in IOS:
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
     }
     header {
         position: fixed;
@@ -703,8 +732,11 @@ footer {
             background: $light_green;
         }
     }
+    nav ul {
+        flex-direction: column;
+    }
     nav li {
-        float: none;
+        flex-basis: 40px;
     }
     nav li span {
         display: block;
@@ -734,8 +766,10 @@ footer {
         height: 40px;
         background: #FdFdFd;
         border-top: 1px solid #98db81;
+        display: flex;
+        justify-content: flex-end;
         li {
-            float: right;
+            flex: 0 1 10px;
             &:before {
                 content: '';
             }
