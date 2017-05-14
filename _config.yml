@@ -15,4 +15,5 @@ sass:
     sass_dir: _sass
 
 gems:
-  - jekyll-sitemap
+    - jekyll-sitemap
+    - jekyll-autoprefixer
