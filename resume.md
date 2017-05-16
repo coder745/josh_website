@@ -81,35 +81,35 @@ weight: 30
             <p>I have listed more details about each one of these projects on my <a href='/projects'>projects</a> page.</p>
             <ul class='smaller'>
                 <li>
-                    <a href='/projects/#note_url_system'>Note/URL System</a>
+                    <a href='/projects#note_url_system'>Note/URL System</a>
                     <span>(PHP, Laravel, PostgreSQL - 2017)</span>
                 </li>
                 <li>
-                    <a href='/projects/#note_system_flask'>Note Taking System</a>
+                    <a href='/projects#note_system_flask'>Note Taking System</a>
                     <span>(Python, Flask, SQLite - 2014)</span>
                 </li>
                 <li>
-                    <a href='/projects/#joshayoung'>Joshayoung Website</a>
+                    <a href='/projects#joshayoung'>Joshayoung Website</a>
                     <span>(HTML, CSS, JavaScript - 2012)</span>
                 </li>
                 <li>
-                    <a href='/projects/#codeitcreations'>Code It Creation Website</a>
+                    <a href='/projects#codeitcreations'>Code It Creation Website</a>
                     <span>(HTML, CSS, JavaScript - 2011)</span>
                 </li>
                 <li>
-                    <a href='/projects/#ticketing_system_alt'>Ticketing System v2</a>
+                    <a href='/projects#ticketing_system_alt'>Ticketing System v2</a>
                     <span>(C#, MSSQL, ASP.NET, CSS, JavaScript - 2010)</span>
                 </li>
                 <li>
-                    <a href='/projects/#ticketing_system'>Ticketing System v1</a>
+                    <a href='/projects#ticketing_system'>Ticketing System v1</a>
                     <span>(PHP, MySQL, HTML, CSS, JavaScript - 2010)</span>
                 </li>
                 <li>
-                    <a href='/projects/#commentsandcapers'>Comments and Capers Website</a>
+                    <a href='/projects#commentsandcapers'>Comments and Capers Website</a>
                     <span>(HTML, CSS, JavaScript - 2009)</span>
                 </li>
                 <li>
-                    <a href='/projects/#blogging_system'>Blogging System</a>
+                    <a href='/projects#blogging_system'>Blogging System</a>
                     <span>(PHP, MySQL, HTML, CSS, JavaScript - Summer 2008)</span>
                 </li>
             </ul>
@@ -127,17 +127,17 @@ weight: 30
             <h3>Certification</h3>
             <p>More information about each certification is listed on on my <a href='/certifications'>certification</a> page.</p>
             <ul class='smaller'>
-                <li><a href='/certifications/#security'>CompTIA Security+</a></li>
-                <li><a href='/certifications/#ceh'>Certified Ethical Hacker</a></li>
-                <li><a href='/certifications/#pce'>Zend Certified PHP Engineer</a></li>
-                <li><a href='/certifications/#network'>CompTIA Network+</a></li>
-                <li><a href='/certifications/#professional'>CIW Web Development Professional</a></li>
-                <li><a href='certificications/#database'>CIW Database Design Specialist</a></li>
-                <li><a href='/certifications/#perl'>CIW Perl Specialist</a></li>
-                <li><a href='/certifications/#javascript'>CIW JavaScript Specialist</a></li>
-                <li><a href='/certifications/#linux'>CompTIA Linux+</a></li>
-                <li><a href='/certifications/#lpci'>LPCI-1</a></li>
-                <li><a href='/certifications/#aplus'>CompTIA A+</a></li>
+                <li><a href='/certifications#security'>CompTIA Security+</a></li>
+                <li><a href='/certifications#ceh'>Certified Ethical Hacker</a></li>
+                <li><a href='/certifications#pce'>Zend Certified PHP Engineer</a></li>
+                <li><a href='/certifications#network'>CompTIA Network+</a></li>
+                <li><a href='/certifications#professional'>CIW Web Development Professional</a></li>
+                <li><a href='certificications#database'>CIW Database Design Specialist</a></li>
+                <li><a href='/certifications#perl'>CIW Perl Specialist</a></li>
+                <li><a href='/certifications#javascript'>CIW JavaScript Specialist</a></li>
+                <li><a href='/certifications#linux'>CompTIA Linux+</a></li>
+                <li><a href='/certifications#lpci'>LPCI-1</a></li>
+                <li><a href='/certifications#aplus'>CompTIA A+</a></li>
             </ul>
         </article>
 

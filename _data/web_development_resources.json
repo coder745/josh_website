@@ -9,6 +9,16 @@
                 "display": true
             },
             {
+                "title": "Flexbox Guide",
+                "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
+                "display": true
+            },
+            {
+                "title": "Grid Guide",
+                "url": "https://css-tricks.com/snippets/css/complete-guide-grid",
+                "display": true
+            },
+            {
                 "title": "CSS Stats",
                 "url": "http://cssstats.com",
                 "display": true
@@ -48,6 +58,11 @@
             {
                 "title": "Performance Budget Calculator",
                 "url": "http://www.performancebudget.io",
+                "display": true
+            },
+            {
+                "title": "Nibbler",
+                "url": "http://nibbler.silktide.com",
                 "display": true
             },
             {

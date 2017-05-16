@@ -26,7 +26,9 @@ close_search.onclick = function() {
 	search_cont.className = 'search_area close';
 }
 
-go_to_top.onclick = function() {
+go_to_top.onclick = function(e) {
+	this.href = '';
+	e.preventDefault();
     scroll_site_top();
 }
 

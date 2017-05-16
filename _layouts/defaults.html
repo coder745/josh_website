@@ -17,7 +17,10 @@
                     </div>
                 {% endif %}
 
-                {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
+                {% if page.title != 'Home' and 
+                      page.title != 'Not Found' and 
+                      page.layout != 'portfolio_entry' 
+                %}
                     <div class='inner glance'>
                         {% include glance.html %}
                     </div><!-- inner -->
