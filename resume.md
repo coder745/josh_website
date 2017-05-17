@@ -132,7 +132,7 @@ weight: 30
                 <li><a href='/certifications#pce'>Zend Certified PHP Engineer</a></li>
                 <li><a href='/certifications#network'>CompTIA Network+</a></li>
                 <li><a href='/certifications#professional'>CIW Web Development Professional</a></li>
-                <li><a href='certificications#database'>CIW Database Design Specialist</a></li>
+                <li><a href='certifications#database'>CIW Database Design Specialist</a></li>
                 <li><a href='/certifications#perl'>CIW Perl Specialist</a></li>
                 <li><a href='/certifications#javascript'>CIW JavaScript Specialist</a></li>
                 <li><a href='/certifications#linux'>CompTIA Linux+</a></li>

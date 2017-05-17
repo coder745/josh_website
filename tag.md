@@ -37,7 +37,7 @@ This tag search solution is somewhat hacky. There are other ways to do this incl
 var display_tags = function() {
     var added = false,
         all_posts = document.getElementsByClassName('single_post'),
-        slug = document.location.href.split('/')[4];
+        slug = document.location.href.split('?')[1];
         i = 0,
         len = all_posts.length;
 
