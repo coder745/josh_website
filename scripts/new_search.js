@@ -104,7 +104,7 @@ function onInputChange(e) {
     if (matchingPosts.length > 0) {
         search_input.innerHTML = matchingPosts.map(function (post) {
             date = new Date(post.pubDate);
-            return '<div><a href="' + post.url + '">' + post.title + '</a> - ' + date.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</div>';
+            return '<a href="' + post.url + '">' + post.title + ' - ' + date.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</a>';
         }).join('');
     } else {
         search_input.innerHTML = '<div>No Results Found.</div>';
