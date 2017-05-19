@@ -353,12 +353,15 @@ aside {
             border: none;
             box-shadow: none;
             padding: 0;
+            clear: both;
             ul {
                 display: flex;
                 flex-wrap: wrap;
             }
                 li {
                     flex: 0 1 50px;
+                    flex: 0 1 100px;
+                    flex: 0 1 92px;
                 }
             h3 {
                 background: $dark_green;
@@ -494,6 +497,7 @@ section.thoughts {
             }
             li {
                 flex: 0 1 145px;
+                flex: 0 1 21%;
             }
             a {
                 display: block;
@@ -532,6 +536,7 @@ section.thoughts {
             }
             li {
                 flex: 0 1 80px;
+                flex: 0 1 13%;
                 &:nth-child(odd) a {
                     background: lighten($dark_green, 15);
                     &:hover {
@@ -741,6 +746,7 @@ footer {
     }
     nav li {
         flex-basis: 40px;
+        flex: 1 1 auto;
     }
     nav li span {
         display: block;
@@ -773,7 +779,7 @@ footer {
         display: flex;
         justify-content: flex-end;
         li {
-            flex: 0 1 10px;
+            flex: 0 1 20px;
             &:before {
                 content: '';
             }
