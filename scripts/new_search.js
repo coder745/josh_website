@@ -20,6 +20,7 @@ go_to_top.href = '#0';
 
 open_search.onclick = function() {
 	search_cont.className = 'search_area open';
+	document.getElementById('search_box').getElementsByTagName('input')[0].focus();
 }
 
 close_search.onclick = function() {
@@ -42,8 +43,8 @@ xmlhttp.onreadystatechange = function () {
 
 	// Create a DOM out of the XML string.
 	var node = (new DOMParser).parseFromString(xmlhttp.responseText, 'text/xml');
-	node = node.children[0];
-	posts = xmlToJson(node).channel.item;
+		node = node.childNodes[0];
+		posts = xmlToJson(node).channel.item;
 }
 xmlhttp.send();
 
@@ -107,6 +108,6 @@ function onInputChange(e) {
             return '<a href="' + post.url + '">' + post.title + ' - ' + date.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</a>';
         }).join('');
     } else {
-        search_input.innerHTML = '<div>No Results Found.</div>';
+        search_input.innerHTML = "<a href=''>No Results Found</a>";
     }
 }

@@ -189,6 +189,9 @@ body {
         &:focus {
             outline: none;
         }
+        &::-ms-clear {
+            display: none;
+        }
     }
 }
 
