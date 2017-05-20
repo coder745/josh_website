@@ -15,7 +15,7 @@ weight: 40
         </article>
 
         <article>
-            {% assign sorted_resources = site.data.web_development_resources | sort: 'title' %}
+            {% assign sorted_resources = site.data.web_dev | sort: 'title' %}
             <p>{% for resources in sorted_resources %}
                 <h3>{{ resources.title }}</h3>
                 <ul class='tech_list'>

@@ -17,7 +17,7 @@
     {
         "title" : ".NET Rocks",
         "url" : "https://www.dotnetrocks.com",
-        "display": false
+        "display": true
     },
     {
         "title" : "Software Engineering Daily",
@@ -80,9 +80,9 @@
         "display": true
     },
     {
-        "title" : "The Linux Action Show",
-        "url" : "http://www.jupiterbroadcasting.com/show/linuxactionshow",
-        "display": false
+        "title" : "Linux Action News",
+        "url" : "http://www.jupiterbroadcasting.com/show/linux-action-news",
+        "display": true
     },
     {
         "title" : "Request for Commits",
