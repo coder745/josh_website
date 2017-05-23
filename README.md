@@ -12,5 +12,5 @@ Maybe the notes below will help someonee else if they decide to setup their own 
 
 # Setup pushing for GitHub Pages:
 - In order to allow a `git push` to send the updated code to both the master branch and the gh-pages branch, add the following entries to your `~/.git/config` file below the `fetch` entry in the `[remote origin]` section.
-    - push = +refs/heads/master:refs/heads/gh-pages
-    - push = +refs/heads/master:refs/heads/master
+  - push = +refs/heads/master:refs/heads/gh-pages
+  - push = +refs/heads/master:refs/heads/master
