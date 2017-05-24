@@ -129,6 +129,16 @@
         "display": true
       },
       {
+        "title": "Noise Texture Generator",
+        "url": "http://www.noisetexturegenerator.com",
+        "display": true
+      },
+      {
+        "title" : "Paletton",
+        "url": "http://paletton.com",
+        "display": true
+      },
+      {
         "title" : "Lorem Pixel",
         "url": "http://lorempixel.com",
         "display": true

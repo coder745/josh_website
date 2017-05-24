@@ -94,6 +94,7 @@
             {% if p.title != 'All Thoughts' %}
             {% if p.title != 'Not Found' %}
             {% if p.title != 'Web Development Resources' %}
+            {% if p.title != 'Code Snippets' %}
             <li>
               <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
               {{ p.title }}
@@ -117,6 +118,7 @@
               {% endif %}
               </a>
             </li>
+            {% endif %}
             {% endif %}
             {% endif %}
             {% endif %}

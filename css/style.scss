@@ -48,7 +48,7 @@ h5 {
 
 a {
   &:link {
-    color: #000;
+    color: #1a1a1a;
   }
   .landing &:link {
     color: $dark_green;
@@ -93,7 +93,7 @@ p {
 }
 
 .highlight {
-  background: black;
+  background: #1a1a1a;
   color: #a0a0a0;
   overflow: scroll;
   padding: 10px;
@@ -247,7 +247,7 @@ body {
   &:focus {
     top: 0;
     left: 0;
-    background: #000;
+    background: #1a1a1a;
   }
 }
 
@@ -293,7 +293,7 @@ header a {
   div {
     font: pxToRem(11px) Georgia;
     font: 11px Georgia;
-    color: #000;
+    color: #1a1a1a;
     &:hover {
       color: $light_blue;
     }
@@ -500,7 +500,6 @@ section.thoughts {
       }
       li {
         flex: 0 1 145px;
-        flex: 0 1 21%;
       }
       a {
         display: block;
@@ -664,7 +663,7 @@ a.scroll_top {
   bottom: 45px;
   right: 0;
   margin: 10px pxToRem(20px) 0 0;
-  border-top: 1px solid #000;
+  border-top: 1px solid #1a1a1a;
   &:hover {
     background: lighten($dark_green, 10);
   }
@@ -754,7 +753,7 @@ footer {
   nav li span {
     display: block;
     font-size: 11px;
-    color: #000;
+    color: #1a1a1a;
     margin-top: pxToRem(4px);
   }
   nav a {
@@ -829,6 +828,13 @@ footer {
     float: left;
     h2 {
       font-size: pxToRem(35px);
+    }
+    &.home,
+    &.thoughts {
+      article.glance li {
+        /* IE 11 */
+        flex: 0 1 21%;
+      }
     }
   }
   aside.right-aside {
