@@ -170,6 +170,11 @@
         "display": true
       },
       {
+        "title": "John Resig Learn",
+        "url": "https://johnresig.com/apps/learn",
+        "display": true
+      },
+      {
         "title": "jQAPI",
         "url": "http://jqapi.com",
         "display": true
