@@ -187,6 +187,17 @@
     ]
   },
   {
+    "title": "Jekyll",
+    "class": "jekyll_resources",
+    "data": [
+      {
+        "title": "Jekyll FAQ",
+        "url": "https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md",
+        "display": true
+      },
+    ]
+  },
+  {
     "title": "Validation",
     "class": "validation_resources",
     "data": [

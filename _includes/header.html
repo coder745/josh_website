@@ -23,6 +23,13 @@
     <script type='text/javascript'>
       document.createElement('main');
     </script>
+
+    {% if page.title == 'Code Snippets' %}
+      <link rel="stylesheet" href="/packages/highlight/styles/solarized-dark.css">
+      <script src="/packages/highlight/highlight.pack.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script>
+    {% endif %}
+
   </head>
   <body>
 
