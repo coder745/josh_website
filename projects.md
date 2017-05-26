@@ -2,6 +2,7 @@
 layout: defaults
 title: Projects
 permalink: /projects
+main_menu: true
 weight: 25
 ---
 

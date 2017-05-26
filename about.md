@@ -3,6 +3,7 @@ layout: defaults
 title: About
 description: About Josh Young and his job, hobbies, podcasts, and books. About this site.
 permalink: /me
+main_menu: true
 weight: 40
 ---
 

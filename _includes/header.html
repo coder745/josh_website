@@ -95,13 +95,7 @@
         {% assign pages = site.html_pages | sort: "weight"  %}
         <ul>
           {% for p in pages %}
-            {% if p.title != 'Home' %}
-            {% if p.title != 'Search' %}
-            {% if p.title != 'Tags' %}
-            {% if p.title != 'All Thoughts' %}
-            {% if p.title != 'Not Found' %}
-            {% if p.title != 'Web Development Resources' %}
-            {% if p.title != 'Code Snippets' %}
+            {% if p.main_menu %}
             <li>
               <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
               {{ p.title }}
@@ -125,12 +119,6 @@
               {% endif %}
               </a>
             </li>
-            {% endif %}
-            {% endif %}
-            {% endif %}
-            {% endif %}
-            {% endif %}
-            {% endif %}
             {% endif %}
           {% endfor %}
         </ul>

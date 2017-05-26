@@ -3,6 +3,7 @@ layout: defaults
 title: Resume
 description: Josh Young's detailed resume and job history.
 permalink: /resume
+main_menu: true
 weight: 30
 ---
 

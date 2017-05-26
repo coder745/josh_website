@@ -3,6 +3,7 @@ layout: defaults
 title: Certs
 description: Certifications that Josh Young has attained and a short summary of each one.
 permalink: /certifications
+main_menu: true
 weight: 20
 ---
 
