@@ -77,6 +77,28 @@ ul {
       font-style: italic;
     }
   }
+  &.anchor_list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    li {
+      flex: 0 1 90px;
+    }
+    a {
+      display: block;
+      padding: 2px;
+      margin: 2px;
+      color: #fff;
+      background: $light_blue;
+      text-decoration: none;
+      text-align: center;
+      &:hover {
+        background: darken($light_blue, 10);
+      }
+    }
+  }
   &.tech_list {
     margin-bottom: 20px;
     &:last-child {

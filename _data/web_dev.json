@@ -170,8 +170,18 @@
         "display": true
       },
       {
+        "title": "Regulex",
+        "url": "https://jex.im/regulex",
+        "display": true
+      },
+      {
         "title": "John Resig Learn",
         "url": "https://johnresig.com/apps/learn",
+        "display": true
+      },
+      {
+        "title": "JSLint",
+        "url": "http://www.jslint.com/help.html",
         "display": true
       },
       {
@@ -182,6 +192,11 @@
       {
         "title": "JSFiddle",
         "url": "https://jsfiddle.net",
+        "display": true
+      },
+      {
+        "title": "JavaScript Encyclopedia",
+        "url": "http://www.crockford.com/javascript/encyclopedia",
         "display": true
       }
     ]
@@ -310,6 +325,11 @@
       {
         "title": "MDN",
         "url": "https://developer.mozilla.org/en-US",
+        "display": true
+      },
+      {
+        "title": "ASCII",
+        "url": "http://www.crockford.com/wrmg/ascii.html",
         "display": true
       },
       {

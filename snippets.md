@@ -10,11 +10,13 @@ weight: 45
   <div class='inner-section'>
   <h2>Code Snippets</h2>
     <article>
-      <ul class='anchor-list'>
+      <ul class='anchor_list'>
         <li><a href='#css'>CSS</a></li>
+        <li><a href='#html5'>HTML</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
         <li><a href='#linux'>Linux</a></li>
+        <li><a href='#php'>PHP</a></li>
         <li><a href='#tmux'>Tmux</a></li>
         <li><a href='#vim'>Vim</a></li>
       </ul>
@@ -23,8 +25,7 @@ weight: 45
       <a name='css'></a>
       <h3>CSS</h3>
       <h4>Switch to box sizing</h4>
-      <pre>
-        <code class='css'>
+      <pre><code class='css'>
           html {
             box-sizing: border-box;
           }
@@ -32,55 +33,49 @@ weight: 45
           *, *:before, *:after {
             box-sizing: inherit;
           }
-        </code>
-      </pre>
+      </code></pre>
+    </article>
+    <article>
+      <a name='html5'></a>
+      <h3>HTML</h3>
+      <h4>HTML5 Doctype</h4>
+      <pre><code class='html'>
+        <!DOCTYPE html>
+      </code></pre>
     </article>
     <article>
       <a name='git'></a>
       <h3>Git</h3>
       <h4>Create and switch to branch</h4>
-      <pre>
-        <code class='git'>
+      <pre><code class='git'>
           git checkout -b new_branch_name
-        </code>
-      </pre>
+      </code></pre>
       <h4>Delete branch</h4>
-      <pre>
-        <code class='git'>
+      <pre><code class='git'>
           git branch -d new_branch_name
-        </code>
-      </pre>
+      </code></pre>
       <h4 markdown='1'>Remove one file from `git add`</h4>
-      <pre>
-        <code class='git'>
+      <pre><code class='git'>
           git reset &lt;file&gt;
-        </code>
-      </pre>
+      </code></pre>
       <h4 markdown='1'>Remove files added with `git add .`</h4>
-      <pre>
-        <code class='git'>
+      <pre><code class='git'>
           git reset
-        </code>
-      </pre>
+      </code></pre>
       <h4>Roll back previous commit (preserving file changes)</h4>
-      <pre>
-        <code class='git'>
+      <pre><code class='git'>
           git reset --soft HEAD~1
-        </code>
-      </pre>
+      </code></pre>
       <h4>Roll back previous commit (discarding file changes)</h4>
-      <pre>
-        <code class='git'>
+      <pre><code class='git'>
           git reset --hard HEAD~1
-        </code>
-      </pre>
+      </code></pre>
     </article>
     <article>
       <a name='javascript'></a>
       <h3>JavaScript</h3>
       <h4>Only display content when JavaScript is enabled</h4>
-      <pre>
-        <code class='javascript'>
+      <pre><code class='javascript'>
           document.getElementsByTagName('body')[0].className += ' js';
         </code>
         <code class='css'>
@@ -90,8 +85,7 @@ weight: 45
             display: block;
             ...
           }
-        </code>
-      </pre>
+      </code></pre>
     </article>
     <article>
       <a name='linux'></a>
@@ -99,8 +93,7 @@ weight: 45
       <h4>Add Static IP</h4>
       <h5>Red Hat/CentOS</h5>
       <p markdown='1' class='no-mb'>Add modify the entries below within: `/etc/sysconfig/network-scripts/ifcfg-eth0` (change IP addresses according to your network). The name for your network connection could differ from `ifcfg-eth0`.</p>
-      <pre>
-        <code class='bash'>
+      <pre><code class='bash'>
           ...
           DEVICE="eth0"
           BOOTPROTO="static"
@@ -109,20 +102,25 @@ weight: 45
           GATEWAY="192.168.3.1"
           ONBOOT="yes"
           ...
-        </code>
-      </pre>
+      </code></pre>
       <h5>Ubuntu/Debian</h5>
       <p markdown='1' class='no-mb'>Add or edit the lines below in this file `/etc/network/interfaces`.</p>
-      <pre>
-        <code>
+      <pre><code>
           ...
           iface eth0 inet static
           address 192.168.3.100
           netmask 255.255.255.0
           gateway 192.168.3.1
           ...
-        </code>
-      </pre>
+      </code></pre>
+    </article>
+    <article>
+      <a name='php'></a>
+      <h3>PHP</h3>
+      <h4>GET/POST Assignment</h4>
+      <pre><code class='php'>
+        $var = isset($_GET['var']) ? $_GET['var'] : '';
+      </code></pre>
     </article>
     <article>
       <a name='tmux'></a>
