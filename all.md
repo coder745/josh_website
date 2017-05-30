@@ -3,6 +3,7 @@ layout: defaults
 title: All Thoughts
 description: Josh Young's individual blog posts about web development and programming
 permalink: /all
+main_menu: false
 weight: 10
 ---
 

@@ -1,7 +1,9 @@
 ---
 layout: defaults
 title: Tags
+description: display the post(s) corresponding to the selected tag.
 permalink: /tags
+main_menu: false
 weight: 100
 ---
 

@@ -3,6 +3,7 @@ layout: defaults
 title: Web Development Resources
 description: Web Development online resources I find useful.
 permalink: /resources
+main_menu: false
 weight: 40
 ---
 

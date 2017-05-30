@@ -3,6 +3,7 @@ layout: defaults
 title: Code Snippets
 description: Code Snippets and Config Values
 permalink: /snippets
+main_menu: false
 weight: 45
 ---
 

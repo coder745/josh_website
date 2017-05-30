@@ -382,6 +382,13 @@ aside {
         color: #fff;
          padding: 5px 0 5px 20px;
       }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      li {
+        flex: 0 1 100px;
+      }
       li:before {
         content: '';
       }
