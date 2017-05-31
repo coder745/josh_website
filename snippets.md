@@ -114,6 +114,19 @@ weight: 45
           gateway 192.168.3.1
           ...
       </code></pre>
+      <h4 markdown='1'>Show Security Settings with `ls`</h4>
+      <pre><code class='bash'>
+        ls -Z
+      </code></pre>
+      <h4 markdown='1'>Find Linux Version</h4>
+      <h5>Kernel:</h5>
+      <pre><code class='bash'>
+        uname -mrs
+      </code></pre>
+      <h5>Distribution:</h5>
+      <pre><code class='bash'>
+        cat /etc/*-release
+      </code></pre>
     </article>
     <article>
       <a name='php'></a>

@@ -328,6 +328,11 @@
         "display": true
       },
       {
+        "title": "ISO 8601",
+        "url": "https://en.wikipedia.org/wiki/ISO_8601",
+        "display": true
+      },
+      {
         "title": "ASCII",
         "url": "http://www.crockford.com/wrmg/ascii.html",
         "display": true
