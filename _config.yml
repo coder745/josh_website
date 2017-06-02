@@ -7,7 +7,7 @@ github_url: https://github.com/joshayoung
 codepen_url: 
 sitemap: 
   exclude: 
-  - /webtemplate.html
+  - node_modules
   include_posts: 
   - /thoughts.md
 sass:

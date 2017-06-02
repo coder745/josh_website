@@ -14,8 +14,12 @@ weight: 100
       {% assign sorted_definitions = site.data.definitions | sort: 'word' %}
       <dl>
         {% for def in sorted_definitions %}
-          <dt><strong>{{ def.word }}</strong></dt>
-          <dd>- "{{ def.definition }}" <a target='_blank' href='{{ def.link }}'>(reference)</a>.</dd>
+          <dt><strong>{{ def.word }}:</strong></dt>
+          <dd>"{{ def.definition }}" 
+            {% if def.link != '' %}
+              <a target='_blank' href='{{ def.link }}'>(reference)</a>.
+            {% endif %}
+          </dd>
         {% endfor %}
       </dl>
     </article>

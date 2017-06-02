@@ -14,13 +14,14 @@ function scrollUpSlowly() {
 var open_search = document.getElementById('open_search'),
   close_search = document.getElementById('close_search'),
   search_cont = document.getElementById('search_cont'),
-  go_to_top = document.getElementById('go_to_top');
+  go_to_top = document.getElementById('go_to_top'),
+  search_box = document.getElementById('search_box').getElementsByTagName('input')[0];
 
 go_to_top.href = '#0';
 
 open_search.onclick = function() {
   search_cont.className = 'search_area open';
-  document.getElementById('search_box').getElementsByTagName('input')[0].focus();
+  search_box.focus();
 }
 
 close_search.onclick = function() {
@@ -34,20 +35,20 @@ go_to_top.onclick = function(e) {
 }
 
 //Adopted from: http://kushagragour.in/blog/2015/06/search-in-jekyll-blog/
+search_box.onkeyup = function(e) {
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.open('GET', '/feed.xml');
+  xmlhttp.onreadystatechange = function () {
+    if (xmlhttp.readyState != 4) return;
+    if (xmlhttp.status != 200 && xmlhttp.status != 304) { return; }
 
-var xmlhttp=new XMLHttpRequest();
-xmlhttp.open('GET', '/feed.xml');
-xmlhttp.onreadystatechange = function () {
-  if (xmlhttp.readyState != 4) return;
-  if (xmlhttp.status != 200 && xmlhttp.status != 304) { return; }
-
-  // Create a DOM out of the XML string.
-  var node = (new DOMParser).parseFromString(xmlhttp.responseText, 'text/xml');
-    node = node.childNodes[0];
-    posts = xmlToJson(node).channel.item;
+    // Create a DOM out of the XML string.
+    var node = (new DOMParser).parseFromString(xmlhttp.responseText, 'text/xml');
+      node = node.childNodes[0];
+      posts = xmlToJson(node).channel.item;
+  }
+  xmlhttp.send();
 }
-xmlhttp.send();
-
 
 function xmlToJson(xml) {
   // Create the return object

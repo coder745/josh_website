@@ -15,6 +15,11 @@
     "link": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)"
   },
   {
+    "word": "Invocation Operator",
+    "definition": "The two parenthesis next to a function name when you invoke it.",
+    "link": ""
+  },
+  {
     "word": "Lambda Expression",
     "definition": "a function (or a subroutine) defined, and possibly called, without being bound to an identifier",
     "link":"https://en.wikipedia.org/wiki/Lambda_expression"
