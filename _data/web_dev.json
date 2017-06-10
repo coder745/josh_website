@@ -61,6 +61,11 @@
                 "display": true
             },
             {
+                "title": "Web Page Test",
+                "url": "https://www.webpagetest.org",
+                "display": true
+            },
+            {
                 "title": "Nibbler",
                 "url": "http://nibbler.silktide.com",
                 "display": true

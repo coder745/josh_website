@@ -12,6 +12,7 @@ weight: 26
         <article>
             <p>In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed courses (both classroom and online) that I have completed over the years.</p>
             <ul class='anchor-list'>
+                <li><a href='#frontend'>Front End Masters Classes</a></li>
                 <li><a href='#laracastsclasses'>Laracast Courses</a></li>
                 <li><a href='#wesbos'>Wes Bos Classes</a></li>
                 <li><a href='#treehouse'>Tree House Classes</a></li>
@@ -25,6 +26,19 @@ weight: 26
                 <li><a href='#linuxsteelpivot3'>Linux Administration 310 - Service Configuration, Management, and LAMP Servers</a></li>
                 <li><a href='#linuxsteelpivot2'>Linux Administration 210 - System and Network Management</a></li>
                 <li><a href='#linuxsteelpivot1'>Linux Administration 110 - System Installation and Configuration</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <a name='frontend'></a>
+            <h3>Front End Masters Classes</h3>
+            <p>The Front End Master website offers great courses covering front-end topics such as accessibilty, performance, JavasScript, etc.</p>
+            <ul>
+                <li><a href='https://frontendmasters.com/courses/good-parts-javascript-web'>The Good Parts of JavaScript and the Web</a></li>
+                <li><a href='https://frontendmasters.com/courses/javascript-frameworks-showdown'>Choosing a JavaScript Framework</a></li>
+                <li><a href='https://frontendmasters.com/courses/js-fundamentals-to-functional'>JavaScript: From Fundamentals to Functional JS</a></li>
+                <li><a href='https://frontendmasters.com/courses/website-performance'>Web Site Performance</a></li>
+                <li><a href='https://frontendmasters.com/courses/web-ui-architecture'>Web UI Architecture</a></li>
             </ul>
         </article>
 
