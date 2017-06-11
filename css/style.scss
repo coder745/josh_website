@@ -516,7 +516,7 @@ section {
   @include redb();
   h2 {
     margin-left: pxToRem(20px);
-    line-height: 1;
+    line-height: 1.2;
     font-size: pxToRem(25px);
     margin-bottom: pxToRem(20px);
     text-shadow: 1px 1px 1px $light_green;
@@ -527,7 +527,7 @@ section.home,
 section.thoughts {
   h2:not(.thought) {
     margin-left: 0;
-    font-size: pxToRem(30px);
+    font-size: pxToRem(25px);
   }
   .date {
     @include datestyle();
@@ -716,8 +716,8 @@ a.scroll_top {
   text-align: center;
   display: block;
   margin: pxToRem(10px) pxToRem(20px) 0 0;
-  position: fixed;
-  bottom: 15px;
+  position: absolute;
+  bottom: 45px;
   right: 0;
   margin: 10px pxToRem(20px) 0 0;
   border-top: 1px solid #1a1a1a;
@@ -879,6 +879,12 @@ footer {
     }
   }
 
+  section.home {
+    h2:not(.thought) {
+      font-size: pxToRem(30px);
+    }
+  }
+
   section {
     padding-left: pxToRem(200px);
     margin-top: $top_margin;
@@ -914,29 +920,6 @@ footer {
       }
     }
   }
-
-  //Circle
-  section.home article:after,
-  section.thoughts article:after {
-    content: '';
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background: #98DB81;
-    box-shadow: 1px 1px 1px #888;
-    position: absolute;
-    bottom: -14px;
-  }
-  article:nth-child(even):after {
-    left: -14px;
-  }
-  article:nth-child(odd):after {
-    right: -14px;
-  }
-  section.thoughts article.thought:after {
-    display: none;
-  }
-  //end Circle
 
   aside.right-aside {
     float: right;

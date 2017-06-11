@@ -15,6 +15,11 @@
     "link": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)"
   },
   {
+    "word": "Heisenbug",
+    "definition": "a software bug that seems to disappear or alter its behavior when one attempts to study it",
+    "link": "https://en.wikipedia.org/wiki/Heisenbug"
+  },
+  {
     "word": "Invocation Operator",
     "definition": "The two parenthesis next to a function name when you invoke it.",
     "link": ""
