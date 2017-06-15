@@ -66,6 +66,21 @@
                 "display": true
             },
             {
+                "title": "HTTP Archive",
+                "url": "http://www.httparchive.org",
+                "display": true
+            },
+            {
+                "title": "GZip Test",
+                "url": "http://www.gidnetwork.com/tools/gzip-test.php",
+                "display": true
+            },
+            {
+                "title": "Performance Rules",
+                "url": "https://developer.yahoo.com/performance/rules.html",
+                "display": true
+            },
+            {
                 "title": "Nibbler",
                 "url": "http://nibbler.silktide.com",
                 "display": true
@@ -162,6 +177,11 @@
             {
                 "title": "You Might Not Need jQuery",
                 "url": "http://youmightnotneedjquery.com",
+                "display": true
+            },
+            {
+                "title": "CompressorRater",
+                "url": "http://compressorrater.thruhere.net",
                 "display": true
             },
             {

@@ -77,12 +77,16 @@ weight: 30
         </article>
 
         <article>
-            <h3>Work and Personal Projects</h3>
+            <h3>Personal Projects</h3>
             <p>I have listed more details about each one of these projects on my <a href='/projects'>projects</a> page.</p>
             <ul class='smaller'>
                 <li>
                     <a href='/projects#note_url_system'>Note/URL System</a>
                     <span>(PHP, Laravel, PostgreSQL - 2017)</span>
+                </li>
+                <li>
+                    <a href='/projects#joshyoung'>Joshyoung Website</a>
+                    <span>(HTML, CSS, SASS, JavaScript, jQuery, Jekyll - 2016)</span>
                 </li>
                 <li>
                     <a href='/projects#note_system_flask'>Note Taking System</a>
