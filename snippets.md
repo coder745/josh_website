@@ -43,6 +43,14 @@ weight: 45
       <pre><code class='html'>
         <!DOCTYPE html>
       </code></pre>
+      <h4>Tags</h4>
+      <ul>
+        <li>&lt;cite&gt; - cite a source</li>
+        <li>&lt;kdb&gt;  - text entered from a keyboard (i.e. `cd`, `pwd`)</li>
+        <li>&lt;pre&gt;  - preserves white space in html output</li>
+        <li>&lt;var&gt;  - used for outputting a variable in html</li>
+        <li>&lt;del&gt;  - show removed text (sometimes styled with strike-through mark)</li>
+      </ul>
     </article>
     <article>
       <a name='git'></a>

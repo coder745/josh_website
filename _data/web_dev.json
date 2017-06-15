@@ -280,6 +280,11 @@
         "display": true
       },
       {
+        "title": "Securing Public Web Servers",
+        "url": "http://csrc.nist.gov/publications/nistpubs/800-44-ver2/SP800-44v2.pdf",
+        "display": true
+      },
+      {
         "title": "Web Security",
         "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
         "display": true

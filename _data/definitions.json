@@ -5,6 +5,71 @@
     "link": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)"
   },
   {
+    "word": "Primitive Data Type",
+    "definition": "a data type provided by a programming language as a basic building block. Most languages allow more complicated composite types to be recursively constructed starting from basic types.",
+    "link": "https://en.wikipedia.org/wiki/Primitive_data_type"
+  },
+  {
+    "word": "Operator Precedence",
+    "definition": "is a collection of rules that reflect conventions about which procedures to perform first in order to evaluate a given mathematical expression",
+    "link": "https://en.wikipedia.org/wiki/Order_of_operations#Programming_languages"
+  },
+  {
+    "word": "Invoking",
+    "definition": "the specific action of a user starting (or launching or invoking) a program",
+    "link": "https://en.wikipedia.org/wiki/Execution_(computing)"
+  },
+  {
+    "word": "Anonymous Function",
+    "definition": "a function definition that is not bound to an identifier",
+    "link": "https://en.wikipedia.org/wiki/Anonymous_function"
+  },
+  {
+    "word": "Single Responsibility Principle",
+    "definition": "every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class",
+    "link": "https://en.wikipedia.org/wiki/Single_responsibility_principle"
+  },
+  {
+    "word": "Open/Closed Principle",
+    "definition": "'software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification'; that is, such an entity can allow its behaviour to be extended without modifying its source code.",
+    "link": "https://en.wikipedia.org/wiki/Open/closed_principle"
+  },
+  {
+    "word": "Dyadic Form (in regard to functions)",
+    "definition": "a function that takes two arguments",
+    "link": ""
+  },
+  {
+    "word": "Monadic Form (in regard to functions)",
+    "definition": "a function that takes one argument",
+    "link": ""
+  },
+  {
+    "word": "Temporal coupling",
+    "definition": "When two actions are bundled together into one module just because they happen to occur at the same time.",
+    "link": "https://en.wikipedia.org/wiki/Coupling_(computer_programming)#Types_of_coupling"
+  },
+  {
+    "word": "Caveat Utilitor",
+    "definition": "let the user beware",
+    "link": "https://en.wiktionary.org/wiki/Appendix:List_of_Latin_phrases_(A%E2%80%93E)"
+  },
+  {
+    "word": "Linear Time",
+    "definition": "if its time complexity is O(n). Informally, this means that for large enough input sizes the running time increases linearly with the size of the input. For example, a procedure that adds up all elements of a list requires time proportional to the length of the list.",
+    "link": "https://en.wikipedia.org/wiki/Time_complexity#Linear_time"
+  },
+  {
+    "word": "Lexical Scope",
+    "definition": "a variable's definition is resolved by searching its containing block or function, then if that fails searching the outer containing block, and so on",
+    "link": "https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope"
+  },
+  {
+    "word": "Dynamic Scope",
+    "definition": "a variable's definition is resolved by searching its ... calling function ..., then the function which called that calling function, and so on, progressing up the call stack",
+    "link": "https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope_vs._dynamic_scope"
+  },
+  {
     "word": "Binary Function",
     "definition": "a function that takes two inputs",
     "link": "https://en.wikipedia.org/wiki/Binary_function"
