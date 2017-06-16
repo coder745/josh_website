@@ -77,6 +77,48 @@ weight: 30
         </article>
 
         <article>
+            <h3>Work Projects</h3>
+            <ul class='smaller'>
+                <li>
+                    <span class='project-title'>Built Internal React App with PHP back-end</span>
+                    <span>(React, JavaScript, HTML, CSS, SASS, PHP, JSON - 2017)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Redesigning Internal Portal Site</span>
+                    <span>(HTML, CSS, JavaScript, SASS, Gulp, Sketch - 2016)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Designed Scheduling System</span>
+                    <span>(HTML, CSS, JavaScript, PHP, MySQL - 2015)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Build Internal iPhone App with back-end</span>
+                    <span>(Objective C, XCode, PHP, MySQL, CSS, JavaScript - 2014)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Program Internal Calendering System</span>
+                    <span>(PHP, MySQL, CSS, HTML - 2013)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Outage Map</span>
+                    <span>(Google Maps, JavaScript, Oracle, C# - 2012)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Building Web SCADA Modeling Graphs</span>
+                    <span>(ASP.NET, C#, CSS, JavaScript - 2012)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Data System to Track Customer Payments</span>
+                    <span>(PHP, HTML, CSS, JavaScript - 2011)</span>
+                </li>
+                <li>
+                    <span class='project-title'>Redesign Help Desk System</span>
+                    <span>(PHP, HTML, CSS, JavaScript - 2010)</span>
+                </li>
+            </ul>
+        </article>
+
+        <article>
             <h3>Personal Projects</h3>
             <p>I have listed more details about each one of these projects on my <a href='/projects'>projects</a> page.</p>
             <ul class='smaller'>

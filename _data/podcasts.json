@@ -80,6 +80,11 @@
         "display": true
     },
     {
+        "title" : "Ask Noah",
+        "url" : "http://www.jupiterbroadcasting.com/show/asknoah",
+        "display": true
+    },
+    {
         "title" : "Linux Action News",
         "url" : "http://www.jupiterbroadcasting.com/show/linux-action-news",
         "display": true

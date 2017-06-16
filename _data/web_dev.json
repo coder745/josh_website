@@ -133,6 +133,11 @@
                 "display": true
             },
             {
+                "title" : "Git Tips",
+                "url": "https://www.alexkras.com/19-git-tips-for-everyday-use",
+                "display": true
+            },
+            {
                 "title": "PHP Manual",
                 "url": "https://secure.php.net/manual/en",
                 "display": true
@@ -243,6 +248,11 @@
                 "display": true
             },
             {
+                "title": "Mozilla Accessibility",
+                "url": "https://developer.mozilla.org/en-US/docs/web/Accessibility",
+                "display": true
+            },
+            {
                 "title": "WAIA11Y Project",
                 "url": "https://www.w3.org/WAI",
                 "display": true
@@ -277,6 +287,17 @@
             {
                 "title": "Daniel Miessler Tutorials",
                 "url": "https://danielmiessler.com/study",
+                "display": true
+            }
+        ]
+    },
+    {
+        "title": "Miscellaneous",
+        "class": "miscellaneous_resources",
+        "data": [
+            {
+                "title": "Secure Tunnel",
+                "url": "https://ngrok.com",
                 "display": true
             }
         ]
