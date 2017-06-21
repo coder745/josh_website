@@ -126,6 +126,21 @@ weight: 45
       <pre><code class='bash'>
         ls -Z
       </code></pre>
+      <h4 markdown='1'>Crontab</h4>
+      <pre><code class='bash'>
+      *  *  *  *  *         command
+      -  -  -  -  -  
+      |  |  |  |  |
+      |  |  |  |  +---------------------- day of week (0 - 6) (0 - Sunday)
+      |  |  |  +--------------------- month (1 - 12)
+      |  |  +------------------- day of month (1 - 31) 
+      |  +------------- hour (0 - 23) 
+      +------------ minute (0 - 59)
+      </code></pre>
+      <h4 markdown='1'>Write ISO to Disk</h4>
+      <pre><code class='bash'>
+        sudo dd bs=4M if=/location/of/file.ios of=/dev/drivename && sync
+      </code></pre>
       <h4 markdown='1'>Find Linux Version</h4>
       <h5>Kernel:</h5>
       <pre><code class='bash'>

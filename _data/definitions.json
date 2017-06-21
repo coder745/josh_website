@@ -35,9 +35,24 @@
     "link": "https://en.wikipedia.org/wiki/Open/closed_principle"
   },
   {
+    "word": "Observer Pattern",
+    "definition": "a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.",
+    "link": "https://en.wikipedia.org/wiki/Observer_pattern"
+  },
+  {
     "word": "Dyadic Form (in regard to functions)",
     "definition": "a function that takes two arguments",
     "link": ""
+  },
+  {
+    "word": "Greenfield Project",
+    "definition": "developing a system for a totally new environment, without concern for integrating with other systems, especially not legacy systems.",
+    "link": "https://en.wikipedia.org/wiki/Greenfield_project"
+  },
+  {
+    "word": "Brownfield Development",
+    "definition": "problem spaces needing the development and deployment of new software systems in the immediate presence of existing (legacy) software applications/systems.",
+    "link": "https://en.wikipedia.org/wiki/Brownfield_(software_development)"
   },
   {
     "word": "Monadic Form (in regard to functions)",
