@@ -1,364 +1,8 @@
 [
-    {
-        "title": "CSS",
-        "class": "css_resources",
-        "data": [
-            {
-              "title": "Ceaser CSS Easing Animation Tool",
-              "url": "https://matthewlein.com/ceaser",
-              "display": true
-            },
-            {
-              "title": "Flexbox Guide",
-              "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
-              "display": true
-            },
-            {
-              "title": "Grid Guide",
-              "url": "https://css-tricks.com/snippets/css/complete-guide-grid",
-              "display": true
-            },
-            {
-                "title": "CSS Stats",
-                "url": "http://cssstats.com",
-                "display": true
-            },
-            {
-                "title": "CSS Matic Tools",
-                "url": "http://www.cssmatic.com",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Compatibility",
-        "class": "compatibility_resources",
-        "data": [
-            {
-                "title": "Compatibility Overview",
-                "url": "https://www.quirksmode.org/compatibility.html",
-                "display": true
-            },
-            {
-                "title": "Can I Use",
-                "url": "https://caniuse.com",
-                "display": true
-            },
-            {
-                "title": "Mobile",
-                "url": "https://www.quirksmode.org/mobile",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Performance",
-        "class": "performance_resources",
-        "data": [
-            {
-                "title": "Performance Budget Calculator",
-                "url": "http://www.performancebudget.io",
-                "display": true
-            },
-            {
-                "title": "Web Page Test",
-                "url": "https://www.webpagetest.org",
-                "display": true
-            },
-            {
-                "title": "HTTP Archive",
-                "url": "http://www.httparchive.org",
-                "display": true
-            },
-            {
-                "title": "GZip Test",
-                "url": "http://www.gidnetwork.com/tools/gzip-test.php",
-                "display": true
-            },
-            {
-                "title": "Performance Rules",
-                "url": "https://developer.yahoo.com/performance/rules.html",
-                "display": true
-            },
-            {
-                "title": "Nibbler",
-                "url": "http://nibbler.silktide.com",
-                "display": true
-            },
-            {
-                "title": "Pingdom Website Speed Test",
-                "url": "https://tools.pingdom.com",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "HTML",
-        "class": "html_resources",
-        "data": [
-            {
-                "title": "HTML5 Please",
-                "url": "http://html5please.com",
-                "display": true
-            },
-            {
-                "title" : "What Is My Screen Resolution",
-                "url": "http://www.whatismyscreenresolution.com",
-                "display": true
-            },
-            {
-                "title" : "PlaceHold.it",
-                "url": "https://placehold.it",
-                "display": true
-            },
-            {
-                "title" : "Formalize",
-                "url": "https://formalize.me",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Programming",
-        "class": "programming_resources",
-        "data": [
-            {
-                "title": "RegExr",
-                "url": "http://regexr.com",
-                "display": true
-            },
-            {
-                "title" : "Git Cheat Sheet",
-                "url": "https://gist.github.com/hofmannsven/6814451",
-                "display": true
-            },
-            {
-                "title" : "Git Tips",
-                "url": "https://www.alexkras.com/19-git-tips-for-everyday-use",
-                "display": true
-            },
-            {
-                "title": "PHP Manual",
-                "url": "https://secure.php.net/manual/en",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Design",
-        "class": "design_resources",
-        "data": [
-            {
-                "title" : "Colour Lovers",
-                "url": "http://www.colourlovers.com",
-                "display": true
-            },
-            {
-                "title" : "Lorem Pixel",
-                "url": "http://lorempixel.com",
-                "display": true
-            },
-            {
-                "title": "Subtle Patterns",
-                "url": "https://www.toptal.com/designers/subtlepatterns",
-                "display": true
-            },
-            {
-                "title" : "Coverr",
-                "url": "https://coverr.co",
-                "display": true
-            },
-            {
-                "title" : "Kuler",
-                "url": "https://color.adobe.com/create/color-wheel",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "JavaScript",
-        "class": "javascript_resources",
-        "data": [
-            {
-                "title": "You Might Not Need jQuery",
-                "url": "http://youmightnotneedjquery.com",
-                "display": true
-            },
-            {
-                "title": "CompressorRater",
-                "url": "http://compressorrater.thruhere.net",
-                "display": true
-            },
-            {
-                "title": "jQAPI",
-                "url": "http://jqapi.com",
-                "display": true
-            },
-            {
-                "title": "JSFiddle",
-                "url": "https://jsfiddle.net",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Validation",
-        "class": "validation_resources",
-        "data": [
-            {
-                "title": "JSON Linter",
-                "url": "http://jsonlint.com",
-                "display": true
-            },
-            {
-                "title": "Robots.txt Checker",
-                "url": "http://tool.motoricerca.info/robots-checker.phtml",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Levelling-up",
-        "class": "levelling_up_resources",
-        "data": [
-            {
-                "title": "Front End Center",
-                "url": "https://frontend.center",
-                "display": true
-            },
-            {
-                "title": "LukeW Ideation + Design",
-                "url": "http://www.lukew.com",
-                "display": true
-            },
-            {
-                "title": "Gymnasium",
-                "url": "https://thegymnasium.com",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Accessibility",
-        "class": "accessibility_resources",
-        "data": [
-            {
-                "title": "A11Y Project",
-                "url": "http://a11yproject.com",
-                "display": true
-            },
-            {
-                "title": "Mozilla Accessibility",
-                "url": "https://developer.mozilla.org/en-US/docs/web/Accessibility",
-                "display": true
-            },
-            {
-                "title": "WAIA11Y Project",
-                "url": "https://www.w3.org/WAI",
-                "display": true
-            },
-            {
-                "title": "Web Accessibility Resources",
-                "url": "https://marcysutton.com/web-accessibility-resources",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Security",
-        "class": "security_resources",
-        "data": [
-            {
-                "title": "Content Security Policy",
-                "url": "https://developers.google.com/web/fundamentals/security/csp",
-                "display": true
-            },
-            {
-                "title": "Web Security",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Tutorials",
-        "class": "tutorials_resources",
-        "data": [
-            {
-                "title": "Daniel Miessler Tutorials",
-                "url": "https://danielmiessler.com/study",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Miscellaneous",
-        "class": "miscellaneous_resources",
-        "data": [
-            {
-                "title": "Secure Tunnel",
-                "url": "https://ngrok.com",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "News",
-        "class": "news_resources",
-        "data": [
-            {
-                "title": "Web Platform Daily",
-                "url": "https://webplatformdaily.org",
-                "display": true
-            },
-            {
-                "title": "Front End Front",
-                "url": "https://frontendfront.com",
-                "display": true
-            }
-        ]
-    },
-    {
-        "title": "Documentation",
-        "class": "documentation_resources",
-        "data": [
-            {
-                "title": "Microsoft Documentation",
-                "url": "https://docs.microsoft.com/en-us",
-                "display": true
-            },
-            {
-                "title": "MDN",
-                "url": "https://developer.mozilla.org/en-US",
-                "display": true
-            },
-            {
-                "title": "Google Web Fundamentals",
-                "url": "https://developers.google.com/web/fundamentals",
-                "display": true
-            },
-            {
-                "title": "Resource-Oriented Client Architecture",
-                "url": "http://roca-style.org",
-                "display": true
-            },
-            {
-                "title": "Reporting with SQL",
-                "url": "https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md",
-                "display": true
-            },
-            {
-                "title": "SQL Basics Cheatsheet",
-                "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
-                "display": true
-            }
-        ]
-    },
   {
     "title": "CSS",
     "class": "css_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Ceaser CSS Easing Animation Tool",
         "url": "https://matthewlein.com/ceaser",
         "display": true
@@ -388,8 +32,7 @@
   {
     "title": "Compatibility",
     "class": "compatibility_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Compatibility Overview",
         "url": "https://www.quirksmode.org/compatibility.html",
         "display": true
@@ -409,8 +52,345 @@
   {
     "title": "Performance",
     "class": "performance_resources",
-    "data": [
+    "data": [{
+        "title": "Performance Budget Calculator",
+        "url": "http://www.performancebudget.io",
+        "display": true
+      },
       {
+        "title": "Web Page Test",
+        "url": "https://www.webpagetest.org",
+        "display": true
+      },
+      {
+        "title": "HTTP Archive",
+        "url": "http://www.httparchive.org",
+        "display": true
+      },
+      {
+        "title": "GZip Test",
+        "url": "http://www.gidnetwork.com/tools/gzip-test.php",
+        "display": true
+      },
+      {
+        "title": "Performance Rules",
+        "url": "https://developer.yahoo.com/performance/rules.html",
+        "display": true
+      },
+      {
+        "title": "Nibbler",
+        "url": "http://nibbler.silktide.com",
+        "display": true
+      },
+      {
+        "title": "Pingdom Website Speed Test",
+        "url": "https://tools.pingdom.com",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "HTML",
+    "class": "html_resources",
+    "data": [{
+        "title": "HTML5 Please",
+        "url": "http://html5please.com",
+        "display": true
+      },
+      {
+        "title": "What Is My Screen Resolution",
+        "url": "http://www.whatismyscreenresolution.com",
+        "display": true
+      },
+      {
+        "title": "PlaceHold.it",
+        "url": "https://placehold.it",
+        "display": true
+      },
+      {
+        "title": "Formalize",
+        "url": "https://formalize.me",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Programming",
+    "class": "programming_resources",
+    "data": [{
+        "title": "RegExr",
+        "url": "http://regexr.com",
+        "display": true
+      },
+      {
+        "title": "Git Cheat Sheet",
+        "url": "https://gist.github.com/hofmannsven/6814451",
+        "display": true
+      },
+      {
+        "title": "Git Tips",
+        "url": "https://www.alexkras.com/19-git-tips-for-everyday-use",
+        "display": true
+      },
+      {
+        "title": "PHP Manual",
+        "url": "https://secure.php.net/manual/en",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Design",
+    "class": "design_resources",
+    "data": [{
+        "title": "Colour Lovers",
+        "url": "http://www.colourlovers.com",
+        "display": true
+      },
+      {
+        "title": "Lorem Pixel",
+        "url": "http://lorempixel.com",
+        "display": true
+      },
+      {
+        "title": "Subtle Patterns",
+        "url": "https://www.toptal.com/designers/subtlepatterns",
+        "display": true
+      },
+      {
+        "title": "Coverr",
+        "url": "https://coverr.co",
+        "display": true
+      },
+      {
+        "title": "Kuler",
+        "url": "https://color.adobe.com/create/color-wheel",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "JavaScript",
+    "class": "javascript_resources",
+    "data": [{
+        "title": "You Might Not Need jQuery",
+        "url": "http://youmightnotneedjquery.com",
+        "display": true
+      },
+      {
+        "title": "CompressorRater",
+        "url": "http://compressorrater.thruhere.net",
+        "display": true
+      },
+      {
+        "title": "jQAPI",
+        "url": "http://jqapi.com",
+        "display": true
+      },
+      {
+        "title": "JSFiddle",
+        "url": "https://jsfiddle.net",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Validation",
+    "class": "validation_resources",
+    "data": [{
+        "title": "JSON Linter",
+        "url": "http://jsonlint.com",
+        "display": true
+      },
+      {
+        "title": "Robots.txt Checker",
+        "url": "http://tool.motoricerca.info/robots-checker.phtml",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Levelling-up",
+    "class": "levelling_up_resources",
+    "data": [{
+        "title": "Front End Center",
+        "url": "https://frontend.center",
+        "display": true
+      },
+      {
+        "title": "LukeW Ideation + Design",
+        "url": "http://www.lukew.com",
+        "display": true
+      },
+      {
+        "title": "Gymnasium",
+        "url": "https://thegymnasium.com",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Accessibility",
+    "class": "accessibility_resources",
+    "data": [{
+        "title": "A11Y Project",
+        "url": "http://a11yproject.com",
+        "display": true
+      },
+      {
+        "title": "Mozilla Accessibility",
+        "url": "https://developer.mozilla.org/en-US/docs/web/Accessibility",
+        "display": true
+      },
+      {
+        "title": "WAIA11Y Project",
+        "url": "https://www.w3.org/WAI",
+        "display": true
+      },
+      {
+        "title": "Web Accessibility Resources",
+        "url": "https://marcysutton.com/web-accessibility-resources",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Security",
+    "class": "security_resources",
+    "data": [{
+        "title": "Content Security Policy",
+        "url": "https://developers.google.com/web/fundamentals/security/csp",
+        "display": true
+      },
+      {
+        "title": "Web Security",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Tutorials",
+    "class": "tutorials_resources",
+    "data": [{
+      "title": "Daniel Miessler Tutorials",
+      "url": "https://danielmiessler.com/study",
+      "display": true
+    }]
+  },
+  {
+    "title": "Miscellaneous",
+    "class": "miscellaneous_resources",
+    "data": [{
+      "title": "Secure Tunnel",
+      "url": "https://ngrok.com",
+      "display": true
+    }]
+  },
+  {
+    "title": "News",
+    "class": "news_resources",
+    "data": [{
+        "title": "Web Platform Daily",
+        "url": "https://webplatformdaily.org",
+        "display": true
+      },
+      {
+        "title": "Front End Front",
+        "url": "https://frontendfront.com",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Documentation",
+    "class": "documentation_resources",
+    "data": [{
+        "title": "Microsoft Documentation",
+        "url": "https://docs.microsoft.com/en-us",
+        "display": true
+      },
+      {
+        "title": "MDN",
+        "url": "https://developer.mozilla.org/en-US",
+        "display": true
+      },
+      {
+        "title": "Google Web Fundamentals",
+        "url": "https://developers.google.com/web/fundamentals",
+        "display": true
+      },
+      {
+        "title": "Resource-Oriented Client Architecture",
+        "url": "http://roca-style.org",
+        "display": true
+      },
+      {
+        "title": "Reporting with SQL",
+        "url": "https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md",
+        "display": true
+      },
+      {
+        "title": "SQL Basics Cheatsheet",
+        "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "CSS",
+    "class": "css_resources",
+    "data": [{
+        "title": "Ceaser CSS Easing Animation Tool",
+        "url": "https://matthewlein.com/ceaser",
+        "display": true
+      },
+      {
+        "title": "Flexbox Guide",
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
+        "display": true
+      },
+      {
+        "title": "Grid Guide",
+        "url": "https://css-tricks.com/snippets/css/complete-guide-grid",
+        "display": true
+      },
+      {
+        "title": "CSS Stats",
+        "url": "http://cssstats.com",
+        "display": true
+      },
+      {
+        "title": "CSS Matic Tools",
+        "url": "http://www.cssmatic.com",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Compatibility",
+    "class": "compatibility_resources",
+    "data": [{
+        "title": "Compatibility Overview",
+        "url": "https://www.quirksmode.org/compatibility.html",
+        "display": true
+      },
+      {
+        "title": "Can I Use",
+        "url": "https://caniuse.com",
+        "display": true
+      },
+      {
+        "title": "Mobile",
+        "url": "https://www.quirksmode.org/mobile",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Performance",
+    "class": "performance_resources",
+    "data": [{
         "title": "Performance Budget Calculator",
         "url": "http://www.performancebudget.io",
         "display": true
@@ -430,24 +410,23 @@
   {
     "title": "HTML",
     "class": "html_resources",
-    "data": [
-      {
+    "data": [{
         "title": "HTML5 Please",
         "url": "http://html5please.com",
         "display": true
       },
       {
-        "title" : "What Is My Screen Resolution",
+        "title": "What Is My Screen Resolution",
         "url": "http://www.whatismyscreenresolution.com",
         "display": true
       },
       {
-        "title" : "PlaceHold.it",
+        "title": "PlaceHold.it",
         "url": "https://placehold.it",
         "display": true
       },
       {
-        "title" : "Formalize",
+        "title": "Formalize",
         "url": "https://formalize.me",
         "display": true
       }
@@ -456,14 +435,13 @@
   {
     "title": "Programming",
     "class": "programming_resources",
-    "data": [
-      {
+    "data": [{
         "title": "RegExr",
         "url": "http://regexr.com",
         "display": true
       },
       {
-        "title" : "Git Cheat Sheet",
+        "title": "Git Cheat Sheet",
         "url": "https://gist.github.com/hofmannsven/6814451",
         "display": true
       },
@@ -477,9 +455,8 @@
   {
     "title": "Design",
     "class": "design_resources",
-    "data": [
-      {
-        "title" : "Colour Lovers",
+    "data": [{
+        "title": "Colour Lovers",
         "url": "http://www.colourlovers.com",
         "display": true
       },
@@ -489,12 +466,12 @@
         "display": true
       },
       {
-        "title" : "Paletton",
+        "title": "Paletton",
         "url": "http://paletton.com",
         "display": true
       },
       {
-        "title" : "Lorem Pixel",
+        "title": "Lorem Pixel",
         "url": "http://lorempixel.com",
         "display": true
       },
@@ -504,12 +481,12 @@
         "display": true
       },
       {
-        "title" : "Coverr",
+        "title": "Coverr",
         "url": "https://coverr.co",
         "display": true
       },
       {
-        "title" : "Kuler",
+        "title": "Kuler",
         "url": "https://color.adobe.com/create/color-wheel",
         "display": true
       }
@@ -518,8 +495,7 @@
   {
     "title": "JavaScript",
     "class": "javascript_resources",
-    "data": [
-      {
+    "data": [{
         "title": "You Might Not Need jQuery",
         "url": "http://youmightnotneedjquery.com",
         "display": true
@@ -559,19 +535,16 @@
   {
     "title": "Jekyll",
     "class": "jekyll_resources",
-    "data": [
-      {
-        "title": "Jekyll FAQ",
-        "url": "https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md",
-        "display": true
-      },
-    ]
+    "data": [{
+      "title": "Jekyll FAQ",
+      "url": "https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md",
+      "display": true
+    }, ]
   },
   {
     "title": "Validation",
     "class": "validation_resources",
-    "data": [
-      {
+    "data": [{
         "title": "JSON Linter",
         "url": "http://jsonlint.com",
         "display": true
@@ -586,8 +559,7 @@
   {
     "title": "Levelling-up",
     "class": "levelling_up_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Front End Center",
         "url": "https://frontend.center",
         "display": true
@@ -607,8 +579,7 @@
   {
     "title": "Accessibility",
     "class": "accessibility_resources",
-    "data": [
-      {
+    "data": [{
         "title": "A11Y Project",
         "url": "http://a11yproject.com",
         "display": true
@@ -628,8 +599,7 @@
   {
     "title": "Security",
     "class": "security_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Content Security Policy",
         "url": "https://developers.google.com/web/fundamentals/security/csp",
         "display": true
@@ -649,19 +619,16 @@
   {
     "title": "Tutorials",
     "class": "tutorials_resources",
-    "data": [
-      {
-        "title": "Daniel Miessler Tutorials",
-        "url": "https://danielmiessler.com/study",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Daniel Miessler Tutorials",
+      "url": "https://danielmiessler.com/study",
+      "display": true
+    }]
   },
   {
     "title": "News",
     "class": "news_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Web Platform Daily",
         "url": "https://webplatformdaily.org",
         "display": true
@@ -676,8 +643,7 @@
   {
     "title": "Documentation",
     "class": "documentation_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Microsoft Documentation",
         "url": "https://docs.microsoft.com/en-us",
         "display": true

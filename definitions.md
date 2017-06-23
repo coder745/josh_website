@@ -15,11 +15,14 @@ weight: 100
       <dl>
         {% for def in sorted_definitions %}
           <dt><strong>{{ def.word }}:</strong></dt>
-          <dd>"{{ def.definition }}" 
-            {% if def.link != '' %}
+          {% if def.link != '' %}
+            <dd>
+              "{{ def.definition }}"
               <a target='_blank' href='{{ def.link }}'>(reference)</a>.
-            {% endif %}
-          </dd>
+            </dd>
+          {% else %}
+            <dd>{{ def.definition }}</dd>
+          {% endif %}
         {% endfor %}
       </dl>
     </article>

@@ -4,7 +4,7 @@ title: Database Best Practices
 description: Tips I have learned for best databases creation
 date: 2017-06-20
 excerpt_separator: <!--more-->
-tags: Database
+tags: Databases
 ---
 
 Over the years, I have come to some general conclusions regarding database structure and naming which I have listed below:
