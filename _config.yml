@@ -6,13 +6,13 @@ linkedin_url: https://www.linkedin.com/in/joshuayoung1
 github_url: https://github.com/joshayoung
 codepen_url: 
 sitemap: 
-    exclude: 
-        - /webtemplate.html
-    include_posts: 
-        - /thoughts.md
+  exclude: 
+  - node_modules
+  include_posts: 
+  - /thoughts.md
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 gems:
-    - jekyll-sitemap
-    - jekyll-autoprefixer
+  - jekyll-sitemap
+  - jekyll-autoprefixer

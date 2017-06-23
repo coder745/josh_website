@@ -1,54 +1,54 @@
-        {% include header.html %}
-        <main id='main_content' role='main'>
-            <a id='nav_search' onclick='showsearch()' href='#'></a>
-            {{ content }}
-            <aside class='right-aside'>
+    {% include header.html %}
+    <main id='main_content' role='main'>
+      <a id='nav_search' onclick='showsearch()' href='#'></a>
+      {{ content }}
+      <aside class='right-aside'>
 
-                {% if page.title == 'Home' %}
-                    <div class='inner'>
-                        <h3>What I'm Saying</h3>
-                        <p>
-                            {% for post in site.posts limit:1 %}
-                                <a href='{{ post.url }}'>
-                                {{ post.excerpt | strip_html | truncatewords:15 }}
-                                </a>
-                            {% endfor %}
-                        </p>
-                    </div>
-                {% endif %}
+        {% if page.title == 'Home' %}
+          <div class='inner'>
+            <h3>What I'm Saying</h3>
+            <p>
+              {% for post in site.posts limit:1 %}
+                <a href='{{ post.url }}'>
+                {{ post.excerpt | strip_html | truncatewords:15 }}
+                </a>
+              {% endfor %}
+            </p>
+          </div>
+        {% endif %}
 
-                {% if page.title != 'Home' and 
-                      page.title != 'Not Found' and 
-                      page.layout != 'portfolio_entry' 
-                %}
-                    <div class='inner glance'>
-                        {% include glance.html %}
-                    </div><!-- inner -->
-                {% endif %}
+        {% if page.title != 'Home' and 
+            page.title != 'Not Found' and 
+            page.layout != 'portfolio_entry' 
+        %}
+          <div class='inner glance'>
+            {% include glance.html %}
+          </div><!-- inner -->
+        {% endif %}
 
-                {% if page.layout == 'portfolio_entry' %}
-                    <div class='inner tags'>
-                        {% include tags.html %}
-                    </div><!-- inner -->
-                {% endif %}
+        {% if page.layout == 'portfolio_entry' %}
+          <div class='inner tags'>
+            {% include tags.html %}
+          </div><!-- inner -->
+        {% endif %}
 
-                <div class='inner'>
-                    <h3>Latest Posts</h3>
-                    <ul>
-                        {% for post in site.posts limit:5 %}
-                            <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div><!-- inner -->
+        <div class='inner'>
+          <h3>Latest Posts</h3>
+          <ul>
+            {% for post in site.posts limit:5 %}
+              <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div><!-- inner -->
 
-                {% if page.title != 'Home' and page.layout != 'portfolio_entry' and page.title != 'Tags' %}
-                    <div class='inner tags'>
-                        {% include tags.html %}
-                    </div><!-- inner -->
-                {% endif %}
-            </aside>
-        </main>
-    </div><!-- wrap -->
-    {% include footer.html %}
-    </body>
+        {% if page.title != 'Home' and page.layout != 'portfolio_entry' and page.title != 'Tags' %}
+          <div class='inner tags'>
+            {% include tags.html %}
+          </div><!-- inner -->
+        {% endif %}
+      </aside>
+    </main>
+  </div><!-- wrap -->
+  {% include footer.html %}
+  </body>
 </html>
