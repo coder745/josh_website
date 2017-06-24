@@ -13,7 +13,7 @@ weight: 10
     <article class='thought'>
       <p>Here I document concise posts about web development or programming that I am learning or have recently discovered. Many times these entries are very short, as I am not a prolific blogger. However, hopefully something I list here will be helpful to others.</p>
     </article>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:4 %}
       <article>
         <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
         <div class='date'>{{ post.date | date: '%B %d, %Y' }}</div>

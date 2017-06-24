@@ -20,6 +20,11 @@
     "link": "https://en.wikipedia.org/wiki/Execution_(computing)"
   },
   {
+    "word": "Law of Demeter",
+    "definition": "a given object should assume as little as possible about the structure or properties of anything else (including its subcomponents), in accordance with the principle of 'information hiding'",
+    "link": "https://en.wikipedia.org/wiki/Law_of_Demeter"
+  },
+  {
     "word": "Anonymous Function",
     "definition": "a function definition that is not bound to an identifier",
     "link": "https://en.wikipedia.org/wiki/Anonymous_function"

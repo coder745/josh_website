@@ -12,6 +12,8 @@ I recently started reading Clean Code by Robert C. Martin. Over the years, I hav
 <!--more-->
 
 ### Main points of book:
+
+#### Naming:
 * Make variables meaningful.
   * Except when in loops, use longer variable names that are searchable and describe the purpose of the variable.
 * Class names should be composed of nouns.
@@ -24,6 +26,8 @@ I recently started reading Clean Code by Robert C. Martin. Over the years, I hav
 * Never use the word 'variable' in a variable or the word 'table' in a table name, etc.
 * Use proper spelling for variable names.
   * Make sure they can be pronounced.
+
+#### Functions:
 * Functions should be as small as possible.
   * They should do only one thing.
 * If a function can be divided into separate parts that accomplish different tasks, it is too large.
@@ -38,6 +42,18 @@ I recently started reading Clean Code by Robert C. Martin. Over the years, I hav
   Also consider writing a function that spells out the expected order of arguments in the function name (i.e. doesCatEqualDog(cat, dog);).
 * A function call should not exhibit side affects. In other words, if a function is clearly designed to do one thing, it should not do something else that is not obvious (such as checking an argument's value, but also saving that argument as a cookie).
 * If possible, make your code more clear (proper function naming, etc) instead of relying on your comment to explain what you are doing with the code.
+
+#### Comments:
 * Comments have a tendancy to gradually become inaccurate as the code gets older.
 * Using long lists of changes at the top of a piece of code is no longer necessary due to version control systems.
 * Resist the urge to comment-out old code. This old code will be tracked by your version management, so delete it.
+
+#### Formatting:
+* Chose a programming code-formatting style and stick to it.
+ - If you are working as a part of a team, pick a style the team agrees to and everyone on the team should abide by that style.
+ * Variables should be close to where they will be used.
+ * Control variables should be defined in the control structure.
+ * Class variables should be defined at the top of the class.
+* When a function calls another function, the function that does the calling should be calling a function that has been defined vertically below its definition.
+* He tries to limit his programming line lengths to 120 characters.
+* He uses spacing according to the precidence of the operator (i.e. 2*3 + 4).

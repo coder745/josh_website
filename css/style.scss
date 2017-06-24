@@ -570,6 +570,11 @@ section.thoughts {
       li {
         flex: 0 1 145px;
         flex: 1 1 131px;
+        flex: 1 1 20%;
+        /* IE11 */
+        -ms-overflow-x: hidden;
+        -ms-overflow-y: hidden;
+        /* end IE11 */
       }
       a {
         display: block;
@@ -608,8 +613,12 @@ section.thoughts {
       }
       li {
         flex: 0 1 80px;
-        flex: 0 1 13%;
         flex: 1 1 83px;
+        flex: 1 1 20%;
+        /* IE11 */
+        -ms-overflow-x: hidden;
+        -ms-overflow-y: hidden;
+        /* end IE11 */
         &:nth-child(odd) a {
           background: lighten($dark_green, 15);
           &:hover {
