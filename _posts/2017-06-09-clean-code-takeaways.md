@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 tags: Programming
 ---
 
-I recently started reading Clean Code by Robert C. Martin. Over the years, I have heard high praise from people who have found this book helpful in their development as a programmer and I have finally found the time to start reading it. So far I find this to be an excellent book. As I continue reading it, I will update this post with my general conclusions listed below:
+I recently started reading Clean Code by Robert C. Martin. Over the years, I have heard high praise from people who have found this book helpful, and I have finally found the time to start reading it. So far I find this to be an excellent book. As I continue reading it, I will update this post with my general conclusions which I have listed below:
 
 <!--more-->
 
@@ -41,19 +41,19 @@ I recently started reading Clean Code by Robert C. Martin. Over the years, I hav
 * Write functions in the form of verb(noun).
   Also consider writing a function that spells out the expected order of arguments in the function name (i.e. doesCatEqualDog(cat, dog);).
 * A function call should not exhibit side affects. In other words, if a function is clearly designed to do one thing, it should not do something else that is not obvious (such as checking an argument's value, but also saving that argument as a cookie).
-* If possible, make your code more clear (proper function naming, etc) instead of relying on your comment to explain what you are doing with the code.
 
 #### Comments:
+* If possible, make your code more clear (proper function naming, etc) instead of relying on your comment to explain what you are doing with the code.
 * Comments have a tendancy to gradually become inaccurate as the code gets older.
 * Using long lists of changes at the top of a piece of code is no longer necessary due to version control systems.
 * Resist the urge to comment-out old code. This old code will be tracked by your version management, so delete it.
 
 #### Formatting:
 * Chose a programming code-formatting style and stick to it.
- - If you are working as a part of a team, pick a style the team agrees to and everyone on the team should abide by that style.
- * Variables should be close to where they will be used.
- * Control variables should be defined in the control structure.
+ - If you are working as a part of a team, pick a style the team agrees to; and everyone on the team should abide by that style.
+ * Variables should be defined close to where they will be used.
+ * Control variables should be defined in the control structure (i.e. 'i' used in a loop).
  * Class variables should be defined at the top of the class.
 * When a function calls another function, the function that does the calling should be calling a function that has been defined vertically below its definition.
-* He tries to limit his programming line lengths to 120 characters.
-* He uses spacing according to the precidence of the operator (i.e. 2*3 + 4).
+* Line lengths of 120 characters or less are recommended.
+* He uses spacing according to the precedence of the operator (i.e. 2*3 + 4).

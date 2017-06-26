@@ -409,6 +409,7 @@ aside {
       }
       li {
         flex: 0 1 100px;
+        flex: 0 1 120px;
       }
       li:before {
         content: '';
@@ -434,6 +435,7 @@ aside {
           flex: 0 1 50px;
           flex: 0 1 100px;
           flex: 0 1 92px;
+          flex: 0 1 110px;
         }
       h3 {
         background: $dark_green;
@@ -614,7 +616,7 @@ section.thoughts {
       li {
         flex: 0 1 80px;
         flex: 1 1 83px;
-        flex: 1 1 20%;
+        flex: 1 1 30%;
         /* IE11 */
         -ms-overflow-x: hidden;
         -ms-overflow-y: hidden;

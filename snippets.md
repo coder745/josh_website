@@ -17,6 +17,9 @@ weight: 45
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
         <li><a href='#linux'>Linux</a></li>
+        <li><a href='#scp'>SCP</a></li>
+        <li><a href='#sql'>SQL</a></li>
+        <li><a href='#ssh'>SSH</a></li>
         <li><a href='#php'>PHP</a></li>
         <li><a href='#tmux'>Tmux</a></li>
         <li><a href='#vim'>Vim</a></li>
@@ -95,6 +98,24 @@ weight: 45
             ...
           }
       </code></pre>
+      <h4>Basic Class Structure</h4>
+      <pre><code class='javascript'>
+        var Shape = function(sides) {
+          this.sides = sides;
+        }
+
+        Shape.prototype.area = function() {
+          calculate ...
+        }
+
+        var square = new Shape(4);
+      </code></pre>
+      <h4>Immediately Invoked Function Expression (IIFE)</h4>
+      <pre><code class='javascript'>
+        (function() {
+          ...executed immediately
+        })());
+      </code></pre>
     </article>
     <article>
       <a name='linux'></a>
@@ -149,6 +170,66 @@ weight: 45
       <h5>Distribution:</h5>
       <pre><code class='bash'>
         cat /etc/*-release
+      </code></pre>
+      <h4>Prevent Command from Being Recorded in Terminal History</h4>
+      <pre><code class='bash'>
+        &lt;space&gt; command
+      </code></pre>
+      <h4>Clear Terminal</h4>
+      <pre><code class='bash'>
+        CTRL + l
+      </code></pre>
+      <h4>Extract a .tar File</h4>
+      <pre><code class='bash'>
+        tar -xvf file.tar
+      </code></pre>
+      <h4>Extract a .tar.gz File</h4>
+      <pre><code class='bash'>
+        tar -xzvf file.tar.gz
+      </code></pre>
+      <h4>Extract a .tar.bz2 File</h4>
+      <pre><code class='bash'>
+        tar -xjvf file.tar.bz2
+      </code></pre>
+      <h4>Finding a File</h4>
+      <pre><code class='bash'>
+        find / -name [file name you are searching] 2> /dev/null
+      </code></pre>
+    </article>
+    <article>
+      <a name='sql'></a>
+      <h3>SQL</h3>
+      <h4>MySQL</h4>
+      <h5>Connect to Database</h5>
+      <pre><code class='bash'>
+        mysql -u [username] -p [password] -h [hostname]
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='ssh'></a>
+      <h3>SSH</h3>
+      <h4>Remote Port Forwarding</h4>
+      <p>Here <strong>9100</strong> is the remote port and <strong>22</strong> is the remote port.</p>
+      <pre><code class='bash'>
+        ssh -R 9100:127.0.0.1:22 username@192.168.6.7
+      </code></pre>
+      <h4>Local Port Forward</h4>
+      <p>In this case, <strong>9100</strong> would be our local port and <strong>80</strong> would be the remote.</p>
+      <pre><code class='bash'>
+        ssh -L 9100:www.remotesite.com:80 username@host
+      </code></pre>
+    </article>
+    <article>
+      <a name='scp'></a>
+      <h3>SCP</h3>
+      <h4>Local to Remote</h4>
+      <pre><code class='bash'>
+        scp file.txt username@host:/to/myremote/directory
+      </code></pre>
+      <h4>Remote to Local</h4>
+      <pre><code class='bash'>
+        scp username@host:file.txt /to/my/local/directory
       </code></pre>
     </article>
     <article>

@@ -183,6 +183,11 @@
         "display": true
       },
       {
+        "title": "Helpful Functions",
+        "url": "http://codebits.glennjones.net/cheatsheet/javascript.htm",
+        "display": true
+      },
+      {
         "title": "jQAPI",
         "url": "http://jqapi.com",
         "display": true
