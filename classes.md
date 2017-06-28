@@ -35,6 +35,7 @@ weight: 26
       <h3>Front End Masters Classes</h3>
       <p>The Front End Master website offers great courses covering front-end topics such as accessibilty, performance, JavasScript, etc.</p>
       <ul>
+        <li><a href='https://frontendmasters.com/courses/web-accessibility'>Web Accessibility</a></li>
         <li><a href='https://frontendmasters.com/courses/good-parts-javascript-web'>The Good Parts of JavaScript and the Web</a></li>
         <li><a href='https://frontendmasters.com/courses/javascript-frameworks-showdown'>Choosing a JavaScript Framework</a></li>
         <li><a href='https://frontendmasters.com/courses/js-fundamentals-to-functional'>JavaScript: From Fundamentals to Functional JS</a></li>

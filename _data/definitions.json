@@ -35,6 +35,26 @@
     "link": "https://en.wikipedia.org/wiki/Single_responsibility_principle"
   },
   {
+    "word": "Type Coercion",
+    "definition": "different ways of changing an entity of one data type into another ... the word coercion is used to denote an implicit conversion, either during compilation or during run time.",
+    "link": "https://en.wikipedia.org/wiki/Type_conversion"
+  },
+  {
+    "word": "Higher-order Function",
+    "definition": "a function that does at least one of the following: takes one or more functions as arguments (i.e., procedural parameters), returns a function as its result.",
+    "link": "https://en.wikipedia.org/wiki/Higher-order_function"
+  },
+  {
+    "word": "DRY",
+    "definition": "don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of information of all kinds",
+    "link": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+  },
+  {
+    "word": "WET",
+    "definition": "Violations of DRY are typically referred to as WET solutions, which is commonly taken to stand for either 'write everything twice', 'we enjoy typing' or 'waste everyone's time'.",
+    "link": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+  },
+  {
     "word": "Open/Closed Principle",
     "definition": "'software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification'; that is, such an entity can allow its behaviour to be extended without modifying its source code.",
     "link": "https://en.wikipedia.org/wiki/Open/closed_principle"

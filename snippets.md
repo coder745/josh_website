@@ -18,6 +18,7 @@ weight: 45
         <li><a href='#javascript'>JavaScript</a></li>
         <li><a href='#linux'>Linux</a></li>
         <li><a href='#scp'>SCP</a></li>
+        <li><a href='#security'>Security</a></li>
         <li><a href='#sql'>SQL</a></li>
         <li><a href='#ssh'>SSH</a></li>
         <li><a href='#php'>PHP</a></li>
@@ -25,6 +26,7 @@ weight: 45
         <li><a href='#vim'>Vim</a></li>
       </ul>
     </article>
+
     <article>
       <a name='css'></a>
       <h3>CSS</h3>
@@ -38,7 +40,19 @@ weight: 45
             box-sizing: inherit;
           }
       </code></pre>
+      <h4>Margin/Padding Shorthand</h4>
+      <pre><code class='css'>
+        //top right bottom left:
+        margin (or padding): 10px 20px 10px 20px;
+
+        //top/bottom left/right:
+        margin (or padding): 10px 20px;
+
+        //top left/right bottom:
+        margin (or padding): 10px 20px 10px;
+      </code></pre>
     </article>
+
     <article>
       <a name='html5'></a>
       <h3>HTML</h3>
@@ -55,6 +69,7 @@ weight: 45
         <li>&lt;del&gt;  - show removed text (sometimes styled with strike-through mark)</li>
       </ul>
     </article>
+
     <article>
       <a name='git'></a>
       <h3>Git</h3>
@@ -117,6 +132,7 @@ weight: 45
         })());
       </code></pre>
     </article>
+
     <article>
       <a name='linux'></a>
       <h3>Linux</h3>
@@ -220,6 +236,7 @@ weight: 45
         ssh -L 9100:www.remotesite.com:80 username@host
       </code></pre>
     </article>
+
     <article>
       <a name='scp'></a>
       <h3>SCP</h3>
@@ -232,6 +249,25 @@ weight: 45
         scp username@host:file.txt /to/my/local/directory
       </code></pre>
     </article>
+
+    <article>
+      <a name='security'></a>
+      <h3>Security</h3>
+      <h4>Nmap Ping Scan (detect hosts)</h4>
+      <pre><code class='bash'>
+        nmap -sP 192.168.1.0/24
+      </code></pre>
+      <h4>Bash Ping Sweep</h4>
+      <h4>Usage: <strong>./sweep.sh 192.168.1</strong></h4>
+      <pre><code class='bash'>
+        #!/bin/bash
+        ip=$1
+        for i in `seq 0 1 255`; do
+            ping -c 3 -t 5 $ip.$i > /dev/null 2>&1 && echo $ip.$i is up;
+        done
+      </code></pre>
+    </article>
+
     <article>
       <a name='php'></a>
       <h3>PHP</h3>
@@ -240,6 +276,7 @@ weight: 45
         $var = isset($_GET['var']) ? $_GET['var'] : '';
       </code></pre>
     </article>
+
     <article>
       <a name='tmux'></a>
       <h3>Tmux</h3>
@@ -272,6 +309,7 @@ weight: 45
         </tbody>
       </table>
     </article>
+
     <article>
       <a name='vim'></a>
       <h3>Vim</h3>
@@ -320,6 +358,18 @@ weight: 45
           <tr>
             <th>Increment Number:</th>
             <td><code>Ctrl + a</code></td>
+          </tr>
+          <tr>
+            <th>Search/Replace Globally:</th>
+            <td><code>:%s/searchfor/replacewith/g</code></td>
+          </tr>
+          <tr>
+            <th>Search/Replace Current Line:</th>
+            <td><code>:s/searchfor/replacewith/g</code></td>
+          </tr>
+          <tr>
+            <th>Search/Replace Ask for Confirmation:</th>
+            <td><code>:%s/searchfor/replacewith/gc</code></td>
           </tr>
         </tbody>
       </table>
