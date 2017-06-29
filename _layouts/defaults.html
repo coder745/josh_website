@@ -18,8 +18,7 @@
         {% endif %}
 
         {% if page.title != 'Home' and 
-            page.title != 'Not Found' and 
-            page.layout != 'portfolio_entry' 
+            page.title != 'Not Found'
         %}
           <div class='inner glance'>
             {% include glance.html %}
@@ -41,7 +40,7 @@
           </ul>
         </div><!-- inner -->
 
-        {% if page.title != 'Home' and page.layout != 'portfolio_entry' and page.title != 'Tags' %}
+        {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
           <div class='inner tags'>
             {% include tags.html %}
           </div><!-- inner -->

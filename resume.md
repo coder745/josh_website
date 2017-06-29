@@ -173,91 +173,91 @@ weight: 30
       <h3>Certification</h3>
       <p>More information about each certification is listed on on my <a href='/certifications'>certification</a> page.</p>
       <ul class='smaller'>
-      <li><a href='/certifications#security'>CompTIA Security+</a></li>
-      <li><a href='/certifications#ceh'>Certified Ethical Hacker</a></li>
-      <li><a href='/certifications#pce'>Zend Certified PHP Engineer</a></li>
-      <li><a href='/certifications#network'>CompTIA Network+</a></li>
-      <li><a href='/certifications#professional'>CIW Web Development Professional</a></li>
-      <li><a href='certifications#database'>CIW Database Design Specialist</a></li>
-      <li><a href='/certifications#perl'>CIW Perl Specialist</a></li>
-      <li><a href='/certifications#javascript'>CIW JavaScript Specialist</a></li>
-      <li><a href='/certifications#linux'>CompTIA Linux+</a></li>
-      <li><a href='/certifications#lpci'>LPCI-1</a></li>
-      <li><a href='/certifications#aplus'>CompTIA A+</a></li>
+        <li><a href='/certifications#security'>CompTIA Security+</a></li>
+        <li><a href='/certifications#ceh'>Certified Ethical Hacker</a></li>
+        <li><a href='/certifications#pce'>Zend Certified PHP Engineer</a></li>
+        <li><a href='/certifications#network'>CompTIA Network+</a></li>
+        <li><a href='/certifications#professional'>CIW Web Development Professional</a></li>
+        <li><a href='certifications#database'>CIW Database Design Specialist</a></li>
+        <li><a href='/certifications#perl'>CIW Perl Specialist</a></li>
+        <li><a href='/certifications#javascript'>CIW JavaScript Specialist</a></li>
+        <li><a href='/certifications#linux'>CompTIA Linux+</a></li>
+        <li><a href='/certifications#lpci'>LPCI-1</a></li>
+        <li><a href='/certifications#aplus'>CompTIA A+</a></li>
       </ul>
     </article>
 
     <article>
       <h3>Technical Skills</h3>
       <ul class='tech-skills'>
-      <li>Server Technologies</li>
-      <li>Apache</li>
-      <li>IIS</li>
-      <li>nginx</li>
-      <li>MS Servers 2008/2012</li>
-      <li>Linux (Debian/Red Hat/CentOS)</li>
-      <li>FreeBSD</li>
+        <li>Server Technologies</li>
+        <li>Apache</li>
+        <li>IIS</li>
+        <li>nginx</li>
+        <li>MS Servers 2008/2012</li>
+        <li>Linux (Debian/Red Hat/CentOS)</li>
+        <li>FreeBSD</li>
       </ul>
       <ul class='tech-skills'>
-      <li>Operating Systems</li>
-      <li>Windows 7/10</li>
-      <li>Mac</li>
-      <li>VMware</li>
-      <li>Linux (Arch, Fedora, Ubuntu)</li>
+        <li>Operating Systems</li>
+        <li>Windows 7/10</li>
+        <li>Mac</li>
+        <li>VMware</li>
+        <li>Linux (Arch, Fedora, Ubuntu)</li>
       </ul>
       <ul class='tech-skills'>
-      <li>Networking</li>
-      <li>TCP/IP</li>
-      <li>Routing/Switching</li>
-      <li>VLANs</li>
-      <li>DNS</li>
-      <li>DHCP</li>
-      <li>SSH</li>
-      <li>(S)FTP</li>
-      <li>TLS</li>
+        <li>Networking</li>
+        <li>TCP/IP</li>
+        <li>Routing/Switching</li>
+        <li>VLANs</li>
+        <li>DNS</li>
+        <li>DHCP</li>
+        <li>SSH</li>
+        <li>(S)FTP</li>
+        <li>TLS</li>
       </ul>
       <ul class='tech-skills'>
-      <li>Programming Languages</li>
-      <li>PHP</li>
-      <li>C#</li>
-      <li>Perl</li>
-      <li>Python</li>
-      <li>JavaScript</li>
-      <li>Ruby</li>
-      <li>Bash/Batch</li>
-      <li>Objective C</li>
+        <li>Programming Languages</li>
+        <li>PHP</li>
+        <li>C#</li>
+        <li>Perl</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+        <li>Bash/Batch</li>
+        <li>Objective C</li>
       </ul>
       <ul class='tech-skills'>
-      <li>Databases</li>
-      <li>MySQL</li>
-      <li>MS SQL</li>
-      <li>Oracle</li>
-      <li>SQLite</li>
-      <li>NoSQL (MongoDB)</li>
-      <li>Firebase</li>
-      <li>Normalization</li>
+        <li>Databases</li>
+        <li>MySQL</li>
+        <li>MS SQL</li>
+        <li>Oracle</li>
+        <li>SQLite</li>
+        <li>NoSQL (MongoDB)</li>
+        <li>Firebase</li>
+        <li>Normalization</li>
       </ul>
       <ul class='tech-skills'>
-      <li>Markup Languages/Protocols</li>
-      <li>HTTP(S)</li>
-      <li>XHTML/HTML5</li>
-      <li>Markdown</li>
-      <li>CSS</li>
-      <li>XML</li>
-      <li>SVG</li>
-      <li>REST</li>
-      <li>JSON</li>
-      <li>YAML</li>
-      <li>SASS</li>
+        <li>Markup Languages/Protocols</li>
+        <li>HTTP(S)</li>
+        <li>XHTML/HTML5</li>
+        <li>Markdown</li>
+        <li>CSS</li>
+        <li>XML</li>
+        <li>SVG</li>
+        <li>REST</li>
+        <li>JSON</li>
+        <li>YAML</li>
+        <li>SASS</li>
       </ul>
       <ul class='tech-skills'>
-      <li>Security</li>
-      <li>NMAP</li>
-      <li>Kali Linux</li>
-      <li>Wireshark</li>
-      <li>Vulnerability Scanning</li>
-      <li>Enumeration</li>
-      <li>Footprinting</li>
+        <li>Security</li>
+        <li>NMAP</li>
+        <li>Kali Linux</li>
+        <li>Wireshark</li>
+        <li>Vulnerability Scanning</li>
+        <li>Enumeration</li>
+        <li>Footprinting</li>
       </ul>
     </article>
   </div><!-- inner-section -->

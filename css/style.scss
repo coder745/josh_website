@@ -65,6 +65,10 @@ a {
   }
 }
 
+.date {
+  @include datestyle();
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -97,6 +101,7 @@ ul {
       }
     li {
       flex: 0 1 90px;
+      flex: 0 1 80px;
     }
     a {
       display: block;
@@ -178,11 +183,18 @@ body {
   }
 }
 
-table.code {
-  th {
-    padding-right: 20px;
-    text-align: left;
-  }
+div.code dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.code dt {
+  font-weight: bold;
+  flex: 1 0 40%;
+  margin-top: 0;
+}
+div.code dd {
+  flex: 1 0 60%;
+  margin-bottom: 0;
 }
 
 .start_search {
@@ -248,6 +260,10 @@ table.code {
     font-size: 30px;
     height: 100px;
     width: 100%;
+    //Prevent rounded corners on focus in IOS:
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
     &:focus {
       outline: none;
     }
@@ -398,6 +414,7 @@ aside {
       border: none;
       box-shadow: none;
       padding: 0;
+      clear: both;
       h3 {
         background: lighten($dark_green, 10);
         color: #fff;
@@ -534,6 +551,9 @@ section {
     font-size: pxToRem(25px);
     margin-bottom: pxToRem(20px);
     text-shadow: 1px 1px 1px $light_green;
+    &.single_title {
+      margin-left: 0;
+    }
   }
 }
 
@@ -542,9 +562,6 @@ section.thoughts {
   h2:not(.thought) {
     margin-left: 0;
     font-size: pxToRem(25px);
-  }
-  .date {
-    @include datestyle();
   }
   article:not(.thought) {
     @include boxstyle();
@@ -573,6 +590,9 @@ section.thoughts {
         flex: 0 1 145px;
         flex: 1 1 131px;
         flex: 1 1 20%;
+        /* Safari */
+        -webkit-flex: 1 1 95px;
+        /* end Safari */
         /* IE11 */
         -ms-overflow-x: hidden;
         -ms-overflow-y: hidden;
@@ -649,9 +669,6 @@ section.thoughts {
 }
 
 section.full-content {
-  .date {
-    @include datestyle();
-  }
   article h2 {
     margin-left: 0;
   }

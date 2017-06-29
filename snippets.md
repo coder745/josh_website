@@ -40,6 +40,16 @@ weight: 45
             box-sizing: inherit;
           }
       </code></pre>
+      <h4>Clear Floats</h4>
+      <pre><code class='css'>
+        .clearfix:after {
+          content: '';
+          display: block;
+          clear: both;
+          height: 0;
+          visibility: hidden;
+        }
+      </code></pre>
       <h4>Margin/Padding Shorthand</h4>
       <pre><code class='css'>
         //top right bottom left:
@@ -280,99 +290,96 @@ weight: 45
     <article>
       <a name='tmux'></a>
       <h3>Tmux</h3>
-      <table class='code'>
-        <tbody>
-          <tr>
-            <th>Split Window Vertically:</th>
-            <td><code>Ctrl + b %</code></td>
-          </tr>
-          <tr>
-            <th>Split Window Horizontally:</th>
-            <td><code>Ctrl + b "</code></td>
-          </tr>
-          <tr>
-            <th>Navigate Between Windows:</th>
-            <td><code>Ctrl + b &lt;ARROW KEYS&gt;</code></td>
-          </tr>
-          <tr>
-            <th>Detach from tmux:</th>
-            <td><code>Ctrl + d</code></td>
-          </tr>
-          <tr>
-            <th>Re-attach to tmux:</th>
-            <td><code>tmux attach -t &lt;SESSION NAME&gt;</code> (i.e. tmux attach -t 0)</td>
-          </tr>
-          <tr>
-            <th>Show running tmux sessions:</th>
-            <td><code>tmux ls</code></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class='code'>
+        <dl>
+          <dt>Split Window Vertically:</dt>
+          <dd><code>Ctrl + b %</code></dd>
+        </dl>
+        <dl>
+          <dt>Split Window Horizontally:</dt>
+          <dd><code>Ctrl + b "</code></dd>
+        </dl>
+        <dl>
+          <dt>Navigate Between Windows:</dt>
+          <dd><code>Ctrl + b &lt;ARROW KEYS&gt;</code></dd>
+        </dl>
+        <dl>
+          <dt>Detach from tmux:</dt>
+          <dd><code>Ctrl + d</code></dd>
+        </dl>
+        <dl>
+          <dt>Re-attach to tmux:</dt>
+          <dd><code>tmux attach -t &lt;SESSION NAME&gt;</code> (i.e. tmux attach -t 0)</dd>
+        </dl>
+        <dl>
+          <dt>Show running tmux sessions:</dt>
+          <dd><code>tmux ls</code></dd>
+        </dl>
+      </div>
     </article>
 
     <article>
       <a name='vim'></a>
       <h3>Vim</h3>
-      <table class='code'>
-        <tbody>
-          <tr>
-            <th>Split Editor:</th>
-            <td><code>:split</code> new_file_name</td>
-          </tr>
-          <tr>
-            <th>Vertical Split Editor:</th>
-            <td><code>:vsplit</code> new_file_name</td>
-          </tr>
-          <tr>
-            <th>Mark Current Line:</th>
-            <td><code>m[a-z]</code> (i.e. <code>ma</code>)</td>
-          </tr>
-          <tr>
-            <th>Go to Mark "h":</th>
-            <td><code>'h</code></td>
-          </tr>
-          <tr>
-            <th>Show Registers:</th>
-            <td><code>:reg</code></td>
-          </tr>
-          <tr>
-            <th>Paste from # registers:</th>
-            <td><code>"[0-9]p</code> (i.e. <code>"0p</code>, <code>"1p</code>, etc.)</td>
-          </tr>
-          <tr>
-            <th>Yank to register:</th>
-            <td><code>"[a-z]y</code> (then: <code>"ap</code> to paste)</td>
-          </tr>
-          <tr>
-            <th>Record Macro:</th>
-            <td><code>q[a-z]</code> (i.e. <code>qm</code> - records to `m`)</td>
-          </tr>
-          <tr>
-            <th>Stop Macro Recording:</th>
-            <td><code>q</code></td>
-          </tr>
-          <tr>
-            <th>Execute Macro:</th>
-            <td><code>@[a-z]</code> (i.e. <code>@m</code> or <code>20 @m</code> to run 20 times</td>
-          </tr>
-          <tr>
-            <th>Increment Number:</th>
-            <td><code>Ctrl + a</code></td>
-          </tr>
-          <tr>
-            <th>Search/Replace Globally:</th>
-            <td><code>:%s/searchfor/replacewith/g</code></td>
-          </tr>
-          <tr>
-            <th>Search/Replace Current Line:</th>
-            <td><code>:s/searchfor/replacewith/g</code></td>
-          </tr>
-          <tr>
-            <th>Search/Replace Ask for Confirmation:</th>
-            <td><code>:%s/searchfor/replacewith/gc</code></td>
-          </tr>
-        </tbody>
-      </table>
+
+      <div class='code'>
+        <dl>
+          <dt>Split Editor:</dt>
+          <dd><code>:vsplit</code> new_file_name</dd>
+        </dl>
+        <dl>
+          <dt>Vertical Split Editor:</dt>
+          <dd><code>:vsplit</code> new_file_name</dd>
+        </dl>
+        <dl>
+          <dt>Mark Current Line:</dt>
+          <dd><code>m[a-z]</code> (i.e. <code>ma</code>)</dd>
+        </dl>
+        <dl>
+          <dt>Go to Mark "h":</dt>
+          <dd><code>'h</code></dd>
+        </dl>
+        <dl>
+          <dt>Show Registers:</dt>
+          <dd><code>:reg</code></dd>
+        </dl>
+        <dl>
+          <dt>Paste from # registers:</dt>
+          <dd><code>"[0-9]p</code> (i.e. <code>"0p</code>, <code>"1p</code>, etc.)</dd>
+        </dl>
+        <dl>
+          <dt>Yank to register:</dt>
+          <dd><code>"[a-z]y</code> (then: <code>"ap</code> to paste)</dd>
+        </dl>
+        <dl>
+          <dt>Record Macro:</dt>
+          <dd><code>q[a-z]</code> (i.e. <code>qm</code> - records to `m`)</dd>
+        </dl>
+        <dl>
+          <dt>Stop Macro Recording:</dt>
+          <dd><code>q</code></dd>
+        </dl>
+        <dl>
+          <dt>Execute Macro:</dt>
+          <dd><code>@[a-z]</code> (i.e. <code>@m</code> or <code>20 @m</code> to run 20 times</dd>
+        </dl>
+        <dl>
+          <dt>Increment Number:</dt>
+          <dd><code>Ctrl + a</code></dd>
+        </dl>
+        <dl>
+          <dt>Search / Replace Globally:</dt>
+          <dd><code>:%s/searchfor/replacewith/g</code></dd>
+        </dl>
+        <dl>
+          <dt>Search / Replace Current Line:</dt>
+          <dd><code>:s/searchfor/replacewith/g</code></dd>
+        </dl>
+        <dl>
+          <dt>Search/Replace Ask for Confirmation:</dt>
+          <dd><code>:%s/searchfor/replacewith/gc</code></dd>
+        </dl>
+      </div>
     </article>
   </div><!-- inner-section -->
 </section>
