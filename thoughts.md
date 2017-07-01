@@ -19,14 +19,13 @@ weight: 10
         <div class='date'>{{ post.date | date: '%B %d, %Y' }}</div>
           {{ post.content | split:'<!--more-->' | first }}
           {% if post.content contains '<!--more-->' %}
-          <a href='{{ post.url }}'>... read more</a>
+            <a href='{{ post.url }}'>... read more</a>
           {% endif %}
       </article>
     {% endfor %}
 
-      <article class='thought last'>
-        -- <a href='/all'>See All Thoughts</a>
-      </article>
-
+    <article class='thought last'>
+      -- <a href='/all'>See All Thoughts</a>
+    </article>
   </div><!-- inner-section -->
 </section>

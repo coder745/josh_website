@@ -32,13 +32,13 @@ weight: 45
       <h3>CSS</h3>
       <h4>Switch to box sizing</h4>
       <pre><code class='css'>
-          html {
-            box-sizing: border-box;
-          }
+        html {
+          box-sizing: border-box;
+        }
 
-          *, *:before, *:after {
-            box-sizing: inherit;
-          }
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
       </code></pre>
       <h4>Clear Floats</h4>
       <pre><code class='css'>
@@ -85,34 +85,36 @@ weight: 45
       <h3>Git</h3>
       <h4>Create and switch to branch</h4>
       <pre><code class='git'>
-          git checkout -b new_branch_name
+        git checkout -b new_branch_name
       </code></pre>
       <h4>Delete branch</h4>
       <pre><code class='git'>
-          git branch -d new_branch_name
+        git branch -d new_branch_name
       </code></pre>
       <h4 markdown='1'>Remove one file from `git add`</h4>
       <pre><code class='git'>
-          git reset &lt;file&gt;
+        git reset &lt;file&gt;
       </code></pre>
       <h4 markdown='1'>Remove files added with `git add .`</h4>
       <pre><code class='git'>
-          git reset
+        git reset
       </code></pre>
       <h4>Roll back previous commit (preserving file changes)</h4>
       <pre><code class='git'>
-          git reset --soft HEAD~1
+        git reset --soft HEAD~1
       </code></pre>
       <h4>Roll back previous commit (discarding file changes)</h4>
       <pre><code class='git'>
-          git reset --hard HEAD~1
+        git reset --hard HEAD~1
       </code></pre>
     </article>
+
     <article>
       <a name='javascript'></a>
       <h3>JavaScript</h3>
       <h4>Only display content when JavaScript is enabled</h4>
-      <pre><code class='javascript'>
+      <pre>
+        <code class='javascript'>
           document.getElementsByTagName('body')[0].className += ' js';
         </code>
         <code class='css'>
@@ -122,7 +124,8 @@ weight: 45
             display: block;
             ...
           }
-      </code></pre>
+        </code>
+      </pre>
       <h4>Basic Class Structure</h4>
       <pre><code class='javascript'>
         var Shape = function(sides) {
@@ -150,24 +153,24 @@ weight: 45
       <h5>Red Hat/CentOS</h5>
       <p markdown='1' class='no-mb'>Add modify the entries below within: `/etc/sysconfig/network-scripts/ifcfg-eth0` (change IP addresses according to your network). The name for your network connection could differ from `ifcfg-eth0`.</p>
       <pre><code class='bash'>
-          ...
-          DEVICE="eth0"
-          BOOTPROTO="static"
-          IPADDR="192.168.3.100"
-          NETMASK="255.255.255.0"
-          GATEWAY="192.168.3.1"
-          ONBOOT="yes"
-          ...
+        ...
+        DEVICE="eth0"
+        BOOTPROTO="static"
+        IPADDR="192.168.3.100"
+        NETMASK="255.255.255.0"
+        GATEWAY="192.168.3.1"
+        ONBOOT="yes"
+        ...
       </code></pre>
       <h5>Ubuntu/Debian</h5>
       <p markdown='1' class='no-mb'>Add or edit the lines below in this file `/etc/network/interfaces`.</p>
       <pre><code>
-          ...
-          iface eth0 inet static
-          address 192.168.3.100
-          netmask 255.255.255.0
-          gateway 192.168.3.1
-          ...
+        ...
+        iface eth0 inet static
+        address 192.168.3.100
+        netmask 255.255.255.0
+        gateway 192.168.3.1
+        ...
       </code></pre>
       <h4 markdown='1'>Show Security Settings with `ls`</h4>
       <pre><code class='bash'>
@@ -175,14 +178,14 @@ weight: 45
       </code></pre>
       <h4 markdown='1'>Crontab</h4>
       <pre><code class='bash'>
-      *  *  *  *  *         command
-      -  -  -  -  -  
-      |  |  |  |  |
-      |  |  |  |  +---------------------- day of week (0 - 6) (0 - Sunday)
-      |  |  |  +--------------------- month (1 - 12)
-      |  |  +------------------- day of month (1 - 31) 
-      |  +------------- hour (0 - 23) 
-      +------------ minute (0 - 59)
+        *  *  *  *  *         command
+        -  -  -  -  -  
+        |  |  |  |  |
+        |  |  |  |  +---------------------- day of week (0 - 6) (0 - Sunday)
+        |  |  |  +--------------------- month (1 - 12)
+        |  |  +------------------- day of month (1 - 31) 
+        |  +------------- hour (0 - 23) 
+        +------------ minute (0 - 59)
       </code></pre>
       <h4 markdown='1'>Write ISO to Disk</h4>
       <pre><code class='bash'>
@@ -222,6 +225,7 @@ weight: 45
         find / -name [file name you are searching] 2> /dev/null
       </code></pre>
     </article>
+
     <article>
       <a name='sql'></a>
       <h3>SQL</h3>
@@ -321,7 +325,6 @@ weight: 45
     <article>
       <a name='vim'></a>
       <h3>Vim</h3>
-
       <div class='code'>
         <dl>
           <dt>Split Editor:</dt>
