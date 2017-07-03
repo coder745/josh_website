@@ -57,3 +57,25 @@ I recently started reading Clean Code by Robert C. Martin. Over the years, I hav
 * When a function calls another function, the function that does the calling should be calling a function that has been defined vertically below its definition.
 * Line lengths of 120 characters or less are recommended.
 * He uses spacing according to the precedence of the operator (i.e. 2*3 + 4).
+
+#### Testing:
+* Insure that your tests are clean and readable.
+* Make sure your tests are testing a single thing.
+* F.I.R.S.T.
+  - Fast
+    * Tests should run quickly.
+  - Independent
+    * Each test should be independent and able to be executed on its own.
+  - Repeatable
+    * You should be able to run the test in any environment (Dev, QA, Locally, etc).
+  - Self-Validating
+    * All tests should return a boolean (true or false).
+  - Timely
+    * Write the test for your production code immediately before writing the production code, not afterward.
+
+#### Classes:
+* Classes should start with all of your variables (public then private variables).
+* Classes should be small.
+* Classes should have a single responsibility.
+* A class name should describe its single responsibility.
+* A class should follow the <a href='https://en.wikipedia.org/wiki/Single_responsibility_principle'>Single Responsibility Principle</a>.

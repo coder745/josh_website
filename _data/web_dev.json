@@ -282,6 +282,21 @@
         "display": true
       },
       {
+        "title": "Coolor Color Generator",
+        "url": "https://coolors.co/app",
+        "display": true
+      },
+      {
+        "title": "CSS Named Colors",
+        "url": "http://www.colors.commutercreative.com/grid",
+        "display": true
+      },
+      {
+        "title": "CSS Clip Path Generator",
+        "url": "http://bennettfeely.com/clippy",
+        "display": true
+      },
+      {
         "title": "Noise Texture Generator",
         "url": "http://www.noisetexturegenerator.com",
         "display": true

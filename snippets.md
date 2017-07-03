@@ -112,6 +112,27 @@ weight: 45
     <article>
       <a name='javascript'></a>
       <h3>JavaScript</h3>
+      <h4>Destructuring</h4>
+      <pre>
+        <code>
+          //Object Destructuring:
+          let foods = {
+            vegetable: 'spinach',
+            fruit: 'apple',
+            nut: 'almond',
+          };
+          const { vegetable, fruit } = foods;
+
+          //Array Destructuring:
+          let dirty_dozen = [ 'Strawberries', 'Spinach', 'Nectarines', 'Apples', 
+                              'Peaches', 'Pears', 'Cherries', 'Grapes', 'Celery', 
+                              'Tomatoes', 'Sweet bell peppers', 'Potatoes' ];
+          
+          const [ one_item ] = dirty_dozen;
+
+        </code>
+      </pre>
+
       <h4>Only display content when JavaScript is enabled</h4>
       <pre>
         <code class='javascript'>
@@ -126,6 +147,11 @@ weight: 45
           }
         </code>
       </pre>
+
+      <h4>Detect Keyboard Input</h4>
+      <p data-height="265" data-theme-id="dark" data-slug-hash="vZjKVr" data-default-tab="css,result" data-user="joshayoung" data-embed-version="2" data-pen-title="Detect Keyboard Input" class="codepen">See the Pen <a href="https://codepen.io/joshayoung/pen/vZjKVr/">Detect Keyboard Input</a> by Josh (<a href="https://codepen.io/joshayoung">@joshayoung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
       <h4>Basic Class Structure</h4>
       <pre><code class='javascript'>
         var Shape = function(sides) {

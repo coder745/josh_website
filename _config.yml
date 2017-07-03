@@ -4,7 +4,7 @@ permalink: /:year/:title/
 url: http://joshyoung.me
 linkedin_url: https://www.linkedin.com/in/joshuayoung1
 github_url: https://github.com/joshayoung
-codepen_url: 
+codepen_url: https://codepen.io/joshayoung
 sitemap: 
   exclude: 
   - node_modules
