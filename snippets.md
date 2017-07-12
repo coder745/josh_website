@@ -12,11 +12,14 @@ weight: 45
   <h2>Code Snippets</h2>
     <article>
       <ul class='anchor_list'>
+        <li><a href='#curl'>Curl</a></li>
         <li><a href='#css'>CSS</a></li>
         <li><a href='#html5'>HTML</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
+        <li><a href='#laravel'>Laravel</a></li>
         <li><a href='#linux'>Linux</a></li>
+        <li><a href='#mac'>Mac</a></li>
         <li><a href='#scp'>SCP</a></li>
         <li><a href='#security'>Security</a></li>
         <li><a href='#sql'>SQL</a></li>
@@ -24,7 +27,21 @@ weight: 45
         <li><a href='#php'>PHP</a></li>
         <li><a href='#tmux'>Tmux</a></li>
         <li><a href='#vim'>Vim</a></li>
+        <li><a href='#windows'>Windows</a></li>
       </ul>
+    </article>
+
+    <article>
+      <a name='curl'></a>
+      <h3>Curl</h3>
+      <h4>Get HTTP Response</h4>
+      <pre><code class='bash'>
+        curl -I example.com
+      </code></pre>
+      <h4>Get Just Response Code</h4>
+      <pre><code class='bash'>
+        curl -s -o /dev/null -w "%{http_code}" example.me
+      </code></pre>
     </article>
 
     <article>
@@ -83,6 +100,22 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
+      <h4>Saves Current Changes with Stash</h4>
+      <pre><code class='git'>
+        git stash
+      </code></pre>
+      <h4>Restores Most Recently Stashed Changes</h4>
+      <pre><code class='git'>
+        git stash pop
+      </code></pre>
+      <h4>List Stashes</h4>
+      <pre><code class='git'>
+        git stash list
+      </code></pre>
+      <h4>Restore Specific Stash</h4>
+      <pre><code class='git'>
+        git stash pop stash@{3}
+      </code></pre>
       <h4>Create and switch to branch</h4>
       <pre><code class='git'>
         git checkout -b new_branch_name
@@ -173,6 +206,35 @@ weight: 45
     </article>
 
     <article>
+      <a name='laravel'></a>
+      <h3>Laravel</h3>
+      <h4>Basic Migration</h4>
+      <pre><code class='bash'>
+        php artisan make:migration the_users_table --create=users
+      </code></pre>
+      <h4>Refresh Auto Load Files</h4>
+      <pre><code class='bash'>
+        composer dump-autoload
+      </code></pre>
+      <h4>Run the Migrations</h4>
+      <pre><code class='bash'>
+        php artisan migrate
+      </code></pre>
+      <h4>Open Laravel Shell</h4>
+      <pre><code class='bash'>
+        php artisan tinker
+      </code></pre>
+      <h4>Create the Model along with the Migration</h4>
+      <pre><code class='bash'>
+        php artisan make:model User -m
+      </code></pre>
+      <h4>Create Controller</h4>
+      <pre><code class='bash'>
+        php artisan make:controller UserController
+      </code></pre>
+    </article>
+
+    <article>
       <a name='linux'></a>
       <h3>Linux</h3>
       <h4>Add Static IP</h4>
@@ -249,6 +311,15 @@ weight: 45
       <h4>Finding a File</h4>
       <pre><code class='bash'>
         find / -name [file name you are searching] 2> /dev/null
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='mac'></a>
+      <h3>Mac</h3>
+      <h4>Flush DNS</h4>
+      <pre><code class='bash'>
+        sudo killall -HUP mDNSResponder
       </code></pre>
     </article>
 
@@ -410,5 +481,20 @@ weight: 45
         </dl>
       </div>
     </article>
+
+    <article>
+      <a name='windows'></a>
+      <h3>Windows</h3>
+      <h4>Flush DNS</h4>
+      <pre><code class='batch'>
+        ipconfig /flushdns
+      </code></pre>
+
+      <h4>All Network Info</h4>
+      <pre><code class='batch'>
+        ipconfig /all
+      </code></pre>
+    </article>
+
   </div><!-- inner-section -->
 </section>

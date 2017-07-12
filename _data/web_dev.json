@@ -61,6 +61,11 @@
         "display": true
       },
       {
+        "title": "Page Speed Insights",
+        "url": "https://developers.google.com/speed/pagespeed/insights",
+        "display": true
+      },
+      {
         "title": "Web Page Test",
         "url": "https://www.webpagetest.org",
         "display": true
@@ -340,6 +345,11 @@
       {
         "title": "Regulex",
         "url": "https://jex.im/regulex",
+        "display": true
+      },
+      {
+        "title": "Regex Builder",
+        "url": "https://regex101.com",
         "display": true
       },
       {
