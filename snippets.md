@@ -14,6 +14,7 @@ weight: 45
       <ul class='anchor_list'>
         <li><a href='#curl'>Curl</a></li>
         <li><a href='#css'>CSS</a></li>
+        <li><a href='#dev_tools'>Dev Tools</a></li>
         <li><a href='#html5'>HTML</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
@@ -78,6 +79,22 @@ weight: 45
         //top left/right bottom:
         margin (or padding): 10px 20px 10px;
       </code></pre>
+    </article>
+
+    <article>
+      <a name='dev_tools'></a>
+      <h3>Dev Tools</h3>
+      <h4>Chrome</h4>
+      <div class='code'>
+        <dl>
+          <dt>Logging:</dt>
+          <dd><code>console.log('test string');</code></dd>
+          <dt>Log Variable as an Object:</dt>
+          <dd><code>console.dir(paragraph);</code></dd>
+          <dt>Log an object as a table:</dt>
+          <dd><code>console.table(all_animals);</code></dd>
+        </dl>
+      </div>
     </article>
 
     <article>
@@ -232,6 +249,15 @@ weight: 45
       <pre><code class='bash'>
         php artisan make:controller UserController
       </code></pre>
+      <h4>Create Model, Controller, and Migration</h4>
+      <pre><code class='bash'>
+        php artisan make:model User -mc
+      </code></pre>
+      <h4>Create Resoureful Controller</h4>
+      <pre><code class='bash'>
+        php artisan make:controller UsersController -r
+      </code></pre>
+
     </article>
 
     <article>
@@ -395,24 +421,14 @@ weight: 45
         <dl>
           <dt>Split Window Vertically:</dt>
           <dd><code>Ctrl + b %</code></dd>
-        </dl>
-        <dl>
           <dt>Split Window Horizontally:</dt>
           <dd><code>Ctrl + b "</code></dd>
-        </dl>
-        <dl>
           <dt>Navigate Between Windows:</dt>
           <dd><code>Ctrl + b &lt;ARROW KEYS&gt;</code></dd>
-        </dl>
-        <dl>
           <dt>Detach from tmux:</dt>
           <dd><code>Ctrl + d</code></dd>
-        </dl>
-        <dl>
           <dt>Re-attach to tmux:</dt>
           <dd><code>tmux attach -t &lt;SESSION NAME&gt;</code> (i.e. tmux attach -t 0)</dd>
-        </dl>
-        <dl>
           <dt>Show running tmux sessions:</dt>
           <dd><code>tmux ls</code></dd>
         </dl>
@@ -426,57 +442,31 @@ weight: 45
         <dl>
           <dt>Split Editor:</dt>
           <dd><code>:vsplit</code> new_file_name</dd>
-        </dl>
-        <dl>
           <dt>Vertical Split Editor:</dt>
           <dd><code>:vsplit</code> new_file_name</dd>
-        </dl>
-        <dl>
           <dt>Mark Current Line:</dt>
           <dd><code>m[a-z]</code> (i.e. <code>ma</code>)</dd>
-        </dl>
-        <dl>
           <dt>Go to Mark "h":</dt>
           <dd><code>'h</code></dd>
-        </dl>
-        <dl>
           <dt>Show Registers:</dt>
           <dd><code>:reg</code></dd>
-        </dl>
-        <dl>
           <dt>Paste from # registers:</dt>
           <dd><code>"[0-9]p</code> (i.e. <code>"0p</code>, <code>"1p</code>, etc.)</dd>
-        </dl>
-        <dl>
           <dt>Yank to register:</dt>
           <dd><code>"[a-z]y</code> (then: <code>"ap</code> to paste)</dd>
-        </dl>
-        <dl>
           <dt>Record Macro:</dt>
           <dd><code>q[a-z]</code> (i.e. <code>qm</code> - records to `m`)</dd>
-        </dl>
-        <dl>
           <dt>Stop Macro Recording:</dt>
           <dd><code>q</code></dd>
-        </dl>
-        <dl>
           <dt>Execute Macro:</dt>
           <dd><code>@[a-z]</code> (i.e. <code>@m</code> or <code>20 @m</code> to run 20 times</dd>
-        </dl>
-        <dl>
           <dt>Increment Number:</dt>
           <dd><code>Ctrl + a</code></dd>
-        </dl>
-        <dl>
           <dt>Search / Replace Globally:</dt>
           <dd><code>:%s/searchfor/replacewith/g</code></dd>
-        </dl>
-        <dl>
           <dt>Search / Replace Current Line:</dt>
           <dd><code>:s/searchfor/replacewith/g</code></dd>
-        </dl>
-        <dl>
-          <dt>Search/Replace Ask for Confirmation:</dt>
+          <dt>Search / Replace Ask for Confirmation:</dt>
           <dd><code>:%s/searchfor/replacewith/gc</code></dd>
         </dl>
       </div>
