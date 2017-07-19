@@ -555,6 +555,17 @@ nav {
   }
 }
 
+ul.sub-nav {
+  border-top: 1px solid $dark_green;
+  li { }
+  a {
+    font-size: 12px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 ul.social {
   display: none;
 }
@@ -888,6 +899,29 @@ footer {
     &.active:hover {
       background: $light_green;
       color: #fff;
+    }
+  }
+  ul.sub-nav {
+    border: none;
+    flex-direction: row;
+    margin-top: 10px;
+    li {
+      flex: 1 1 30px;
+    }
+    li:nth-child(odd) a {
+      background: none;
+      &:hover {
+        background: none;
+        color: $light_green;
+      }
+    }
+    a {
+      font-size: 11px;
+      border: none;
+      &:hover {
+        background: none;
+        color: $light_green;
+      }
     }
   }
   ul.social {

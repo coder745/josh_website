@@ -90,12 +90,12 @@
         </a>
     </header>
     <aside class='left-aside'>
-      <nav role='navigation'>
+      <nav class='main-nav' role='navigation'>
         {% assign pages = site.html_pages | sort: "weight"  %}
         <ul>
           {% for p in pages %}
             {% if p.main_menu %}
-            <li>
+              <li>
               <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
               {{ p.title }}
               {% if p.title == 'Resume' %}
@@ -120,6 +120,11 @@
             </li>
             {% endif %}
           {% endfor %}
+        </ul>
+        <ul class='sub-nav'>
+          <li><a href='/snippets'>Snippets</a></li>
+          <li><a href='/definitions'>Definitions</a></li>
+          <li><a href='/resources'>Resources</a></li>
         </ul>
       </nav>
       <ul class='social'>
