@@ -41,7 +41,11 @@ weight: 45
       </code></pre>
       <h4>Get Just Response Code</h4>
       <pre><code class='bash'>
-        curl -s -o /dev/null -w "%{http_code}" example.me
+        curl -s -o /dev/null -w "%{http_code}" example.com
+      </code></pre>
+      <h4>Curl POST</h4>
+      <pre><code class='bash'>
+        curl --data "information=to&send=to the server" http://example.com
       </code></pre>
     </article>
 
