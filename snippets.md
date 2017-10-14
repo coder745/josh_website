@@ -23,9 +23,10 @@ weight: 45
         <li><a href='#mac'>Mac</a></li>
         <li><a href='#scp'>SCP</a></li>
         <li><a href='#security'>Security</a></li>
-        <li><a href='#sql'>SQL</a></li>
+        <li><a href='#mysql'>MySql</a></li>
         <li><a href='#ssh'>SSH</a></li>
         <li><a href='#php'>PHP</a></li>
+        <li><a href='#psql'>PostgreSQL</a></li>
         <li><a href='#tmux'>Tmux</a></li>
         <li><a href='#vim'>Vim</a></li>
         <li><a href='#windows'>Windows</a></li>
@@ -141,9 +142,9 @@ weight: 45
       <pre><code class='git'>
         git checkout -b new_branch_name
       </code></pre>
-      <h4>Delete branch</h4>
+      <h4>Delete local branch</h4>
       <pre><code class='git'>
-        git branch -d new_branch_name
+        git branch -d local_branch_name
       </code></pre>
       <h4 markdown='1'>Remove one file from `git add`</h4>
       <pre><code class='git'>
@@ -354,13 +355,31 @@ weight: 45
     </article>
 
     <article>
-      <a name='sql'></a>
-      <h3>SQL</h3>
-      <h4>MySQL</h4>
+      <a name='mysql'></a>
+      <h3>MySQL</h3>
       <h5>Connect to Database</h5>
       <pre><code class='bash'>
         mysql -u [username] -p [password] -h [hostname]
       </code></pre>
+    </article>
+
+    <article>
+      <a name='psql'></a>
+      <h3>PostGresql</h3>
+      <div class='code'>
+        <dl>
+          <dt>Connect to Database</dt>
+          <dd><code>\c DATABASE_NAME</code></dd>
+          <dt>List Databases</dt>
+          <dd><code>\l</code></dd>
+          <dt>Tables in database:</dt>
+          <dd><code>\dt</code></dd>
+          <dt>Describe Table</dt>
+          <dd><code>\dt+</code></dd>
+          <dt>Leave SQL Server</dt>
+          <dd><code>\q</code></dd>
+        </dl>
+      </div>
     </article>
 
     <article>
