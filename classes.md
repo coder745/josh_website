@@ -16,6 +16,7 @@ weight: 26
         <li><a href='#frontend'>Front End Masters Classes</a></li>
         <li><a href='#laracastsclasses'>Laracast Courses</a></li>
         <li><a href='#wesbos'>Wes Bos Classes</a></li>
+        <li><a href='#udemy'>Udemy Classes</a></li>
         <li><a href='#treehouse'>Tree House Classes</a></li>
         <li><a href='#pluralsight'>PluralSight Courses</a></li>
         <li><a href='#codeschool'>Code School Classes</a></li>
@@ -63,6 +64,15 @@ weight: 26
         <li><a href='https://learnredux.com'>Learn Redux</a></li>
         <li><a href='https://flexbox.io'>What The Flexbox?!</a></li>
         <li><a href='https://masteringmarkdown.com'>Mastering Markdown</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a name='udemy'></a>
+      <h3>Udemy Classes</h3>
+      <p>You have to be selective with some of the classes offered on Udemy; however, sometimes the classes offered are excellent at a reasonable price.</p>
+      <ul>
+        <li><a href='https://www.udemy.com/learnsketch3'>Sketch 3 from A to Z: Become an App Designer</a></li>
       </ul>
     </article>
 

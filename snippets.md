@@ -21,6 +21,7 @@ weight: 45
         <li><a href='#laravel'>Laravel</a></li>
         <li><a href='#linux'>Linux</a></li>
         <li><a href='#mac'>Mac</a></li>
+        <li><a href='#netstat'>Netstat</a></li>
         <li><a href='#scp'>SCP</a></li>
         <li><a href='#security'>Security</a></li>
         <li><a href='#mysql'>MySql</a></li>
@@ -351,6 +352,28 @@ weight: 45
       <h4>Flush DNS</h4>
       <pre><code class='bash'>
         sudo killall -HUP mDNSResponder
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='mysql'></a>
+      <h3>MySQL</h3>
+      <h5>Connect to Database</h5>
+      <pre><code class='bash'>
+        mysql -u [username] -p [password] -h [hostname]
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='netstat'></a>
+      <h3>Netstat</h3>
+      <h4>Find Listening Port (Bash)</h4>
+      <pre><code class='bash'>
+        netstat -nao | find "80"
+      </code></pre>
+      <h4>Find Listening Port (Windows)</h4>
+      <pre><code class='bash'>
+        netstat -nao | findstr "0.0.80"
       </code></pre>
     </article>
 
