@@ -72,6 +72,19 @@ a {
 ul {
   margin: 0;
   padding: 0;
+  &.resume-downloads {
+    margin-left: pxToRem(20px);
+    list-style-type: none;
+    overflow: hidden;
+    li {
+      float: left;
+    }
+    a {
+      display: inline-block;
+      font-size: 10px;
+      margin-right: pxToRem(5px);
+    }
+  }
   &.smaller {
     li {
       line-height: 1.4;
@@ -111,6 +124,7 @@ ul {
       background: $light_blue;
       text-decoration: none;
       text-align: center;
+      font-size: pxToRem(12px);
       &:hover {
         background: darken($light_blue, 10);
       }
@@ -167,6 +181,15 @@ dd {
 
 img.cert-logo {
   display: block;
+}
+
+img.left {
+  float: left;
+}
+
+img.profile_pic {
+  border: 2px solid #2bb673; 
+  margin-right: 4px;
 }
 
 html,

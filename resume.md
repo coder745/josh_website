@@ -10,6 +10,12 @@ weight: 30
 <section>
   <div class='inner-section'>
     <h2>My Resume</h2>
+
+    <ul class='resume-downloads'>
+      <li><a href='/docs/Josh_Young_Resume.pdf'>Download Resume (pdf)</a></li>
+      <li><a href='/docs/Josh_Young_Resume.txt'>Download Resume (txt)</a></li>
+    </ul>
+
     <article>
       <h3>Experienced - Full Stack Web Developer</h3>
       <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and other related technologies. Desires a long-term position, conducive to professional growth and advancement.</p>
@@ -17,16 +23,23 @@ weight: 30
 
     <article class='professional-experience'>
       <h3>Professional Experience</h3>
-      <h4>Systems Analyst (Web Developer)</h4>
-      <h5>Huntsville Utilities - Huntsville, AL (2010 - Present)</h5>
+      <h4>Full Stack Developer</h4>
+      <h5>Ramsey Solutions - Brentwood, TN (2018 - Present)</h5>
       <ul class='smaller'>
-        <li>Developed web and mobile applications using HTML, JavaScript, PHP, ASP.NET, and C#.</li>
+        <li>Developing and maintaining many web properties (Ruby on Rails, JavaScript, CSS, HTML).</li>
+        <li>Worked as part of a team using a Git, Kanban, and JIRA workflow.</li>
+      </ul>
+      <h4>Systems Analyst (Web Developer)</h4>
+      <h5>Huntsville Utilities - Huntsville, AL (2010 - 2018)</h5>
+      <ul class='smaller'>
+        <li>Developed web and mobile applications using HTML, JavaScript, React, PHP, Laravel, ASP.NET, and C#.</li>
         <li>Develop and maintain mobile applications using Objective C and Xcode.</li>
         <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
         <li>Designed and developed email templates for use in company communication.</li>
         <li>Build applications to group disparate information into more more professional web interfaces.</li>
         <li>Designed and developed intranet site to support the latest web standards.</li>
-        <li>Created web layouts using design tools such as Sketch.</li>
+        <li>Provisioned and deployed Linux servers to host web sites and web applications.</li>
+        <li>Created web layouts using design tools such as Balsamiq Mockups and Sketch.</li>
         <li>Worked with various other technologies including: React, Laravel, Concrete5, WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, CodeIgniter, SCADA, and SAP.</li>
       </ul>
 
@@ -36,7 +49,7 @@ weight: 30
         <li>Performed freelance work supporting individual websites.</li>
         <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
         <li>Installed and maintained WordPress installations.</li>
-        <li>Created web pages using standards-compliant XHTML, CSS, JavaScript/jQuery.</li>
+        <li>Created web pages using standards-compliant XHTML, CSS, and JavaScript/jQuery.</li>
         <li>Designed and edited web mockups using Adobe Photoshop.</li>
       </ul>
 
@@ -45,7 +58,7 @@ weight: 30
       <ul class='smaller'>
         <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
         <li>Sliced Adobe Photoshop mockups to create CSS/HTML layouts.</li>
-        <li>Identified and correct bugs in HTML/CSS code.</li>
+        <li>Identified and corrected bugs in HTML/CSS code.</li>
         <li>Implemented JavaScript solutions to web problems.</li>
       </ul>
 
@@ -80,6 +93,10 @@ weight: 30
       <h3>Work Projects</h3>
       <ul class='smaller'>
         <li>
+          <span class='project-title'>Website for External Web Apps</span>
+          <span>(Laravel, PHP, HTML, CSS, JavaScript, Sketch - 2017)</span>
+        </li>
+        <li>
           <span class='project-title'>Built Internal React App with PHP back-end</span>
           <span>(React, JavaScript, HTML, CSS, SASS, PHP, JSON - 2017)</span>
         </li>
@@ -96,7 +113,7 @@ weight: 30
           <span>(Objective C, XCode, PHP, MySQL, CSS, JavaScript - 2014)</span>
         </li>
         <li>
-          <span class='project-title'>Program Internal Calendering System</span>
+          <span class='project-title'>Program Internal Calendaring System</span>
           <span>(PHP, MySQL, CSS, HTML - 2013)</span>
         </li>
         <li>
@@ -182,6 +199,7 @@ weight: 30
         <li><a href='/certifications#perl'>CIW Perl Specialist</a></li>
         <li><a href='/certifications#javascript'>CIW JavaScript Specialist</a></li>
         <li><a href='/certifications#linux'>CompTIA Linux+</a></li>
+        <li><a href='/certifications#suse'>SUSE Certified Linux Administrator 11</a></li>
         <li><a href='/certifications#lpci'>LPCI-1</a></li>
         <li><a href='/certifications#aplus'>CompTIA A+</a></li>
       </ul>
@@ -234,6 +252,7 @@ weight: 30
         <li>Oracle</li>
         <li>SQLite</li>
         <li>NoSQL (MongoDB)</li>
+        <li>PostgreSQL</li>
         <li>Firebase</li>
         <li>Normalization</li>
       </ul>
