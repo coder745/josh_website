@@ -33,7 +33,7 @@ weight: 20
       <a name='security'></a>
       <h3>CompTIA Security+</h3>
       <p>The CompTIA Security+ certification addressed many IT security subjects such as: cryptography, network security, compliance, threats, access control, etc. This was a very good introduction to security subjects as they relate to computers and networks.</p>
-      <img class='cert-logo' alt='Security Plus Logo' src='img/certs/resized/SecurityPlus Logo Certified CE.png' />
+      <img class='cert-logo' alt='Security Plus Logo' src='img/certs/resized/SecurityPlus_Logo_Certified_CE.png' />
       <a href='https://certification.comptia.org/certifications/security'>About Certification</a>
     </article>
 
@@ -41,7 +41,7 @@ weight: 20
       <a name='ceh'></a>
       <h3>Certified Ethical Hacker (C|EH)</h3>
       <p>The Certified Ethical Hacker certification covered many areas of computer security including: footprinting, scanning, enumeration, penetration testing, SQL injection, etc. By gaining a better understanding of the tactics use by ethical hackers, I acquired valuable information to facilitate building better defenses and more secure web applications.</p>
-      <img class='cert-logo' alt='CEH Logo' src='img/certs/resized/CEA-logo.gif' />
+      <img class='cert-logo' alt='CEH Logo' src='img/certs/resized/CEH_logo.gif' />
       <a href='https://www.eccouncil.org/Certification/certified-ethical-hacker'>About Certification</a>
     </article>
 
@@ -57,7 +57,7 @@ weight: 20
       <a name='network'></a>
       <h3>CompTIA Network+</h3>
       <p>The CompTIA Network+ certification required knowledge in many network related areas. Here are a few of the subjects covered: routing, network topologies, virtualization, network segmentation, switch port security, user authentication, firewalls, network access control, etc.</p>
-      <img class='cert-logo' alt='Network Plus Logo' src='img/certs/resized/NetworkPlus Logo Certified CE.png' />
+      <img class='cert-logo' alt='Network Plus Logo' src='img/certs/resized/NetworkPlus_Logo_Certified_CE.png' />
       <a href='https://certification.comptia.org/certifications/network'>About Certification</a>
     </article>
 
@@ -94,7 +94,7 @@ weight: 20
       <a name='linux'></a>
       <h3>CompTIA Linux+</h3>
       <p>The CompTIA Linux+ certification required a very thorough knowledge of Linux. Here are just a few of the knowledge areas: file systems, run levels, package management, file management, process manipulation, command line regular expressions, scripting, security, shells, network configuration, and scheduled task configuration.</p>
-      <img class='cert-logo' alt='Linux Plus Logo' src='img/certs/resized/LinuxPlus Logo Certified.png' />
+      <img class='cert-logo' alt='Linux Plus Logo' src='img/certs/resized/LinuxPlus_Logo_Certified.png' />
       <a href='https://certification.comptia.org/certifications/linux'>About Certification</a>
     </article>
 
@@ -110,14 +110,14 @@ weight: 20
       <h3>LPIC-1</h3>
       <p>The LPIC-1 certification was all about Linux fundamentals. It covered many Linux areas including: symbolic links, permissions, disk management, file system integrity, process execution, GNU commands, libraries, boot loader configuration, etc.</p>
       <a href='https://certification.comptia.org/certifications/linux'>About CompTIA Certification</a>
-      <a href='https://www.lpi.org/certification/get-certified-lpi/lpic-1-linux-server-professional'>About LPCI Certification</a>
+      <a href='https://www.lpi.org/certification/get-certified-lpi/lpic-1-linux-server-professional'>About LPIC Certification</a>
     </article>
 
     <article>
       <a name='aplus'></a>
       <h3>CompTIA A+</h3>
       <p>The CompTIA A+ certification required knowledge in many areas of computer hardware including: BIOS configuration, motherboards, RAM, installation and configuration of computers and peripherals, network cable types, TCP/IP, TCP/UDP ports, networking tools, and troubleshooting.</p>
-      <img class='cert-logo' alt='A Plus Logo' src='img/certs/resized/APlus Logo Certified CE.png' />
+      <img class='cert-logo' alt='A Plus Logo' src='img/certs/resized/APlus_Logo_Certified_CE.png' />
       <a href='https://certification.comptia.org/certifications/a'>About Certification</a>
     </article>
   </div><!-- inner-section -->
