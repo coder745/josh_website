@@ -155,7 +155,7 @@ p {
   padding: 10px;
 }
 
-pre, 
+pre,
 code {
   line-height: 1.2;
 }
@@ -188,7 +188,7 @@ img.left {
 }
 
 img.profile_pic {
-  border: 2px solid #2bb673; 
+  border: 2px solid #2bb673;
   margin-right: 4px;
 }
 
@@ -202,7 +202,7 @@ body {
   margin: 0;
   background: {
     color: #F8F8F8;
-    image: url('../img/bac.png'), url('../img/circle.png'), 
+    image: url('../img/bac.png'), url('../img/circle.png'),
          //Background pattern from subtlepatterns.com
          url('../img/concrete_seamless.png');
     repeat: repeat-y, repeat, repeat;
@@ -363,7 +363,7 @@ header a {
 .wrap {
   min-height: 100%;
   @include redb();
-  max-width: 1400px; 
+  max-width: 1400px;
 }
 
 .border {
@@ -384,7 +384,7 @@ header a {
   box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
   background: #f8f8f8;
   color: $dark_green;
-  padding: pxToRem(10px) 0 pxToRem(25px) 0; 
+  padding: pxToRem(10px) 0 pxToRem(25px) 0;
   margin: 0 auto;
   width: 90%;
   height: $top_margin;
@@ -452,8 +452,8 @@ aside {
         flex-wrap: wrap;
       }
       li {
-        flex: 0 1 100px;
-        flex: 0 1 120px;
+        //flex: 0 1 100px;
+        //flex: 0 1 120px;
       }
       li:before {
         content: '';
@@ -476,10 +476,10 @@ aside {
         flex-wrap: wrap;
       }
         li {
-          flex: 0 1 50px;
-          flex: 0 1 100px;
-          flex: 0 1 92px;
-          flex: 0 1 110px;
+          //flex: 0 1 50px;
+          //flex: 0 1 100px;
+          //flex: 0 1 92px;
+          //flex: 0 1 110px;
         }
       h3 {
         background: $dark_green;
@@ -583,10 +583,10 @@ nav {
 }
 
 ul.sub-nav {
-  border-top: 1px solid $dark_green;
-  li { }
+  border-top: 1px solid $light_green;
   a {
     font-size: 12px;
+    text-shadow: 0px -1px 1px #b5beda;
     &:hover {
       cursor: pointer;
     }
@@ -983,19 +983,19 @@ footer {
       }
     }
   }
-  .codepen { 
-    top: 2px; 
+  .codepen {
+    top: 2px;
     svg {
       fill: $dark_green;
     }
   }
-  .linkedin { 
+  .linkedin {
     svg {
       fill: lighten($dark_green, 6);
     }
   }
-  .github { 
-    top: 1px; 
+  .github {
+    top: 1px;
     svg {
       fill: lighten($dark_green, 7);
     }

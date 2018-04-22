@@ -250,6 +250,12 @@
     "display": true
   },
   {
+    "title": "Object-Oriented Analysis & Design",
+    "author": "Brett D. McLaughlin, Gary Pollice, & David West",
+    "url": "",
+    "display": true
+  },
+  {
     "title": "JavaScript and jQuery: Interactive Front-End Web Development",
     "author": "Jon Duckett",
     "url": "",

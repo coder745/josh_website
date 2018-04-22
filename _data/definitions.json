@@ -60,6 +60,11 @@
     "link": "https://en.wikipedia.org/wiki/Open/closed_principle"
   },
   {
+    "word": "Soft Delete",
+    "definition": "'marking a database entry as deleted so that it no longer appears to the end user. On the backend a boolean flag is being set that prevent this entry from being shown on the frontend of the site.",
+    "link": ""
+  },
+  {
     "word": "Observer Pattern",
     "definition": "a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.",
     "link": "https://en.wikipedia.org/wiki/Observer_pattern"

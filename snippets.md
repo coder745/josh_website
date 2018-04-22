@@ -246,6 +246,18 @@ weight: 45
           ...executed immediately
         })());
       </code></pre>
+      <h4>String Object vs Literal</h4>
+      <p>A string literal is immutable.</p>
+      <pre><code class='javascript'>
+        //String Object:
+        typeof new String(); //'object'
+        var str = new String('Hello');
+        str.x = 'World';
+        console.log(str.x); //Outputs 'World'
+
+        //String Literal:
+        typeof ''; //'string'
+      </code></pre>
     </article>
 
     <article>
@@ -394,6 +406,10 @@ weight: 45
       <h4>Find Listening Port (Windows)</h4>
       <pre><code class='bash'>
         netstat -nao | findstr "0.0.80"
+      </code></pre>
+      <h4>Switch to C Drive</h4>
+      <pre><code class='bash'>
+        cd /d C:
       </code></pre>
     </article>
 
