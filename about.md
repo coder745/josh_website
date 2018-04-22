@@ -11,7 +11,8 @@ weight: 40
   <div class='inner-section'>
     <h2>About Me</h2>
     <article>
-      <p>My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently working with or technologies that I am using. Maybe something I say here will help someone in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
+      <p>
+      My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently  working with or technologies that I am using. Maybe something I say here will help someone in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
     </article>
 
     <article>

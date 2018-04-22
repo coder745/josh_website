@@ -15,6 +15,11 @@
     "display": true
   },
   {
+    "title" : "Command Line Heroes",
+    "url" : "https://www.redhat.com/en/command-line-heroes",
+    "display": true
+  },
+  {
     "title" : "Software Engineering Daily",
     "url" : "https://softwareengineeringdaily.com",
     "display": true
