@@ -22,6 +22,8 @@ weight: 45
         <li><a href='#linux'>Linux</a></li>
         <li><a href='#mac'>Mac</a></li>
         <li><a href='#netstat'>Netstat</a></li>
+        <li><a href='#rails'>Rails</a></li>
+        <li><a href='#ruby'>Ruby</a></li>
         <li><a href='#scp'>SCP</a></li>
         <li><a href='#security'>Security</a></li>
         <li><a href='#mysql'>MySql</a></li>
@@ -163,6 +165,13 @@ weight: 45
       <pre><code class='git'>
         git reset --hard HEAD~1
       </code></pre>
+
+
+      <h4>Rebase (run from feature branch)</h4>
+      <pre><code class='git'>
+        git rebase master
+      </code></pre>
+
     </article>
 
     <article>
@@ -180,10 +189,10 @@ weight: 45
           const { vegetable, fruit } = foods;
 
           //Array Destructuring:
-          let dirty_dozen = [ 'Strawberries', 'Spinach', 'Nectarines', 'Apples', 
-                              'Peaches', 'Pears', 'Cherries', 'Grapes', 'Celery', 
+          let dirty_dozen = [ 'Strawberries', 'Spinach', 'Nectarines', 'Apples',
+                              'Peaches', 'Pears', 'Cherries', 'Grapes', 'Celery',
                               'Tomatoes', 'Sweet bell peppers', 'Potatoes' ];
-          
+
           const [ one_item ] = dirty_dozen;
 
         </code>
@@ -201,6 +210,16 @@ weight: 45
             display: block;
             ...
           }
+        </code>
+      </pre>
+
+      <h4>ES2015 Function Syntax</h4>
+      <pre>
+        <code class='javascript'>
+          const output_log = () => { alert('This is an example.'); };
+        </code>
+        <code class='javascript'>
+          const add_nums = (x, y) => { return x + y };
         </code>
       </pre>
 
@@ -299,12 +318,12 @@ weight: 45
       <h4 markdown='1'>Crontab</h4>
       <pre><code class='bash'>
         *  *  *  *  *         command
-        -  -  -  -  -  
+        -  -  -  -  -
         |  |  |  |  |
         |  |  |  |  +---------------------- day of week (0 - 6) (0 - Sunday)
         |  |  |  +--------------------- month (1 - 12)
-        |  |  +------------------- day of month (1 - 31) 
-        |  +------------- hour (0 - 23) 
+        |  |  +------------------- day of month (1 - 31)
+        |  +------------- hour (0 - 23)
         +------------ minute (0 - 59)
       </code></pre>
       <h4 markdown='1'>Write ISO to Disk</h4>
@@ -406,6 +425,87 @@ weight: 45
     </article>
 
     <article>
+      <a name='rails'></a>
+      <h3>Rails</h3>
+      <h4>Start Local Server</h4>
+      <pre><code class='bash'>
+        rails server (rails s)
+      </code></pre>
+      <h4>Create Scaffolding</h4>
+      <pre><code class='bash'>
+        rails generate scaffold [name] attribute:type
+      </code></pre>
+      <pre><code class='bash'>
+        rails generate scaffold Product title:string price:decimal
+      </code></pre>
+      <h4>Create Controller and View</h4>
+      <pre><code class='bash'>
+        rails generate controller [controller name]
+      </code></pre>
+      <h4>Show Routes</h4>
+      <pre><code class='bash'>
+        rake routes
+      </code></pre>
+      <h4>Naming</h4>
+      <p>By convention the name of the model is singular and the name of the table is plural</p>
+    </article>
+
+    <article>
+      <a name='ruby'></a>
+      <h3>Ruby</h3>
+      <h4>If/Else Statement</h4>
+      <pre><code class='bash'>
+        if a_value == 1
+          puts "Yes"
+        elsif a_value == 2
+          puts "No"
+        else
+          puts "Could not find."
+        end
+      </code></pre>
+      <h4>Switch Statement</h4>
+      <pre><code class='bash'>
+        the_value = return_a_string()
+
+        case the_value
+          when "One"
+            puts "It is one!"
+          when "Two"
+            puts "It is two!"
+          else
+            puts "Could not find result."
+          end
+      </code></pre>
+      <h4>Objects</h4>
+      <p>Ruby objects are always passed by reference</p>
+      <h4>Function</h4>
+      <pre><code class='bash'>
+        def function_name(parameter)
+          ...
+        end
+      </code></pre>
+      <h4>Add to Array</h4>
+      <pre><code class='bash'>
+        the_array << "val"
+      </code></pre>
+      <h4>Object Instantiation</h4>
+      <pre><code class='bash'>
+        new_obj = Person.new
+      </code></pre>
+      <h4>Iteration</h4>
+      <pre><code class='bash'>
+        array.each do |elem| ... end
+      </code></pre>
+      <h4>Hash (associative array)</h4>
+      <pre><code class='bash'>
+        {key => value}
+      </code></pre>
+      <pre><code class='bash'>
+        {:sport => "baseball"} (the key can be anything)
+      </code></pre>
+    </article>
+
+    <article>
       <a name='ssh'></a>
       <h3>SSH</h3>
       <h4>Remote Port Forwarding</h4>
@@ -487,13 +587,25 @@ weight: 45
       <div class='code'>
         <dl>
           <dt>Split Editor:</dt>
-          <dd><code>:vsplit</code> new_file_name</dd>
+          <dd><code>:split</code> new_file_name</dd>
           <dt>Vertical Split Editor:</dt>
           <dd><code>:vsplit</code> new_file_name</dd>
+          <dt>Switch Between Splits:</dt>
+          <dd><code>Ctrl + w</code> (i.e. <code>ma</code>)</dd>
           <dt>Mark Current Line:</dt>
           <dd><code>m[a-z]</code> (i.e. <code>ma</code>)</dd>
           <dt>Go to Mark "h":</dt>
           <dd><code>'h</code></dd>
+          <dt>Show all marks:</dt>
+          <dd><code>:marks</code></dd>
+          <dt>Previous location (insert mode):</dt>
+          <dd><code>gi</code></dd>
+          <dt>Open shell from vi:</dt>
+          <dd><code>:shell</code></dd>
+          <dt>Close shell:</dt>
+          <dd><code>Ctrl + d</code></dd>
+          <dt>Open file browser:</dt>
+          <dd><code>:E</code></dd>
           <dt>Show Registers:</dt>
           <dd><code>:reg</code></dd>
           <dt>Paste from # registers:</dt>
