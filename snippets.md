@@ -27,6 +27,7 @@ weight: 45
         <li><a href='#scp'>SCP</a></li>
         <li><a href='#security'>Security</a></li>
         <li><a href='#mysql'>MySql</a></li>
+        <li><a href='#sqlite'>SQLite</a></li>
         <li><a href='#ssh'>SSH</a></li>
         <li><a href='#php'>PHP</a></li>
         <li><a href='#psql'>PostgreSQL</a></li>
@@ -502,6 +503,31 @@ weight: 45
       </code></pre>
       <pre><code class='bash'>
         {:sport => "baseball"} (the key can be anything)
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='sqlite'></a>
+      <h3>SQLite</h3>
+      <h4>Connect to DB</h4>
+      <pre><code class='bash'>
+        sqlite3 /path/to/database_file.db
+      </code></pre>
+      <h4>Show tables</h4>
+      <pre><code class='bash'>
+        .tables
+      </code></pre>
+      <h4>Tables Schema</h4>
+      <pre><code class='bash'>
+        .schema table_name
+      </code></pre>
+      <h4>Describe Table</h4>
+      <pre><code class='bash'>
+        pragma table_info(table_name)
+      </code></pre>
+      <h4>Select all</h4>
+      <pre><code class='bash'>
+        select * from table_name
       </code></pre>
     </article>
 
