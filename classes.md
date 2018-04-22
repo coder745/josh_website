@@ -13,6 +13,7 @@ weight: 26
     <article>
       <p>In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed courses (both classroom and online) that I have completed over the years.</p>
       <ul class='anchor-list'>
+        <li><a href='#pragmaticstudio'>The Pragmatic Studio</a></li>
         <li><a href='#frontend'>Front End Masters Classes</a></li>
         <li><a href='#laracastsclasses'>Laracast Courses</a></li>
         <li><a href='#wesbos'>Wes Bos Classes</a></li>
@@ -28,6 +29,18 @@ weight: 26
         <li><a href='#linuxsteelpivot3'>Linux Administration 310 - Service Configuration, Management, and LAMP Servers</a></li>
         <li><a href='#linuxsteelpivot2'>Linux Administration 210 - System and Network Management</a></li>
         <li><a href='#linuxsteelpivot1'>Linux Administration 110 - System Installation and Configuration</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a name='pragmaticstudio'></a>
+      <h3>Pragmatic Studio Classes</h3>
+      <p>The Pragmatic Studio offers some excellent classes. The classes are very in depth and thorough.</p>
+      <ul>
+        <li><a href='https://pragmaticstudio.com/ruby-blocks'>Mastering Ruby Blocks and Iterators</a></li>
+        <li><a href='https://pragmaticstudio.com/rails-ii'>Ruby on Rails Level II</a></li>
+        <li><a href='https://pragmaticstudio.com/rails'>Ruby on Rails Level I</a></li>
+        <li><a href='https://pragmaticstudio.com/ruby'>Ruby Programming</a></li>
       </ul>
     </article>
 
@@ -50,6 +63,9 @@ weight: 26
       <h3>Laracast Courses</h3>
       <p>Jeffery Way teaches some great courses at this site <a href='http://laracasts.com'>laracasts.com</a>. I have taken two of his courses (listed below).</p>
       <ul>
+        <li><a href='https://laracasts.com/series/git-me-some-version-control'>Git Me Some Version Control</a></li>
+        <li><a href='https://laracasts.com/series/how-to-build-command-line-apps-in-php'>How to Build Command-Line Apps</a></li>
+        <li><a href='https://laracasts.com/series/php7-up-and-running'>PHP 7 Up and Running</a></li>
         <li><a href='https://laracasts.com/series/laravel-from-scratch-2017'>Laravel 5.4 from Scratch</a></li>
         <li><a href='https://laracasts.com/series/webpack-for-everyone'>Webpack for Everyone</a></li>
       </ul>

@@ -11,55 +11,60 @@ weight: 30
   <div class='inner-section'>
     <h2>My Resume</h2>
 
-    <ul class='resume-downloads'>
+    <ul class='hide resume-downloads'>
       <li><a href='/docs/Josh_Young_Resume.pdf'>Download Resume (pdf)</a></li>
       <li><a href='/docs/Josh_Young_Resume.txt'>Download Resume (txt)</a></li>
     </ul>
 
     <article>
       <h3>Experienced - Full Stack Web Developer</h3>
-      <p class='resume-top'>A self-directed individual, motivated by a desire to deliver quality results for my employer, self-sufficient and a proven value to a team.  Trained in current programming languages, web platforms, operating systems, and other related technologies. Desires a long-term position, conducive to professional growth and advancement.</p>
+      <p class='resume-top'>
+      Full Stack Web Developer with 7+ years of experience developing web applications. Using current programming languages to further company productivity. Improving user experience by working with members of my team to maintain and improve our web programs.</p>
     </article>
 
     <article class='professional-experience'>
-      <h3>Professional Experience</h3>
+      <h3>Work Experience</h3>
       <h4>Full Stack Developer</h4>
       <h5>Ramsey Solutions - Brentwood, TN (2018 - Present)</h5>
       <ul class='smaller'>
         <li>Developing and maintaining many web properties (Ruby on Rails, JavaScript, CSS, HTML).</li>
-        <li>Worked as part of a team using a Git, Kanban, and JIRA workflow.</li>
+        <li>Working with other team members via git and other collaboration tools.</li>
       </ul>
       <h4>Systems Analyst (Web Developer)</h4>
       <h5>Huntsville Utilities - Huntsville, AL (2010 - 2018)</h5>
       <ul class='smaller'>
-        <li>Developed web and mobile applications using HTML, JavaScript, React, PHP, Laravel, ASP.NET, and C#.</li>
-        <li>Develop and maintain mobile applications using Objective C and Xcode.</li>
-        <li>Revised and rewrote old code to support progressive enhancement and newer standards.</li>
-        <li>Designed and developed email templates for use in company communication.</li>
-        <li>Build applications to group disparate information into more more professional web interfaces.</li>
-        <li>Designed and developed intranet site to support the latest web standards.</li>
-        <li>Provisioned and deployed Linux servers to host web sites and web applications.</li>
-        <li>Created web layouts using design tools such as Balsamiq Mockups and Sketch.</li>
-        <li>Worked with various other technologies including: React, Laravel, Concrete5, WordPress, MS SQL, Oracle, Linux Servers, Windows Servers, CodeIgniter, SCADA, and SAP.</li>
+        <li>Supported customers by developing web and mobile applications using PHP, Laravel, CodeIgniter, JavaScript, jQuery, React, HTML5, CSS, and MySQL.</li>
+        <li>Improved old code to support newer standards via progressive enhancement.</li>
+        <li>Guided other members of the team to deliver quality software to end-users.</li>
+        <li>Ensured all details of new software projects were completed prior to final delivery.</li>
+        <li>Utilized Balsamiq Mockups to provide visuals that aided in fulfilling design requirements.</li>
+        <li>Enhanced application aesthetics by producing creative designs with Sketch.</li>
+        <li>Focused on project goals to consistently deliver software on time.</li>
+        <li>Attended conferences, workshops, and online training to continually improve skillsets.</li>
+        <li>Worked with other technologies including: C#, ASP.NET, Ruby, Perl, Python, MS SQL, Oracle, Red Hat, macOS, and Windows Server.</li>
       </ul>
 
       <h4>Freelancing Development</h4>
       <h5>Web Developer/Designer (2009 - 2011)</h5>
       <ul class='smaller'>
-        <li>Performed freelance work supporting individual websites.</li>
-        <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct errors and bugs in code.</li>
-        <li>Installed and maintained WordPress installations.</li>
-        <li>Created web pages using standards-compliant XHTML, CSS, and JavaScript/jQuery.</li>
-        <li>Designed and edited web mockups using Adobe Photoshop.</li>
+        <li>Assisted customers by designing and developing web pages using standards-compliant XHTML, CSS, JavaScript, and jQuery.</li>
+        <li>Enabled custom functionality by integrating new PHP code within websites.</li>
+        <li>Diagnosed PHP, HTML, JavaScript, and CSS issues to correct bugs in code.</li>
+        <li>Designed and edited web mockups using Adobe Photoshop and other design tools.</li>
+        <li>Improved code as necessary to better support client needs and newer standards.</li>
+        <li>Setup and maintained website back-end code bases and the supporting databases.</li>
+        <li>Maintained databases and servers by writing bash and SQL scripts.</li>
       </ul>
 
       <h4>Developer</h4>
       <h5>ASI Software &amp; Web Solutions, Hoover, AL (November 2009 – August 2010)</h5>
       <ul class='smaller'>
+        <li>Built and improved customer websites using CSS, HTML, JavaScript, and jQuery.</li>
         <li>Worked with clients to identify back-end issues with PHP code and correct them.</li>
-        <li>Sliced Adobe Photoshop mockups to create CSS/HTML layouts.</li>
-        <li>Identified and corrected bugs in HTML/CSS code.</li>
-        <li>Implemented JavaScript solutions to web problems.</li>
+        <li>Coordinated with team members to identify web problems and propose solutions.</li>
+        <li>Identified and corrected bugs in the front-end CSS, HTML, and JavaScript code.</li>
+        <li>Communicated with supervisor to complete the most important tasks on time.</li>
+        <li>Sliced Adobe Photoshop mockups to create CSS and HTML layouts.</li>
       </ul>
 
       <h4>Web Intern</h4>
@@ -94,7 +99,7 @@ weight: 30
       <ul class='smaller'>
         <li>
           <span class='project-title'>Website for External Web Apps</span>
-          <span>(Laravel, PHP, HTML, CSS, JavaScript, Sketch - 2017)</span>
+          <span>(Laravel, PHP, HTML, CSS, JavaScript, Sketch - 2018)</span>
         </li>
         <li>
           <span class='project-title'>Built Internal React App with PHP back-end</span>
@@ -211,14 +216,14 @@ weight: 30
         <li>Server Technologies</li>
         <li>Apache</li>
         <li>IIS</li>
-        <li>nginx</li>
+        <li>Nginx</li>
         <li>MS Servers 2008/2012</li>
         <li>Linux (Debian/Red Hat/CentOS)</li>
         <li>FreeBSD</li>
       </ul>
       <ul class='tech-skills'>
         <li>Operating Systems</li>
-        <li>Windows 7/10</li>
+        <li>Windows 7/8/10</li>
         <li>Mac</li>
         <li>VMware</li>
         <li>Linux (Arch, Fedora, Ubuntu)</li>
@@ -237,13 +242,35 @@ weight: 30
       <ul class='tech-skills'>
         <li>Programming Languages</li>
         <li>PHP</li>
+        <li>Ruby</li>
         <li>C#</li>
         <li>Perl</li>
         <li>Python</li>
         <li>JavaScript</li>
+        <li>ES2015</li>
         <li>Ruby</li>
         <li>Bash/Batch</li>
         <li>Objective C</li>
+      </ul>
+      <ul class='tech-skills'>
+        <li>Frameworks</li>
+        <li>Rails</li>
+        <li>Laravel</li>
+        <li>ASP.NET</li>
+        <li>CoffeeScript</li>
+        <li>Bootstrap</li>
+        <li>SASS</li>
+        <li>Gulp</li>
+        <li>Webpack</li>
+        <li>CodeIgniter</li>
+        <li>React</li>
+      </ul>
+      <ul class='tech-skills'>
+        <li>Design</li>
+        <li>Sketch</li>
+        <li>Photoshop</li>
+        <li>Gimp</li>
+        <li>Balsamiq Mockups</li>
       </ul>
       <ul class='tech-skills'>
         <li>Databases</li>
@@ -277,6 +304,7 @@ weight: 30
         <li>Vulnerability Scanning</li>
         <li>Enumeration</li>
         <li>Footprinting</li>
+        <li>Web Security and Testing</li>
       </ul>
     </article>
   </div><!-- inner-section -->
