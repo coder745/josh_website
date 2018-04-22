@@ -2,6 +2,7 @@ title: Josh Young's Web Development Portfolio
 description: Josh Young's site about web development, blog, and personal projects.
 permalink: /:year/:title/
 url: http://joshyoung.me
+baseurl:
 linkedin_url: https://www.linkedin.com/in/joshuayoung1
 github_url: https://github.com/joshayoung
 codepen_url: https://codepen.io/joshayoung
@@ -13,6 +14,6 @@ sitemap:
 sass:
   style: compressed
   sass_dir: _sass
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-autoprefixer
