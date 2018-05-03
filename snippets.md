@@ -30,6 +30,7 @@ weight: 45
         <li><a href='#security'>Security</a></li>
         <li><a href='#mysql'>MySql</a></li>
         <li><a href='#sqlite'>SQLite</a></li>
+        <li><a href='#security'>Security</a></li>
         <li><a href='#ssh'>SSH</a></li>
         <li><a href='#php'>PHP</a></li>
         <li><a href='#psql'>PostgreSQL</a></li>
@@ -433,15 +434,43 @@ weight: 45
       <pre><code class='bash'>
         fg
       </code></pre>
+      <h4>Pause Job</h4>
+      <pre><code class='bash'>
+        Ctrl + Z
+      </code></pre>
+      <h4>Resume Paused Job in Background</h4>
+      <pre><code class='bash'>
+        bg
+      </code></pre>
+      <h4>Continue Execution after Shell Exit</h4>
+      <pre><code class='bash'>
+        nohup ./script.sh &
+      </code></pre>
       <h4>List Background Jobs</h4>
       <pre><code class='bash'>
         jobs
+      </code></pre>
+      <h4>Start Program in Background</h4>
+      <pre><code class='bash'>
+        ./script.sh &
+      </code></pre>
+      <h4>Direct All Output to Log File</h4>
+      <pre><code class='bash'>
+        ./script.sh 1> ~/tmp/log.txt 2> ~/tmp/log.txt &
+      </code></pre>
+      <h4>Direct All Output to Null</h4>
+      <pre><code class='bash'>
+        ./script.sh 1> /dev/null 2> /dev/null &
       </code></pre>
     </article>
 
     <article>
       <a name='mac'></a>
       <h3>Mac</h3>
+      <h4>Find IP</h4>
+      <pre><code class='bash'>
+        ifconfig |  grep -oE "\w* \b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
+      </code></pre>
       <h4>Flush DNS</h4>
       <pre><code class='bash'>
         sudo killall -HUP mDNSResponder
@@ -605,6 +634,15 @@ weight: 45
       <h4>Select all</h4>
       <pre><code class='bash'>
         select * from table_name
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='security'></a>
+      <h3>Security</h3>
+      <h4>Ping Sweep</h4>
+      <pre><code class='bash'>
+        for i in `seq 1 255`; do ping -c 1 [IP ADDRESS].$i ; done
       </code></pre>
     </article>
 
