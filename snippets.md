@@ -12,6 +12,7 @@ weight: 45
   <h2>Code Snippets</h2>
     <article>
       <ul class='anchor_list'>
+        <li><a href='#bash'>Bash</a></li>
         <li><a href='#curl'>Curl</a></li>
         <li><a href='#css'>CSS</a></li>
         <li><a href='#dev_tools'>Dev Tools</a></li>
@@ -35,6 +36,26 @@ weight: 45
         <li><a href='#vim'>Vim</a></li>
         <li><a href='#windows'>Windows</a></li>
       </ul>
+    </article>
+
+    <article>
+      <a name='bash'></a>
+      <h3>Bash</h3>
+      <h4>If/Else</h4>
+      <pre><code class='bash'>
+        if [ expression ]
+          ...
+        then
+          ...
+        else
+          ...
+        fi
+      </code></pre>
+      <h4>Assign Variable (spacing is important)</h4>
+      <pre><code class='bash'>
+        the_var="a string"
+        echo $the_var
+      </code></pre>
     </article>
 
     <article>
@@ -126,6 +147,18 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
+      <h4>Show Files in Commit</h4>
+      <pre><code class='git'>
+        git diff-tree --no-commit-id --name-only -r [commit hash]
+      </code></pre>
+      <h4>Rename a Local Branch</h4>
+      <pre><code class='git'>
+        git branch -m &lt;oldname&gt; &lt;newname&gt;
+      </code></pre>
+      <h4>Move Remote PR Branch Locally</h4>
+      <pre><code class='git'>
+        git fetch origin pull/ID/head:BRANCHNAME
+      </code></pre>
       <h4>Saves Current Changes with Stash</h4>
       <pre><code class='git'>
         git stash
@@ -166,13 +199,14 @@ weight: 45
       <pre><code class='git'>
         git reset --hard HEAD~1
       </code></pre>
-
-
       <h4>Rebase (run from feature branch)</h4>
       <pre><code class='git'>
         git rebase master
       </code></pre>
-
+      <h4>Interactive Rebase (the last 4 commits)</h4>
+      <pre><code class='git'>
+        git rebase -i HEAD~4
+      </code></pre>
     </article>
 
     <article>
@@ -375,6 +409,14 @@ weight: 45
       <h4>Finding a File</h4>
       <pre><code class='bash'>
         find / -name [file name you are searching] 2> /dev/null
+      </code></pre>
+      <h4>Bring Job Into the Foreground</h4>
+      <pre><code class='bash'>
+        fg
+      </code></pre>
+      <h4>List Background Jobs</h4>
+      <pre><code class='bash'>
+        jobs
       </code></pre>
     </article>
 
@@ -633,7 +675,7 @@ weight: 45
           <dt>Vertical Split Editor:</dt>
           <dd><code>:vsplit</code> new_file_name</dd>
           <dt>Switch Between Splits:</dt>
-          <dd><code>Ctrl + w</code> (i.e. <code>ma</code>)</dd>
+          <dd><code>Ctrl + w</code></dd>
           <dt>Mark Current Line:</dt>
           <dd><code>m[a-z]</code> (i.e. <code>ma</code>)</dd>
           <dt>Go to Mark "h":</dt>
@@ -653,7 +695,11 @@ weight: 45
           <dt>Paste from # registers:</dt>
           <dd><code>"[0-9]p</code> (i.e. <code>"0p</code>, <code>"1p</code>, etc.)</dd>
           <dt>Yank to register:</dt>
-          <dd><code>"[a-z]y</code> (then: <code>"ap</code> to paste)</dd>
+          <dd><code>"[a-z]yy</code> (then: <code>"ap</code> to paste)</dd>
+          <dt>Append to register:</dt>
+          <dd><code>"[A-Z]yy</code> (then: <code>"Ap</code> to paste)</dd>
+          <dt>Paste from Clipboard</dt>
+          <dd><code>"+p</code></dd>
           <dt>Record Macro:</dt>
           <dd><code>q[a-z]</code> (i.e. <code>qm</code> - records to `m`)</dd>
           <dt>Stop Macro Recording:</dt>
