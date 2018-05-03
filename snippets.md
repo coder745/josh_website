@@ -17,6 +17,7 @@ weight: 45
         <li><a href='#css'>CSS</a></li>
         <li><a href='#dev_tools'>Dev Tools</a></li>
         <li><a href='#html5'>HTML</a></li>
+        <li><a href='#http'>HTTP</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
         <li><a href='#laravel'>Laravel</a></li>
@@ -142,6 +143,24 @@ weight: 45
         <li>&lt;var&gt;  - used for outputting a variable in html</li>
         <li>&lt;del&gt;  - show removed text (sometimes styled with strike-through mark)</li>
       </ul>
+    </article>
+
+
+    <article>
+      <a name='http'></a>
+      <h3>HTTP</h3>
+      <div class='code'>
+        <dl>
+          <dt>200:</dt>
+          <dd>Success</dd>
+          <dt>301:</dt>
+          <dd>Moved</dd>
+          <dt>403:</dt>
+          <dd>Forbidden</dd>
+          <dt>404:</dt>
+          <dd>Not Found</dd>
+        </dl>
+      </div>
     </article>
 
     <article>
