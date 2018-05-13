@@ -24,6 +24,7 @@ weight: 45
         <li><a href='#linux'>Linux</a></li>
         <li><a href='#mac'>Mac</a></li>
         <li><a href='#netstat'>Netstat</a></li>
+        <li><a href='#kanban'>Kanban</a></li>
         <li><a href='#rails'>Rails</a></li>
         <li><a href='#ruby'>Ruby</a></li>
         <li><a href='#scp'>SCP</a></li>
@@ -532,11 +533,82 @@ weight: 45
     </article>
 
     <article>
+      <a name='kanban'></a>
+      <h3>Kanban</h3>
+      <div class='code'>
+        <dl>
+          <dt>Swim Lanes</dt>
+          <dd>Rows</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <h4>Multiline Comment</h4>
+      <pre><code class='ruby'>
+      =begin
+        def a_function
+          puts 'test'
+        end
+      =end
+      </code></pre>
       <h4>Start Local Server</h4>
       <pre><code class='bash'>
         rails server (rails s)
+      </code></pre>
+      <h4>Start Local Server on any IP</h4>
+      <pre><code class='bash'>
+        rails s -b 0.0.0.0
+      </code></pre>
+      <h4>Start Local Server on different port</h4>
+      <p>The default port is 3000 if unspecified.</p>
+      <pre><code class='bash'>
+        rails s -b 0.0.0.0 -P tmp/pids/srv1.pid
+        rails s -b 0.0.0.0 -p 3001 -P tmp/pids/srv2.pid
+        rails s -b 0.0.0.0 -p 3002 -P tmp/pids/srv3.pid
+      </code></pre>
+      <h4>Route Syntax</h4>
+      <pre><code class='bash'>
+        verb "the_url" => "controller#action"
+        get "tickets" => "tickets#index"
+      </code></pre>
+      <h4>Open Rails Console</h4>
+      <pre><code class='bash'>
+        rails console
+        or:
+        rails c
+
+        #reload the console to pull in any code changes made:
+        reload!
+      </code></pre>
+      <h4>Rails Tasks</h4>
+      <pre><code class='bash'>
+        rails -T (commands than can be run)
+        rails -T db (database related commands that can be run)
+      </code></pre>
+      <h4>Create Migration</h4>
+      <p>Older versions of rails used the 'rake' command instead of 'rails' below.</p>
+      <pre><code class='bash'>
+        rails g migration [migration name] field:type field:type...
+
+        rails db:migrate
+
+        rails db:status
+
+        rails db:rollback (rolls back the previous migration)
+
+        rails db:migrate VERSION=XXX (rolls back to this migration)
+      </code></pre>
+      <h4>Add More Columns</h4>
+      <p>Using this convention, rails will know that you want to add the fields listed to the table defined by 'YYY' or 'yyy' below.</p>
+      <pre><code class='bash'>
+        rails g migration AddXXXToYYY ...
+        rails g migration AddFieldsToTownships title:string moved_to:date
+
+        rails g migration add_xxx_to_yyy
+        rails g migration add_fields_to_townships
       </code></pre>
       <h4>Create Scaffolding</h4>
       <pre><code class='bash'>
@@ -545,23 +617,508 @@ weight: 45
       <pre><code class='bash'>
         rails generate scaffold Product title:string price:decimal
       </code></pre>
+      <h4>Create Model (includes migration)</h4>
+      <p>Model names should be singular.</p>
+      <p>String is the default type, so that can be left off if the type is a string.</p>
+      <a href='http://api.rubyonrails.org/v5.2.0/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_column'>Column Types</a>
+      <pre><code class='bash'>
+        rails generate model [model name] [field[:type][:index] field[:type][:index]] [options]
+
+        #Run Migration:
+        rails db:migrate
+
+        #Migration Status:
+        rails db:migrate:status
+      </code></pre>
+      <p>Example: A model named 'Student' would point to a table named 'students' by default.</p>
       <h4>Create Controller and View</h4>
+      <p>Controller name is plural.</p>
       <pre><code class='bash'>
         rails generate controller [controller name]
+        or:
+        rails g controller [controller name]
+      </code></pre>
+      <h4>Remove Controller and other files created above.</h4>
+      <pre><code class='bash'>
+        rails destroy controller [controller name]
+      </code></pre>
+
+      <h4>Views</h4>
+      <p>When you do not point the controller action to a specific view it will try to render the view with the same name as the action.</p>
+      <p>def 'index; end' would try to render the 'index.html.erb' view.</p>
+
+      <h4>Create resourceful routes.</h4>
+      <p>This will create:</p>
+      <ul>
+        <li>Database migration for the 'students' table.</li>
+        <li>The Student model with the 'belongs_to' line pointing to 'course'.</li>
+        <li>A Student controller.</li>
+        <li>All of the resourceful routes for student.</li>
+      </ul>
+      <pre><code class='bash'>
+        rails g resource [resource name] field:type field:type...
+
+        rails g resource student first_name:string last_name:string course:references
       </code></pre>
       <h4>Show Routes</h4>
+      <p>Show routes from the browser app by going to this path: http://[url of app][:port]/rails/info/routes.</p>
       <pre><code class='bash'>
+        rails routes
+        or:
         rake routes
       </code></pre>
+
+      <h4>List of Resourceful routes</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Verb</th>
+            <th>URL</th>
+            <th>controller#action</th>
+            <th>Task</th>
+            <th>SQL**</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>students</td>
+            <td>GET</td>
+            <td>/students</td>
+            <td>students#index</td>
+            <td>Show Students</td>
+            <td>SELECT *</td>
+          </tr>
+          <tr>
+            <td>student</td>
+            <td>GET</td>
+            <td>/students/:id</td>
+            <td>students#show</td>
+            <td>Show a Student</td>
+            <td>SELECT where id =</td>
+          </tr>
+          <tr>
+            <td>edit_student</td>
+            <td>GET</td>
+            <td>/students/:id/edit</td>
+            <td>students#edit</td>
+            <td>Show edit Student form</td>
+            <td>SELECT where id =</td>
+          </tr>
+          <tr>
+            <td>N/A</td>
+            <td>PATCH</td>
+            <td>/students/:id</td>
+            <td>students#update</td>
+            <td>Update Student (partial)</td>
+            <td>UPDATE tbl SET (name = 'Josh')</td>
+          </tr>
+          <tr>
+            <td>N/A</td>
+            <td>PUT</td>
+            <td>/students/:id</td>
+            <td>students#update</td>
+            <td>Update Student (complete)</td>
+            <td>UPDATE tbl SET (name = 'Josh', day = 'Wed', state = 'AL' ...)</td>
+          </tr>
+          <tr>
+            <td>N/A</td>
+            <td>POST</td>
+            <td>/students</td>
+            <td>students#create</td>
+            <td>Create a new Student</td>
+            <td>CREATE</td>
+          </tr>
+          <tr>
+            <td>new_student</td>
+            <td>GET</td>
+            <td>/students/new</td>
+            <td>students#new</td>
+            <td>Show new Student form</td>
+            <td>Display a HTML form</td>
+          </tr>
+          <tr>
+            <td>N/A</td>
+            <td>DELETE</td>
+            <td>/students/:id</td>
+            <td>students#destroy</td>
+            <td>Remove a Student</td>
+            <td>DELETE</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>** There are exceptions to the SQL displayed here. These example serve as the most common implementations in my experience.</p>
+      <p>Each of the 'name's listed in the table above is appended with either '_url' or '_path' in rails.</p>
+      <h5>_url (full path to page)</h5>
+      <ul>
+        <li>i.e. students_url: http://www.joshyoung.me/students</li>
+        <li>i.e. student_url(4): ttp://www.joshyoung.me/students/4</li>
+      </ul>
+      <h5>_path (relative path to page)</h5>
+      <ul>
+        <li>i.e. students_path: /students</li>
+        <li>i.e. student_path(4): /students/4</li>
+      </ul>
       <h4>Naming</h4>
-      <p>By convention the name of the model is singular and the name of the table is plural</p>
+      <p>By convention the name of the model is singular and the name of the table is plural.</p>
+      <h4>Create New Table Entry</h4>
+      <pre><code class='ruby'>
+        township = Township.new
+        township.city = 'London'
+        township.country = 'England'
+        township.save
+
+        #Or:
+
+        township = Township.new(city: 'London', country: 'England')
+        township.save
+
+        #Or:
+
+        Township.create(city: 'London', country: 'England')
+
+      </code></pre>
+      <h4>Update Table Value</h4>
+      <pre><code class='ruby'>
+        township = Township.find(2)
+        township.city = 'London'
+        township.country = 'England'
+        township.save
+
+        #or:
+
+        township.update(city: 'London', country: 'England')
+
+      </code></pre>
+      <h4>Delete Table Value</h4>
+      <pre><code class='bash'>
+        township = Township.find_by(city: 'Jacksonville')
+        township.destroy
+      </code></pre>
+
+      <h4>One-to-Many Relationships</h4>
+      <pre><code class='ruby'>
+        #One (parent):
+        class Student < ApplicationRecord
+          has_many :movies
+        end
+
+        #Many (has a foreign key to reference parent):
+        class Movie < ApplicationRecord
+          belongs_to :student
+        end
+      </code></pre>
+
+      <div style='display: flex;'>
+        <div style='margin-right:20px;'>
+          <h5>One (parent):</h5>
+          <table>
+            <thead>
+              <tr>
+                <th colspan='3'>students</th>
+              </tr>
+              <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Frank</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Sally</td>
+                <td>28</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <h5>Many (child):</h5>
+          <table>
+            <thead>
+              <tr>
+                <th colspan='3'>movies</th>
+              </tr>
+              <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>student_id</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>The Hunger Games</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Saving Private Ryan</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Star Wars</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p>In the above example, 'student_id' is a foreign key pointing to the 'id' field in the 'students' table.</p>
+      <p>The foreign key will always be the parent's table name in singular form (student) with an '_id' appended to the end. So in this case it is 'student_id' since the parent table is 'students'.</p>
+
+      <p>In the ruby console, <strong>student.movies</strong> would return all of the movies that student possesses. On the other hand, <strong>movie.student</strong> would return the student who is the owner of the movie selected.</p>
+
     </article>
 
     <article>
       <a name='ruby'></a>
       <h3>Ruby</h3>
+      <h4>Ruby Symbol vs Strings</h4>
+      <p>Symbols have the same object ID whereas strings do not.</p>
+      <p>Symbols are immutable and strings are mutable.</p>
+      <pre><code class='ruby'>
+        #Open irb:
+        >> :pathway.object_id
+        => 9854917
+        >>
+        >> :pathway.object_id
+        => 9854917
+        >>
+        >> "pathway".object_id
+        => 97508076985508
+        >>
+        >> "pathway".object_id
+        => 98508075985400
+        >>
+        >> :pathway == "pathway"
+        => false
+      </code></pre>
+      <h4>Ruby Class Properties</h4>
+      <pre><code class='ruby'>
+        class RubyStudent
+          #readable only:
+          attr_reader :name
+
+          #writable only:
+          attr_writer :name
+
+          #readable and writable:
+          attr_accessor :grade
+
+          #Override the attr_accessor method in your class:
+          def grade=(my_grade)
+            @grade = my_grade.upcase
+          end
+          ...
+        end
+
+        rstudent = RubyStudent.new
+
+        #Call the accessor method:
+        puts rstudent.name
+      </code></pre>
+
+      <h4>Static Methods</h4>
+      <pre><code class='ruby'>
+        class RubyStudent
+          def self.my_method
+            ...
+          end
+        end
+
+        #Call static method:
+        RubyStudent.my_method
+      </code></pre>
+
+      <h4>Multiple Static Methods</h4>
+      <pre><code class='ruby'>
+        class RubyStudent
+          class << self
+            def my_method
+              ...
+            end
+
+            def my_second_method
+              ...
+            end
+          end
+        end
+
+        #Call static method:
+        RubyStudent.my_method
+      </code></pre>
+
+      <h4>Ruby Modules</h4>
+      <p>Modules are a typically used to create reusable sections of code in the form of Mixins or they can be used to wrap classes thereby action as a Namespace.</p>
+      <p>Modules cannot be instantiated, so any methods have to be defined with self.</p>
+      <pre><code class='ruby'>
+        Module Learnable
+          ...
+          def self.calculate
+            ...
+          end
+        end
+
+        #Call the Module method:
+        Learnable::calculate
+        #or
+        Learnable.calculate
+      </code></pre>
+
+      <h4>Ruby Class Inheritance</h4>
+      <p>Use inheritance when two class have a 'is-a' relationship. For instance: a MathStudent is a type of Student and a Fox is a type of Animal.</p>
+      <pre><code class='ruby'>
+        class Student
+          ...
+        end
+
+        class MathStudent < Student
+          ...
+        end
+      </code></pre>
+
+      <h4>Ruby Namespace</h4>
+      <pre><code class='ruby'>
+        module CollegeStudent
+          class Student
+            ...
+          end
+        end
+      </code></pre>
+
+      <h4>Ruby Mixins</h4>
+      <p>Ruby Mixins are just ruby modules that are included within a class.</p>
+      <pre><code class='ruby'>
+        #If a module will be included in a class as a mixin, you do not have to define the method with self.
+        #This way you can call the module method with the class instantiation.
+        module Learnable
+          def calculate(num, num)
+            ...
+          end
+        end
+
+        class Student
+          include Learnable
+
+          def add_up(n, n)
+            calculate(n, n)
+          end
+        end
+
+        student = Student.new
+        student.calculate(2, 2)
+      </code></pre>
+      <p>When you define a mixin, if you know what class it will be included within, you can use class properties in the Module definition, like below:</p>
+      <pre><code class='ruby'>
+        module Learnable
+          def calculate(num, num)
+            @first_number = 10
+          end
+        end
+      </code></pre>
+      <p>However, doing so could cause problems if you ever include the module within a class that does not define '@first_number'. Therefore it is best to use the class access within the module methods, like so:</p>
+      <pre><code class='ruby'>
+        module Learnable
+          def calculate(num, num)
+            #Here we have to use 'self' otherwise the module will think it is defining a local variable.
+            self.first_number = 10
+          end
+        end
+      </code></pre>
+      <p>Then when this is included in a class, it will work like this:</p>
+      <pre><code class='ruby'>
+        module Learnable
+          def calculate
+            self.first_number = 10
+          end
+        end
+
+        class Student
+          include 'learnable'
+
+          attr_accessor :first_number
+
+          def set_to_ten
+            calculate
+          end
+        end
+      </code></pre>
+      <h4>Convenient Methods</h4>
+      <pre><code class='ruby'>
+        class Test
+          ...
+        end
+
+        #Prints: Test
+        puts Test.inspect
+
+        #Prints: Class
+        puts Test.class
+
+        #Prints: 89023478923
+        puts test.object_id
+      </code></pre>
+
+      <h4>Show Ancestors</h4>
+      <pre><code class='ruby'>
+        #In a file named 'my_module.rb':
+        module MyMod
+          ...
+        end
+
+        #In another class:
+        require_relative 'my_module'
+        class Test
+          include MyMod
+          ...
+        end
+
+        #Prints: [Test, MyMod, Object, Kernel, BasicObject]
+        puts Test.ancestors
+      </code></pre>
+
+
+
+      <h4>Ruby Convert Types</h4>
+      <pre><code class='ruby'>
+        a_string = 'a string value'
+
+        #Convert to Symbol:
+        a_string.to_sym
+
+        #Convert to String:
+        123.to_s
+
+        #Convert to Integer:
+        "123".to_i
+      </code></pre>
+      <h4>Look up Ruby Docs from command line</h4>
+      <p><a href='http://ruby-doc.org'>Online Documentation</a></p>
+      <pre><code class='ruby'>
+        ri
+        #or:
+        ri -i (for interactive mode)
+      </code></pre>
+      <h4>Interpolate code</h4>
+      <pre><code class='ruby'>
+        variable_value = 'test'
+        puts "Print out #{variable_value}"
+      </code></pre>
+      <h4>Start IRB Session</h4>
+      <pre><code class='ruby'>
+        irb
+      </code></pre>
       <h4>If/Else Statement</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         if a_value == 1
           puts "Yes"
         elsif a_value == 2
@@ -571,7 +1128,7 @@ weight: 45
         end
       </code></pre>
       <h4>Switch Statement</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         the_value = return_a_string()
 
         case the_value
@@ -586,29 +1143,126 @@ weight: 45
       <h4>Objects</h4>
       <p>Ruby objects are always passed by reference</p>
       <h4>Function</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         def function_name(parameter)
           ...
         end
       </code></pre>
       <h4>Add to Array</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         the_array << "val"
+
+        #Or:
+        the_array.push("val")
       </code></pre>
       <h4>Object Instantiation</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         new_obj = Person.new
       </code></pre>
       <h4>Iteration</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         array.each do |elem| ... end
       </code></pre>
-      <h4>Hash (associative array)</h4>
-      <pre><code class='bash'>
+
+      <h4>Custom Iteration</h4>
+      <pre><code class='ruby'>
+        #Example 1:
+        def output
+          yield
+          yield
+        end
+
+        output { puts "This is output twice" }
+
+        #Example 2:
+        def output_num
+          yield(100)
+          yield(200)
+        end
+
+        output_num { |num| puts num }
+      </code></pre>
+
+      <h4>Basic Blocks</h4>
+      <pre><code class='ruby'>
+        2.times { puts 'Josh' }
+
+        2.times do
+          puts 'Josh'
+        end
+
+        2.times { |i| puts "#{i} - Josh" }
+
+        2.times do |i|
+          puts "#{i} - Josh"
+        end
+      </code></pre>
+
+      <h4>Select Block</h4>
+      <pre><code class='ruby'>
+        #Returns just the numbers greater than '3':
+        [1, 2, 3, 4, 5, 6, 7, 8, 9].select { |n| n > 3 }
+      </code></pre>
+
+      <h4>Reject Block</h4>
+      <pre><code class='ruby'>
+        #Rejects the numbers greater than '3':
+        [1, 2, 3, 4, 5, 6, 7, 8, 9].reject { |n| n > 3 }
+      </code></pre>
+
+      <h4>Reduce Block</h4>
+      <pre><code class='ruby'>
+        #Gets the sum with the reduce method:
+        [1, 2, 3, 4, 5, 6, 7, 8, 9].reduce { |total, n| total + n }
+        #or:
+        [1, 2, 3, 4, 5, 6, 7, 8, 9].reduce (:+)
+      </code></pre>
+
+      <h4>Sort Lowest to Highest</h4>
+      <pre><code class='ruby'>
+        [11, 21, 73, 14, 95, 56, 97, 48, 19].sort
+      </code></pre>
+
+      <h4>Sort Highest to Lowest</h4>
+      <pre><code class='ruby'>
+        [11, 21, 73, 14, 95, 56, 97, 48, 19].sort { |a, b| b <=> a }
+      </code></pre>
+
+      <h4>Returns boolean if it finds the result</h4>
+      <pre><code class='ruby'>
+        #This should return false.
+        [11, 21, 73, 14, 95, 56, 97, 48, 19].any? { |n| n > 100 }
+      </code></pre>
+
+      <h4>Returns the first match</h4>
+      <pre><code class='ruby'>
+        #This should return 73.
+        [11, 21, 73, 14, 95, 56, 97, 48, 19].detect { |n| n > 70 }
+      </code></pre>
+
+      <h4>Map the values returned into a new array</h4>
+      <pre><code class='ruby'>
+        [11, 21, 73, 14, 95, 19].map { |n| n * 3 }
+      </code></pre>
+
+      <h4>Hash (associative array / dictionary)</h4>
+      <pre><code class='ruby'>
         {key => value}
       </code></pre>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         {:sport => "baseball"} (the key can be anything)
+      </code></pre>
+      <p>These are both the same:</p>
+      <pre><code class='ruby'>
+        {:sport => "baseball", :time_limit => 60}
+
+        #Or:
+        {sport: "baseball", time_limit: 60}
+      </code></pre>
+      <h4>Loop through a hash</h4>
+      <pre><code class='ruby'>
+        sports = {:sport => "baseball", :time_limit => 60}
+        sports.each { |key, val| puts "#{key} - #{val}" }
       </code></pre>
     </article>
 
@@ -727,6 +1381,8 @@ weight: 45
       <h3>Vim</h3>
       <div class='code'>
         <dl>
+          <dt>End of Current Word:</dt>
+          <dd><code>ea</dd>
           <dt>Split Editor:</dt>
           <dd><code>:split</code> new_file_name</dd>
           <dt>Vertical Split Editor:</dt>
