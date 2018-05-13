@@ -37,6 +37,7 @@ weight: 26
       <h3>Pragmatic Studio Classes</h3>
       <p>The Pragmatic Studio offers some excellent classes. The classes are very in depth and thorough.</p>
       <ul>
+        <li><a href='https://pragmaticstudio.com/alumni/josh-young-c7da'>Alumni Report</a></li>
         <li><a href='https://pragmaticstudio.com/ruby-blocks'>Mastering Ruby Blocks and Iterators</a></li>
         <li><a href='https://pragmaticstudio.com/rails-ii'>Ruby on Rails Level II</a></li>
         <li><a href='https://pragmaticstudio.com/rails'>Ruby on Rails Level I</a></li>

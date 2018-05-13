@@ -148,13 +148,43 @@
         "display": true
       },
       {
+        "title": "Rails Documentation",
+        "url": "http://api.rubyonrails.org",
+        "display": true
+      },
+      {
+        "title": "Git Immersion",
+        "url": "gitimmersion.com",
+        "display": true
+      },
+      {
+        "title": "Rails Casts",
+        "url": "http://railscasts.com",
+        "display": true
+      },
+      {
+        "title": "Git Book",
+        "url": "https://www.git-scm.com/book/en/v2",
+        "display": true
+      },
+      {
         "title": "Git Tips",
         "url": "https://www.alexkras.com/19-git-tips-for-everyday-use",
         "display": true
       },
       {
+        "title": "Ruby Koans",
+        "url": "http://rubykoans.com",
+        "display": true
+      },
+      {
         "title": "PHP Package List",
         "url": "https://packagist.org",
+        "display": true
+      },
+      {
+        "title": "Ruby Tapas",
+        "url": "https://www.rubytapas.com",
         "display": true
       },
       {
