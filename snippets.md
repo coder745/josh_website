@@ -570,9 +570,10 @@ weight: 45
         rails s -b 0.0.0.0 -p 3002 -P tmp/pids/srv3.pid
       </code></pre>
       <h4>Route Syntax</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         verb "the_url" => "controller#action"
         get "tickets" => "tickets#index"
+        get "tickets/:id" => "tickets#show"
       </code></pre>
       <h4>Open Rails Console</h4>
       <pre><code class='bash'>
@@ -624,6 +625,13 @@ weight: 45
       <pre><code class='bash'>
         rails generate model [model name] [field[:type][:index] field[:type][:index]] [options]
 
+        #or:
+
+        rails g model [model name] [field[:type][:index] field[:type][:index]] [options]
+
+        #i.e.
+        rails g model ticket title:string priority:string the_date:datetime
+
         #Run Migration:
         rails db:migrate
 
@@ -641,6 +649,17 @@ weight: 45
       <h4>Remove Controller and other files created above.</h4>
       <pre><code class='bash'>
         rails destroy controller [controller name]
+      </code></pre>
+
+      <h4>Basic Controller Methods</h4>
+      <pre><code class='ruby'>
+        class TicketsController < ApplicationController
+          def index; end
+          def create; end
+          def show; end
+          def update; end
+          def destroy; end
+        end
       </code></pre>
 
       <h4>Views</h4>
@@ -668,6 +687,28 @@ weight: 45
         rake routes
       </code></pre>
 
+      <h4>Resourceful Routes in route.rb</h4>
+      <pre><code class='ruby'>
+        Rails.application.routes.draw
+          root "students#index"
+          get "students" => "students#index", as: "students"
+          post "students" => "students#create"
+          get "students/new" => "students#new", as: "new_student"
+          get "students/:id/edit" => "students#edit", as: "edit_student"
+          get "students/:id" => "students#show", as: "student"
+          patch "students/:id" => "students#update"
+          put "students/:id" => "students#update"
+          delete "students/:id" => "students#destroy"
+        end
+
+        #This is actually the same thing as the above:
+
+        Rails.application.routes.draw
+          root "students#index"
+          resources :students
+        end
+      </code></pre>
+
       <h4>List of Resourceful routes</h4>
       <table>
         <thead>
@@ -690,39 +731,7 @@ weight: 45
             <td>SELECT *</td>
           </tr>
           <tr>
-            <td>student</td>
-            <td>GET</td>
-            <td>/students/:id</td>
-            <td>students#show</td>
-            <td>Show a Student</td>
-            <td>SELECT where id =</td>
-          </tr>
-          <tr>
-            <td>edit_student</td>
-            <td>GET</td>
-            <td>/students/:id/edit</td>
-            <td>students#edit</td>
-            <td>Show edit Student form</td>
-            <td>SELECT where id =</td>
-          </tr>
-          <tr>
-            <td>N/A</td>
-            <td>PATCH</td>
-            <td>/students/:id</td>
-            <td>students#update</td>
-            <td>Update Student (partial)</td>
-            <td>UPDATE tbl SET (name = 'Josh')</td>
-          </tr>
-          <tr>
-            <td>N/A</td>
-            <td>PUT</td>
-            <td>/students/:id</td>
-            <td>students#update</td>
-            <td>Update Student (complete)</td>
-            <td>UPDATE tbl SET (name = 'Josh', day = 'Wed', state = 'AL' ...)</td>
-          </tr>
-          <tr>
-            <td>N/A</td>
+            <td>&nbsp;</td>
             <td>POST</td>
             <td>/students</td>
             <td>students#create</td>
@@ -738,7 +747,39 @@ weight: 45
             <td>Display a HTML form</td>
           </tr>
           <tr>
-            <td>N/A</td>
+            <td>edit_student</td>
+            <td>GET</td>
+            <td>/students/:id/edit</td>
+            <td>students#edit</td>
+            <td>Show edit Student form</td>
+            <td>SELECT where id =</td>
+          </tr>
+          <tr>
+            <td>student</td>
+            <td>GET</td>
+            <td>/students/:id</td>
+            <td>students#show</td>
+            <td>Show a Student</td>
+            <td>SELECT where id =</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>PATCH</td>
+            <td>/students/:id</td>
+            <td>students#update</td>
+            <td>Update Student (partial)</td>
+            <td>UPDATE tbl SET (name = 'Josh')</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>PUT</td>
+            <td>/students/:id</td>
+            <td>students#update</td>
+            <td>Update Student (complete)</td>
+            <td>UPDATE tbl SET (name = 'Josh', day = 'Wed', state = 'AL' ...)</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
             <td>DELETE</td>
             <td>/students/:id</td>
             <td>students#destroy</td>
@@ -749,6 +790,7 @@ weight: 45
       </table>
       <p>** There are exceptions to the SQL displayed here. These example serve as the most common implementations in my experience.</p>
       <p>Each of the 'name's listed in the table above is appended with either '_url' or '_path' in rails.</p>
+      <p>In the rails app, use '_path' for your views and '_url' for controller redirects.</p>
       <h5>_url (full path to page)</h5>
       <ul>
         <li>i.e. students_url: http://www.joshyoung.me/students</li>
@@ -791,7 +833,7 @@ weight: 45
 
       </code></pre>
       <h4>Delete Table Value</h4>
-      <pre><code class='bash'>
+      <pre><code class='ruby'>
         township = Township.find_by(city: 'Jacksonville')
         township.destroy
       </code></pre>
@@ -808,6 +850,19 @@ weight: 45
           belongs_to :student
         end
       </code></pre>
+
+      <pre><code class='ruby'>
+        #Setup the cascade to delete movies, then the student it removed:
+        class Student < ApplicationRecord
+          has_many :devices, dependent: :destroy
+        end
+      </code></pre>
+
+      <p>Generate the relationship:</p>
+      <pre><code class='bash'>
+        rails g resource Device name:string student:references
+      </code></pre>
+
 
       <div style='display: flex;'>
         <div style='margin-right:20px;'>
@@ -843,7 +898,7 @@ weight: 45
           <table>
             <thead>
               <tr>
-                <th colspan='3'>movies</th>
+                <th colspan='3'>devices</th>
               </tr>
               <tr>
                 <th>id</th>
@@ -854,18 +909,18 @@ weight: 45
             <tbody>
               <tr>
                 <td>1</td>
-                <td>The Hunger Games</td>
+                <td>iPhone</td>
                 <td>2</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Saving Private Ryan</td>
+                <td>iPad</td>
                 <td>2</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>Star Wars</td>
-                <td>1</td>
+                <td>Laptop</td>
+                <td>3</td>
               </tr>
             </tbody>
           </table>
@@ -875,8 +930,115 @@ weight: 45
       <p>In the above example, 'student_id' is a foreign key pointing to the 'id' field in the 'students' table.</p>
       <p>The foreign key will always be the parent's table name in singular form (student) with an '_id' appended to the end. So in this case it is 'student_id' since the parent table is 'students'.</p>
 
-      <p>In the ruby console, <strong>student.movies</strong> would return all of the movies that student possesses. On the other hand, <strong>movie.student</strong> would return the student who is the owner of the movie selected.</p>
+      <p>In the ruby console, <strong>student.devices</strong> would return all of the devices that student possesses. On the other hand, <strong>device.student</strong> would return the student who is the owner of the device selected.</p>
 
+      <h4>Many-to-Many Relationships</h4>
+      <pre><code class='ruby'>
+        class Student < ApplicationRecord
+          has_many :devices
+        end
+
+        class Movie < ApplicationRecord
+          belongs_to :student
+          belongs_to :colors
+        end
+
+        class Color < ApplicationRecord
+          has_many :devices
+        end
+      </code></pre>
+
+      <div style='display: flex;'>
+        <div style='margin-right:20px;'>
+          <table>
+            <thead>
+              <tr>
+                <th colspan='3'>students</th>
+              </tr>
+              <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Frank</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Sally</td>
+                <td>28</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style='margin-right: 20px;'>
+          <table>
+            <thead>
+              <tr>
+                <th colspan='4'>devices</th>
+              </tr>
+              <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>student_id</th>
+                <th>color_id</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>iPhone</td>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>iPad</td>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Laptop</td>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th colspan='3'>colors</th>
+              </tr>
+              <tr>
+                <th>id</th>
+                <th>color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Green</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Blue</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Silver</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </article>
 
     <article>
@@ -885,7 +1047,7 @@ weight: 45
       <h4>Ruby Symbol vs Strings</h4>
       <p>Symbols have the same object ID whereas strings do not.</p>
       <p>Symbols are immutable and strings are mutable.</p>
-      <pre><code class='ruby'>
+      <pre><code class='bash'>
         #Open irb:
         >> :pathway.object_id
         => 9854917
@@ -913,6 +1075,11 @@ weight: 45
 
           #readable and writable:
           attr_accessor :grade
+
+          def initialize
+            @name = 'Josh'
+            @grade = 'a'
+          end
 
           #Override the attr_accessor method in your class:
           def grade=(my_grade)
@@ -955,13 +1122,14 @@ weight: 45
 
         #Call static method:
         RubyStudent.my_method
+        RubyStudent.my_second_method
       </code></pre>
 
       <h4>Ruby Modules</h4>
       <p>Modules are a typically used to create reusable sections of code in the form of Mixins or they can be used to wrap classes thereby action as a Namespace.</p>
       <p>Modules cannot be instantiated, so any methods have to be defined with self.</p>
       <pre><code class='ruby'>
-        Module Learnable
+        module Learnable
           ...
           def self.calculate
             ...
@@ -979,20 +1147,37 @@ weight: 45
       <pre><code class='ruby'>
         class Student
           ...
+          def print_grade
+            puts 'A'
+          end
         end
 
         class MathStudent < Student
-          ...
+          def print_grade
+            puts 'A+'
+          end
         end
+        student = MathStudent.new
+        #Prints 'A+':
+        student.print_grade
       </code></pre>
 
       <h4>Ruby Namespace</h4>
       <pre><code class='ruby'>
         module CollegeStudent
           class Student
-            ...
+            def self.outp
+              puts 'output'
+            end
+            def out
+              puts 'new output'
+            end
           end
         end
+
+        CollegeStudent::Student.outp
+        student = CollegeStudent::Student.new
+        student.out
       </code></pre>
 
       <h4>Ruby Mixins</h4>
@@ -1000,27 +1185,31 @@ weight: 45
       <pre><code class='ruby'>
         #If a module will be included in a class as a mixin, you do not have to define the method with self.
         #This way you can call the module method with the class instantiation.
+
+        #File 'learnable.rb'
         module Learnable
-          def calculate(num, num)
-            ...
+          def calculate(num1, num2)
+            num1 * num2
           end
         end
 
+        #File: student.rb
+        require_relative 'learnable'
         class Student
           include Learnable
 
-          def add_up(n, n)
-            calculate(n, n)
+          def add_up(n1, n2)
+            calculate(n1, n2)
           end
         end
 
         student = Student.new
-        student.calculate(2, 2)
+        puts student.calculate(2, 2)
       </code></pre>
       <p>When you define a mixin, if you know what class it will be included within, you can use class properties in the Module definition, like below:</p>
       <pre><code class='ruby'>
         module Learnable
-          def calculate(num, num)
+          def calculate(num1, num2)
             @first_number = 10
           end
         end
@@ -1028,7 +1217,7 @@ weight: 45
       <p>However, doing so could cause problems if you ever include the module within a class that does not define '@first_number'. Therefore it is best to use the class access within the module methods, like so:</p>
       <pre><code class='ruby'>
         module Learnable
-          def calculate(num, num)
+          def calculate(num1, num2)
             #Here we have to use 'self' otherwise the module will think it is defining a local variable.
             self.first_number = 10
           end
@@ -1036,21 +1225,18 @@ weight: 45
       </code></pre>
       <p>Then when this is included in a class, it will work like this:</p>
       <pre><code class='ruby'>
-        module Learnable
-          def calculate
-            self.first_number = 10
-          end
-        end
-
+        require_relative 'learnable'
         class Student
-          include 'learnable'
+          include Learnable
 
           attr_accessor :first_number
 
-          def set_to_ten
-            calculate
+          def initialize
+            calculate(2, 2)
           end
         end
+
+        puts Student.new.first_number
       </code></pre>
       <h4>Convenient Methods</h4>
       <pre><code class='ruby'>
@@ -1103,7 +1289,7 @@ weight: 45
       </code></pre>
       <h4>Look up Ruby Docs from command line</h4>
       <p><a href='http://ruby-doc.org'>Online Documentation</a></p>
-      <pre><code class='ruby'>
+      <pre><code class='bash'>
         ri
         #or:
         ri -i (for interactive mode)
@@ -1114,7 +1300,7 @@ weight: 45
         puts "Print out #{variable_value}"
       </code></pre>
       <h4>Start IRB Session</h4>
-      <pre><code class='ruby'>
+      <pre><code class='bash'>
         irb
       </code></pre>
       <h4>If/Else Statement</h4>

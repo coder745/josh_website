@@ -192,6 +192,20 @@ img.profile_pic {
   margin-right: 4px;
 }
 
+table {
+  border: 1px solid $dark_green;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+th {
+  background: #fff;
+}
+td {
+  text-align: center;
+  background: #fff;
+}
+
 html,
 body {
   height: 100%;
