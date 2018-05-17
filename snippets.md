@@ -1259,6 +1259,64 @@ weight: 45
         puts 'false if' if !false
       </code></pre>
 
+      <h4>Memoization</h4>
+      <pre><code class='ruby'>
+        #If 'x' is false or nil return the value of 'y',
+        #otherwise return the value of 'x':
+        x ||= y
+
+        #The first time through it will call the 'find_the_pizza' method.
+        #For subsequent calls it will return '@pizza'.
+        def pizza_special
+          @pizza ||= PizzaSpecial.find_the_pizza('cheese')
+        end
+      </code></pre>
+
+      <h4>When You Must Use 'self'.</h4>
+      <h5>For assigning values with the accessor method from within a class:</h5>
+      <pre><code>
+        class Animal
+          attr_accessor :tail
+
+          def change_tail(new_tail)
+            #To get this to work as expected, you would have
+            #to change the line below to use 'self'
+            tail = new_tail
+
+            #Change to this:
+            #self.tail = new_tail
+
+            #If you do not use 'self' as shown above, ruby
+            #thinks you are assigning to a local variable.
+
+            #This works without 'self' because ruby knows that there is no local
+            #variable titled 'tail' therefore it knows to return the value from the
+            #accessor method:
+            def send_tail
+              tail
+            end
+          end
+        end
+
+        the_tail = Animal.new
+        the_tail.tail = 'Brown'
+        the_tail.change_tail('light brown')
+
+        #This would output 'Brown'.
+        puts the_tail.tail
+      </code></pre>
+
+      <h5>For defining 'class methods' (a.k.a. Static Methods):</h5>
+      <pre><code>
+        class Student
+          def self.new_grade(grade)
+            @grade = grade
+          end
+        end
+
+        Student.new_grade('A')
+      </code></pre>
+
       <h4>Convenient Methods</h4>
       <pre><code class='ruby'>
         class Test
@@ -1293,7 +1351,17 @@ weight: 45
         puts Test.ancestors
       </code></pre>
 
+      <h4>Function Return</h4>
+      <p>Functions always return a value even if they are empty.</p>
+      <pre><code>
+        def empty_function
+        end
 
+        return_value = empty_function
+
+        #Prints 'nil':
+        puts return_value.inspect
+      </code></pre>
 
       <h4>Ruby Convert Types</h4>
       <pre><code class='ruby'>
