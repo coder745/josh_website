@@ -822,20 +822,25 @@ ul.tech-skills {
 }
 
 a.scroll_top {
-  background: $dark_green;
+  background: lighten($dark_green, 20);
   padding: pxToRem(5px);
   color: #fff;
   width: pxToRem(70px);
   text-align: center;
   display: block;
   margin: pxToRem(10px) pxToRem(20px) 0 0;
-  position: absolute;
-  bottom: 45px;
-  right: 0;
+  position: fixed;
+  bottom: 0;
+  left: 5px;
   margin: 10px pxToRem(20px) 0 0;
   border-top: 1px solid #1a1a1a;
+  visibility: hidden;
+  z-index: 10;
+  &.show {
+    visibility: visible;
+  }
   &:hover {
-    background: lighten($dark_green, 10);
+    background: $dark_green;
   }
 }
 
@@ -865,6 +870,9 @@ footer {
 }
 
 @media (min-width: pxToRem(768px)) {
+  a.scroll_top {
+    left: 221px;
+  }
   .start_search {
     top: 20px;
     svg {

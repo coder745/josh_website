@@ -1238,6 +1238,27 @@ weight: 45
 
         puts Student.new.first_number
       </code></pre>
+
+      <h4>Unless vs If</h4>
+      <pre><code class='ruby'>
+
+        #Prints 'false unless':
+        unless false
+          puts 'false unless'
+        end
+
+        #Prints 'false unless':
+        puts 'false unless' unless false
+
+        #Prints 'false if':
+        if !false
+          puts 'false if'
+        end
+
+        #Prints 'false if':
+        puts 'false if' if !false
+      </code></pre>
+
       <h4>Convenient Methods</h4>
       <pre><code class='ruby'>
         class Test
@@ -1568,7 +1589,7 @@ weight: 45
       <div class='code'>
         <dl>
           <dt>End of Current Word:</dt>
-          <dd><code>ea</dd>
+          <dd><code>ea</code></dd>
           <dt>Split Editor:</dt>
           <dd><code>:split</code> new_file_name</dd>
           <dt>Vertical Split Editor:</dt>

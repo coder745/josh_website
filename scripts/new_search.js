@@ -7,7 +7,7 @@ function scrollUpSlowly() {
     setTimeout(function() {
       window.scrollTo(0, (window.scrollY - 30));
       scrollUpSlowly();
-    }, 30)
+    }, 3)
   }
 }
 
@@ -16,6 +16,14 @@ var open_search = document.getElementById('open_search'),
   search_cont = document.getElementById('search_cont'),
   go_to_top = document.getElementById('go_to_top'),
   search_box = document.getElementById('search_box').getElementsByTagName('input')[0];
+
+window.onscroll = function() {
+  if (window.pageYOffset > 200) {
+    go_to_top.className = 'scroll_top show';
+  } else {
+    go_to_top.className = 'scroll_top';
+  }
+};
 
 go_to_top.href = '#0';
 
