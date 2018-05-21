@@ -569,6 +569,22 @@ weight: 45
         rails s -b 0.0.0.0 -p 3001 -P tmp/pids/srv2.pid
         rails s -b 0.0.0.0 -p 3002 -P tmp/pids/srv3.pid
       </code></pre>
+      <h4>Active Record Errors</h4>
+      <pre><code class='ruby'>
+        #Model validations:
+        class Student
+          validates :name, :grade, :act_score, presence: true
+          ...
+        end
+
+        new_student = Student.create(name: 'James', grade: '2nd.')
+
+        #Show errors:
+        new_student.errors
+
+        #Show errors as sentences:
+        new_student.errors.full_messages
+      </code></pre>
       <h4>Route Syntax</h4>
       <pre><code class='ruby'>
         verb "the_url" => "controller#action"
@@ -938,7 +954,7 @@ weight: 45
           has_many :devices
         end
 
-        class Movie < ApplicationRecord
+        class Device < ApplicationRecord
           belongs_to :student
           belongs_to :colors
         end
