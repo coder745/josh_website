@@ -59,6 +59,10 @@ weight: 45
         the_var="a string"
         echo $the_var
       </code></pre>
+      <h4>Show a process running on a particular port</h4>
+      <pre><code class='bash'>
+        netstat -na | grep -i LISTEN | grep '2000\|3000'
+      </code></pre>
     </article>
 
     <article>
@@ -168,6 +172,15 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
+      <h4>Revert Uncommitted Changes</h4>
+      <pre><code class='git'>
+        git stash
+        git stash drop
+      </code></pre>
+      <h4>Revert One File</h4>
+      <pre><code class='git'>
+        git checkout -- path/to/file.txt
+      </code></pre>
       <h4>Show Files in Commit</h4>
       <pre><code class='git'>
         git diff-tree --no-commit-id --name-only -r [commit hash]
