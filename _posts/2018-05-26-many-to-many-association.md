@@ -173,3 +173,93 @@ In addition, we could also setup the buyer and product for the new satisfaction 
   buy = Buyer.first
   prod.satisfactions.create!(rank: 5, buyer: buy)
 ```
+
+Using these tables, we can find the buyers for a product like this:
+
+```ruby
+#Find the product:
+prod = Product.first
+
+#Find satisfaction rankings attached to the product we just queried:
+#'sat' now holds an array list of satisfaction rank objects
+sat = prod.satisfactions
+
+#Now we can use a loop to get the 'buyer' associated with each satisfaction like this:
+#This results in 1+n queries:
+sat.each { |s| s.buyer.name }
+
+#This will end up running some queries like this:
+#SELECT  "buyers".* FROM "buyers" WHERE "buyers"."id" = ? LIMIT ?
+#SELECT  "buyers".* FROM "buyers" WHERE "buyers"."id" = ? LIMIT ?
+#SELECT  "buyers".* FROM "buyers" WHERE "buyers"."id" = ? LIMIT ?
+#SELECT  "buyers".* FROM "buyers" WHERE "buyers"."id" = ? LIMIT ?
+#SELECT  "buyers".* FROM "buyers" WHERE "buyers"."id" = ? LIMIT ?
+```
+
+Instead of having to get a list of the satisfaction rankings assigned to a particular product, and then loop through each one to find the user associated with each one (1+n queries), we can instead use a through association with rails. This will drastically reduce the number of queries that are necessary.
+
+To setup a through association for our current example, we can add this to the 'Product' model:
+
+#### Product Model:
+```ruby
+class Product < ApplicationRecord
+  has_many :satisfactions
+
+  #Add this line:
+  has_many :buyers, through: :satisfactions
+end
+
+#This will allow this query:
+p = Product.first
+p.buyers
+
+#Resultant query:
+#SELECT "buyers".* FROM "buyers" INNER JOIN "satisfactions" ON "buyers"."id" = "satisfactions"."buyer_id" WHERE "satisfactions"."product_id" = ?
+```
+
+To setup the reverse of this relationship, we can add the line below to the 'Buyer' model:
+
+#### Buyer Model:
+```ruby
+class Buyer < ApplicationRecord
+  has_many :satisfactions, dependent: :destroy
+  has_many :products, through: :satisfactions
+end
+
+#This will allow this query:
+buy = Buyer.first
+buy.products
+```
+
+We can even abbreviate the name of our through association relationship by adding a 'source' declaration and changing our 'Product' model as listed below:
+#### Product Model:
+```ruby
+class Product < ApplicationRecord
+  has_many :satisfactions
+
+  #Add this line:
+  has_many :purchasers, through: :satisfactions, source: :buyer
+end
+
+#Now we can do this:
+p = Product.first
+p.purchasers
+
+#SQL:
+#SELECT "buyers".* FROM "buyers" INNER JOIN "satisfactions" ON "buyers"."id" = "satisfactions"."buyer_id" WHERE "satisfactions"."product_id" = ?
+```
+
+We can do the same thing in the reverse as well, by modifying the 'Buyer' model file:
+```ruby
+class Buyer < ApplicationRecord
+  has_many :satisfactions, dependent: :destroy
+  has_many :things, through: :satisfactions, source: :product
+
+  #This allows for:
+  b = Buyer.first
+  b.things
+
+  #SQL:
+  #SELECT "products".* FROM "products" INNER JOIN "satisfactions" ON "products"."id" = "satisfactions"."product_id" WHERE "satisfactions"."buyer_id" = ?
+end
+```
