@@ -166,3 +166,10 @@ With this relationship setup we can create new satisfaction ranking like this:
   sat.buyer = buy
   sat.save
 ```
+
+In addition, we could also setup the buyer and product for the new satisfaction ranking in one fell swoop:
+```ruby
+  prod = Product.first
+  buy = Buyer.first
+  prod.satisfactions.create!(rank: 5, buyer: buy)
+```
