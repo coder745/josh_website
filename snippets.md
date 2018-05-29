@@ -738,6 +738,19 @@ weight: 45
         end
       </code></pre>
 
+      <h4>One-to-Many Nested Rotues in route.rb</h4>
+      <pre><code class='ruby'>
+        get '/lists/:list_id/notes' => 'notes#index', as: 'list_notes'
+        post '/lists/:list_id/notes' => 'notes#create'
+        get 'lists/:list_id/notes/new' => 'notes#new', as: 'new_list_note'
+        get '/lists/:list_id/notes/:id/edit' => 'notes#edit', as: 'edit_list_note'
+        get '/lists/:list_id/notes/:id' => 'notes#show', as: 'list_note'
+        patch 'lists/:list_id/notes/:id' => 'notes#update'
+        patch 'lists/:list_id/notes/:id' => 'notes#update'
+        delete 'lists/:list_id/notes/:id' => 'notes#destroy'
+      </code></pre>
+
+
       <h4>List of Resourceful routes</h4>
       <table>
         <thead>
