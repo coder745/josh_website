@@ -172,10 +172,30 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
-      <h4>Revert Uncommitted Changes</h4>
+
+      <h4>HEAD</h4>
+      <p>HEAD is the most recent commit on your present branch.</p>
+
+      <h4>Revert a file to state at previous commit</h4>
       <pre><code class='git'>
-        git stash
-        git stash drop
+        git checkout -- my_file.txt
+      </code></pre>
+
+      <h4>Commit Messages</h4>
+      <p>Try to use present tense for your commit message</p>
+      <pre><code class='git'>
+        git commit -m "Correct site map"
+      </code></pre>
+
+      <h4>Revert Uncommitted Changes</h4>
+      <p>Leaving out the `stash@{2} variable below will run the stash command on top stash on the stack.</p>
+      <pre><code class='git'>
+        git stash apply stash@{1}
+        git stash drop stash@{2}
+      </code></pre>
+      <h4>Stash tracked and untracked files</h4>
+      <pre><code class='git'>
+        git stash save --include-untracked
       </code></pre>
       <h4>Revert One File</h4>
       <pre><code class='git'>
@@ -184,6 +204,10 @@ weight: 45
       <h4>Show Files in Commit</h4>
       <pre><code class='git'>
         git diff-tree --no-commit-id --name-only -r [commit hash]
+      </code></pre>
+      <h4>Show Diff in Staged Files</h4>
+      <pre><code class='git'>
+        git diff --staged
       </code></pre>
       <h4>Rename a Local Branch</h4>
       <pre><code class='git'>
@@ -196,8 +220,23 @@ weight: 45
       <h4>Saves Current Changes with Stash</h4>
       <pre><code class='git'>
         git stash
+        or:
+        git stash save "Name for the stash"
+      </code></pre>
+      <h4>Files in stash</h4>
+      <pre><code class='git'>
+        git stash list --stat
+      </code></pre>
+      <h4>Show files in stash</h4>
+      <pre><code class='git'>
+        git stash show stash@{2}
+      </code></pre>
+      <h4>Remove all stashes</h4>
+      <pre><code class='git'>
+        git stash clear
       </code></pre>
       <h4>Restores Most Recently Stashed Changes</h4>
+      <p>This command will run `git stash apply` and then `git stash drop`.</p>
       <pre><code class='git'>
         git stash pop
       </code></pre>
@@ -213,31 +252,140 @@ weight: 45
       <pre><code class='git'>
         git checkout -b new_branch_name
       </code></pre>
+      <h4>Show Remote Branches</h4>
+      <pre><code class='git'>
+        git branch -r
+      </code></pre>
       <h4>Delete local branch</h4>
       <pre><code class='git'>
         git branch -d local_branch_name
       </code></pre>
+      <h4>Git Tags</h4>
+      <pre><code class='git'>
+        #show all tags
+        git tag
+        #checks out the code with this tag
+        git checkout [name of tag]
+        #adds a tag
+        git tag -a [tag name] -m tag description]
+        #pushes tags
+        git push --tags
+      </code></pre>
+      <h4>Show Diffs</h4>
+      <pre><code class='git'>
+        git diff HEAD^ (parent)
+        git diff HEAD^^ (grandparent)
+        git diff HEAD~6 (six commits ago)
+      </code></pre>
+      <h4>Compare Commits</h4>
+      <pre><code class='git'>
+        git diff HEAD^..HEAD
+        git diff 58786f..98f7f0
+        git diff master another_branch
+      </code></pre>
+      <h4>Stop tracking in Repo</h4>
+      <pre><code class='git'>
+        git rm --cached errors.txt
+      </code></pre>
       <h4 markdown='1'>Remove one file from `git add`</h4>
       <pre><code class='git'>
-        git reset &lt;file&gt;
+        git reset HEAD &lt;file&gt;
       </code></pre>
       <h4 markdown='1'>Remove files added with `git add .`</h4>
       <pre><code class='git'>
         git reset
       </code></pre>
+      <h4>Restore a deleted file</h4>
+      <pre><code class='git'>
+        #First find the hash:
+        git reflog
+        git log --walk-reflogs (more detail)
+
+        #Then:
+        git reset --hard 7980f
+        #or:
+        git reset --hard HEAD@{1}
+
+        #Create a new branch with reflog hash:
+        git branch [new branch name] 890fs4
+        or:
+        git branch [new branch name] HEAD@{1}
+      </code></pre>
+      <h4>Clone a local repo as a backup</h4>
+      <pre><code class='git'>
+        git clone local_repo local_repo_backup
+      </code></pre>
+      <h4>Rewrite History</h4>
+      <p>Once a file is added to git (after the commit) it is permanently in the repo. The only way to remove it is to rewrite history. However, do this with extreme care! Make a backup of your code first with `clone`.</p>
+      <pre><code class='git'>
+        git filter-branch --tree-filter 'rm -f old_file.sh -- --all'
+
+        #or you can just remove the file from the repo:
+        git filter-branch --index-filter 'git rm --cached --ignore-unmatch old_file.sh'
+
+        #Sometimes when you re-write you will get empty commits, to delete these do:
+        git filter-branch -f --prune-empty -- --all
+      </code></pre>
+      <h4>Commit Order Differences</h4>
+      <p>Order from top to bottom:</p>
+      <pre><code class='git'>
+        git log (newest to oldest)
+        git rebase -i HEAD~3 (oldest to newest)
+      </code></pre>
       <h4>Roll back previous commit (preserving file changes)</h4>
       <pre><code class='git'>
         git reset --soft HEAD~1
+        or
+        git reset --soft HEAD^
+      </code></pre>
+      <h4>Cherry Pick</h4>
+      <pre><code class='git'>
+        git cherry-pick 97589f
+
+        #Edit Commit:
+        git cherry-pick --edit 987df0
+
+        #Combine two commits:
+        git cherry-pick --no-commit 9876f 78979f
+        git commit -m "Combine two commits"
+      </code></pre>
+      <h4>Add file to last commit</h4>
+      <pre><code class='git'>
+        git add newfile.sh
+        git commit --amend -m "Add file to repo"
+        or:
+        git commit --amend --no-edit
       </code></pre>
       <h4>Roll back previous commit (discarding file changes)</h4>
       <pre><code class='git'>
         git reset --hard HEAD~1
+        #or:
+        git reset --hard HEAD^
+        #or the two previous  commits:
+        git reset --hard HEAD^^
       </code></pre>
+
+      <h4>Add Remote</h4>
+      <pre><code class='git'>
+        git push -u origin master
+        git push -u [the name] [the branch]
+        #After using '-u', you can use use `git push` next time:
+        git push
+      </code></pre>
+
+      <h4>How Git Pull Works</h4>
+      <p>When you run `git pull`, you are actually performing a series of commands:</p>
+      <ul>
+        <li>Updates the local origin/master branch by fetching updates from the origin with: `git fetch`.</li>
+        <li>Then the newly updated local origin/master is merged into the local master with: `git merge origin/master`.</li>
+      </ul>
+      <p>Therefore, just running a `git fetch` will pull down all of the updated code from the origin, but it will not merge any of this with the local master.</p>
       <h4>Rebase (run from feature branch)</h4>
       <pre><code class='git'>
         git rebase master
       </code></pre>
       <h4>Interactive Rebase (the last 4 commits)</h4>
+      <p>Using 'squash' will combine this commit in with the previous commit.</p>
       <pre><code class='git'>
         git rebase -i HEAD~4
       </code></pre>
@@ -559,6 +707,62 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <h4>Empty Method Returns Nil</h4>
+      <pre><code class='ruby'>
+        def find_grade; end
+        grade = find_grade
+
+        #Outputs nil:
+        puts grade
+      </code></pre>
+      <h4>Naming</h4>
+      <pre><code class='ruby'>
+        #Class is a Noun:
+        class Cards
+          #Module is an Adjective:
+          include Shuffleable
+        end
+      </code></pre>
+      <h4>Ranges</h4>
+      <pre><code class='ruby'>
+        #Inclusive:
+        5..10
+        #Exclusive:
+        5...10
+      </code></pre>
+      <h4>Find Methods</h4>
+      <pre><code class='ruby'>
+        cat.private_methods
+        cat.public_methods
+        cat.protected_methods
+        cat.singleton_methods
+
+        Cat.private_instance_methods
+        Cat.protected_instance_methods
+        Cat.public_instance_methods
+      </code></pre>
+      <h4>Syntactic Sugar</h4>
+      <p>At the end of the day, the operators we know like `+`, `-`, etc are actually methods in ruby. So these two will do the same thing:</p>
+      <pre><code class='ruby'>
+        y = 5 + 6;
+        y = 5.+(6)
+      </code></pre>
+      <h4>Methods and Code Blocks</h4>
+      <p>By default all methods will accept a code block. However, they will not yield to the block unless the method includes a `yield` keyword.</p>
+      <pre><code class='ruby'>
+        #These are both valid ways to call a method:
+        my_method
+        my_method { puts "Test" }
+        my_method() { puts "Test" }
+      </code></pre>
+      <h4>Accept Multiple Arguments</h4>
+      <pre><code class='ruby'>
+        def lots_of(*a)
+        end
+
+        #Outpus: [1, 2, 3, 4]
+        puts lots_of(1, 2, 3, 4)
+      </code></pre>
       <h4>Multiline Comment</h4>
       <pre><code class='ruby'>
       =begin
