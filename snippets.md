@@ -707,70 +707,6 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
-      <h4>Empty Method Returns Nil</h4>
-      <pre><code class='ruby'>
-        def find_grade; end
-        grade = find_grade
-
-        #Outputs nil:
-        puts grade
-      </code></pre>
-      <h4>Naming</h4>
-      <pre><code class='ruby'>
-        #Class is a Noun:
-        class Cards
-          #Module is an Adjective:
-          include Shuffleable
-        end
-      </code></pre>
-      <h4>Ranges</h4>
-      <pre><code class='ruby'>
-        #Inclusive:
-        5..10
-        #Exclusive:
-        5...10
-      </code></pre>
-      <h4>Find Methods</h4>
-      <pre><code class='ruby'>
-        cat.private_methods
-        cat.public_methods
-        cat.protected_methods
-        cat.singleton_methods
-
-        Cat.private_instance_methods
-        Cat.protected_instance_methods
-        Cat.public_instance_methods
-      </code></pre>
-      <h4>Syntactic Sugar</h4>
-      <p>At the end of the day, the operators we know like `+`, `-`, etc are actually methods in ruby. So these two will do the same thing:</p>
-      <pre><code class='ruby'>
-        y = 5 + 6;
-        y = 5.+(6)
-      </code></pre>
-      <h4>Methods and Code Blocks</h4>
-      <p>By default all methods will accept a code block. However, they will not yield to the block unless the method includes a `yield` keyword.</p>
-      <pre><code class='ruby'>
-        #These are both valid ways to call a method:
-        my_method
-        my_method { puts "Test" }
-        my_method() { puts "Test" }
-      </code></pre>
-      <h4>Accept Multiple Arguments</h4>
-      <pre><code class='ruby'>
-        def lots_of(*a)
-        end
-
-        #Outpus: [1, 2, 3, 4]
-        puts lots_of(1, 2, 3, 4)
-      </code></pre>
-      <h4>Multiline Comment</h4>
-      <pre><code class='ruby'>
-      =begin
-        def a_function
-          puts 'test'
-        end
-      =end
-      </code></pre>
       <h4>Start Local Server</h4>
       <pre><code class='bash'>
         rails server (rails s)
@@ -1290,6 +1226,70 @@ weight: 45
     <article>
       <a name='ruby'></a>
       <h3>Ruby</h3>
+      <h4>Empty Method Returns Nil</h4>
+      <pre><code class='ruby'>
+        def find_grade; end
+        grade = find_grade
+
+        #Outputs nil:
+        puts grade
+      </code></pre>
+      <h4>Naming</h4>
+      <pre><code class='ruby'>
+        #Class is a Noun:
+        class Cards
+          #Module is an Adjective:
+          include Shuffleable
+        end
+      </code></pre>
+      <h4>Ranges</h4>
+      <pre><code class='ruby'>
+        #Inclusive:
+        5..10
+        #Exclusive:
+        5...10
+      </code></pre>
+      <h4>Find Methods</h4>
+      <pre><code class='ruby'>
+        cat.private_methods
+        cat.public_methods
+        cat.protected_methods
+        cat.singleton_methods
+
+        Cat.private_instance_methods
+        Cat.protected_instance_methods
+        Cat.public_instance_methods
+      </code></pre>
+      <h4>Syntactic Sugar</h4>
+      <p>At the end of the day, the operators we know like `+`, `-`, etc are actually methods in ruby. So these two will do the same thing:</p>
+      <pre><code class='ruby'>
+        y = 5 + 6;
+        y = 5.+(6)
+      </code></pre>
+      <h4>Methods and Code Blocks</h4>
+      <p>By default all methods will accept a code block. However, they will not yield to the block unless the method includes a `yield` keyword.</p>
+      <pre><code class='ruby'>
+        #These are both valid ways to call a method:
+        my_method
+        my_method { puts "Test" }
+        my_method() { puts "Test" }
+      </code></pre>
+      <h4>Accept Multiple Arguments</h4>
+      <pre><code class='ruby'>
+        def lots_of(*a)
+        end
+
+        #Outpus: [1, 2, 3, 4]
+        puts lots_of(1, 2, 3, 4)
+      </code></pre>
+      <h4>Multiline Comment</h4>
+      <pre><code class='ruby'>
+      =begin
+        def a_function
+          puts 'test'
+        end
+      =end
+      </code></pre>
       <h4>Ruby Symbol vs Strings</h4>
       <p>Symbols have the same object ID whereas strings do not.</p>
       <p>Symbols are immutable and strings are mutable.</p>

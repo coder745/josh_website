@@ -5,11 +5,11 @@ url: http://joshyoung.me
 baseurl:
 linkedin_url: https://www.linkedin.com/in/joshuayoung1
 github_url: https://github.com/joshayoung
-codepen_url: https://codepen.io/joshayoung
-sitemap: 
-  exclude: 
+codepen_url: https://codepen.io/joshayoung/pens/popular
+sitemap:
+  exclude:
   - node_modules
-  include_posts: 
+  include_posts:
   - /thoughts.md
 sass:
   style: compressed

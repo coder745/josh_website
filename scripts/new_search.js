@@ -7,7 +7,7 @@ function scrollUpSlowly() {
     setTimeout(function() {
       window.scrollTo(0, (window.scrollY - 30));
       scrollUpSlowly();
-    }, 3)
+    }, 1)
   }
 }
 

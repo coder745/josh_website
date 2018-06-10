@@ -195,6 +195,32 @@
     ]
   },
   {
+    "title": "Email Design",
+    "class": "email_design",
+    "data": [
+      {
+        "title": "Foundation for Emails",
+        "url": "https://foundation.zurb.com/emails.html",
+        "display": true
+      },
+      {
+        "title": "MJML",
+        "url": "https://mjml.io",
+        "display": true
+      },
+      {
+        "title": "Litmus",
+        "url": "https://litmus.com",
+        "display": true
+      },
+      {
+        "title": "Email on Acid",
+        "url": "https://www.emailonacid.com",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "Validation",
     "class": "validation_resources",
     "data": [
@@ -269,6 +295,16 @@
       {
         "title": "SQL Connection Strings",
         "url": "https://www.connectionstrings.com/sql-server",
+        "display": true
+      },
+      {
+        "title": "Modifying Data With SQL",
+        "url": "https://github.com/treehouse/cheatsheets/blob/master/modifying_data_with_sql/cheatsheet.md",
+        "display": true
+      },
+      {
+        "title": "SQL Cheat Sheet",
+        "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
         "display": true
       }
     ]
