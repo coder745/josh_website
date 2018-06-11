@@ -12,14 +12,14 @@ weight: 40
     <h2>About Me</h2>
     <article>
       <p>
-      My name is Josh Young. I am a web developer living and working in Huntsville, Alabama. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently  working with or technologies that I am using. Maybe something I say here will help someone in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
+      My name is Josh Young. I am a web developer living and working in Franklin, Tennessee. I enjoy all things tech related. I am not a huge blogger, but I enjoy writing small posts about what I am currently  working with or technologies that I am using. Maybe something I say here will help someone in their journey; or at the very least provide a central place for me to document what I have learned when working through new projects.</p>
     </article>
 
     <article>
       <h3>My Job</h3>
-      <p>For my day job, I maintain web applications, websites, other apps for my employer, 
-      <a href='https://www.hsvutil.org'>Huntsville Utilities</a>. Most of the work I do is internal to the company and not hosted publicly. In a typical day, I work primarily with PHP, HTML, CSS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
-      <p>As opportunities are provided, I am always open to using additional languages and technologies. Over my time at Huntsville Utilities, I have had the opportunity to work with other technologies such as Objective-C, C#, ASP.NET and Python. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
+      <p>For my day job, I maintain web applications, websites, other apps for my employer,
+      <a href='https://www.daveramsey.com'>Ramsey Solutions</a>. In a typical day, I work primarily with Rails, Ruby, CSS, SASS, JavaScript and their accompanying technologies such as build tools, testing frameworks, and the like.</p>
+      <p>In the past, I have had the opportunity to work with many technologies including, but not limited to: PHP, Laravel, Objective-C, C#, ASP.NET and Python. On the <a href='/resume'>Resume</a> portion of this site, I have listed some of my job duties in more detail.</p>
     </article>
 
     <article>
@@ -55,13 +55,13 @@ weight: 40
           {% if book.display != false %}
           <li>
             {% if book.short_title %}
-              {{ book.short_title }} 
+              {{ book.short_title }}
             {% else %}
-              {{ book.title }} 
+              {{ book.title }}
             {% endif %}
 
             {% if book.truncated_authors %}
-              by {{ book.truncated_authors }} 
+              by {{ book.truncated_authors }}
             {% elsif book.author != '' %}
               by <span>{{ book.author }}</span>
             {% else %}

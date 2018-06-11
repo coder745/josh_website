@@ -29,6 +29,7 @@ weight: 30
       <ul class='smaller'>
         <li>Developing and maintaining many web properties (Ruby on Rails, JavaScript, CSS, HTML).</li>
         <li>Working with other team members via git and other collaboration tools.</li>
+        <li>Writing and updating rspec tests to insure good test coverage for our websites.</li>
       </ul>
       <h4>Systems Analyst (Web Developer)</h4>
       <h5>Huntsville Utilities - Huntsville, AL (2010 - 2018)</h5>
