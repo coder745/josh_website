@@ -33,6 +33,7 @@ weight: 45
         <li><a href='#sqlite'>SQLite</a></li>
         <li><a href='#security'>Security</a></li>
         <li><a href='#ssh'>SSH</a></li>
+        <li><a href='#svg'>SVG</a></li>
         <li><a href='#php'>PHP</a></li>
         <li><a href='#psql'>PostgreSQL</a></li>
         <li><a href='#tmux'>Tmux</a></li>
@@ -394,6 +395,14 @@ weight: 45
     <article>
       <a name='javascript'></a>
       <h3>JavaScript</h3>
+      <h4>Capitalize Function</h4>
+      <pre>
+      <code>
+        var cap = function(str) {
+          return str.charAt(0).toUpperCase() + str.slice(1);
+        };
+      </code>
+      </pre>
       <h4>Destructuring</h4>
       <pre>
         <code>
@@ -442,7 +451,6 @@ weight: 45
 
       <h4>Detect Keyboard Input</h4>
       <p data-height="265" data-theme-id="dark" data-slug-hash="vZjKVr" data-default-tab="css,result" data-user="joshayoung" data-embed-version="2" data-pen-title="Detect Keyboard Input" class="codepen">See the Pen <a href="https://codepen.io/joshayoung/pen/vZjKVr/">Detect Keyboard Input</a> by Josh (<a href="https://codepen.io/joshayoung">@joshayoung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
       <h4>Basic Class Structure</h4>
       <pre><code class='javascript'>
@@ -1834,6 +1842,46 @@ weight: 45
       <pre><code class='bash'>
         ssh -L 9100:www.remotesite.com:80 username@host
       </code></pre>
+    </article>
+
+    <article>
+      <a name='svg'></a>
+      <h3>SVG</h3>
+
+      <h4>SVG</h4>
+      <p>By default an SVG tag will take up the full width of the browser window. We can make it responsive, by setting the following CSS:</p>
+      <pre><code class='css'>
+        svg {
+          height: auto;
+          //This percentage could change depending on how wide you want your element to be:
+          width: 50%;
+        }
+      </code></pre>
+
+      <h4>SVG viewBox</h4>
+      <p>The viewbox has values of x, y, width, and height. The shapes within this box will be set in relation to the size of the viewBox. The viewBox location within the SVG tag can be offset with the first two numbers (x, y).</p>
+      <p>In the CodePen below below, you can see that the first and last example are consuming 100% of the width of the viewBox. When the screen is expanded or contracted, the elements within expand or contract accordingly, but always consume 100% of the size of the viewBox because the elements inside are sized to contain 100% of the viewBox width.</p>
+      <p>The middle example below internal shapes that total to less than the full width of the viewBox. The viewBox is also shifted from a starting point of 0,0 to demonstrate that the view box can be positioned anywhere within the contining SVG element.</p>
+      <p>To adjust the size of the SVG, you can set the outer containing `SVG` tag to be a certain percentage of the width of the browser window or even a fixed width. Within this the inner viewBox can be positioned within it.</p>
+      <p data-height="265" data-theme-id="0" data-slug-hash="xzgvKX" data-default-tab="html,result" data-user="joshayoung" data-embed-version="2" data-pen-title="SVG viewBox" class="codepen">See the Pen <a href="https://codepen.io/joshayoung/pen/xzgvKX/">SVG viewBox</a> by Josh Young (<a href="https://codepen.io/joshayoung">@joshayoung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+      <h4>SVG Links</h4>
+      <p data-height="265" data-theme-id="0" data-slug-hash="xzgodE" data-default-tab="html,result" data-user="joshayoung" data-embed-version="2" data-pen-title="SVG Symbol" class="codepen">See the Pen <a href="https://codepen.io/joshayoung/pen/xzgodE/">SVG Symbol</a> by Josh Young (<a href="https://codepen.io/joshayoung">@joshayoung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+      <h4>SVG Elements</h4>
+      <p data-height="265" data-theme-id="0" data-slug-hash="wXgNvg" data-default-tab="html,result" data-user="joshayoung" data-embed-version="2" data-pen-title="SVG Stuff" class="codepen">See the Pen <a href="https://codepen.io/joshayoung/pen/wXgNvg/">SVG Stuff</a> by Josh Young (<a href="https://codepen.io/joshayoung">@joshayoung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+      <h4>Set SVG to Scale with Browser Width</h4>
+      <p>By default an SVG element will take up the full width of the browser unless it has a defined width. To circumvent this, you can give it a definined with such as 300px or a percentage. Below is an example of a way to set the SVG element to be half of the browser width.</p>
+      <p>If the SVG tag is set to scale with the browser width, the SVG shapes within the internal viewBox will scale accordingly.</p>
+      <pre><code>
+        svg {
+          height: auto;
+          //This could be any percentage:
+          width: 50%;
+        }
+      </code></pre>
+
     </article>
 
     <article>
