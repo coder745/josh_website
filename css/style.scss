@@ -4,6 +4,7 @@
 @import 'normalize';
 @import 'variables';
 @import 'mixins';
+@import 'animations';
 
 .hide { display: none !important; }
 
@@ -204,6 +205,18 @@ th {
 td {
   text-align: center;
   background: #fff;
+}
+
+.home-period {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  position: relative;
+  bottom: -2px;
+  left: -2px;
+  background: $dark_green;
+  animation: spin 3s infinite;
+  transform: rotate(30deg)
 }
 
 html,

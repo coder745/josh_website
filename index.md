@@ -9,10 +9,10 @@ weight: 0
   <div class='inner-section'>
     <article class='landing'>
       <h2>
-        My name is <span><a href='/me'>Josh</a></span>. I am a Web Developer. Here I write 
-        about web development and my current tech projects. Check out my <a href='/thoughts'>Blog</a> 
-        to see what I am writing or my <a href='/projects'>Projects</a> 
-        to see what I am building.
+        My name is <span><a href='/me'>Josh</a></span>. I am a Web Developer. Here I write
+        about web development and my current tech projects. Check out my <a href='/thoughts'>Blog</a>
+        to see what I am writing or my <a href='/projects'>Projects</a>
+        to see what I am building <div class='home-period'></div>
       </h2>
     </article>
 
