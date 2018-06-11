@@ -263,3 +263,7 @@ class Buyer < ApplicationRecord
   #SELECT "products".* FROM "products" INNER JOIN "satisfactions" ON "products"."id" = "satisfactions"."product_id" WHERE "satisfactions"."buyer_id" = ?
 end
 ```
+
+<p>I have included the code for this mvc application in this repo:
+  <a href='https://github.com/joshayoung/many-to-many-rails'>many-to-many-rails</a>.
+</p>

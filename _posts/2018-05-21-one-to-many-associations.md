@@ -188,3 +188,5 @@ c.destroy
 #DELETE FROM "cars" WHERE "cars"."id" = ?
 #commit transaction
 ```
+
+<p>I have included the code for this mvc application in this repo: <a href='https://github.com/joshayoung/one-to-many-rails'>one-to-many-rails</a>.</p>

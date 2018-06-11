@@ -163,3 +163,5 @@ Of course all of these files would have to be manually created in the project fo
     <%= f.button :submit %>
   <% end %>
 ```
+
+<p>I have included the code for this mvc application in this repo: <a href='https://github.com/joshayoung/basic-rails-mvc'>basic-rails-mvc</a>.</p>
