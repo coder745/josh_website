@@ -5,7 +5,7 @@ var scroll_site_top = function() {
 function scrollUpSlowly() {
   if (window.scrollY !== 0) {
     setTimeout(function() {
-      window.scrollTo(0, (window.scrollY - 30));
+      window.scrollTo(0, (window.scrollY - 150));
       scrollUpSlowly();
     }, 1)
   }

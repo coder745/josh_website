@@ -1847,19 +1847,8 @@ weight: 45
     <article>
       <a name='svg'></a>
       <h3>SVG</h3>
-
-      <h4>SVG</h4>
-      <p>By default an SVG tag will take up the full width of the browser window. We can make it responsive, by setting the following CSS:</p>
-      <pre><code class='css'>
-        svg {
-          height: auto;
-          //This percentage could change depending on how wide you want your element to be:
-          width: 50%;
-        }
-      </code></pre>
-
       <h4>SVG viewBox</h4>
-      <p>The viewbox has values of x, y, width, and height. The shapes within this box will be set in relation to the size of the viewBox. The viewBox location within the SVG tag can be offset with the first two numbers (x, y).</p>
+      <p>The viewBox has values of x, y, width, and height. The shapes within this box will be set in relation to the size of the viewBox. The viewBox location within the SVG tag can be offset with the first two numbers (x, y).</p>
       <p>In the CodePen below below, you can see that the first and last example are consuming 100% of the width of the viewBox. When the screen is expanded or contracted, the elements within expand or contract accordingly, but always consume 100% of the size of the viewBox because the elements inside are sized to contain 100% of the viewBox width.</p>
       <p>The middle example below internal shapes that total to less than the full width of the viewBox. The viewBox is also shifted from a starting point of 0,0 to demonstrate that the view box can be positioned anywhere within the contining SVG element.</p>
       <p>To adjust the size of the SVG, you can set the outer containing `SVG` tag to be a certain percentage of the width of the browser window or even a fixed width. Within this the inner viewBox can be positioned within it.</p>
