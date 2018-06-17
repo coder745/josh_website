@@ -468,7 +468,7 @@ weight: 45
       <pre><code class='javascript'>
         (function() {
           ...executed immediately
-        })());
+        })();
       </code></pre>
       <h4>String Object vs Literal</h4>
       <p>A string literal is immutable.</p>
@@ -715,6 +715,8 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <4h>Rails CRUD forms with no form plugin</h4>
+      <a href='https://github.com/joshayoung/rails-basic-forms'>github.com/joshayoung/rails-basic-forms</a>
       <h4>Start Local Server</h4>
       <pre><code class='bash'>
         rails server (rails s)
