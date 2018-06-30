@@ -14,4 +14,6 @@
   <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 {% endif %}
 
-<script async src='/scripts/api_data.js'></script>
+{% if page.title == 'Home' %}
+  <script async src='/scripts/api_data.js'></script>
+{% endif %}

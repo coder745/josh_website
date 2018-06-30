@@ -10,7 +10,7 @@
             <p>
               {% for post in site.posts limit:1 %}
                 <a href='{{ post.url }}'>
-                  {{ post.excerpt | strip_html | truncatewords:15 }}
+                  {{ post.excerpt | strip_html | truncatewords:10 }}
                 </a>
               {% endfor %}
             </p>
@@ -21,6 +21,17 @@
           <div class='inner'>
             <h3>Recently Updated Repos</h3>
             <ul id="github_repos">
+              <li><a href='https://github.com/joshayoung/dotfiles'>dotfiles</a></li>
+              <li><a href='https://github.com/joshayoung/utility_functions'>utility_functions</a></li>
+              <li><a href='https://github.com/joshayoung/basic-rails-mvc'>basic-rails-mvc</a></li>
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if page.title == 'Home' %}
+          <div class='inner'>
+            <h3>Recently Updated CodePens</h3>
+            <ul id="codepen_pens">
               <li><a href='https://github.com/joshayoung/dotfiles'>dotfiles</a></li>
               <li><a href='https://github.com/joshayoung/utility_functions'>utility_functions</a></li>
               <li><a href='https://github.com/joshayoung/basic-rails-mvc'>basic-rails-mvc</a></li>
@@ -45,7 +56,7 @@
         <div class='inner'>
           <h3>Latest Posts</h3>
           <ul>
-            {% for post in site.posts limit:4 %}
+            {% for post in site.posts limit:2 %}
               <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
             {% endfor %}
           </ul>
