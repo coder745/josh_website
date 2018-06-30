@@ -310,6 +310,32 @@
     ]
   },
   {
+    "title": "Code Best Practices",
+    "class": "code_best_practices",
+    "data": [
+      {
+        "title": "Code Review Guidelines",
+        "url": "https://github.com/thoughtbot/guides/tree/master/code-review",
+        "display": true
+      },
+      {
+        "title": "Ruby Best Practices",
+        "url": "https://github.com/thoughtbot/guides/tree/master/best-practices",
+        "display": true
+      },
+      {
+        "title": "Style Guides",
+        "url": "https://github.com/thoughtbot/guides/tree/master/style",
+        "display": true
+      },
+      {
+        "title": "Git Version Control Guide",
+        "url": "https://github.com/thoughtbot/guides/tree/master/protocol/git",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "Tutorials",
     "class": "tutorials_resources",
     "data": [

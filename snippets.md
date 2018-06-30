@@ -715,6 +715,10 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <h4>Run Migrations on Test Database</h4>
+      <pre><code class='bash'>
+        bin/rails db:migrate RAILS_ENV=test
+      </code></pre>
       <4h>Rails CRUD forms with no form plugin</h4>
       <a href='https://github.com/joshayoung/rails-basic-forms'>github.com/joshayoung/rails-basic-forms</a>
       <h4>Start Local Server</h4>
