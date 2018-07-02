@@ -24,3 +24,16 @@
     {% endfor %}
   </ul>
 </article>
+
+{% if page.title == 'Home' %}
+  <div class='inner'>
+    <h3>What I'm Saying</h3>
+    <p>
+      {% for post in site.posts limit:1 %}
+        <a href='{{ post.url }}'>
+          {{ post.excerpt | strip_html | truncatewords:10 }}
+        </a>
+      {% endfor %}
+    </p>
+  </div>
+{% endif %}
