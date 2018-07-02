@@ -114,12 +114,11 @@ ul {
         }
       }
     li {
-      flex: 0 1 90px;
-      flex: 0 1 80px;
+      flex: 1 1 auto;
     }
     a {
       display: block;
-      padding: 2px;
+      padding: 2px 20px;
       margin: 2px;
       color: #fff;
       background: $light_blue;
@@ -446,6 +445,13 @@ header a {
   transform: rotate(-45deg);
 }
 
+.main-nav-wrap {
+  transition: margin 0.4s;
+  &.slide-left {
+    margin-left: -200px;
+  }
+}
+
 aside {
   .inner {
     overflow: hidden;
@@ -502,12 +508,7 @@ aside {
         display: flex;
         flex-wrap: wrap;
       }
-        li {
-          //flex: 0 1 50px;
-          //flex: 0 1 100px;
-          //flex: 0 1 92px;
-          //flex: 0 1 110px;
-        }
+        li { }
       h3 {
         background: $dark_green;
         border-bottom: none;
@@ -567,6 +568,10 @@ aside {
   li:before {
     content: '- ';
   }
+}
+
+.hide-main-nav {
+  display: none;
 }
 
 nav {
@@ -717,10 +722,7 @@ section.thoughts {
         flex-wrap: wrap;
       }
       li {
-        flex: 0 1 80px;
-        flex: 1 1 83px;
-        flex: 1 1 30%;
-        flex: 1 1 12%;
+        flex: 1 1 auto;
         /* IE11 */
         -ms-overflow-x: hidden;
         -ms-overflow-y: hidden;
@@ -920,6 +922,21 @@ footer {
     box-shadow: 1px 1px 1px 2px rgba(204, 204, 204, 0.4);
     margin-top: $top_margin;
     border-right: 1px solid #bbb;
+    transition: margin 0.4s;
+  }
+  .hide-main-nav {
+    bottom: 102px;
+    display: block;
+    font-size: 14px;
+    left: 2px;
+    padding: 4px;
+    position: absolute;
+    color: transparent;
+    text-shadow: 0 0 0 $dark_green;
+    &:hover {
+      cursor: pointer;
+      text-shadow: 0 0 0 crimson;
+    }
   }
   nav {
     width: auto;
@@ -1083,6 +1100,26 @@ footer {
     margin-top: $top_margin;
     width: pxToRem(320px);
     margin-left: -(pxToRem(520px));
+  }
+
+  ul.anchor_list {
+    &.visible_on_side {
+      position: fixed;
+      right: 20px;
+      top: 100px;
+      width: 162px;
+      z-index: 1;
+      a {
+        background: $light_green;
+        border-top-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+        color: #000;
+        &:hover {
+          color: #fff;
+          background: $dark_green;
+        }
+      }
+    }
   }
 }
 
