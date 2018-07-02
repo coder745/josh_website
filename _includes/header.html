@@ -25,7 +25,7 @@
     </script>
 
     {% if page.title == 'Code Snippets' %}
-      <link rel="stylesheet" href="/packages/highlight/styles/solarized-dark.css">
+      <link rel="stylesheet" href="/packages/highlight/styles/solarized-dark.css" />
       <script src="/packages/highlight/highlight.pack.js"></script>
       <script>hljs.initHighlightingOnLoad();</script>
     {% endif %}
@@ -79,76 +79,79 @@
     <a id='go_to_content' href='#main_content'>skip to main content</a>
     <div class='wrap clearfix'>
     <div class='border'></div>
-    <header role='banner'>
-      <div class='inner'>
-        <a href='/'>
-          <div class='logo'>
-            <div class='triangle'></div>
-            <h1>Josh<span>Young</span></h1>
-            <div>My Thoughts on Web Development</div>
-          </div><!-- logo -->
-        </a>
-      </div><!-- inner -->
-    </header>
-    <aside class='left-aside'>
-      <nav class='main-nav' role='navigation'>
-        {% assign pages = site.html_pages | sort: "weight"  %}
-        <ul>
-          {% for p in pages %}
-            {% if p.main_menu %}
-              <li>
-              <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
-              {{ p.title }}
-              {% if p.title == 'Resume' %}
-                <span>of Jobs</span>
+    <div class='main-nav-wrap' id='js_main_nav_wrap'>
+      <header role='banner'>
+        <div class='inner'>
+          <a href='/'>
+            <div class='logo'>
+              <div class='triangle'></div>
+              <h1>Josh<span>Young</span></h1>
+              <div>My Thoughts on Web Development</div>
+            </div><!-- logo -->
+          </a>
+        </div><!-- inner -->
+      </header>
+      <aside class='left-aside'>
+        <nav class='main-nav' role='navigation'>
+          {% assign pages = site.html_pages | sort: "weight"  %}
+          <ul>
+            {% for p in pages %}
+              {% if p.main_menu %}
+                <li>
+                <a {% if p.url == page.url %}class='active'{% endif %} href='{{ p.url }}'>
+                {{ p.title }}
+                {% if p.title == 'Resume' %}
+                  <span>of Jobs</span>
+                {% endif %}
+                {% if p.title == 'Thoughts' %}
+                  <span>on Development</span>
+                {% endif %}
+                {% if p.title == 'Projects' %}
+                  <span>I've Worked On</span>
+                {% endif %}
+                {% if p.title == 'About' %}
+                  <span>Me</span>
+                {% endif %}
+                {% if p.title == 'Certs' %}
+                  <span>i've Acquired</span>
+                {% endif %}
+                {% if p.title == 'Classes' %}
+                  <span>i've Completed</span>
+                {% endif %}
+                </a>
+              </li>
               {% endif %}
-              {% if p.title == 'Thoughts' %}
-                <span>on Development</span>
-              {% endif %}
-              {% if p.title == 'Projects' %}
-                <span>I've Worked On</span>
-              {% endif %}
-              {% if p.title == 'About' %}
-                <span>Me</span>
-              {% endif %}
-              {% if p.title == 'Certs' %}
-                <span>i've Acquired</span>
-              {% endif %}
-              {% if p.title == 'Classes' %}
-                <span>i've Completed</span>
-              {% endif %}
-              </a>
-            </li>
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
+          </ul>
+          <ul class='sub-nav'>
+            <li><a href='/snippets'>Snippets</a></li>
+            <li><a href='/definitions'>Definitions</a></li>
+            <li><a href='/resources'>Resources</a></li>
+          </ul>
+        </nav>
+        <ul class='social'>
+          <li>
+            <a class='codepen' href='{{ site.codepen_url }}'>
+              <svg>
+                <use xlink:href='#codepen_svg'></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class='linkedin' href='{{ site.linkedin_url }}'>
+              <svg>
+                <use xlink:href='#linkedin_svg'></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class='github' href='{{ site.github_url }}'>
+              <svg>
+                <use xlink:href='#git_svg'></use>
+              </svg>
+            </a>
+          </li>
         </ul>
-        <ul class='sub-nav'>
-          <li><a href='/snippets'>Snippets</a></li>
-          <li><a href='/definitions'>Definitions</a></li>
-          <li><a href='/resources'>Resources</a></li>
-        </ul>
-      </nav>
-      <ul class='social'>
-        <li>
-          <a class='codepen' href='{{ site.codepen_url }}'>
-            <svg>
-              <use xlink:href='#codepen_svg'></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a class='linkedin' href='{{ site.linkedin_url }}'>
-            <svg>
-              <use xlink:href='#linkedin_svg'></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a class='github' href='{{ site.github_url }}'>
-            <svg>
-              <use xlink:href='#git_svg'></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </aside>
+        <div class='hide-main-nav' id='js_hide_main_nav'>&#x2716;</div>
+      </aside>
+    </div><!-- left-side-wrap -->
