@@ -11,7 +11,7 @@ weight: 45
   <div class='inner-section'>
   <h2>Code Snippets</h2>
     <article>
-      <ul class='anchor_list'>
+      <ul id='js_anchor_list' class='anchor_list'>
         <li><a href='#bash'>Bash</a></li>
         <li><a href='#curl'>Curl</a></li>
         <li><a href='#css'>CSS</a></li>
@@ -138,6 +138,19 @@ weight: 45
     <article>
       <a name='html5'></a>
       <h3>HTML</h3>
+      <h4>Unicode/Emojis</h4>
+      <p>
+        You can get the unicode emoji's from this page: <a href='http://unicode.org/emoji/charts/full-emoji-list.html'>emoji list</a>.
+        All you have to do is remove the 'U+' from the first part of the code and replace it with '&#x'. End the unicode string with a semicolon.
+        For example, to use the smiley emoji, change it from: U+1F600 to '&amp;#x1F600;'.
+        To use a unicode character with the css 'before' or 'after' sudo-selector, remove the 'U+' from and replace it with '\'. So for the css ':before' or ':after', it would be '\1F600'. Of course, to use unicode on your site, you have to have the utf8 tag in your site header:
+      </p>
+      <pre><code class='html'>
+        &lt;meta charset='utf-8' /&gt;
+      </code></pre>
+      <a href='https://www.w3.org/International/tutorials/tutorial-char-enc'>Reference</a>
+      <h5>Code Pen</h5>
+      <p data-height="265" data-theme-id="0" data-slug-hash="vrbzGq" data-default-tab="html,result" data-user="joshayoung" data-embed-version="2" data-pen-title="UTF8" class="codepen">See the Pen <a href="https://codepen.io/joshayoung/pen/vrbzGq/">UTF8</a> by Josh Young (<a href="https://codepen.io/joshayoung">@joshayoung</a>) on <a href="https://codepen.io">CodePen</a>.</p>
       <h4>HTML5 Doctype</h4>
       <pre><code class='html'>
         <!DOCTYPE html>
@@ -176,6 +189,11 @@ weight: 45
 
       <h4>HEAD</h4>
       <p>HEAD is the most recent commit on your present branch.</p>
+
+      <h4>Edit Commit Message</h4>
+      <pre><code class='git'>
+        git commit --amend
+      </code></pre>
 
       <h4>Revert a file to state at previous commit</h4>
       <pre><code class='git'>
@@ -667,10 +685,6 @@ weight: 45
       <pre><code class='bash'>
         netstat -nao | findstr "0.0.80"
       </code></pre>
-      <h4>Switch to C Drive</h4>
-      <pre><code class='bash'>
-        cd /d C:
-      </code></pre>
     </article>
 
     <article>
@@ -715,6 +729,16 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <h4>Rails Controller Methods Are Typically Ordered</h4>
+      <ol>
+        <li>index</li>
+        <li>show</li>
+        <li>new</li>
+        <li>edit</li>
+        <li>create</li>
+        <li>update</li>
+        <li>destroy</li>
+      </ol>
       <h4>Run Migrations on Test Database</h4>
       <pre><code class='bash'>
         bin/rails db:migrate RAILS_ENV=test
@@ -1804,6 +1828,14 @@ weight: 45
     <article>
       <a name='sqlite'></a>
       <h3>SQLite</h3>
+      <h4>Select Databse</h4>
+      <pre><code class='bash'>
+        \c [database]
+      </code></pre>
+      <h4>Describe Table</h4>
+      <pre><code class='bash'>
+        \dt+
+      </code></pre>
       <h4>Connect to DB</h4>
       <pre><code class='bash'>
         sqlite3 /path/to/database_file.db
@@ -1998,6 +2030,10 @@ weight: 45
     <article>
       <a name='windows'></a>
       <h3>Windows</h3>
+      <h4>Switch to C Drive</h4>
+      <pre><code class='bash'>
+        cd /d C:
+      </code></pre>
       <h4>Flush DNS</h4>
       <pre><code class='batch'>
         ipconfig /flushdns

@@ -117,6 +117,11 @@
         "display": true
       },
       {
+        "title": "HTML Entities",
+        "url": "http://unicode.org/emoji/charts/full-emoji-list.html",
+        "display": true
+      },
+      {
         "title": "Code Sandbox",
         "url": "https://codesandbox.io",
         "display": true
@@ -331,6 +336,16 @@
       {
         "title": "Git Version Control Guide",
         "url": "https://github.com/thoughtbot/guides/tree/master/protocol/git",
+        "display": true
+      },
+      {
+        "title": "Git Best Practices",
+        "url": "https://chris.beams.io/posts/git-commit",
+        "display": true
+      },
+      {
+        "title": "Atomic Commits",
+        "url": "https://www.freshconsulting.com/atomic-commits",
         "display": true
       }
     ]
