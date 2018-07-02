@@ -15,13 +15,16 @@ var open_search = document.getElementById('open_search'),
   close_search = document.getElementById('close_search'),
   search_cont = document.getElementById('search_cont'),
   go_to_top = document.getElementById('go_to_top'),
-  search_box = document.getElementById('search_box').getElementsByTagName('input')[0];
+  search_box = document.getElementById('search_box').getElementsByTagName('input')[0],
+  anchor_list = document.getElementById('js_anchor_list');
 
 window.onscroll = function() {
   if (window.pageYOffset > 200) {
     go_to_top.className = 'scroll_top show';
+    anchor_list.className += ' visible_on_side';
   } else {
     go_to_top.className = 'scroll_top';
+    anchor_list.className = 'anchor_list';
   }
 };
 
