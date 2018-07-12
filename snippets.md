@@ -13,29 +13,31 @@ weight: 45
     <article>
       <ul id='js_anchor_list' class='anchor_list'>
         <li><a href='#bash'>Bash</a></li>
-        <li><a href='#curl'>Curl</a></li>
         <li><a href='#css'>CSS</a></li>
+        <li><a href='#curl'>Curl</a></li>
         <li><a href='#dev_tools'>Dev Tools</a></li>
-        <li><a href='#html5'>HTML</a></li>
         <li><a href='#http'>HTTP</a></li>
+        <li><a href='#html5'>HTML</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
+        <li><a href='#kanban'>Kanban</a></li>
         <li><a href='#laravel'>Laravel</a></li>
         <li><a href='#linux'>Linux</a></li>
         <li><a href='#mac'>Mac</a></li>
+        <li><a href='#mysql'>MySql</a></li>
         <li><a href='#netstat'>Netstat</a></li>
-        <li><a href='#kanban'>Kanban</a></li>
+        <li><a href='#php'>PHP</a></li>
+        <li><a href='#psql'>PostgreSQL</a></li>
+        <li><a href='#python'>Python</a></li>
         <li><a href='#rails'>Rails</a></li>
         <li><a href='#ruby'>Ruby</a></li>
         <li><a href='#scp'>SCP</a></li>
-        <li><a href='#security'>Security</a></li>
-        <li><a href='#mysql'>MySql</a></li>
+        <li><a href='#ssh'>SSH</a></li>
         <li><a href='#sqlite'>SQLite</a></li>
         <li><a href='#security'>Security</a></li>
-        <li><a href='#ssh'>SSH</a></li>
         <li><a href='#svg'>SVG</a></li>
-        <li><a href='#php'>PHP</a></li>
-        <li><a href='#psql'>PostgreSQL</a></li>
+        <li><a href='#security'>Security</a></li>
+        <li><a href='#testing'>Testing</a></li>
         <li><a href='#tmux'>Tmux</a></li>
         <li><a href='#vim'>Vim</a></li>
         <li><a href='#windows'>Windows</a></li>
@@ -542,6 +544,10 @@ weight: 45
 
     <article>
       <a name='linux'></a>
+      <h4>Reload Bash Config</h4>
+      <pre><code class='bash'>
+        source .bashrc
+      </code></pre>
       <h3>Linux</h3>
       <h4>Add Static IP</h4>
       <h5>Red Hat/CentOS</h5>
@@ -597,6 +603,18 @@ weight: 45
       <h4>Prevent Command from Being Recorded in Terminal History</h4>
       <pre><code class='bash'>
         &lt;space&gt; command
+      </code></pre>
+      <h4>Logged In User History (last 10)</h4>
+      <pre><code class='bash'>
+        last -10
+      </code></pre>
+      <h4>Terminal Calculator</h4>
+      <pre><code class='bash'>
+        bc -l
+      </code></pre>
+      <h4>System Uptime</h4>
+      <pre><code class='bash'>
+        uptime
       </code></pre>
       <h4>Clear Terminal</h4>
       <pre><code class='bash'>
@@ -727,6 +745,15 @@ weight: 45
     </article>
 
     <article>
+      <a name='python'></a>
+      <h3>Python</h3>
+      <h4>Start Simple Server</h4>
+      <pre><code class='bash'>
+        python -m SimpleHTTPServer
+      </code></pre>
+    </article>
+
+    <article>
       <a name='rails'></a>
       <h3>Rails</h3>
       <h4>Rails Controller Methods Are Typically Ordered</h4>
@@ -743,7 +770,7 @@ weight: 45
       <pre><code class='bash'>
         bin/rails db:migrate RAILS_ENV=test
       </code></pre>
-      <4h>Rails CRUD forms with no form plugin</h4>
+      <h4>Rails CRUD forms with no form plugin</h4>
       <a href='https://github.com/joshayoung/rails-basic-forms'>github.com/joshayoung/rails-basic-forms</a>
       <h4>Start Local Server</h4>
       <pre><code class='bash'>
@@ -1868,6 +1895,19 @@ weight: 45
     </article>
 
     <article>
+      <a name='testing'></a>
+      <h3>Testing</h3>
+      <h4>Rspec Fail on First Error</h4>
+      <pre><code class='ruby'>
+        rspec --fail-fast
+      </code></pre>
+      <h4>Rspec with Documentation</h4>
+      <pre><code class='ruby'>
+        rspec -f d
+      </code></pre>
+    </article>
+
+    <article>
       <a name='ssh'></a>
       <h3>SSH</h3>
       <h4>Remote Port Forwarding</h4>
@@ -1957,17 +1997,33 @@ weight: 45
       <div class='code'>
         <dl>
           <dt>Split Window Vertically:</dt>
-          <dd><code>Ctrl + b %</code></dd>
+          <dd><code>Ctrl-b %</code></dd>
           <dt>Split Window Horizontally:</dt>
-          <dd><code>Ctrl + b "</code></dd>
+          <dd><code>Ctrl-b "</code></dd>
           <dt>Navigate Between Windows:</dt>
-          <dd><code>Ctrl + b &lt;ARROW KEYS&gt;</code></dd>
+          <dd><code>Ctrl-b &lt;ARROW KEYS&gt;</code></dd>
           <dt>Detach from tmux:</dt>
-          <dd><code>Ctrl + d</code></dd>
+          <dd><code>Ctrl-b + d</code></dd>
           <dt>Re-attach to tmux:</dt>
           <dd><code>tmux attach -t &lt;SESSION NAME&gt;</code> (i.e. tmux attach -t 0)</dd>
           <dt>Show running tmux sessions:</dt>
           <dd><code>tmux ls</code></dd>
+          <dt>Rename tmux Session:</dt>
+          <dd><code>Ctrl-b + $</code></dd>
+          <dt>Full Screen</dt>
+          <dd><code>Ctrl-b + z</code></dd>
+          <dt>Next Window</dt>
+          <dd><code>Ctrl-b + n</code></dd>
+          <dt>Previous Window</dt>
+          <dd><code>Ctrl-b + p</code></dd>
+          <dt>Open a Specific Session</dt>
+          <dd><code>Ctrl-b + &lt;number&gt;</code></dd>
+          <dt>Detach Current Session</dt>
+          <dd><code>Ctrl-b + d</code></dd>
+          <dt>Start Session with Name</dt>
+          <dd><code>tmux new -s [name]</code></dd>
+          <dt>Rename Session</dt>
+          <dd><code>tmux rename-session -t 0 [new name]</code></dd>
         </dl>
       </div>
     </article>
@@ -1977,6 +2033,14 @@ weight: 45
       <h3>Vim</h3>
       <div class='code'>
         <dl>
+          <dt>Find Character Before:</dt>
+          <dd><code>t}</code></dd>
+          <dt>Change to Found Char Before:</dt>
+          <dd><code>ct}</code></dd>
+          <dt>Find Character:</dt>
+          <dd><code>f}</code></dd>
+          <dt>Change to Found Char:</dt>
+          <dd><code>cf}</code></dd>
           <dt>End of Current Word:</dt>
           <dd><code>ea</code></dd>
           <dt>Split Editor:</dt>
@@ -2023,6 +2087,8 @@ weight: 45
           <dd><code>:s/searchfor/replacewith/g</code></dd>
           <dt>Search / Replace Ask for Confirmation:</dt>
           <dd><code>:%s/searchfor/replacewith/gc</code></dd>
+          <dt>High, Middle, Low</dt>
+          <dd><code>H, M, L</code></dd>
         </dl>
       </div>
     </article>
