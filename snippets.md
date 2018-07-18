@@ -192,6 +192,44 @@ weight: 45
       <h4>HEAD</h4>
       <p>HEAD is the most recent commit on your present branch.</p>
 
+      <h4>Checkout Previous Commit</h4>
+      <p>This will put you in a detached HEAD state.</p>
+      <pre><code class='git'>
+        git checkout [hash of previous commit]
+      </code></pre>
+
+      <h4>Checkout Remote Branch</h4>
+      <pre><code class='git'>
+        git fetch origin
+        git checkout -b my_branch_name orgin/my_branch_name
+
+        #or:
+
+        git fetch
+        git checkout my_branch_name
+
+        #if we have local branch with same name do
+        #this to prevent conflicts with the local branch:
+
+        git fetch origin
+        git checkout --track origin/my_branch_name
+      </code></pre>
+
+      <h4>Git Reset</h4>
+      <pre><code class='git'>
+        git reset --soft HEAD^3
+
+        "'mixed' is the default if you run `git reset`:
+        git reset --mixed HEAD^3
+
+        git reset --hard HEAD^3
+      </code></pre>
+      <ul>
+        <li>--soft (keeps staged changes)</li>
+        <li>--mixed (changes present, not staged)</li>
+        <li>--hard (does not preserve uncommitted changes)</li>
+      </ul>
+
       <h4>Edit Commit Message</h4>
       <pre><code class='git'>
         git commit --amend
