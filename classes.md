@@ -14,6 +14,7 @@ weight: 26
       <p>In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed courses (both classroom and online) that I have completed over the years.</p>
       <ul class='anchor-list'>
         <li><a href='#pragmaticstudio'>The Pragmatic Studio</a></li>
+        <li><a href='#leadershipessentials'>Transcend Leadership Essentials</a></li>
         <li><a href='#frontend'>Front End Masters Classes</a></li>
         <li><a href='#laracastsclasses'>Laracast Courses</a></li>
         <li><a href='#wesbos'>Wes Bos Classes</a></li>
@@ -43,6 +44,17 @@ weight: 26
         <li><a href='https://pragmaticstudio.com/rails'>Ruby on Rails Level I</a></li>
         <li><a href='https://pragmaticstudio.com/ruby'>Ruby Programming</a></li>
       </ul>
+    </article>
+
+    <article>
+      <a name='leadershipessentials'></a>
+      <h3>Transcend Leadership Essentials</h3>
+      <p>
+        This class covered the elements of the DISC personality profile in depth. With the new knowledge that DISC
+        presented, this class elaborated on how to best work with others in the different DISC quadrants. In addition,
+        other leadership characteristics were covered to equip class participants to best perform their jobs in a
+        professional and respectful manner.
+      </p>
     </article>
 
     <article>

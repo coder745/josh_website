@@ -582,6 +582,10 @@ weight: 45
 
     <article>
       <a name='linux'></a>
+      <h4>Rsync</h4>
+      <pre><code class='bash'>
+        rsync -avz --delete /original/folder/location /new/folder/location
+      </code></pre>
       <h4>Reload Bash Config</h4>
       <pre><code class='bash'>
         source .bashrc
@@ -604,11 +608,18 @@ weight: 45
       <p markdown='1' class='no-mb'>Add or edit the lines below in this file `/etc/network/interfaces`.</p>
       <pre><code>
         ...
+        auto eth0
         iface eth0 inet static
         address 192.168.3.100
         netmask 255.255.255.0
         gateway 192.168.3.1
+        broadcast 192.168.3.255
+        dns-nameservers 192.168.3.1
         ...
+      </code></pre>
+      <h4>Show Ubuntu Version</h4>
+      <pre><code class='bash'>
+        lsb_release -a
       </code></pre>
       <h4 markdown='1'>Show Security Settings with `ls`</h4>
       <pre><code class='bash'>
@@ -711,6 +722,11 @@ weight: 45
     <article>
       <a name='mac'></a>
       <h3>Mac</h3>
+      <h4>Change Time Machine Backup Frequency</h4>
+      <p>The interval is set in seconds.</p>
+      <pre><code class='bash'>
+        sudo defaults write /System/Library/Launch Daemons/com.apple.backupd-auto StartInterval -int 1800
+      </code></pre>
       <h4>Find IP</h4>
       <pre><code class='bash'>
         ifconfig |  grep -oE "\w* \b([0-9]{1,3}\.){3}[0-9]{1,3}\b"

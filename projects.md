@@ -49,14 +49,14 @@ weight: 25
       <a name='joshayoung'></a>
       <h3>Personal Website (joshayoung.com - 2012)</h3>
       <h4>(HTML, JavaScript, CSS, jQuery)</h4>
-      <p>This site was a precursor to this web page. However, at the time I had not started using responsive web design, therefore much of the site is not optimized for fast load times, responsiveness and the like. This site was written in raw HTML, CSS, and JavaScript/jQuery and designed by me. I have learned a ton about web development since that time, but I will list the site here for archival purposes. I have made very few changes since it was written. The site is running on GitHub here: <a href='http://www.joshayoung.com'>joshayoung.com</a>.</p>
+      <p>This site was a precursor to this web page. However, at the time I had not started using responsive web design, therefore much of the site is not optimized for fast load times, responsiveness and the like. This site was written in raw HTML, CSS, and JavaScript/jQuery and designed by me. I have learned a ton about web development since that time, but I will list the site here for archival purposes. I have made very few changes since it was written. The site is running on GitHub here: <a href='joshayoung.joshyoung.me'>joshayoung.com</a>.</p>
     </article>
 
     <article>
       <a name='codeitcreations'></a>
       <h3>Business Website (codeitcreations.com - 2011)</h3>
       <h4>(HTML, CSS, JavaScript, jQuery, PHP)</h4>
-      <p>This was a site I designed and developed around the time I was doing some freelancing. This was a one page site written in HTML, CSS, JavaScript, and PHP. For a while, I had this site hosted and running on a web server; however, I have since moved it to GitHub pages. The site is still running here: <a href='http://www.codeitcreations.com'>codeitcreations.com</a>.</p>
+      <p>This was a site I designed and developed around the time I was doing some freelancing. This was a one page site written in HTML, CSS, JavaScript, and PHP. For a while, I had this site hosted and running on a web server; however, I have since moved it to GitHub pages. The site is still running here: <a href='codeitcreations.joshyoung.me'>codeitcreations.com</a>.</p>
       <p>It displays many of the designs I had finished or sites that I had worked on at the time, so you may find them interesting for that purpose. Although, I would describe myself as a web developer, not a web designer, the designs displayed on this site show how far I have progressed over the years.</p>
     </article>
 
@@ -79,7 +79,7 @@ weight: 25
       <h3>Family Website (commentsandcapers.com - 2009)</h3>
       <h4>(HTML, WordPress, PHP, MySQL, HTML, CSS, JavaScript)</h4>
       <p>This site was built to allow my grandmother to maintain her own website. I started by creating a custom WordPress theme based on a design I had created. In addition, I also designed an alternative theme to display select pages in a different layout, per her request.</p>
-      <p>I also wrote some custom PHP code that facilitated the guest book and contact form. I maintained the site for years inside of WordPress. Unfortunately, my grandmother recently died. I have since moved the whole site to GitHub pages for archival purposes. I still have the site running here: <a href='http://www.commentsandcapers.com'>commentsandcapers.com</a>. Aside from a few small changes, I have made no improvements to the code since it was written in 2009.</p>
+      <p>I also wrote some custom PHP code that facilitated the guest book and contact form. I maintained the site for years inside of WordPress. Unfortunately, my grandmother recently died. I have since moved the whole site to GitHub pages for archival purposes. I still have the site running here: <a href='http://commentsandcapers.joshyoung.me'>commentsandcapers.com</a>. Aside from a few small changes, I have made no improvements to the code since it was written in 2009.</p>
     </article>
 
     <article>
