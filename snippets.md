@@ -636,10 +636,16 @@ weight: 45
         |  +------------- hour (0 - 23)
         +------------ minute (0 - 59)
       </code></pre>
-      <h4 markdown='1'>Write ISO to Disk</h4>
+
+      <h4 markdown='1'>Write ISO/IMG to Disk or USB</h4>
+      <p>The command below could also be executed with 'bs=4M'.</p>
       <pre><code class='bash'>
-        sudo dd bs=4M if=/location/of/file.ios of=/dev/drivename && sync
+        sudo fdisk -l
+        sudo umount /dev/sdb
+        sudo dd if=/path/to/iso/or/img/file of=/dev/sdb bs=1M && sync
+        sudo eject /dev/sdb
       </code></pre>
+
       <h4 markdown='1'>Find Linux Version</h4>
       <h5>Kernel:</h5>
       <pre><code class='bash'>
@@ -717,6 +723,10 @@ weight: 45
       <pre><code class='bash'>
         ./script.sh 1> /dev/null 2> /dev/null &
       </code></pre>
+      <h4>Run 256 Checksum</h4>
+      <pre><code class='bash'>
+        shasum -a 256 /the/path/to/file.iso
+      </code></pre>
     </article>
 
     <article>
@@ -734,6 +744,14 @@ weight: 45
       <h4>Flush DNS</h4>
       <pre><code class='bash'>
         sudo killall -HUP mDNSResponder
+      </code></pre>
+      <h4 markdown='1'>Write ISO/IMG to Disk or USB</h4>
+      <p>The command below could also be executed with 'bs=4m'.</p>
+      <pre><code class='bash'>
+        sudo diskutil list
+        sudo umount /dev/disk2
+        sudo dd if=/path/to/iso/or/img/file of=/dev/disk2 bs=1m && sync
+        sudo diskutil eject /dev/disk2
       </code></pre>
     </article>
 

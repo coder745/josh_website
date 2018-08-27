@@ -34,6 +34,12 @@
         "display": false
       },
       {
+        "title": "99 Bottles of OOP",
+        "author": "Katrina Owen & Sandi Metz",
+        "url": "",
+        "display": true
+      },
+      {
         "title": "Learning PHP and MySQL",
         "author": "Michele E. Davis and Jon A. Phillips",
         "url": "",
