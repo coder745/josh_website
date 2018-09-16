@@ -582,6 +582,7 @@ weight: 45
 
     <article>
       <a name='linux'></a>
+      <h3>Linux</h3>
       <h4>Rsync</h4>
       <pre><code class='bash'>
         rsync -avz --delete /original/folder/location /new/folder/location
@@ -590,7 +591,38 @@ weight: 45
       <pre><code class='bash'>
         source .bashrc
       </code></pre>
-      <h3>Linux</h3>
+      <h4>Check Drive for Errors</h4>
+      <pre><code class='bash'>
+        #Health Summary:
+        smartctl -H /dev/sdb
+        #Time required to run HDD Test:
+        smartctl -c /dev/sdb
+
+        #Run Short Test:
+        smartctl -t short /dev/sdb
+
+        #Run Long Test:
+        smartctl -t long /dev/sdb
+
+        #Print Test Results Summary:
+        smartctl -l selftest /dev/sdb
+
+        #Print Details of Latest Test:
+        smartctl -a /dev/sdb
+      </code></pre>
+      <h4>Check Drive for Bad Blocks</h4>
+      <pre><code class='bash'>
+        #Test for bad block:
+        sudo badblocks -vs /dev/sdb > badblocks_results.txt
+      </code></pre>
+      <h4>Correct Bad Blocks</h4>
+      <pre><code class='bash'>
+        #ext(2/3/4) filesystem:
+        sudo e2fsck -l badblocks_results.txt /dev/sdb
+
+        #other filesystems:
+        sudo fsck -l badblocks_results.txt /dev/sdb
+      </code></pre>
       <h4>Add Static IP</h4>
       <h5>Red Hat/CentOS</h5>
       <p markdown='1' class='no-mb'>Add modify the entries below within: `/etc/sysconfig/network-scripts/ifcfg-eth0` (change IP addresses according to your network). The name for your network connection could differ from `ifcfg-eth0`.</p>
@@ -642,7 +674,7 @@ weight: 45
       <pre><code class='bash'>
         sudo fdisk -l
         sudo umount /dev/sdb
-        sudo dd if=/path/to/iso/or/img/file of=/dev/sdb bs=1M && sync
+        sudo dd if=/path/to/iso/or/img/file of=/dev/sdb bs=1M status=progress && sync
         sudo eject /dev/sdb
       </code></pre>
 
@@ -662,6 +694,14 @@ weight: 45
       <h4>Logged In User History (last 10)</h4>
       <pre><code class='bash'>
         last -10
+      </code></pre>
+      <h4>Wipe HDD with 'dd' Command</h4>
+      <pre><code class='bash'>
+        #With Zeros:
+        dd if=/dev/zero of=/dev/sdb bs=1M status=progress && sync
+
+        #With Random Data:
+        dd if=/dev/urandom of=/dev/sdb bs=1M status=progress && sync
       </code></pre>
       <h4>Terminal Calculator</h4>
       <pre><code class='bash'>
@@ -725,13 +765,17 @@ weight: 45
       </code></pre>
       <h4>Run 256 Checksum</h4>
       <pre><code class='bash'>
-        shasum -a 256 /the/path/to/file.iso
+        sha256sum /the/path/to/file.iso
       </code></pre>
     </article>
 
     <article>
       <a name='mac'></a>
       <h3>Mac</h3>
+      <h4>Run 256 Checksum</h4>
+      <pre><code class='bash'>
+        shasum -a 256 /the/path/to/file.iso
+      </code></pre>
       <h4>Change Time Machine Backup Frequency</h4>
       <p>The interval is set in seconds.</p>
       <pre><code class='bash'>
@@ -1363,6 +1407,10 @@ weight: 45
     <article>
       <a name='ruby'></a>
       <h3>Ruby</h3>
+      <h4>Install to global gemset (when using rvm)</h4>
+      <pre><code class='ruby'>
+        rvm @global do gem install [gem name]
+      </code></pre>
       <h4>Empty Method Returns Nil</h4>
       <pre><code class='ruby'>
         def find_grade; end
@@ -2094,6 +2142,8 @@ weight: 45
           <dd><code>Ctrl-b + d</code></dd>
           <dt>Start Session with Name</dt>
           <dd><code>tmux new -s [name]</code></dd>
+          <dt>Close a Session with Name</dt>
+          <dd><code>tmux kill-session -t [name]</code></dd>
           <dt>Rename Session</dt>
           <dd><code>tmux rename-session -t 0 [new name]</code></dd>
         </dl>
