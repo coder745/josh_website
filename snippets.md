@@ -167,7 +167,6 @@ weight: 45
       </ul>
     </article>
 
-
     <article>
       <a name='http'></a>
       <h3>HTTP</h3>
@@ -432,6 +431,11 @@ weight: 45
         git push
       </code></pre>
 
+      <h4>Revert a Commit</h4>
+      <pre><code class='git'>
+        git revert [the commit hash you want to revert]
+      </code></pre>
+
       <h4>How Git Pull Works</h4>
       <p>When you run `git pull`, you are actually performing a series of commands:</p>
       <ul>
@@ -613,15 +617,15 @@ weight: 45
       <h4>Check Drive for Bad Blocks</h4>
       <pre><code class='bash'>
         #Test for bad block:
-        sudo badblocks -vs /dev/sdb > badblocks_results.txt
+        badblocks -vs /dev/sdb > badblocks_results.txt
       </code></pre>
       <h4>Correct Bad Blocks</h4>
       <pre><code class='bash'>
         #ext(2/3/4) filesystem:
-        sudo e2fsck -l badblocks_results.txt /dev/sdb
+        e2fsck -l badblocks_results.txt /dev/sdb
 
         #other filesystems:
-        sudo fsck -l badblocks_results.txt /dev/sdb
+        fsck -l badblocks_results.txt /dev/sdb
       </code></pre>
       <h4>Add Static IP</h4>
       <h5>Red Hat/CentOS</h5>
@@ -672,10 +676,10 @@ weight: 45
       <h4 markdown='1'>Write ISO/IMG to Disk or USB</h4>
       <p>The command below could also be executed with 'bs=4M'.</p>
       <pre><code class='bash'>
-        sudo fdisk -l
-        sudo umount /dev/sdb
-        sudo dd if=/path/to/iso/or/img/file of=/dev/sdb bs=1M status=progress && sync
-        sudo eject /dev/sdb
+        fdisk -l
+        umount /dev/sdb
+        dd if=/path/to/iso/or/img of=/dev/sdb bs=1M status=progress && sync
+        eject /dev/sdb
       </code></pre>
 
       <h4 markdown='1'>Find Linux Version</h4>
@@ -779,7 +783,7 @@ weight: 45
       <h4>Change Time Machine Backup Frequency</h4>
       <p>The interval is set in seconds.</p>
       <pre><code class='bash'>
-        sudo defaults write /System/Library/Launch Daemons/com.apple.backupd-auto StartInterval -int 1800
+        defaults write /System/Library/Launch Daemons/com.apple.backupd-auto StartInterval -int 1800
       </code></pre>
       <h4>Find IP</h4>
       <pre><code class='bash'>
@@ -787,15 +791,15 @@ weight: 45
       </code></pre>
       <h4>Flush DNS</h4>
       <pre><code class='bash'>
-        sudo killall -HUP mDNSResponder
+        killall -HUP mDNSResponder
       </code></pre>
       <h4 markdown='1'>Write ISO/IMG to Disk or USB</h4>
       <p>The command below could also be executed with 'bs=4m'.</p>
       <pre><code class='bash'>
-        sudo diskutil list
-        sudo umount /dev/disk2
-        sudo dd if=/path/to/iso/or/img/file of=/dev/disk2 bs=1m && sync
-        sudo diskutil eject /dev/disk2
+        diskutil list
+        umount /dev/disk2
+        dd if=/path/to/iso/or/img/file of=/dev/disk2 bs=1m && sync
+        diskutil eject /dev/disk2
       </code></pre>
     </article>
 
