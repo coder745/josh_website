@@ -114,7 +114,7 @@ ul {
         }
       }
     li {
-      flex: 1 1 auto;
+      flex: 0 1 auto;
     }
     a {
       display: block;
@@ -124,7 +124,7 @@ ul {
       background: $light_blue;
       text-decoration: none;
       text-align: center;
-      font-size: pxToRem(12px);
+      font-size: pxToRem(10px);
       &:hover {
         background: darken($light_blue, 10);
       }
@@ -1106,7 +1106,7 @@ footer {
     &.visible_on_side {
       position: fixed;
       right: 20px;
-      top: 100px;
+      top: 10px;
       width: 162px;
       z-index: 1;
       a {
@@ -1190,3 +1190,5 @@ footer {
     height: 80px;
   }
 }
+
+@import 'tech-spectrum';

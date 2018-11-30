@@ -27,27 +27,30 @@
         {% endif %}
 
         {% if page.title != 'Home' and
-          page.title != 'Not Found'
+          page.title != 'Not Found' and
+          page.title != 'Tech Spectrum'
         %}
           <div class='inner glance'>
             {% include glance.html %}
           </div><!-- inner -->
         {% endif %}
 
-        {% if page.layout == 'portfolio_entry' %}
+        {% if page.layout == 'portfolio_entry' and page.title != 'Tech Spectrum' %}
           <div class='inner tags'>
             {% include tags.html %}
           </div><!-- inner -->
         {% endif %}
 
-        <div class='inner'>
-          <h3>Latest Posts</h3>
-          <ul>
-            {% for post in site.posts limit:2 %}
-              <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div><!-- inner -->
+        {% if page.title != 'Tech Spectrum' %}
+          <div class='inner'>
+            <h3>Latest Posts</h3>
+            <ul>
+              {% for post in site.posts limit:2 %}
+                <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div><!-- inner -->
+        {% endif %}
 
         {% if page.title == 'Home' %}
           <div class='inner quote'>
@@ -55,7 +58,7 @@
           </div><!-- inner -->
         {% endif %}
 
-        {% if page.title != 'Home' and page.layout != 'portfolio_entry' %}
+        {% if page.title != 'Home' and page.layout != 'portfolio_entry' and page.title != 'Tech Spectrum' %}
           <div class='inner tags'>
             {% include tags.html %}
           </div><!-- inner -->

@@ -5,6 +5,7 @@ url: http://joshyoung.me
 baseurl:
 linkedin_url: https://www.linkedin.com/in/joshuayoung1
 github_url: https://github.com/joshayoung
+freecodecamp_url: https://www.freecodecamp.org/joshayoung
 codepen_url: https://codepen.io/joshayoung/pens/popular
 sitemap:
   exclude:

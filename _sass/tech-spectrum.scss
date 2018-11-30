@@ -1,0 +1,108 @@
+  section .inner-section.skill-level-and-spectrum {
+    margin: 2rem;
+    position: relative;
+
+    p {
+      max-width: 600px;
+    }
+  }
+
+  table.skill-levels {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    border: none;
+    min-width: 220px;
+    &.cert_class {
+      right: 330px;
+      min-width: 145px;
+      tr:nth-child(1) td {
+        background: #404040;
+        color: #fff;
+      }
+      tr:nth-child(2) td {
+        background: #a6a6a6;
+      }
+    }
+    td {
+      background: none;
+      padding: 6px 16px;
+    }
+    tr:nth-child(1) td {
+      background: #d2143a;
+    }
+    tr:nth-child(2) td {
+      background: #FF7F50;
+    }
+    tr:nth-child(3) td {
+      color: #fff;
+      background: #751aff;
+    }
+    tr:nth-child(4) td {
+      color: #fff;
+      background: #0080ff;
+    }
+    tr:nth-child(5) td {
+      background: #00e600;
+    }
+    tr:nth-child(7) td {
+      background: #404040;
+      color: #fff;
+    }
+    tr:nth-child(8) td {
+      background: #a6a6a6;
+    }
+  }
+
+  table.skill-spectrum {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    font-size: 11px;
+    td {
+      border: 1px solid #ccc;
+      vertical-align: top;
+    }
+    th, td {
+      padding: 2px;
+      background: none;
+    }
+    td {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+          margin: 2px 0;
+          padding: 0 4px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+      .five {
+        background: #d2143a;
+      }
+      .four {
+        background: #FF7F50;
+      }
+      .three {
+        color: #fff;
+        background: #751aff;
+      }
+      .two {
+        color: #fff;
+        background: #0080ff;
+      }
+      .one {
+        background: #00e600;
+      }
+      .cert {
+        background: #404040;
+        color: #fff;
+      }
+      .a-class {
+        background: #a6a6a6;
+      }
+    }
+  }
