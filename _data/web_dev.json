@@ -373,6 +373,28 @@
     ]
   },
   {
+    "title": "FreeBSD",
+    "class": "freebsd_resources",
+    "data": [
+      {
+        "title": "FreeBSD Post Install Guide",
+        "url": "https://www.tecmint.com/things-to-do-after-installing-freebsd",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Network Tools",
+    "class": "network_tool",
+    "data": [
+      {
+        "title": "Converters and Calculators",
+        "url": "https://www.wintelguy.com",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "Miscellaneous",
     "class": "miscellaneous_resources",
     "data": [

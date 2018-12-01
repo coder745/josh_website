@@ -23,6 +23,11 @@ weight: 45
         <li><a href='#kanban'>Kanban</a></li>
         <li><a href='#laravel'>Laravel</a></li>
         <li><a href='#linux'>Linux</a></li>
+        <li><a href='#arch'>Arch</a></li>
+        <li><a href='#slackware'>Slackware</a></li>
+        <li><a href='#centos-rhel'>CentOS/RHEL</a></li>
+        <li><a href='#ubuntu-debian'>Ubuntu/Debian</a></li>
+        <li><a href='#freebsd'>FreeBSD</a></li>
         <li><a href='#mac'>Mac</a></li>
         <li><a href='#mysql'>MySql</a></li>
         <li><a href='#netstat'>Netstat</a></li>
@@ -39,8 +44,10 @@ weight: 45
         <li><a href='#security'>Security</a></li>
         <li><a href='#testing'>Testing</a></li>
         <li><a href='#tmux'>Tmux</a></li>
+        <li><a href='#ufw'>UFW</a></li>
         <li><a href='#vim'>Vim</a></li>
         <li><a href='#windows'>Windows</a></li>
+        <li><a href='#zfs'>ZFS</a></li>
       </ul>
     </article>
 
@@ -185,8 +192,85 @@ weight: 45
     </article>
 
     <article>
+      <a name='ufw'></a>
+      <h3>UFW</h3>
+      <p>UFW by default will allow all outgoing connections but deny any incoming connections.</p>
+      <pre><code>
+        #Show firewall status/rules:
+        ufw status
+
+        #Enable firewall
+        ufw enable
+      </code></pre>
+
+      <h4>Application Profiles</h4>
+      <pre><code>
+        #Show all application profiles:
+        ufw app list
+
+        #Show which ports/protocols a rule will enable:
+        ufw app info 'OpenSSH'
+      </code></pre>
+
+      <h4>Set default egress/ingress rules</h4>
+      <pre><code>
+        #Deny egress and ingress:
+        ufw default deny outgoing
+        ufw default deny incoming
+      </code></pre>
+
+      <h4>Open Up Ports</h4>
+      <pre><code>
+        #Allow HTTP Service:
+        ufw allow http
+        #or:
+        ufw allow 80/tcp
+        #or allow application profile (nginx, apache, etc):
+        ufw allow 'Nginx HTTP'
+
+        #Allow a specific port:
+        ufw allow 8080/tcp
+
+        #Allow a specific IP:
+        sudo ufw allow from 192.168.3.100
+
+        #Limit to one port:
+        sudo ufw allow from 192.168.3.100 to any port 80
+
+        #Allow the whole subnet:
+        ufw allow from 192.168.3.0/24 to any port 80
+      </code></pre>
+
+      <h4>Close Ports/Delete Rules</h4>
+      <pre><code>
+        #Close port 80
+        ufw deny 80/tcp
+
+        #Deny from specific IP:
+        ufw deny from 192.168.3.100
+
+        #Deny IP and Port:
+        ufw deny from 192.168.3.100 to any port 80
+
+        #Delete HTTP rule:
+        ufw delete allow www
+        #or:
+        ufw delete allow 80/tcp
+      </code></pre>
+    </article>
+
+    <article>
       <a name='git'></a>
       <h3>Git</h3>
+
+      <h4>Push changes, then revert locally</h4>
+      <p>This will allow you to push up a feature branch and then revert your local changes to see the diff.</p>
+      <pre><code class='git'>
+        git push origin my_feature_branch
+
+        #Revert changes so you can see the diff (locally):
+        git reset HEAD~
+      </code></pre>
 
       <h4>HEAD</h4>
       <p>HEAD is the most recent commit on your present branch.</p>
@@ -581,20 +665,266 @@ weight: 45
       <pre><code class='bash'>
         php artisan make:controller UsersController -r
       </code></pre>
+    </article>
 
+    <article>
+      <a name='freebsd'></a>
+      <h3>FreeBSD</h3>
+      <h4>Edit Hostname</h4>
+      <pre><code class='bash'>
+        #Edit:
+        vi /etc/rc.conf
+
+        #Rename references to old hostname:
+        vi /etc/hosts
+
+        #Set the hostname
+        hostname your-new-hostname
+
+        reboot
+      </code></pre>
+
+      <h4>Shutdown Server</h4>
+      <pre><code>
+        poweroff
+        #or
+        shutdown -p now
+      </code></pre>
+      <h4>Show Version</h4>
+      <pre><code>
+        freebsd-version
+      </code></pre>
+
+      <h4>Update OS</h4>
+      <pre><code>
+        freebsd-update fetch
+        freebsd-update install
+      </code></pre>
+
+      <h4>Ports</h4>
+      <p>Ports are groups of 'make' files that allow software to be installed from source. They can be managed by 'portsnap'.</p>
+
+      <h4>Packages</h4>
+      <p>These packages are pre-compiled. They are similar to .deb or .rpm packages on Debian and RHEL respectively.</p>
+      <pre><code>
+        #Package Info:
+        pkg info
+
+        #Install package:
+        pkg install package_name
+
+        #Update:
+        pkg update
+
+        #Upgrade:
+        pkg upgrade
+
+        #Uninstall package:
+        pkg remove package_name
+      </code></pre>
+    </article>
+
+    <article>
+    <a name='slackware'></a>
+    <h3>Slackware</h3>
+      <h4>Slackware Linux Commands</h4>
+      <p>Use slackpkg to keep system updated.</p>
+      <pre><code>
+        #Download slackpkg .tar.gz file with wget
+        wget https://slackpkg.org/stable/slackpkg-2.60-noarch-1.tgz
+
+        #Install slackpkg with 'installpkg'
+        installpkg slackpkg-2.60-noarch-1.tgz
+
+        #Uncomment and select a mirror:
+        vi /etc/slackpkg/mirrors
+
+        #Initialize slackpkg:
+        slackpkg update
+
+        #Install package
+        slackpkg install package_name
+
+        #Update to the latest slackpkg packages:
+        slackpkg update
+        slackpkg upgrade-all
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='ubuntu-debian'></a>
+      <h3>Ubuntu/Debian</h3>
+      <p markdown='1' class='no-mb'>Add or edit the lines below in this file `/etc/network/interfaces`.</p>
+      <pre><code>
+        ...
+        auto eth0
+        iface eth0 inet static
+        address 192.168.3.100
+        netmask 255.255.255.0
+        gateway 192.168.3.1
+        broadcast 192.168.3.255
+        dns-nameservers 192.168.3.1
+        ...
+      </code></pre>
+      <h4>Show Ubuntu Version</h4>
+      <pre><code class='bash'>
+        lsb_release -a
+        #or:
+        cat /etc/*release
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='centos-rhel'></a>
+      <h3>CentOS/RHEL</h3>
+
+      <h4>Change Hostname</h4>
+      <pre><code class='bash'>
+        hostnamectl set-hostname my-new-hostname
+      </code></pre>
+
+      <h4>Show Version</h4>
+      <pre><code class='bash'>
+        cat /etc/*release
+      </code></pre>
+
+      <h4>Add Static IP</h4>
+      <p markdown='1' class='no-mb'>Add modify the entries below within: `/etc/sysconfig/network-scripts/ifcfg-eth0` (change IP addresses according to your network). The name for your network connection could differ from `ifcfg-eth0`.</p>
+      <pre><code class='bash'>
+        ...
+        DEVICE="eth0"
+        BOOTPROTO="static"
+        IPADDR="192.168.3.100"
+        NETMASK="255.255.255.0"
+        GATEWAY="192.168.3.1"
+        DNS1="192.168.3.1"
+        DNS2="192.168.3.2"
+        ONBOOT="yes"
+        ...
+      </code></pre>
+    </article>
+
+    <article>
+    <a name='arch'></a>
+    <h3>Arch</h3>
+      <h4>Pacman Commands</h4>
+      <pre><code>
+        #Sync and Update:
+        pacman -Syu
+
+        #Install a package:
+        pacman -S package_name
+
+        #Remove a package:
+        pacman -R package_name
+      </code></pre>
+
+      <h4>Show Version</h4>
+      <pre><code>
+        lsb_release -a
+      </code></pre>
     </article>
 
     <article>
       <a name='linux'></a>
       <h3>Linux</h3>
+
+      <h4>Init Systems</h4>
+      <h5>SystemD</h5>
+      <p>Systemd is managed my 'systemctl'. To start sshd, we would run: <code>systemctl start sshd</code>.</p>
+
+      <h5>Upstart</h5>
+      <p>Upstart is managed by 'initctl'. To start sshd we would run: <code>initctl start sshd</code>. Upstart was invented as a replace for System V by Ubuntu.</p>
+
+      <h5>System V (SysV)</h5>
+      <p>To start sshd, we would run: '/etc/init.d/ssh start'. This was primarily used by older versions of Linux.</p>
+
+      <h5>BSD Init</h5>
+      <p>The BSD based init system is configured under /etc/rc.conf. To start sshd, we would run: '/etc/rc.d/sshd start'. BSD and Slackware use the BSD init system</p>
+
+      <h4>Linux partition/format with Parted</h4>
+      <pre><code class='bash'>
+        parted /dev/sdb # Open device with gparted:
+        print # Print device info:
+        print free # Show free space
+        help mklabel # Print available label types:
+        mklabel msdos # 'msdos' good option, select 'gpt' for uefi support
+        help mkpart # Partitioning help:
+        mkpart # Start partitioning:
+
+        # You will usually select 'primary' for the partition type.
+
+        # Select filesystem type, examples:
+        # ext2, ext3, ext4, ntfs, exfat, fat32
+
+        # Start/End need adjustment if not partitioning whole drive:
+        # Start partition from '2048s'
+        # End on '-1s'
+
+        quit # Exit:
+
+        # Format your partition with 'mkfs', examples:
+        mkfs.ext2 /dev/sdb1
+        mkfs.ext3 /dev/sdb1
+        mkfs.ext4 /dev/sdb1
+        mkfs.vfat /dev/sdb1
+        mkfs.ntfs /dev/sdb1
+
+        # Use '-L' to add a label:
+        mkfs.ext4 -L mydrive /dev/sdb1
+
+        eject /dev/sdb1 # Eject partition:
+      </code></pre>
+
+      <h4>Show Directory Size</h4>
+      <pre><code class='bash'>
+        du -sh directory_path
+      </code></pre>
+
+      <h4>SystemD</h4>
+      <pre><code class='bash'>
+        #'enable' will create a symbolic link so that the service starts on reboot
+        #'disable' will remove the symbolic link
+        #'is-active' will tell you if the service is running
+        #'is-enable' will tell you if it starts on boot
+        systemctl [status, enable, disable, is-active, is-enabled start, restart, reload, stop] application.service
+      </code></pre>
+
+      <h4>Change Username</h4>
+      <p>If you want to switch user 'joe' to 'sally', below are the steps:</p>
+      <pre><code class='bash'>
+        usermod -l sally joe
+
+        #Verify that the new user exists and the old one does not:
+        id sally
+        id joe
+
+        #Swap out the new user's group:
+        groupmod -n sally joe
+
+        #Swap the home directory:
+        usermod -d /home/sally -m sally
+
+        #If the above command does not work, delete the old dir and re-create it:
+        rm -rvf /home/joe
+        mkhomedir_helper sally
+
+        #If you search these two files, you should not see the 'joe' user/group:
+        cat /etc/group | grep joe
+        cat /etc/passwd | grep joe
+
+      </code></pre>
+
       <h4>Rsync</h4>
       <pre><code class='bash'>
         rsync -avz --delete /original/folder/location /new/folder/location
       </code></pre>
+
       <h4>Reload Bash Config</h4>
       <pre><code class='bash'>
         source .bashrc
       </code></pre>
+
       <h4>Check Drive for Errors</h4>
       <pre><code class='bash'>
         #Health Summary:
@@ -614,11 +944,13 @@ weight: 45
         #Print Details of Latest Test:
         smartctl -a /dev/sdb
       </code></pre>
+
       <h4>Check Drive for Bad Blocks</h4>
       <pre><code class='bash'>
         #Test for bad block:
         badblocks -vs /dev/sdb > badblocks_results.txt
       </code></pre>
+
       <h4>Correct Bad Blocks</h4>
       <pre><code class='bash'>
         #ext(2/3/4) filesystem:
@@ -627,36 +959,7 @@ weight: 45
         #other filesystems:
         fsck -l badblocks_results.txt /dev/sdb
       </code></pre>
-      <h4>Add Static IP</h4>
-      <h5>Red Hat/CentOS</h5>
-      <p markdown='1' class='no-mb'>Add modify the entries below within: `/etc/sysconfig/network-scripts/ifcfg-eth0` (change IP addresses according to your network). The name for your network connection could differ from `ifcfg-eth0`.</p>
-      <pre><code class='bash'>
-        ...
-        DEVICE="eth0"
-        BOOTPROTO="static"
-        IPADDR="192.168.3.100"
-        NETMASK="255.255.255.0"
-        GATEWAY="192.168.3.1"
-        ONBOOT="yes"
-        ...
-      </code></pre>
-      <h5>Ubuntu/Debian</h5>
-      <p markdown='1' class='no-mb'>Add or edit the lines below in this file `/etc/network/interfaces`.</p>
-      <pre><code>
-        ...
-        auto eth0
-        iface eth0 inet static
-        address 192.168.3.100
-        netmask 255.255.255.0
-        gateway 192.168.3.1
-        broadcast 192.168.3.255
-        dns-nameservers 192.168.3.1
-        ...
-      </code></pre>
-      <h4>Show Ubuntu Version</h4>
-      <pre><code class='bash'>
-        lsb_release -a
-      </code></pre>
+
       <h4 markdown='1'>Show Security Settings with `ls`</h4>
       <pre><code class='bash'>
         ls -Z
@@ -860,6 +1163,14 @@ weight: 45
         <dl>
           <dt>Swim Lanes</dt>
           <dd>Rows</dd>
+          <dt>WIP</dt>
+          <dd>Work In Progress</dd>
+          <dt>WIP Limit</dt>
+          <dd>The maximum amount of cards allowed in one column on the board</dd>
+          <dt>Blocker</dt>
+          <dd>Something that is preventing you from moving your card forward</dd>
+          <dt>Hidden Work</dt>
+          <dd>Something you are working on that is not visible on the Kanban Board</dd>
         </dl>
       </div>
     </article>
@@ -2234,6 +2545,26 @@ weight: 45
       <h4>All Network Info</h4>
       <pre><code class='batch'>
         ipconfig /all
+      </code></pre>
+    </article>
+
+    <article>
+    <a name='zfs'></a>
+    <h3>ZFS</h3>
+      <h4>ZFS Pool Status</h4>
+      <pre><code>
+        zpool status -v
+
+        zpool history
+
+        #List Datasets:
+        zfs list
+
+        #Display all information about all datasets:
+        zfs get all
+
+        #Mount filesystem:
+         zfs mount /mount_location
       </code></pre>
     </article>
 
