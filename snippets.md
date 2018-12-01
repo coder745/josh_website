@@ -19,6 +19,7 @@ weight: 45
         <li><a href='#docker'>Docker</a></li>
         <li><a href='#http'>HTTP</a></li>
         <li><a href='#html5'>HTML</a></li>
+        <li><a href='#firewalld'>Firewalld</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
         <li><a href='#kanban'>Kanban</a></li>
@@ -282,6 +283,76 @@ weight: 45
         ufw delete allow www
         #or:
         ufw delete allow 80/tcp
+      </code></pre>
+    </article>
+
+ <article>
+      <a name='firewalld'></a>
+      <h3>Firewalld</h3>
+      <p>Firewalld is manipulating iptables behind the scene. Firewalld does have extended features in comparison to just using iptables. In the future iptables will be replaced with nftables. Firewalld will also serve as a font-end for nftables.</p>
+      <h4>Default Zones</h4>
+      <ul>
+        <li><strong>block</strong>- ingress rejected, egress allowed</li>
+        <li><strong>dmz</strong> - for DMZ servers</li>
+        <li><strong>drop</strong> - ingress dropped, egress allowed</li>
+        <li><strong>external</strong> - use when you have NAT masquerading</li>
+        <li><strong>home</strong> - other machines trusted</li>
+        <li><strong>internal</strong> - use when server is a router/gateway machine</li>
+        <li><strong>public</strong> - other machines untrusted</li>
+        <li><strong>trusted</strong> - connections accepted and machines trusted</li>
+        <li><strong>work</strong> - other machines trusted</li>
+      </ul>
+      <h4>Firewalld Main Commands</h4>
+      <pre><code class='bash'>
+        #Show all zones:
+        firewall-cmd --get-zones
+
+        #Show active zones:
+        firewall-cmd --get-active-zones
+
+        #Show default zone:
+        firewall-cmd --get-default-zone
+
+        #Show all services:
+        firewall-cmd --get-services
+      </code></pre>
+
+      <h4>Change Zones/Interfaces</h4>
+      <p>Each network inteface can be assigned to a different zone.</p>
+      <pre><code class='bash'>
+        #Change 'eth0' to 'work' zone:
+        firewall-cmd --zone=work --change-interface=eth0
+      </code></pre>
+
+      <h4>Show Current Settings</h4>
+      <pre><code class='bash'>
+        #List current settings on 'public' zone:
+        sudo firewall-cmd --zone=public --list-all
+
+        #Show open ports:
+        sudo firewall-cmd --zone=public --list-ports
+      </code></pre>
+
+      <h4>Open Ports/Services</h4>
+      <p>Without `--permanent`, the firewall rule will take affect but will not persist after a reboot.</p>
+      <pre><code class='bash'>
+        #Open port 80:
+        firewall-cmd --permanent --zone=public --add-port=80/tcp
+
+        #Add FTP Service:
+        firewall-cmd --permanent --zone=public --add-service=ftp
+
+        #Reload the firewall for these to take affect:
+        firewall-cmd --reload
+      </code></pre>
+
+      <h4>Remove Service/Port</h4>
+      <pre><code class='bash'>
+        #Remove the open port:
+        firewall-cmd --zone=public --remove-port=80/tcp
+
+        #Remove the service:
+        firewall-cmd --zone=public --remove-service=ftp
       </code></pre>
     </article>
 
