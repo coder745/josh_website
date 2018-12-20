@@ -1722,6 +1722,31 @@ weight: 45
     <article>
       <a name='ruby'></a>
       <h3>Ruby</h3>
+      <h4>Struct</h4>
+      <pre><code class='ruby'>
+        # With Struct you can only define
+        # the attributes at object creation
+        Student = Struct.new(:name, :grade)
+        george = Student.new('george', 95)
+
+        # Outputs: 'george'
+        puts george.name
+
+        # Outputs: 95
+        puts george.grade
+      </code></pre>
+
+      <h4>OpenStruct</h4>
+      <pre><code class='ruby'>
+        require 'ostruct'
+        george = OpenStruct.new(name: 'george', grade: 95)
+
+        # Outputs: 'george'
+        puts george.name
+
+        # Outputs: 95
+        puts george.grade
+      </code></pre>
       <h4>Install to global gemset (when using rvm)</h4>
       <pre><code class='ruby'>
         rvm @global do gem install [gem name]
