@@ -1388,7 +1388,7 @@ weight: 45
 
 
       <h4>List of Resourceful routes</h4>
-      <table>
+      <table class='rails-resourceful-routes'>
         <thead>
           <tr>
             <th>Name</th>
@@ -1627,7 +1627,7 @@ weight: 45
       </code></pre>
 
       <div style='display: flex;'>
-        <div style='margin-right:20px;'>
+        <div style='margin-right:5px;'>
           <table>
             <thead>
               <tr>
@@ -1654,7 +1654,7 @@ weight: 45
           </table>
         </div>
 
-        <div style='margin-right: 20px;'>
+        <div style='margin-right: 5px;'>
           <table>
             <thead>
               <tr>
