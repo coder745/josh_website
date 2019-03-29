@@ -263,6 +263,15 @@ weight: 45
       <a name='git'></a>
       <h3>Git</h3>
 
+      <h4>Delete Branches</h4>
+      <pre><code class='git'>
+        #Delete a local branch:
+        git branch -d my_local_branch
+
+        # Delete a remote branch:
+        git push origin --delete my_remote_branch
+      </code></pre>
+
       <h4>Push changes, then revert locally</h4>
       <p>This will allow you to push up a feature branch and then revert your local changes to see the diff.</p>
       <pre><code class='git'>
