@@ -46,6 +46,7 @@ weight: 45
         <li><a href='#tmux'>Tmux</a></li>
         <li><a href='#ufw'>UFW</a></li>
         <li><a href='#vim'>Vim</a></li>
+        <li><a href='#vs_code'>VS Code</a></li>
         <li><a href='#windows'>Windows</a></li>
         <li><a href='#zfs'>ZFS</a></li>
       </ul>
@@ -1731,6 +1732,11 @@ weight: 45
     <article>
       <a name='ruby'></a>
       <h3>Ruby</h3>
+
+      <h4>Loads IRB With Active Support</h4>
+      <pre><code class='ruby'>
+        !rails c
+      </code></pre>
       <h4>Struct</h4>
       <pre><code class='ruby'>
         # With Struct you can only define
@@ -2374,6 +2380,18 @@ weight: 45
       <pre><code class='ruby'>
         rspec -f d
       </code></pre>
+      <h4>Test File Setup</h4>
+      <p>We have a space between each part below.</p>
+      <pre><code class='ruby'>
+        # Setup:
+        user = create(:user)
+
+        # Exercise:
+        Student.addToClass(user)
+
+        # Verify:
+        expect(Student.users).to eq([user])
+      </code></pre>
     </article>
 
     <article>
@@ -2542,6 +2560,8 @@ weight: 45
           <dd><code>'h</code></dd>
           <dt>Show all marks:</dt>
           <dd><code>:marks</code></dd>
+          <dt>Mark Across Files</dt>
+          <dd>Use an uppercase mark: <code>m[A-Z]</code></dd>
           <dt>Previous location (insert mode):</dt>
           <dd><code>gi</code></dd>
           <dt>Open shell from vi:</dt>
@@ -2618,6 +2638,15 @@ weight: 45
           <dd><code>:e .</code></dd>
         </dl>
       </div>
+    </article>
+
+    <article>
+      <a name='vs_code'></a>
+      <h3>VS Code</h3>
+      <dl>
+        <dt>Output HTML Boilerplate</dt>
+        <dd><code>html:5 + TAB</code></dd>
+      </dl>
     </article>
 
     <article>

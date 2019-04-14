@@ -247,6 +247,54 @@
     ]
   },
   {
+    "title": "Testing",
+    "class": "testing_resources",
+    "data": [
+      {
+        "title": "Mocks Aren't Stubs",
+        "url": "https://martinfowler.com/articles/mocksArentStubs.html",
+        "display": true
+      },
+      {
+        "title": "xUnit Test Patterns",
+        "url": "http://xunitpatterns.com",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "Videos",
+    "class": "video_resources",
+    "data": [
+      {
+        "title": "The Deep Synergy Between Testability and Good Design",
+        "url": "https://www.youtube.com/watch?v=4cVZvoFGJTU",
+        "display": true
+      },
+      {
+        "title": "The Magic Tricks of Testing",
+        "url": "https://www.youtube.com/watch?v=URSWYvyc42M",
+        "display": true
+      },
+      {
+        "title": "All The Little Things",
+        "url": "https://www.youtube.com/watch?v=8bZh5LMaSmE",
+        "display": true
+      }
+    ]
+  },
+  {
+    "title": "REST",
+    "class": "rest_resources",
+    "data": [
+      {
+        "title": "Richardson Maturity Model",
+        "url": "https://www.martinfowler.com/articles/richardsonMaturityModel.html",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "Levelling-up",
     "class": "levelling_up_resources",
     "data": [
