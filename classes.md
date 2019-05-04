@@ -15,7 +15,7 @@ weight: 26
       <ul class='anchor-list'>
         <li><a href='#pragmaticstudio'>The Pragmatic Studio</a></li>
         <li><a href='#leadershipessentials'>Transcend Leadership Essentials</a></li>
-        <li><a href='#frontend'>Front End Masters Classes</a></li>
+        <li><a href='#frontend'>Frontend Masters Classes</a></li>
         <li><a href='#laracastsclasses'>Laracast Courses</a></li>
         <li><a href='#wesbos'>Wes Bos Classes</a></li>
         <li><a href='#udemy'>Udemy Classes</a></li>
@@ -59,9 +59,16 @@ weight: 26
 
     <article>
       <a name='frontend'></a>
-      <h3>Front End Masters Classes</h3>
-      <p>The Front End Master website offers great courses covering front-end topics such as accessibilty, performance, JavasScript, etc.</p>
+      <h3>Frontend Masters Classes</h3>
+      <p>The Frontend Master website offers great courses covering front-end topics such as accessibilty, performance, JavasScript, etc.</p>
       <ul>
+        <li><a href='https://frontendmasters.com/courses/full-stack'>Full Stack for Front End Engineers</a></li>
+        <li><a href='https://frontendmasters.com/courses/full-stack-v2'>Full Stack for Front-Ends Part 2</a></li>
+        <li><a href='https://frontendmasters.com/courses/chrome-dev-tools-v2'>Mastering Chrome Developer Tools v2</a></li>
+        <li><a href='https://frontendmasters.com/courses/js-fundamentals-functional-v2'>JavaScript: From Fundamentals to Functional JS, v2</a></li>
+        <li><a href='https://frontendmasters.com/courses/css-grids-flexbox'>CSS Grids and Flexbox for Responsive Web Design</a></li>
+        <li><a href='https://frontendmasters.com/courses/javascript-basics'>Introduction to JavaScript Programming</a></li>
+        <li><a href='https://frontendmasters.com/courses/web-development-v2'>Complete Intro to Web Development, v2</a></li>
         <li><a href='https://frontendmasters.com/courses/web-accessibility'>Web Accessibility</a></li>
         <li><a href='https://frontendmasters.com/courses/good-parts-javascript-web'>The Good Parts of JavaScript and the Web</a></li>
         <li><a href='https://frontendmasters.com/courses/javascript-frameworks-showdown'>Choosing a JavaScript Framework</a></li>
