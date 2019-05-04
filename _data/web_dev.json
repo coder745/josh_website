@@ -9,6 +9,11 @@
         "display": true
       },
       {
+        "title": "Grid by Example",
+        "url": "https://gridbyexample.com",
+        "display": true
+      },
+      {
         "title": "Flexbox Guide",
         "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
         "display": true
@@ -163,6 +168,11 @@
         "display": true
       },
       {
+        "title": "Rails Instance Variables",
+        "url": "https://andycroll.com/ruby/dont-use-instance-variables-in-partials/",
+        "display": true
+      },
+      {
         "title": "Git Immersion",
         "url": "gitimmersion.com",
         "display": true
@@ -240,6 +250,16 @@
         "display": true
       },
       {
+        "title": "Regex 101",
+        "url": "https://regex101.com",
+        "display": true
+      },
+      {
+        "title": "Regulex",
+        "url": "https://jex.im/regulex",
+        "display": true
+      },
+      {
         "title": "Robots.txt Checker",
         "url": "http://tool.motoricerca.info/robots-checker.phtml",
         "display": true
@@ -258,6 +278,11 @@
       {
         "title": "xUnit Test Patterns",
         "url": "http://xunitpatterns.com",
+        "display": true
+      },
+      {
+        "title": "Better Specs",
+        "url": "http://www.betterspecs.org/",
         "display": true
       }
     ]
@@ -284,6 +309,17 @@
     ]
   },
   {
+    "title": "Image Optimization",
+    "class": "image_optimization",
+    "data": [
+      {
+        "title": "Tiny PNG",
+        "url": "https://tinypng.com",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "REST",
     "class": "rest_resources",
     "data": [
@@ -301,6 +337,21 @@
       {
         "title": "Front End Center",
         "url": "https://frontend.center",
+        "display": true
+      },
+      {
+        "title": "Flexbox Froggy",
+        "url": "https://flexboxfroggy.com",
+        "display": true
+      },
+      {
+        "title": "CSS Grid Garden",
+        "url": "http://cssgridgarden.com",
+        "display": true
+      },
+      {
+        "title": "Exercism",
+        "url": "https://exercism.io",
         "display": true
       },
       {
@@ -453,12 +504,28 @@
     ]
   },
   {
+    "title": "Pair Programming",
+    "class": "pair_programming",
+    "data": [
+      {
+        "title": "Pair Programming Guid",
+        "url": "https://tuple.app/pair-programming-guide/the-case-for-pair-programming",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "Miscellaneous",
     "class": "miscellaneous_resources",
     "data": [
       {
         "title": "Secure Tunnel",
         "url": "https://ngrok.com",
+        "display": true
+      },
+      {
+        "title": "Developer Roadmap",
+        "url": "https://github.com/kamranahmedse/developer-roadmap",
         "display": true
       }
     ]
@@ -486,6 +553,11 @@
       {
         "title": "Colour Lovers",
         "url": "http://www.colourlovers.com",
+        "display": true
+      },
+      {
+        "title": "Layout Lab",
+        "url": "https://labs.jensimmons.com",
         "display": true
       },
       {
@@ -542,11 +614,6 @@
       {
         "title": "You Might Not Need jQuery",
         "url": "http://youmightnotneedjquery.com",
-        "display": true
-      },
-      {
-        "title": "Regulex",
-        "url": "https://jex.im/regulex",
         "display": true
       },
       {
