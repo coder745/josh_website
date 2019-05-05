@@ -36,6 +36,7 @@ weight: 45
         <li><a href='#python'>Python</a></li>
         <li><a href='#rails'>Rails</a></li>
         <li><a href='#ruby'>Ruby</a></li>
+        <li><a href='#rubymine'>RubyMine</a></li>
         <li><a href='#scp'>SCP</a></li>
         <li><a href='#ssh'>SSH</a></li>
         <li><a href='#sqlite'>SQLite</a></li>
@@ -2435,7 +2436,17 @@ weight: 45
           width: 50%;
         }
       </code></pre>
+    </article>
 
+    <article>
+      <a name='rubymine'></a>
+      <h3>RubyMine</h3>
+      <dl>
+        <dt>Search for Files</dt>
+        <dd><code>SHIFT + SHIFT</code></dd>
+        <dt>Search in Files</dt>
+        <dd><code>CMD + SHIFT + F</code></dd>
+      </dl>
     </article>
 
     <article>
