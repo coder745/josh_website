@@ -13,6 +13,7 @@ weight: 26
     <article>
       <p>In an effort to continually learn new technologies and stay abreast of existing technologies, I have found it helpful to take advantage of opportunities for continuing education. Below I have listed courses (both classroom and online) that I have completed over the years.</p>
       <ul class='anchor-list'>
+        <li><a href='#upcase'>Upcase by ThoughtBot</a></li>
         <li><a href='#pragmaticstudio'>The Pragmatic Studio</a></li>
         <li><a href='#leadershipessentials'>Transcend Leadership Essentials</a></li>
         <li><a href='#frontend'>Frontend Masters Classes</a></li>
@@ -30,6 +31,24 @@ weight: 26
         <li><a href='#linuxsteelpivot3'>Linux Administration 310 - Service Configuration, Management, and LAMP Servers</a></li>
         <li><a href='#linuxsteelpivot2'>Linux Administration 210 - System and Network Management</a></li>
         <li><a href='#linuxsteelpivot1'>Linux Administration 110 - System Installation and Configuration</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a name='upcase'></a>
+      <h3>Upcase by Thoughtbox</h3>
+      <p>Upcase offers many excellent classes centered around Ruby, Rails, Testing, Vim, and Tmux.</p>
+      <ul>
+        <li><a href='https://thoughtbot.com/upcase/onramp-to-vim'>Onramp to Vim</a></li>
+        <li><a href='https://thoughtbot.com/upcase/rails-testing-exercises'>Rails Testing Exercises</a></li>
+        <li><a href='https://thoughtbot.com/upcase/refactoring'>Refactoring</a></li>
+        <li><a href='https://thoughtbot.com/upcase/test-doubles'>Test Doubles</a></li>
+        <li><a href='https://thoughtbot.com/upcase/fundamentals-of-tdd'>Fundamentals of TDD</a></li>
+        <li><a href='https://thoughtbot.com/upcase/tmux'>tmux</a></li>
+        <li><a href='https://thoughtbot.com/upcase/dive-into-neovim'>Dive Into Neovim</a></li>
+        <li><a href='https://thoughtbot.com/upcase/intermediate-ruby-on-rails-five'>Intermediate Ruby on Rails (Rails 5)</a></li>
+        <li><a href='https://thoughtbot.com/upcase/test-driven-rails'>Test-Driven Rails</a></li>
+        <li><a href='https://thoughtbot.com/upcase/navigating-ruby-files-with-vim'>Navigating Ruby Files with Vim</a></li>
       </ul>
     </article>
 
