@@ -81,6 +81,8 @@ weight: 26
       <h3>Frontend Masters Classes</h3>
       <p>The Frontend Master website offers great courses covering front-end topics such as accessibilty, performance, JavasScript, etc.</p>
       <ul>
+        <li><a href='https://frontendmasters.com/courses/design-for-developers/'>Design for Developers</a></li>
+        <li><a href='https://frontendmasters.com/courses/javascript-hard-parts/'>JavaScript: The Hard Parts</a></li>
         <li><a href='https://frontendmasters.com/courses/full-stack'>Full Stack for Front End Engineers</a></li>
         <li><a href='https://frontendmasters.com/courses/full-stack-v2'>Full Stack for Front-Ends Part 2</a></li>
         <li><a href='https://frontendmasters.com/courses/chrome-dev-tools-v2'>Mastering Chrome Developer Tools v2</a></li>
