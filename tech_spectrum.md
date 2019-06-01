@@ -35,9 +35,9 @@ weight: 100
         <th>Back-end</th>
         <th>DBMS</th>
         <th>Dev Ops</th>
-        <th>Networking</th>
-        <th>System Administration</th>
         <th>Security</th>
+        <th>System Administration</th>
+        <th>Networking</th>
       </tr>
       <tr>
         <td>
@@ -77,9 +77,10 @@ weight: 100
         </td>
         <td>
           <ul>
-            <li class='three'>ES6</li>
+            <li class='four'>JavaScript</li>
             <li>Ember.js</li>
             <li class='three'>jQuery</li>
+            <li class='one'>Elm</li>
             <li class='two'>React</li>
             <li>Angular</li>
             <li class='one'>Vue</li>
@@ -91,12 +92,14 @@ weight: 100
         <td>
           <ul>
             <li class='three'>Ruby</li>
-            <li class='four'>PHP</li>
             <li class='three'>.NET</li>
             <li class='two'>Laravel</li>
             <li class='three'>Objective-C</li>
             <li class='two'>Java</li>
             <li class='three'>Rails</li>
+            <li class='three'>RSpec</li>
+            <li class='four'>PHP</li>
+            <li class='three'>C#</li>
             <li class='three'>CodeIgniter</li>
           </ul>
         </td>
@@ -123,27 +126,7 @@ weight: 100
             <li class='two'>Batch</li>
             <li class='one'>PowerShell</li>
             <li class='one'>Docker</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li class='four'>Firewalls</li>
-            <li class='two'>Switching</li>
-            <li class='four'>Cabling</li>
-            <li class='three'>VLANs</li>
-            <li class='four'>Subnetting</li>
-            <li class='three'>Routing</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li class='four'>macOS</li>
-            <li class='two'>FreeBSD</li>
-            <li class='four'>Linux</li>
-            <li class='four'>Hypervisors/VMs</li>
-            <li class='three'>Windows Server</li>
-            <li class='two'>Log Management</li>
-            <li class='four'>Hardware</li>
+            <li class='two'>AWS</li>
           </ul>
         </td>
         <td>
@@ -159,6 +142,27 @@ weight: 100
             <li class='two'>Footprinting</li>
           </ul>
         </td>
+        <td>
+          <ul>
+            <li class='four'>macOS</li>
+            <li class='two'>FreeBSD</li>
+            <li class='four'>Linux</li>
+            <li class='four'>Hypervisors/VMs</li>
+            <li class='three'>Windows Server</li>
+            <li class='two'>Log Management</li>
+            <li class='four'>Hardware</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li class='four'>Firewalls</li>
+            <li class='two'>Switching</li>
+            <li class='four'>Cabling</li>
+            <li class='three'>VLANs</li>
+            <li class='four'>Subnetting</li>
+            <li class='three'>Routing</li>
+          </ul>
+        </td>
       </tr>
       <tr>
         <th colspan='10'>
@@ -170,6 +174,7 @@ weight: 100
           <ul>
             <li class='a-class'>Tree House</li>
             <li class='a-class'>Udemy</li>
+            <li class='a-class'>Frontend Masters</li>
           </ul>
         </td>
         <td>
@@ -192,7 +197,7 @@ weight: 100
             <li class='cert'>CIW JS</li>
             <li class='a-class'>Code School</li>
             <li class='a-class'>Wes Bos</li>
-            <li class='a-class'>Front End Masters</li>
+            <li class='a-class'>Frontend Masters</li>
             </li>
           </ul>
         </td>
@@ -215,22 +220,8 @@ weight: 100
         <td>
           <ul>
             <li class='a-class'>PluralSight</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li class='a-class'>SudoSecure</li>
-            <li class='cert'>Network+</li>
-            <li class='a-class'>ITPro TV</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li class='cert'>A+</li>
-            <li class='cert'>LPCI-I</li>
-            <!--<li class='cert'>SUSE CLA 11</li>-->
-            <li class='a-class'>Steel Pivot</li>
-            <li class='cert'>Linux+</li>
+            <li class='a-class'>Frontend Masters</li>
+            <li class='a-class'>Linux Academy</li>
           </ul>
         </td>
         <td>
@@ -240,6 +231,23 @@ weight: 100
             <li class='a-class'>OSCP</li>
             <li class='cert'>CEH</li>
             <li class='a-class'>FedVTE</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li class='cert'>A+</li>
+            <li class='cert'>LPCI-I</li>
+            <!--<li class='cert'>SUSE CLA 11</li>-->
+            <li class='a-class'>Steel Pivot</li>
+            <li class='cert'>Linux+</li>
+            <li class='a-class'>Linux Academy</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li class='a-class'>SudoSecure</li>
+            <li class='cert'>Network+</li>
+            <li class='a-class'>ITPro TV</li>
           </ul>
         </td>
       </tr>
