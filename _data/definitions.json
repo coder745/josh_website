@@ -20,6 +20,21 @@
     "link": ""
   },
   {
+    "word": "Memoization",
+    "definition": "memoization or memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+    "link": "https://en.wikipedia.org/wiki/Memoization"
+  },
+  {
+    "word": "De Morgan's laws",
+    "definition": "not (A or B) = not A and not B; and not (A and B) = not A or not B",
+    "link": "https://en.wikipedia.org/wiki/De_Morgan%27s_laws"
+  },
+  {
+    "word": "Idempotence",
+    "definition": "is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application.",
+    "link": "https://en.wikipedia.org/wiki/Idempotence"
+  },
+  {
     "word": "Invoking",
     "definition": "the specific action of a user starting (or launching or invoking) a program",
     "link": "https://en.wikipedia.org/wiki/Execution_(computing)"
