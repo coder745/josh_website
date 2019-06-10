@@ -34,6 +34,18 @@
         "display": false
       },
       {
+        "title": "PHP and MySQL Web Development",
+        "author": "Luke Welling and Laura Thomson",
+        "url": "",
+        "display": true
+      },
+      {
+        "title": "Rails 5 Test Prescriptions",
+        "author": "Noel Rappin",
+        "url": "https://pragprog.com/book/nrtest3/rails-5-test-prescriptions",
+        "display": true
+      },
+      {
         "title": "99 Bottles of OOP",
         "author": "Katrina Owen & Sandi Metz",
         "url": "",
@@ -68,13 +80,13 @@
         "title": "The iOS 5 Developer's Cookbook",
         "author": "Erica Sadun",
         "url": "",
-        "display": false
+        "display": true
       },
       {
         "title": "Build Your Own ASP.NET Website Using C# and VB.NET",
         "author": "Zak Ruvalcaba",
         "url": "",
-        "display": false
+        "display": true
       },
       {
         "title": "The Well-Grounded Rubyist",
@@ -99,7 +111,7 @@
         "title": "Phparchitects Zend Php 5 Certification Study Guide",
         "author": "Davey Shafik",
         "url": "",
-        "display": false
+        "display": true
       }
     ]
   },
@@ -183,7 +195,7 @@
         "title": "Penetration Testing: A Hands-On Introduction to Hacking",
         "author": "Georgia Weidman",
         "url": "",
-        "display": false
+        "display": true
       },
       {
         "title": "Metasploit: The Penetration Tester's Guide",
@@ -223,12 +235,6 @@
         "display": true
       },
       {
-        "title": "JavaScript and jQuery: Interactive Front-End Web Development",
-        "author": "Jon Duckett",
-        "url": "",
-        "display": true
-      },
-      {
         "title": "JavaScript: The Good Parts",
         "author": "Douglas Crockford",
         "url": "",
@@ -250,7 +256,7 @@
         "title": "O'Reilly Web Studio: Designing with JavaScript: Creating Dynamic Web Pages",
         "author": "Nick Heinle, and Bill Pena",
         "url": "",
-        "display": false
+        "display": true
       },
       {
         "title": "Learning JavaScript",
