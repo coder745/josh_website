@@ -10,6 +10,31 @@
     "display": true
   },
   {
+    "title" : "The Bike Shed",
+    "url" : "http://bikeshed.fm",
+    "display": true
+  },
+  {
+    "title" : "Giant Robots Smashing Into Other Giant Robots",
+    "url" : "http://giantrobots.fm/",
+    "display": true
+  },
+  {
+    "title" : "Ruby on Rails Podcast",
+    "url" : "http://5by5.tv/rubyonrails",
+    "display": true
+  },
+  {
+    "title" : "Ruby Rogues",
+    "url" : "https://devchat.tv/ruby-rogues",
+    "display": true
+  },
+  {
+    "title" : "The Ruby Testing Podcast",
+    "url" : "https://www.codewithjason.com/ruby-testing-podcast/",
+    "display": true
+  },
+  {
     "title" : ".NET Rocks",
     "url" : "https://www.dotnetrocks.com",
     "display": true

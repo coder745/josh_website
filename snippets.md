@@ -1287,6 +1287,10 @@ weight: 45
         rails g migration add_xxx_to_yyy
         rails g migration add_fields_to_townships
       </code></pre>
+      <h4>Show Rails Generators</h4>
+      <pre><code class='bash'>
+        rails g
+      </code></pre>
       <h4>Create Scaffolding</h4>
       <pre><code class='bash'>
         rails generate scaffold [name] attribute:type
@@ -1733,6 +1737,13 @@ weight: 45
     <article>
       <a name='ruby'></a>
       <h3>Ruby</h3>
+
+      <h4>Output just a class' own methods</h4>
+      <pre><code class='ruby'>
+        klass = Klass.new
+
+        puts klass.methods - methods
+      </code></pre>
 
       <h4>Loads IRB With Active Support</h4>
       <pre><code class='ruby'>
@@ -2577,6 +2588,8 @@ weight: 45
           <dd>Use an uppercase mark: <code>m[A-Z]</code></dd>
           <dt>Previous location (insert mode):</dt>
           <dd><code>gi</code></dd>
+          <dt>Go to file under cursor:</dt>
+          <dd><code>gf</code></dd>
           <dt>Open shell from vi:</dt>
           <dd><code>:shell</code></dd>
           <dt>Close shell:</dt>
