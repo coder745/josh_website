@@ -2453,6 +2453,8 @@ weight: 45
       <a name='rubymine'></a>
       <h3>RubyMine</h3>
       <dl>
+        <dt>Open Context Menu</dt>
+        <dd><code>Option(alt) + Enter</code></dd>
         <dt>Search for Files</dt>
         <dd><code>SHIFT + SHIFT</code></dd>
         <dt>Search in Files</dt>
