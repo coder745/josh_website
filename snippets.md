@@ -346,6 +346,14 @@ weight: 45
         git stash apply stash@{1}
         git stash drop stash@{2}
       </code></pre>
+      <h4>Retrieve a stashed file</h4>
+      <pre><code class='git'>
+        git checkout [name of stash] -- [filename]
+      </code></pre>
+      <h4>Stash all files (including files in .gitignore)</h4>
+      <pre><code class='git'>
+        git stash --all
+      </code></pre>
       <h4>Stash tracked and untracked files</h4>
       <pre><code class='git'>
         git stash save --include-untracked
@@ -1251,6 +1259,14 @@ weight: 45
         get "tickets" => "tickets#index"
         get "tickets/:id" => "tickets#show"
       </code></pre>
+      <h4>Open SQLite from Rails</h4>
+      <pre><code class='bash'>
+        rails dbconsole
+      </code></pre>
+      <h4>Show Rail Project Info</h4>
+      <pre><code class='bash'>
+        rails about
+      </code></pre>
       <h4>Open Rails Console</h4>
       <pre><code class='bash'>
         rails console
@@ -1773,6 +1789,10 @@ weight: 45
 
         # Outputs: 95
         puts george.grade
+      </code></pre>
+      <h4>Open documentation for project's gems</h4>
+      <pre><code class='ruby'>
+        gem serve
       </code></pre>
       <h4>Install to global gemset (when using rvm)</h4>
       <pre><code class='ruby'>
