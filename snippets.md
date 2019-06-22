@@ -1206,6 +1206,14 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <h4>Open Rails Database Console</h4>
+      <pre><code class='bash'>
+        rails dbconsole
+      </code></pre>
+      <h4>Clear Test Log File</h4>
+      <pre><code class='bash'>
+        rails log:clear LOGS=test
+      </code></pre>
       <h4>Rails Controller Methods Are Typically Ordered</h4>
       <ol>
         <li>index</li>
@@ -1216,6 +1224,10 @@ weight: 45
         <li>update</li>
         <li>destroy</li>
       </ol>
+      <h4>Show Migration Status</h4>
+      <pre><code class='bash'>
+        rails db:migrate:status
+      </code></pre>
       <h4>Run Migrations on Test Database</h4>
       <pre><code class='bash'>
         bin/rails db:migrate RAILS_ENV=test
