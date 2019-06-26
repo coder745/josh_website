@@ -16,6 +16,7 @@ weight: 45
         <li><a href='#css'>CSS</a></li>
         <li><a href='#curl'>Curl</a></li>
         <li><a href='#dev_tools'>Dev Tools</a></li>
+        <li><a href='#docker'>Docker</a></li>
         <li><a href='#http'>HTTP</a></li>
         <li><a href='#html5'>HTML</a></li>
         <li><a href='#git'>Git</a></li>
@@ -142,6 +143,29 @@ weight: 45
           <dd><code>console.dir(paragraph);</code></dd>
           <dt>Log an object as a table:</dt>
           <dd><code>console.table(all_animals);</code></dd>
+        </dl>
+      </div>
+    </article>
+
+    <article>
+      <a name='docker'></a>
+      <h3>Docker</h3>
+      <h4>Docker Compose</h4>
+      <div class='code'>
+        <dl>
+          <dt>Spin up container</dt>
+          <dd><code>docker-compose up</code></dd>
+          <dt>Turn off container</dt>
+          <dd><code>docker-compose down</code></dd>
+          <dt>List running containers</dt>
+          <dd><code>docker-compose ps</code></dd>
+        </dl>
+      </div>
+      <h4>Docker</h4>
+      <div class='code'>
+        <dl>
+          <dt>Attach to running container</dt>
+          <dd><code>docker exec -it [container name] /bin/bash</code></dd>
         </dl>
       </div>
     </article>
