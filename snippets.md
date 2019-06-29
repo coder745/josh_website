@@ -288,7 +288,10 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
-
+      <h4>Restore a Deleted File</h4>
+      <pre><code class='git'>
+        git checkout [removed commit]^ -— [path to flle]
+      </code></pre>
       <h4>Delete Branches</h4>
       <pre><code class='git'>
         #Delete a local branch:
@@ -297,7 +300,11 @@ weight: 45
         # Delete a remote branch:
         git push origin --delete my_remote_branch
       </code></pre>
-
+      <h4>Show which Remote Branch</h4>
+      <p>This shows which remote branch you are tracking and how far behind your local version is from the remote.</p>
+      <pre><code class='git'>
+        git branch -vv
+      </code></pre>
       <h4>Push changes, then revert locally</h4>
       <p>This will allow you to push up a feature branch and then revert your local changes to see the diff.</p>
       <pre><code class='git'>
@@ -359,11 +366,14 @@ weight: 45
       </code></pre>
 
       <h4>Commit Messages</h4>
-      <p>Try to use present tense for your commit message</p>
+      <p>Try to use present tense for your commit message (i.e. "<strong>Add</strong> new class for students" not: "Added new class for students")</p>
       <pre><code class='git'>
         git commit -m "Correct site map"
       </code></pre>
-
+      <h4>Pick Files to Stash</h4>
+      <pre><code class='git'>
+        git stash -p
+      </code></pre>
       <h4>Revert Uncommitted Changes</h4>
       <p>Leaving out the `stash@{2} variable below will run the stash command on top stash on the stack.</p>
       <pre><code class='git'>
@@ -2398,6 +2408,10 @@ weight: 45
     <article>
       <a name='sqlite'></a>
       <h3>SQLite</h3>
+      <h4>Execute a Single Query</h4>
+      <pre><code class='bash'>
+        sqlite3 -line mydatabase.sqlite3 "select * from students"
+      </code></pre>
       <h4>Select Databse</h4>
       <pre><code class='bash'>
         \c [database]
