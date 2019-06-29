@@ -81,6 +81,8 @@ weight: 26
       <h3>Frontend Masters Classes</h3>
       <p>The Frontend Master website offers great courses covering front-end topics such as accessibilty, performance, JavasScript, etc.</p>
       <ul>
+        <li><a href='https://frontendmasters.com/courses/serverless-aws/'>Serverless with AWS Lambda</a></li>
+        <li><a href='https://frontendmasters.com/courses/git-in-depth'>Git In-depth</a></li>
         <li><a href='https://frontendmasters.com/courses/aws-frontend-react/'>AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)</a></li>
         <li><a href='https://frontendmasters.com/courses/intro-elm/'>Introduction to Elm, v2</a></li>
         <li><a href='https://frontendmasters.com/courses/design-for-developers/'>Design for Developers</a></li>
