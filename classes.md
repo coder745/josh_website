@@ -121,6 +121,7 @@ weight: 26
       <h3>Wes Bos Classes</h3>
       <p>Wes Bos delivers some excellent content at his <a href='http://wesbos.com/courses/'>website</a>. His classes have a web front-end focus and include topics such as: React, Redux, JavaScript, and CSS.</p>
       <ul>
+        <li><a href='https://learnnode.com'>Learn Node</a></li>
         <li><a href='https://reactforbeginners.com'>React for Beginners</a></li>
         <li><a href='https://learnredux.com'>Learn Redux</a></li>
         <li><a href='https://flexbox.io'>What The Flexbox?!</a></li>
