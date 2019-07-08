@@ -11,6 +11,8 @@ weight: 25
     <h2>Development Projects</h2>
     <article>
       <ul>
+        <li><a href='#will_it_rain'>Will It Rain (2019)</a></li>
+        <li><a href='#plot_notes'>Plot Notes (2018 - 2019)</a></li>
         <li><a href='#note_url_system'>Note/URL System (2017)</a></li>
         <li><a href='#joshyoung'>Joshyoung.me Website (2016)</a></li>
         <li><a href='#note_system_flask'>Note Taking System (2014)</a></li>
@@ -21,6 +23,24 @@ weight: 25
         <li><a href='#commentsandcapers'>Comments and Capers Website (2009)</a></li>
         <li><a href='#blogging_system'>Blogging System (2008)</a></li>
       </ul>
+    </article>
+
+    <article>
+      <a name='will_it_rain'></a>
+      <h3>Will It Rain (2019)</h3>
+      <h4>(Ruby, RSpec)</h4>
+      <p>This application gathers the weather for each day and sends out the information to an email list. This application is designed to be used on the command line.</p>
+      <p>I am continually adding functionality to this project and cleaning up the code.</p>
+      <a href='https://github.com/joshayoung/will-it-rain-ruby'>Repo</a>
+    </article>
+
+    <article>
+      <a name='plot_notes'></a>
+      <h3>Plot Notes (2018 - 2019)</h3>
+      <h4>(Ruby/Rails, RSpec, HTML, CSS, JavaScript)</h4>
+      <p>This application is used to add, tag, and search notes. This application used Ruby on Rails and RSpec.</p>
+      <p>I am continually adding functionality to this project and cleaning up the code.</p>
+      <a href='https://github.com/joshayoung/plot-notes'>Repo</a>
     </article>
 
     <article>
@@ -35,7 +55,7 @@ weight: 25
       <a name='joshyoung'></a>
       <h3>This Website (joshyoung.me - 2016)</h3>
       <h4>(HTML, CSS, SASS, JavaScript, jQuery, Jekyll)</h4>
-      <p>I wrote this site to house my personal blog, projects, resume, etc. I decided to write this with a static site generator. Following my research, I decided that Jekyll was the best option for my purposes. This site is written in Jekyll and hosted on GitHub pages. Here is the link to the site: <a href='http://www.joshyoung.me'>joshyoung.me</a> and a link to the GitHub pages entry: <a href=''>GitHub Pages Entry</a>.</p>
+      <p>I wrote this site to house my personal blog, projects, resume, etc. I decided to write this with a static site generator. Following my research, I decided that Jekyll was the best option for my purposes. This site is written in Jekyll and hosted on GitHub pages. Here is the link to the site: <a href='http://www.joshyoung.me'>joshyoung.me</a> and a link to the: <a href='https://github.com/joshayoung/josh_website'>repo</a>.</p>
     </article>
 
     <article>
