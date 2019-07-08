@@ -158,11 +158,6 @@
         "display": true
       },
       {
-        "title": "Git Cheat Sheet",
-        "url": "https://gist.github.com/hofmannsven/6814451",
-        "display": true
-      },
-      {
         "title": "Rails Documentation",
         "url": "http://api.rubyonrails.org",
         "display": true
@@ -309,6 +304,32 @@
     ]
   },
   {
+    "title": "Cheat Sheets",
+    "class": "cheat_sheets",
+    "data": [
+      {
+        "title": "DevHints.io",
+        "url": "https://devhints.io",
+        "display": true
+      },
+      {
+        "title": "Git Cheat Sheet",
+        "url": "https://gist.github.com/hofmannsven/6814451",
+        "display": true
+      },
+      {
+        "title": "SQL Basics Cheatsheet",
+        "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
+        "display": true
+      },
+      {
+        "title": "SQL Cheat Sheet",
+        "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "Image Optimization",
     "class": "image_optimization",
     "data": [
@@ -409,11 +430,6 @@
       {
         "title": "Modifying Data With SQL",
         "url": "https://github.com/treehouse/cheatsheets/blob/master/modifying_data_with_sql/cheatsheet.md",
-        "display": true
-      },
-      {
-        "title": "SQL Cheat Sheet",
-        "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
         "display": true
       }
     ]
@@ -717,11 +733,6 @@
       {
         "title": "Reporting with SQL",
         "url": "https://github.com/treehouse/cheatsheets/blob/master/reporting_with_sql/cheatsheet.md",
-        "display": true
-      },
-      {
-        "title": "SQL Basics Cheatsheet",
-        "url": "https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md",
         "display": true
       }
     ]
