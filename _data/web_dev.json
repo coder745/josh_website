@@ -341,6 +341,27 @@
     ]
   },
   {
+    "title": "Ruby / Rails",
+    "class": "ruby_rails",
+    "data": [
+      {
+        "title": "Binding.pry",
+        "url": "https://docs.gitlab.com/ee/development/pry_debugging.html",
+        "display": true
+      },
+      {
+        "title": "Ruby OOP",
+        "url": "https://mixandgo.com/learn/object-oriented-programming-oop-with-ruby",
+        "display": true
+      },
+      {
+        "title": "How to Learn Ruby on Rails",
+        "url": "https://mixandgo.com/learn/how-to-learn-ruby-on-rails-in-2018-the-ultimate-guide",
+        "display": true
+      }
+    ]
+  },
+  {
     "title": "REST",
     "class": "rest_resources",
     "data": [
@@ -441,6 +462,11 @@
       {
         "title": "Code Review Guidelines",
         "url": "https://github.com/thoughtbot/guides/tree/master/code-review",
+        "display": true
+      },
+      {
+        "title": "The 12-Factor App",
+        "url": "https://12factor.net",
         "display": true
       },
       {
