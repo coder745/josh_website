@@ -288,6 +288,8 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
+      <h4>Turn off the pager</h4>
+      <p>Add `--no-pager` to a command</p>
       <h4>Restore a Deleted File</h4>
       <pre><code class='git'>
         git checkout [removed commit]^ -— [path to flle]
@@ -373,6 +375,14 @@ weight: 45
       <h4>Pick Files to Stash</h4>
       <pre><code class='git'>
         git stash -p
+      </code></pre>
+      <h4>Show File in Stash</h4>
+      <pre><code class='git'>
+        git stash show stash@{0}
+      </code></pre>
+      <h4>Checkout a file that is stashed</h4>
+      <pre><code class='git'>
+        git checkout stash@{0} -- path/to/file
       </code></pre>
       <h4>Revert Uncommitted Changes</h4>
       <p>Leaving out the `stash@{2} variable below will run the stash command on top stash on the stack.</p>
