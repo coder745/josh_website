@@ -206,6 +206,11 @@
         "title": "PHP Manual",
         "url": "https://secure.php.net/manual/en",
         "display": true
+      },
+      {
+        "title": "ExtendsClass",
+        "url": "https://extendsclass.com/",
+        "display": true
       }
     ]
   },
