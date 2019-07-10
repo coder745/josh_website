@@ -151,20 +151,26 @@ weight: 45
     <article>
       <a name='docker'></a>
       <h3>Docker</h3>
-      <h4>Docker Compose</h4>
       <div class='code'>
         <dl>
+          <dt>Show containers</dt>
+          <dd><code>docker-compose ps</code></dd>
+          <dt>Start containers in docker-compose</dt>
+          <dd><code>docker-compose up</code></dd>
+          <dt>Stop a container</dt>
+          <dd><code>docker stop [container name]</code></dd>
+          <dt>Start a container</dt>
+          <dd><code>docker start [container name]</code></dd>
+          <dt>Connect to a running container</dt>
+          <dd><code>docker exec -it [container name] /bin/bash</code></dd>
+          <dt>Docker compose - bust the cache</dt>
+          <dd><code>docker-compose build --no-cache</code></dd>
           <dt>Spin up container</dt>
           <dd><code>docker-compose up</code></dd>
           <dt>Turn off container</dt>
           <dd><code>docker-compose down</code></dd>
           <dt>List running containers</dt>
           <dd><code>docker-compose ps</code></dd>
-        </dl>
-      </div>
-      <h4>Docker</h4>
-      <div class='code'>
-        <dl>
           <dt>Attach to running container</dt>
           <dd><code>docker exec -it [container name] /bin/bash</code></dd>
         </dl>
@@ -1286,6 +1292,14 @@ weight: 45
           <dd><code>\dt+</code></dd>
           <dt>Leave SQL Server</dt>
           <dd><code>\q</code></dd>
+          <dt>Connect to Postgres</dt>
+          <dd><code>psql postgres</code></dd>
+          <dt>Create User</dt>
+          <dd><code>CREATE USER myuser WITH PASSWORD 'my password';</code></dd>
+          <dt>Create Role</dt>
+          <dd><code>CREATE ROLE myuser WITH LOGIN PASSWORD 'my password';</code></dd>
+          <dt>Alter Role</dt>
+          <dd><code>ALTER USER myuser WITH CREATEDB;</code></dd>
         </dl>
       </div>
     </article>
