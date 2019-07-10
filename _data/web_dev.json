@@ -550,8 +550,13 @@
     "class": "pair_programming",
     "data": [
       {
-        "title": "Pair Programming Guid",
+        "title": "Pair Programming Guide",
         "url": "https://tuple.app/pair-programming-guide/the-case-for-pair-programming",
+        "display": true
+      },
+      {
+        "title": "Set PR Co-owner",
+        "url": "https://help.github.com/en/articles/creating-a-commit-with-multiple-authors",
         "display": true
       }
     ]
