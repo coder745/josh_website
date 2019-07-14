@@ -465,6 +465,11 @@
         "display": true
       },
       {
+        "title": "Refactoring Catalog",
+        "url": "https://refactoring.com/catalog",
+        "display": true
+      },
+      {
         "title": "The 12-Factor App",
         "url": "https://12factor.net",
         "display": true
