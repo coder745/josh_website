@@ -51,6 +51,7 @@ weight: 45
         <li><a href='#vim'>Vim</a></li>
         <li><a href='#vs_code'>VS Code</a></li>
         <li><a href='#windows'>Windows</a></li>
+        <li><a href='#yarn'>Yarn</a></li>
         <li><a href='#zfs'>ZFS</a></li>
       </ul>
     </article>
@@ -2861,6 +2862,15 @@ weight: 45
       <h4>All Network Info</h4>
       <pre><code class='batch'>
         ipconfig /all
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='yarn'></a>
+      <h3>Yarn</h3>
+      <h4>Package Version (exclude dependencies)</h4>
+      <pre><code>
+        yarn list --depth 0 | grep [package name]
       </code></pre>
     </article>
 
