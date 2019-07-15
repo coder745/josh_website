@@ -365,6 +365,10 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
+      <h4>Show Contents of Commit</h4>
+      <pre><code class='git'>
+        git show [commit hash]
+      </code></pre>
       <h4>Turn off the pager</h4>
       <p>Add `--no-pager` to a command</p>
       <h4>Restore a Deleted File</h4>
