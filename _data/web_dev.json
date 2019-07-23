@@ -271,8 +271,18 @@
         "display": true
       },
       {
+        "title": "Testing JavaScript with Jest",
+        "url": "https://flaviocopes.com/jest/#create-the-first-jest-test",
+        "display": true
+      },
+      {
         "title": "xUnit Test Patterns",
         "url": "http://xunitpatterns.com",
+        "display": true
+      },
+      {
+        "title": "F.I.R.S.T. Properties of Unit Tests",
+        "url": "https://agileinaflash.blogspot.com/2009/02/first.html",
         "display": true
       },
       {
