@@ -302,8 +302,23 @@
         "display": true
       },
       {
+        "title": "Refactoring from Good to Great",
+        "url": "https://www.youtube.com/watch?v=DC-pQPq0acs",
+        "display": true
+      },
+      {
         "title": "The Magic Tricks of Testing",
         "url": "https://www.youtube.com/watch?v=URSWYvyc42M",
+        "display": true
+      },
+      {
+        "title": "What we can learn about testing from the wheel",
+        "url": "https://www.youtube.com/watch?v=Da9wfQ0frGA",
+        "display": true
+      },
+      {
+        "title": "Write tests. Not too many. Mostly integration.",
+        "url": "https://www.youtube.com/watch?v=Fha2bVoC8SE",
         "display": true
       },
       {
