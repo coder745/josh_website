@@ -95,6 +95,13 @@
         "display": true
       },
       {
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "short_title": "Clean Code",
+        "author": "Robert C. Martin",
+        "url": "",
+        "display": true
+      },
+      {
         "title": "The Pragmatic Programmer: From Journeyman to Master",
         "short_title": "The Pragmatic Programmer",
         "author": "Andrew Hunt and David Thomas",
