@@ -16,5 +16,6 @@ Maybe the notes below will help someonee else if they decide to setup their own 
   - push = +refs/heads/master:refs/heads/master
 
 # To Do
- * Add other projects
- * Convert to CSS Grid
+ * Add other projects.
+ * Convert to CSS Grid.
+ * Add recommended reading list.
