@@ -2724,6 +2724,10 @@ weight: 45
       <h3>Vim</h3>
       <div class='code'>
         <dl>
+          <dt>Remove all folds</dt>
+          <dd>zR</dd>
+          <dt>Toggle fold inside current indent</dt>
+          <dd>za</dd>
           <dt>Find Character Before:</dt>
           <dd><code>t}</code></dd>
           <dt>Change to Found Char Before:</dt>
