@@ -370,6 +370,10 @@ weight: 45
       <pre><code class='git'>
         git show [commit hash]
       </code></pre>
+      <h4>Change Base Branch</h4>
+      <pre><code class='git'>
+        git rebase --onto new_branch old_branch branch_you_are_moving
+      </code></pre>
       <h4>Turn off the pager</h4>
       <p>Add `--no-pager` to a command</p>
       <h4>Restore a Deleted File</h4>
