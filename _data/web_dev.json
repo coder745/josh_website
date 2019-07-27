@@ -380,6 +380,11 @@
         "display": true
       },
       {
+        "title": "Design Patterns in Ruby",
+        "url": "https://github.com/davidgf/design-patterns-in-ruby/blob/master/README.md",
+        "display": true
+      },
+      {
         "title": "How to Learn Ruby on Rails",
         "url": "https://mixandgo.com/learn/how-to-learn-ruby-on-rails-in-2018-the-ultimate-guide",
         "display": true
@@ -404,6 +409,16 @@
       {
         "title": "Front End Center",
         "url": "https://frontend.center",
+        "display": true
+      },
+      {
+        "title": "JS Complete",
+        "url": "https://jscomplete.com/",
+        "display": true
+      },
+      {
+        "title": "Execute Program",
+        "url": "https://www.executeprogram.com",
         "display": true
       },
       {
