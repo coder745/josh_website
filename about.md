@@ -77,6 +77,40 @@ weight: 40
     </article>
 
     <article>
+      <a name='books_recomend'></a>
+      <h3 id='books_i_recommend'>Books I Recommend</h3>
+      <p id='books_ive_read_description'>Of the software engineering and design books that I listed above, these are some of the books that I highly recommend.</p>
+      {% assign sorted_books = site.data.books_categorized | sort: 'title' %}
+      <p>{% for books in sorted_books %}
+        {% if books.hide_from_recommended == false %}
+          <a name='{{ books.class }}'></a>
+          <h5>{{ books.title }}</h5>
+          <ul aria-labelledby='books_ive_read' aria-describedby='books_ive_read_description' class='smaller books'>
+            {% assign sorted_tech = books.data | sort: 'title' %}
+            {% for book in sorted_tech %}
+              {% if book.display != false and book.recommend == true %}
+              <li>
+                {% if book.short_title %}
+                  {{ book.short_title }}
+                {% else %}
+                  {{ book.title }}
+                {% endif %}
+
+                {% if book.truncated_authors %}
+                  by {{ book.truncated_authors }}
+                {% elsif book.author != '' %}
+                  by <span>{{ book.author }}</span>
+                {% else %}
+                {% endif %}
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}</p>
+    </article>
+
+    <article>
       <h3>About Site</h3>
       <p>
       Icons made by <a href='http://www.flaticon.com/authors/icomoon' title='Icomoon'>Icomoon</a>,

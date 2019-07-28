@@ -2,6 +2,7 @@
   {
     "title": "CSS",
     "class": "",
+    "hide_from_recommended": false,
     "data": [
       {
         "title": "SASS for Web Designers",
@@ -19,13 +20,15 @@
         "title": "HTML and CSS: Design and Build Websites",
         "author": "Jon Duckett",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       }
     ]
   },
   {
     "title": "Programming",
     "class": "",
+    "hide_from_recommended": false,
     "data": [
       {
         "title": "Perl Specialist Instructor Guide",
@@ -37,32 +40,37 @@
         "title": "PHP and MySQL Web Development",
         "author": "Luke Welling and Laura Thomson",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": false
       },
       {
         "title": "Rails 5 Test Prescriptions",
         "author": "Noel Rappin",
         "url": "https://pragprog.com/book/nrtest3/rails-5-test-prescriptions",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "99 Bottles of OOP",
         "author": "Katrina Owen & Sandi Metz",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "Learning PHP and MySQL",
         "author": "Michele E. Davis and Jon A. Phillips",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": false
       },
       {
         "title": "The Elements of C# Style",
         "author": "Kenneth Baldwin, Andrew Gray, and Trevor Misfeldt",
         "truncated_authors": "Kenneth Baldwin, Andrew Gray...",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "Learning Perl",
@@ -99,7 +107,8 @@
         "short_title": "Clean Code",
         "author": "Robert C. Martin",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "The Pragmatic Programmer: From Journeyman to Master",
@@ -125,6 +134,7 @@
   {
     "title": "Design",
     "class": "",
+    "hide_from_recommended": true,
     "data": [
       {
         "title": "On Web Typography",
@@ -143,6 +153,7 @@
   {
     "title": "Design",
     "class": "",
+    "hide_from_recommended": false,
     "data": [
       {
         "title": "Designing the Obvious",
@@ -160,13 +171,15 @@
         "title": "Don't Make Me Think",
         "author": "Steve Krug",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       }
     ]
   },
   {
     "title": "Security",
     "class": "",
+    "hide_from_recommended": false,
     "data": [
       {
         "title": "Counter Hack Reloaded",
@@ -178,7 +191,8 @@
         "title": "Penetration Testing with Kali Linux v1.0.4",
         "author": "",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "CEH Certified Ethical Hacker All-in-One Exam Guide",
@@ -202,7 +216,8 @@
         "title": "Penetration Testing: A Hands-On Introduction to Hacking",
         "author": "Georgia Weidman",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "Metasploit: The Penetration Tester's Guide",
@@ -216,6 +231,7 @@
   {
     "title": "Networking",
     "class": "",
+    "hide_from_recommended": true,
     "data": [
       {
         "title": "All-In-One: CompTIA Network+",
@@ -234,24 +250,28 @@
   {
     "title": "JavaScript",
     "class": "",
+    "hide_from_recommended": false,
     "data": [
       {
         "title": "JavaScript and jQuery: Interactive Front-End Web Development",
         "author": "Jon Duckett",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "JavaScript: The Good Parts",
         "author": "Douglas Crockford",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "ppk on JavaScript",
         "author": "Peter-Paul Koch",
         "url": "",
-        "display": true
+        "display": true,
+        "recommend": true
       },
       {
         "title": "JavaScript Patterns",
@@ -282,6 +302,7 @@
   {
     "title": "Web Development",
     "class": "",
+    "hide_from_recommended": true,
     "data": [
       {
         "title": "Smashing Book 5",
@@ -330,6 +351,7 @@
   {
     "title": "Databases",
     "class": "",
+    "hide_from_recommended": true,
     "data": [
       {
         "title": "Developer's Library: MySQL",
@@ -348,6 +370,7 @@
   {
     "title": "Miscellaneous",
     "class": "",
+    "hide_from_recommended": true,
     "data": [
       {
         "title": "Learning the Vi and Vim Editors",
