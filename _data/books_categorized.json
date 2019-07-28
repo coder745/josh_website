@@ -147,14 +147,7 @@
         "author": "Ellen Lupton",
         "url": "",
         "display": true
-      }
-    ]
-  },
-  {
-    "title": "Design",
-    "class": "",
-    "hide_from_recommended": false,
-    "data": [
+      },
       {
         "title": "Designing the Obvious",
         "author": "Robert Hoekman, jr.",
