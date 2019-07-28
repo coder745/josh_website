@@ -32,8 +32,7 @@ weight: 40
     <article>
       <a name='podcasts'></a>
       <h3 id='recommended_podcasts'>Recommended Podcasts</h3>
-      <p id='recommended_podcasts_description'>Below I have listed the tech podcasts that I listen to on a weekly basis. They are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
-      <p>Yes, I listen to a lot of podcasts. Actually, I listen to some other non-technological podcasts that I did not list here. If you use a podcast app such as <a target='_blank' href='https://overcast.fm'>Overcast</a> and listen on a faster speed, you will be surprised by how much information you can take in quickly!</p>
+      <p id='recommended_podcasts_description'>Below I have listed the tech podcasts that I currently listen to or have listened to in the past. Podcasts are a great way to keep up with the latest changes in development. Hopefully this list will introduce a good podcast to someone who enjoys learning and keeping up with the latest changes in tech.</p>
 
       <ul aria-labelledby='recommended_podcasts' aria-describedby='recommended_podcasts_description' class='smaller'>
         {% assign sorted_podcasts = site.data.podcasts | sort: 'title' %}
