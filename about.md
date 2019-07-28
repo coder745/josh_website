@@ -79,7 +79,7 @@ weight: 40
     <article>
       <a name='books_recomend'></a>
       <h3 id='books_i_recommend'>Books I Recommend</h3>
-      <p id='books_ive_read_description'>Of the software engineering and design books that I listed above, these are some of the books that I highly recommend.</p>
+      <p id='books_ive_read_description'>Of the software engineering, networking, security, and design books that I listed above, these are some of the books that I highly recommend.</p>
       {% assign sorted_books = site.data.books_categorized | sort: 'title' %}
       <p>{% for books in sorted_books %}
         {% if books.hide_from_recommended == false %}
