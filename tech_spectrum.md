@@ -80,13 +80,14 @@ weight: 100
             <li class='four'>JavaScript</li>
             <li>Ember.js</li>
             <li class='three'>jQuery</li>
+            <li class='two'>Jest</li>
             <li class='one'>Elm</li>
             <li class='two'>React</li>
             <li>Angular</li>
-            <li class='one'>Vue</li>
+            <li class='one'>Vue.js</li>
+            <li class='two'>Stimulus</li>
             <li class='one'>Node</li>
             <li class='two'>CoffeeScript</li>
-            <li class='one'>Jest</li>
           </ul>
         </td>
         <td>
@@ -182,12 +183,14 @@ weight: 100
             <li class='a-class'>Code School</li>
             <li class='a-class'>PluralSight</li>
             <li class='a-class'>Tree House</li>
+            <li class='a-class'>Frontend Masters</li>
           </ul>
         </td>
         <td>
           <ul>
             <li class='a-class'>Code School</li>
             <li class='a-class'>Wes Bos</li>
+            <li class='a-class'>Frontend Masters</li>
           </ul>
         </td>
         <td>
@@ -208,6 +211,7 @@ weight: 100
             <li class='a-class'>Pragmatic</li>
             <li class='cert'>ZCPE</li>
             <li class='a-class'>Laracast</li>
+            <li class='a-class'>Thoughtbot</li>
             <li class='a-class'>Tree House</li>
           </ul>
         </td>
