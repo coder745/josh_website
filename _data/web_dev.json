@@ -505,6 +505,11 @@
         "display": true
       },
       {
+        "title": "Refactoring and Design Patterns",
+        "url": "https://refactoring.guru",
+        "display": true
+      },
+      {
         "title": "Refactoring Catalog",
         "url": "https://refactoring.com/catalog",
         "display": true
