@@ -19,3 +19,4 @@ Maybe the notes below will help someonee else if they decide to setup their own 
  * Add other projects.
  * Convert to CSS Grid.
  * Add recommended reading list.
+ * Add maven/spring/java snippets
