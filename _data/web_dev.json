@@ -41,6 +41,17 @@
     ]
   },
   {
+    "title": "APIs",
+    "class": "apis",
+    "data": [
+      {
+        "title": "Public APIs",
+        "url": "https://flaviocopes.com/sample-app-ideas/#public-apis-you-can-use-in-example-projects",
+        "display": true
+      },
+    ]
+  },
+  {
     "title": "Compatibility",
     "class": "compatibility_resources",
     "data": [
@@ -505,8 +516,23 @@
         "display": true
       },
       {
+        "title": "SOLID",
+        "url": "https://thoughtbot.com/blog/back-to-basics-solid",
+        "display": true
+      },
+      {
         "title": "Refactoring and Design Patterns",
         "url": "https://refactoring.guru",
+        "display": true
+      },
+      {
+        "title": "Design Patterns in Ruby",
+        "url": "https://bogdanvlviv.com/posts/ruby/patterns/design-patterns-in-ruby.html",
+        "display": true
+      },
+      {
+        "title": "Design Patterns in Ruby - github",
+        "url": "https://github.com/davidgf/design-patterns-in-ruby",
         "display": true
       },
       {
