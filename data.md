@@ -7,4 +7,5 @@ main_menu: false
 weight: 200
 ---
 
+<ul id="github_repos"></ul>
 <ul id="wip_commits"></ul>

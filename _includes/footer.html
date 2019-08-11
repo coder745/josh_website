@@ -15,6 +15,10 @@
   <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 {% endif %}
 
-{% if page.title == 'Home' or page.title == 'Code Stats' %}
+{% if page.title == 'Home' or page.title == '_Code Stats' %}
   <script async src='/scripts/api_data.js'></script>
+{% endif %}
+
+{% if page.title == 'Code Stats' %}
+  <script async src='/scripts/load_github_data.js'></script>
 {% endif %}
