@@ -366,6 +366,17 @@ weight: 45
     <article>
       <a name='git'></a>
       <h3>Git</h3>
+      <h4>Contributing to an open source project</h4>
+      <ol>
+        <li>Fork the project on github.</li>
+        <li>Create a feature branch: <code>git checkout -b "feature-branch-name"</code>.</li>
+        <li>Commit changes to your feature branch: <code>git commit -am "commit message"</code>.</li>
+        <li>Push the feature branch up: <code>git push origin feature-branch-name</code>.</li>
+        <li>Creating a PR from this branch will open up a PR in the forked repo.</li>
+      </ol>
+      <pre><code class='git'>
+      </code></pre>
+
       <h4>Show Contents of Commit</h4>
       <pre><code class='git'>
         git show [commit hash]
