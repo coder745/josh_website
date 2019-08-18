@@ -1,1 +1,5 @@
-import { Load } from "./api";
+import Load from "./api.js";
+
+let load = new Load();
+
+load.test();
