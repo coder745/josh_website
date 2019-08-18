@@ -516,6 +516,16 @@
         "display": true
       },
       {
+        "title": "Decorators in Ruby",
+        "url": "https://thoughtbot.com/blog/evaluating-alternative-decorator-implementations-in",
+        "display": true
+      },
+      {
+        "title": "Decorators and Presenters",
+        "url": "https://ieftimov.com/post/decorators-and-presenters",
+        "display": true
+      },
+      {
         "title": "SOLID",
         "url": "https://thoughtbot.com/blog/back-to-basics-solid",
         "display": true
@@ -734,6 +744,16 @@
     "title": "JavaScript",
     "class": "javascript_resources",
     "data": [
+      {
+        "title": "Import and Export",
+        "url": "https://javascript.info/import-export",
+        "display": true
+      },
+      {
+        "title": "Jest URL Mocking",
+        "url": "https://www.ryandoll.com/post/2018/3/29/jest-and-url-mocking",
+        "display": true
+      },
       {
         "title": "You Might Not Need jQuery",
         "url": "http://youmightnotneedjquery.com",
