@@ -1,0 +1,19 @@
+{
+  "name": "josh_website",
+  "version": "1.0.0",
+  "description": "This repository houses the code for my website: joshyoung.me. This site is built with Jekyll and hosted on GitHub pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshayoung/josh_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshayoung/josh_website/issues"
+  },
+  "homepage": "https://github.com/joshayoung/josh_website#readme"
+}
