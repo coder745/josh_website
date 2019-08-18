@@ -25,3 +25,7 @@ Maybe the notes below will help someonee else if they decide to setup their own 
  * Clean up JS code.
  * Finishing adding the WIP counting JS.
  * Display bottom left links on mobile.
+* Moving all JS to a class structure with tests.
+  * Work on a dark page until you get everything working.
+* Move JS code back to a working state.
+  * Copy your update JS to the dark page for refactoring.
