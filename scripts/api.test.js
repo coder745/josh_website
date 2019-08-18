@@ -1,4 +1,4 @@
-const Api = require('./api');
+import Api from "./api"
 
 test('returns the correct value', () => {
   let api = new Api();

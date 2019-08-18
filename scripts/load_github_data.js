@@ -1,5 +1,5 @@
-import Load from "./api.js";
+import Api from "./api.js";
 
-let load = new Load();
+let api = new Api();
 
-load.test();
+console.log(api.test());

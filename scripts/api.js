@@ -4,6 +4,6 @@ export default class Api {
   }
 
   test() {
-    console.log('test');
+    return 'test';
   }
 }
