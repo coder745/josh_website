@@ -4,3 +4,4 @@ _site/
 .vscode/
 .DS_Store
 old_content.txt
+node_modules/
