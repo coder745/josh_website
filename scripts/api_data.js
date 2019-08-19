@@ -40,13 +40,13 @@
         formatted_data += "<li>" + repo.url + "</li>";
       }
       document.getElementById('github_repos').innerHTML = formatted_data;
-      loadWipCommits(repos, the_wips);
     };
     getData('https://api.github.com/users/joshayoung/repos', parseIt);
   }
   /* - Latest Repo Activity */
 
   /* WIP Commits */
+  /*
   var wip_commits = document.getElementById("wip_commits");
   if (typeof(wip_commits) != 'undefined' && wip_commits != null) {
     function loadWipCommits(repos, callback) {
@@ -92,6 +92,7 @@
       document.getElementById('wip_commits').innerHTML = wip_commits;
     }
   }
+  */
   /* - WIP Commits */
 
   /* Code Pen Data: */
@@ -111,6 +112,6 @@
     }
     document.getElementById('codepen_pens').innerHTML = formatted_dta;
   };
-  getData('http://cpv2api.com/pens/public/joshayoung', parseIt2);
+  // getData('https://cpv2api.com/pens/public/joshayoung', parseIt2);
   /* - Code Pen Data: */
 }());
