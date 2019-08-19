@@ -374,9 +374,26 @@ weight: 45
         <li>Push the feature branch up: <code>git push origin feature-branch-name</code>.</li>
         <li>Creating a PR from this branch will open up a PR in the forked repo.</li>
       </ol>
+      <h4>Remove File from Repo, and File System</h4>
+      <p>This will remove the file from your repo, and the filesystem.
       <pre><code class='git'>
+      git rm file_name
       </code></pre>
-
+      <h4>Remove File from Repo, not File System</h4>
+      <p>This will remove the file from your repo, but not from the file system.
+      <pre><code class='git'>
+      git rm --cached file_name
+      </code></pre>
+      <h4>Remove Folder from Repo, and File System</h4>
+      <p>This will remove the directory from your repo, and the filesystem.
+      <pre><code class='git'>
+      git rm -rvf file_name
+      </code></pre>
+      <h4>Remove Folder from Repo, not File System</h4>
+      <p>This will remove the directory from your repo, but not from the file system.
+      <pre><code class='git'>
+      git rm -r --cached my_folder_name
+      </code></pre>
       <h4>Show Contents of Commit</h4>
       <pre><code class='git'>
         git show [commit hash]

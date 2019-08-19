@@ -750,6 +750,11 @@
         "display": true
       },
       {
+        "title": "ES6 Modules without Webpack/Babel",
+        "url": "https://www.mariadcampbell.com/blog/implementing-es6-modules-without-webpack-or-babel",
+        "display": true
+      },
+      {
         "title": "Jest URL Mocking",
         "url": "https://www.ryandoll.com/post/2018/3/29/jest-and-url-mocking",
         "display": true
