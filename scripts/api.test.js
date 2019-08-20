@@ -6,7 +6,13 @@ test('returns the correct value', () => {
 });
 
 describe('#getData', () => {
+  beforeEach(() => {
+    fetch.resetMocks();
+  })
   it('returns the correct data', () => {
+    fetch.mockResponseOnce(JSON.stringify({ data: '12345' }))
 
+    let api = new Api();
+    let value = api.getData("www.example.com", function() {})
   });
 });
