@@ -5,3 +5,4 @@ _site/
 .DS_Store
 old_content.txt
 node_modules/
+yarn-error.log
