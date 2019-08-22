@@ -45,6 +45,22 @@ weight: 40
     </article>
 
     <article>
+    <a name='podcast_episodes'></a>
+      <h3 id='podcast_episodes'>Great Podcast Episodes</h3>
+      <p id='podcasts_episodes_description'>
+      </p>
+
+      <ul aria-labelledby='podcast_episodes' aria-describedby='podcasts_episodes_description' class='smaller'>
+        {% assign sorted_podcasts = site.data.podcasts_episodes %}
+        {% for podcast in sorted_podcasts %}
+          {% if podcast.display != false %}
+            <li><a href='{{ podcast.url }}'>{{ podcast.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article>
       <a name='books'></a>
       <h3 id='books_ive_read'>Books I've Read</h3>
       <p id='books_ive_read_description'>Frequently, I try to delve deeper into specific aspects of tech that I want to learn more about. I find that buying a book about a particular technology can be a beneficial deep-dive experience. Below I have listed some of the books I have read over the years which have contributed to where I am today (listed in alphabetical order and categorized below).</p>
