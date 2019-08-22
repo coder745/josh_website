@@ -287,6 +287,16 @@
         "display": true
       },
       {
+        "title": "Mocking Fetch with Jest",
+        "url": "https://www.reactnativeschool.com/mocking-fetch-api-calls-when-using-jest",
+        "display": true
+      },
+      {
+        "title": "Learning Jest Through Practice",
+        "url": "https://www.jonathan-petitcolas.com/2017/10/31/learning-jest-through-practice.html",
+        "display": true
+      },
+      {
         "title": "xUnit Test Patterns",
         "url": "http://xunitpatterns.com",
         "display": true
