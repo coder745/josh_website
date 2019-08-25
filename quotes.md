@@ -26,6 +26,8 @@ weight: 30
 
       <li>"Left unchecked, unmanaged dependencies cause an entire application to become an entangled mess. A day will come when it's easier to rewrite everything than to change anything." - Practical Object-Oriented Design (book)</li>
 
+      <li>"The easiest code to refactor is code that doesn't exist." - Ben Orenstein</li>
+
       <li>"Depending on an abstraction is always safer than depending on a concretion because by its very nature, the abstraction is more stable." - Practical Object-Oriented Design (book)</li>
     </ul>
     </article>
