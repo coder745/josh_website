@@ -360,6 +360,10 @@ weight: 45
 
         #Remove the service:
         firewall-cmd --zone=public --remove-service=ftp
+
+        #Add the '--permanent' flag to make the removal permanent:
+        firewall-cmd --zone=public --remove-port=80/tcp --permanent
+        firewall-cmd --zone=public --remove-service=ftp --permanent
       </code></pre>
     </article>
 
