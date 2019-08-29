@@ -10,13 +10,33 @@
     "display": true
   },
   {
+    "title" : "Dockerized Development Environments with Julian Fahrer",
+    "url" : "https://devchat.tv/ruby-rogues/rr-426-dockerized-development-environments-with-julian-fahrer",
+    "display": true
+  },
+  {
     "title" : "Ben Orenstein - Outside-in TDD and Dependency Injection in Rails",
     "url" : "http://www.fullstackradio.com/27",
     "display": true
   },
   {
+    "title" : "Sorbet, a Type Checker for Ruby with Paul Tarjan",
+    "url" : "https://devchat.tv/ruby-rogues/rr-427-sorbet-a-type-checker-for-ruby-with-paul-tarjan/",
+    "display": true
+  },
+  {
     "title" : "Microservices and Storyscript with Steve Peak",
     "url" : "https://devchat.tv/ruby-rogues/rr-419-microservices-and-storyscript-with-steve-peak/",
+    "display": true
+  },
+  {
+    "title" : "Teaching and Learning with Sandi Metz",
+    "url" : "https://www.techdoneright.io/69",
+    "display": true
+  },
+  {
+    "title" : "I'm Not a Lawyer, But...",
+    "url" : "https://bikeshed.fm/episodes/211",
     "display": true
   },
   {
