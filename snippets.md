@@ -20,6 +20,7 @@ weight: 45
         <li><a href='#http'>HTTP</a></li>
         <li><a href='#html5'>HTML</a></li>
         <li><a href='#firewalld'>Firewalld</a></li>
+        <li><a href='#gatsby'>Gatsby</a></li>
         <li><a href='#git'>Git</a></li>
         <li><a href='#javascript'>JavaScript</a></li>
         <li><a href='#kanban'>Kanban</a></li>
@@ -364,6 +365,15 @@ weight: 45
         #Add the '--permanent' flag to make the removal permanent:
         firewall-cmd --zone=public --remove-port=80/tcp --permanent
         firewall-cmd --zone=public --remove-service=ftp --permanent
+      </code></pre>
+    </article>
+
+    <article>
+      <a name='gatsby'></a>
+      <h3>Gatsby</h3>
+      <h4>Starting Local Server</h4>
+      <pre><code>
+        gatsby develop
       </code></pre>
     </article>
 
