@@ -323,6 +323,16 @@
         "display": true
       },
       {
+        "title": "Turn the Ship Around",
+        "url": "https://www.youtube.com/watch?v=IzJL8zX3EVk",
+        "display": true
+      },
+      {
+        "title": "Agile Product Ownership in a Nutshell",
+        "url": "https://www.youtube.com/watch?v=502ILHjX9EE",
+        "display": true
+      },
+      {
         "title": "Refactoring from Good to Great",
         "url": "https://www.youtube.com/watch?v=DC-pQPq0acs",
         "display": true
@@ -393,6 +403,11 @@
       {
         "title": "Binding.pry",
         "url": "https://docs.gitlab.com/ee/development/pry_debugging.html",
+        "display": true
+      },
+      {
+        "title": "Rails SQL Injection",
+        "url": "https://rails-sqli.org",
         "display": true
       },
       {
@@ -523,6 +538,11 @@
       {
         "title": "Code Review Guidelines",
         "url": "https://github.com/thoughtbot/guides/tree/master/code-review",
+        "display": true
+      },
+      {
+        "title": "Conventional Commits",
+        "url": "https://conventionalcommits.org",
         "display": true
       },
       {
