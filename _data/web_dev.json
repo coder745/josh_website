@@ -48,7 +48,7 @@
         "title": "Public APIs",
         "url": "https://flaviocopes.com/sample-app-ideas/#public-apis-you-can-use-in-example-projects",
         "display": true
-      },
+      }
     ]
   },
   {
@@ -325,6 +325,16 @@
       {
         "title": "Turn the Ship Around",
         "url": "https://www.youtube.com/watch?v=IzJL8zX3EVk",
+        "display": true
+      },
+      {
+        "title": "Full Stack Fest 2015: Nothing is Something",
+        "url": "https://www.youtube.com/watch?v=9mLK_8hKii8",
+        "display": true
+      },
+      {
+        "title": "RailsConf 2014 - Debugger Driven Developement with Pry",
+        "url": "https://www.youtube.com/watch?v=4hfMUP5iTq8",
         "display": true
       },
       {
@@ -668,6 +678,11 @@
       {
         "title": "Pair Programming Guide",
         "url": "https://tuple.app/pair-programming-guide/the-case-for-pair-programming",
+        "display": true
+      },
+      {
+        "title": "Pair Programming Tips from Kindergarten",
+        "url": "https://www.cse.unsw.edu.au/~cs3710/PMmaterials/Tutorials/PPpractices.pdf",
         "display": true
       },
       {
