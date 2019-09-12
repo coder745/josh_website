@@ -12,7 +12,7 @@ weight: 40
     <h2>Web Development Resources</h2>
 
     <article>
-      {% assign sorted_resources = site.data.web_dev | sort: 'title' %}
+      {% assign sorted_resources = site.data.resources | sort: 'title' %}
       <ul class='anchor_list'>{% for resources in sorted_resources %}
         <li><a href='#{{ resources.class }}'>{{ resources.title }}</a></li>
       {% endfor %}</ul>
@@ -24,7 +24,7 @@ weight: 40
     </article>
 
     <article>
-      {% assign sorted_resources = site.data.web_dev | sort: 'title' %}
+      {% assign sorted_resources = site.data.resources | sort: 'title' %}
       <p>{% for resources in sorted_resources %}
         <a name='{{ resources.class }}'></a>
         <h3>{{ resources.title }}</h3>
