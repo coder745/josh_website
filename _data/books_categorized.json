@@ -1,8 +1,10 @@
-[{
+[
+  {
     "title": "CSS",
     "class": "",
     "hide_from_recommended": false,
-    "data": [{
+    "data": [
+      {
         "title": "SASS for Web Designers",
         "author": "Dan Cederholm",
         "url": "",
@@ -27,7 +29,8 @@
     "title": "Programming",
     "class": "",
     "hide_from_recommended": false,
-    "data": [{
+    "data": [
+      {
         "title": "Perl Specialist Instructor Guide",
         "author": "",
         "url": "",
@@ -39,6 +42,12 @@
         "url": "",
         "display": true,
         "recommend": true
+      },
+      {
+        "title": "Design Patterns in Ruby",
+        "author": "Russ Olsen",
+        "url": "",
+        "display": true
       },
       {
         "title": "PHP and MySQL Web Development",
@@ -136,7 +145,8 @@
     "title": "Design",
     "class": "",
     "hide_from_recommended": false,
-    "data": [{
+    "data": [
+      {
         "title": "On Web Typography",
         "author": "Jason Santa Maria",
         "url": "",
@@ -180,7 +190,8 @@
     "title": "Security",
     "class": "",
     "hide_from_recommended": false,
-    "data": [{
+    "data": [
+      {
         "title": "Counter Hack Reloaded",
         "author": "Edward Skoudis",
         "url": "",
@@ -231,7 +242,8 @@
     "title": "Networking",
     "class": "",
     "hide_from_recommended": false,
-    "data": [{
+    "data": [
+      {
         "title": "All-In-One: CompTIA Network+",
         "author": "Mike Meyers",
         "url": "",
@@ -265,7 +277,8 @@
     "title": "JavaScript",
     "class": "",
     "hide_from_recommended": false,
-    "data": [{
+    "data": [
+      {
         "title": "JavaScript and jQuery: Interactive Front-End Web Development",
         "author": "Jon Duckett",
         "url": "",
@@ -316,7 +329,8 @@
     "title": "Web Development",
     "class": "",
     "hide_from_recommended": true,
-    "data": [{
+    "data": [
+      {
         "title": "Smashing Book 5",
         "author": "Smashing Magazine",
         "url": "",
@@ -364,7 +378,8 @@
     "title": "Databases",
     "class": "",
     "hide_from_recommended": true,
-    "data": [{
+    "data": [
+      {
         "title": "Developer's Library: MySQL",
         "author": "Paul DuBois",
         "url": "",
@@ -382,12 +397,14 @@
     "title": "Miscellaneous",
     "class": "",
     "hide_from_recommended": true,
-    "data": [{
-      "title": "Learning the Vi and Vim Editors",
-      "author": "Arnold Robbins, Elbert Hannah, and Linda Lamb",
-      "truncated_authors": "Arnold Robbins, Elbert Hannah...",
-      "url": "",
-      "display": true
-    }]
+    "data": [
+      {
+        "title": "Learning the Vi and Vim Editors",
+        "author": "Arnold Robbins, Elbert Hannah, and Linda Lamb",
+        "truncated_authors": "Arnold Robbins, Elbert Hannah...",
+        "url": "",
+        "display": true
+      }
+    ]
   }
 ]
