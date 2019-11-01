@@ -1386,6 +1386,14 @@ weight: 45
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+      <h4>Output image path from console</h4>
+      <pre><code class='bash'>
+        ActionController::Base.helpers.asset_path('image.jpg')
+
+        #Or:
+        include ActionView::Helpers::AssetUrlHelper
+        asset_path('image.jpg')
+      </code></pre>
       <h4>Open Rails Database Console</h4>
       <pre><code class='bash'>
         rails dbconsole
