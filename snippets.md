@@ -1412,6 +1412,10 @@ weight: 45
         <li>update</li>
         <li>destroy</li>
       </ol>
+      <h4>Rollback in Steps</h4>
+      <pre><code class='bash'>
+        rails db:rollback STEP=1
+      </code></pre>
       <h4>Show Migration Status</h4>
       <pre><code class='bash'>
         rails db:migrate:status

@@ -431,6 +431,11 @@
         "display": true
       },
       {
+        "title": "How to Configure RSpec",
+        "url": "https://blog.eq8.eu/article/junior-developer-set-up-rails-with-rspec-factorybot-database-cleaner.html",
+        "display": true
+      },
+      {
         "title": "Babel Present Env",
         "url": "https://blog.jakoblind.no/babel-preset-env",
         "display": true
@@ -472,6 +477,11 @@
     "data": [{
         "title": "Binding.pry",
         "url": "https://docs.gitlab.com/ee/development/pry_debugging.html",
+        "display": true
+      },
+      {
+        "title": "Decorator on Rails",
+        "url": "https://johno.com/rails/2014/03/07/decorators-on-rails",
         "display": true
       },
       {
