@@ -421,10 +421,26 @@
     "title": "Slack",
     "class": "slack",
     "data": [{
-      "title": "View Objects",
-      "url": "https://jtway.co/cleaning-up-your-rails-views-with-view-objects-42cf048ea491",
-      "display": true
-    }]
+        "title": "View Objects",
+        "url": "https://jtway.co/cleaning-up-your-rails-views-with-view-objects-42cf048ea491",
+        "display": true
+      },
+      {
+        "title": "How to Get Better at Things",
+        "url": "http://news.e-scribe.com/464",
+        "display": true
+      },
+      {
+        "title": "Babel Present Env",
+        "url": "https://blog.jakoblind.no/babel-preset-env",
+        "display": true
+      },
+      {
+        "title": "Ten Principles for Growth as Engineer",
+        "url": "https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b",
+        "display": true
+      }
+    ]
   },
   {
     "title": "Time/Date",
@@ -456,6 +472,21 @@
     "data": [{
         "title": "Binding.pry",
         "url": "https://docs.gitlab.com/ee/development/pry_debugging.html",
+        "display": true
+      },
+      {
+        "title": "Iterator/Reducer Quick Reference",
+        "url": "http://queirozf.com/entries/ruby-map-each-collect-inject-reject-select-quick-reference",
+        "display": true
+      },
+      {
+        "title": "Rails API",
+        "url": "https://api.rubyonrails.org",
+        "display": true
+      },
+      {
+        "title": "Rails Forms",
+        "url": "https://medium.com/@tinchorb/form-with-building-html-forms-in-rails-5-1-f30bd60ef52d",
         "display": true
       },
       {
@@ -861,6 +892,11 @@
     "data": [{
         "title": "Import and Export",
         "url": "https://javascript.info/import-export",
+        "display": true
+      },
+      {
+        "title": "Mocking Callbacks in Jest",
+        "url": "https://dev.to/jhotterbeekx/mocking-with-callbacks-in-jest-2423",
         "display": true
       },
       {
