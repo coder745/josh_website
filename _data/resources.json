@@ -1,9 +1,7 @@
-[
-  {
+[{
     "title": "CSS",
     "class": "css_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Ceaser CSS Easing Animation Tool",
         "url": "https://matthewlein.com/ceaser",
         "display": true
@@ -43,19 +41,16 @@
   {
     "title": "APIs",
     "class": "apis",
-    "data": [
-      {
-        "title": "Public APIs",
-        "url": "https://flaviocopes.com/sample-app-ideas/#public-apis-you-can-use-in-example-projects",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Public APIs",
+      "url": "https://flaviocopes.com/sample-app-ideas/#public-apis-you-can-use-in-example-projects",
+      "display": true
+    }]
   },
   {
     "title": "Compatibility",
     "class": "compatibility_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Compatibility Overview",
         "url": "https://www.quirksmode.org/compatibility.html",
         "display": true
@@ -75,8 +70,7 @@
   {
     "title": "Performance",
     "class": "performance_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Performance Budget Calculator",
         "url": "http://www.performancebudget.io",
         "display": true
@@ -121,8 +115,7 @@
   {
     "title": "HTML",
     "class": "html_resources",
-    "data": [
-      {
+    "data": [{
         "title": "HTML5 Please",
         "url": "http://html5please.com",
         "display": true
@@ -157,8 +150,7 @@
   {
     "title": "Programming",
     "class": "programming_resources",
-    "data": [
-      {
+    "data": [{
         "title": "RegExr",
         "url": "http://regexr.com",
         "display": true
@@ -223,8 +215,7 @@
   {
     "title": "Email Design",
     "class": "email_design",
-    "data": [
-      {
+    "data": [{
         "title": "Foundation for Emails",
         "url": "https://foundation.zurb.com/emails.html",
         "display": true
@@ -249,8 +240,7 @@
   {
     "title": "Validation",
     "class": "validation_resources",
-    "data": [
-      {
+    "data": [{
         "title": "JSON Linter",
         "url": "http://jsonlint.com",
         "display": true
@@ -275,8 +265,7 @@
   {
     "title": "Testing",
     "class": "testing_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Mocks Aren't Stubs",
         "url": "https://martinfowler.com/articles/mocksArentStubs.html",
         "display": true
@@ -307,6 +296,11 @@
         "display": true
       },
       {
+        "title": "Testing Rails",
+        "url": "https://github.com/thoughtbot/testing-rails",
+        "display": true
+      },
+      {
         "title": "Better Specs",
         "url": "http://www.betterspecs.org/",
         "display": true
@@ -316,8 +310,7 @@
   {
     "title": "Videos",
     "class": "video_resources",
-    "data": [
-      {
+    "data": [{
         "title": "The Deep Synergy Between Testability and Good Design",
         "url": "https://www.youtube.com/watch?v=4cVZvoFGJTU",
         "display": true
@@ -402,8 +395,7 @@
   {
     "title": "Cheat Sheets",
     "class": "cheat_sheets",
-    "data": [
-      {
+    "data": [{
         "title": "DevHints.io",
         "url": "https://devhints.io",
         "display": true
@@ -428,8 +420,7 @@
   {
     "title": "Time/Date",
     "class": "time_date",
-    "data": [
-      {
+    "data": [{
         "title": "Epoch Conversion",
         "url": "https://www.epochconverter.com",
         "display": true
@@ -444,26 +435,38 @@
   {
     "title": "Image Optimization",
     "class": "image_optimization",
-    "data": [
-      {
-        "title": "Tiny PNG",
-        "url": "https://tinypng.com",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Tiny PNG",
+      "url": "https://tinypng.com",
+      "display": true
+    }]
   },
   {
     "title": "Ruby / Rails",
     "class": "ruby_rails",
-    "data": [
-      {
+    "data": [{
         "title": "Binding.pry",
         "url": "https://docs.gitlab.com/ee/development/pry_debugging.html",
         "display": true
       },
       {
+        "title": "Date/Time Naming Conventions",
+        "url": "https://andycroll.com/ruby/use-rails-naming-conventions-for-dates-and-times/",
+        "display": true
+      },
+      {
         "title": "Rails Console Tips",
         "url": "https://pragmaticstudio.com/tutorials/rails-console-shortcuts-tips-tricks",
+        "display": true
+      },
+      {
+        "title": "View Models",
+        "url": "https://codyeatworld.com/2017/11/05/view-models-for-rails",
+        "display": true
+      },
+      {
+        "title": "View Models & Form Objects, Etc.",
+        "url": "http://engineering.appfolio.com/appfolio-engineering/2017/4/21/view-models-form-objects-presenters-and-helpers-oh-my",
         "display": true
       },
       {
@@ -496,19 +499,16 @@
   {
     "title": "REST",
     "class": "rest_resources",
-    "data": [
-      {
-        "title": "Richardson Maturity Model",
-        "url": "https://www.martinfowler.com/articles/richardsonMaturityModel.html",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Richardson Maturity Model",
+      "url": "https://www.martinfowler.com/articles/richardsonMaturityModel.html",
+      "display": true
+    }]
   },
   {
     "title": "Levelling-up",
     "class": "levelling_up_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Front End Center",
         "url": "https://frontend.center",
         "display": true
@@ -553,8 +553,7 @@
   {
     "title": "Accessibility",
     "class": "accessibility_resources",
-    "data": [
-      {
+    "data": [{
         "title": "A11Y Project",
         "url": "http://a11yproject.com",
         "display": true
@@ -584,8 +583,7 @@
   {
     "title": "SQL",
     "class": "sql_resources",
-    "data": [
-      {
+    "data": [{
         "title": "SQL Connection Strings",
         "url": "https://www.connectionstrings.com/sql-server",
         "display": true
@@ -605,8 +603,7 @@
   {
     "title": "Code Best Practices",
     "class": "code_best_practices",
-    "data": [
-      {
+    "data": [{
         "title": "Code Review Guidelines",
         "url": "https://github.com/thoughtbot/guides/tree/master/code-review",
         "display": true
@@ -701,52 +698,43 @@
   {
     "title": "Tutorials",
     "class": "tutorials_resources",
-    "data": [
-      {
-        "title": "Daniel Miessler Tutorials",
-        "url": "https://danielmiessler.com/study",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Daniel Miessler Tutorials",
+      "url": "https://danielmiessler.com/study",
+      "display": true
+    }]
   },
   {
     "title": "Linux",
     "class": "linux_resources",
-    "data": [
-      {
-        "title": "SCP Reference",
-        "url": "http://www.hypexr.org/linux_scp_help.php",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "SCP Reference",
+      "url": "http://www.hypexr.org/linux_scp_help.php",
+      "display": true
+    }]
   },
   {
     "title": "FreeBSD",
     "class": "freebsd_resources",
-    "data": [
-      {
-        "title": "FreeBSD Post Install Guide",
-        "url": "https://www.tecmint.com/things-to-do-after-installing-freebsd",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "FreeBSD Post Install Guide",
+      "url": "https://www.tecmint.com/things-to-do-after-installing-freebsd",
+      "display": true
+    }]
   },
   {
     "title": "Network Tools",
     "class": "network_tool",
-    "data": [
-      {
-        "title": "Converters and Calculators",
-        "url": "https://www.wintelguy.com",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Converters and Calculators",
+      "url": "https://www.wintelguy.com",
+      "display": true
+    }]
   },
   {
     "title": "Pair Programming",
     "class": "pair_programming",
-    "data": [
-      {
+    "data": [{
         "title": "Pair Programming Guide",
         "url": "https://tuple.app/pair-programming-guide/the-case-for-pair-programming",
         "display": true
@@ -766,8 +754,7 @@
   {
     "title": "Miscellaneous",
     "class": "miscellaneous_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Secure Tunnel",
         "url": "https://ngrok.com",
         "display": true
@@ -787,8 +774,7 @@
   {
     "title": "News",
     "class": "news_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Web Platform Daily",
         "url": "https://webplatformdaily.org",
         "display": true
@@ -803,8 +789,7 @@
   {
     "title": "Design",
     "class": "design_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Colour Lovers",
         "url": "http://www.colourlovers.com",
         "display": true
@@ -864,8 +849,7 @@
   {
     "title": "JavaScript",
     "class": "javascript_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Import and Export",
         "url": "https://javascript.info/import-export",
         "display": true
@@ -920,19 +904,16 @@
   {
     "title": "Jekyll",
     "class": "jekyll_resources",
-    "data": [
-      {
-        "title": "Jekyll FAQ",
-        "url": "https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md",
-        "display": true
-      }
-    ]
+    "data": [{
+      "title": "Jekyll FAQ",
+      "url": "https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md",
+      "display": true
+    }]
   },
   {
     "title": "Security",
     "class": "security_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Content Security Policy",
         "url": "https://developers.google.com/web/fundamentals/security/csp",
         "display": true
@@ -952,8 +933,7 @@
   {
     "title": "Documentation",
     "class": "documentation_resources",
-    "data": [
-      {
+    "data": [{
         "title": "Microsoft Documentation",
         "url": "https://docs.microsoft.com/en-us",
         "display": true
