@@ -418,6 +418,15 @@
     ]
   },
   {
+    "title": "Slack",
+    "class": "slack",
+    "data": [{
+      "title": "View Objects",
+      "url": "https://jtway.co/cleaning-up-your-rails-views-with-view-objects-42cf048ea491",
+      "display": true
+    }]
+  },
+  {
     "title": "Time/Date",
     "class": "time_date",
     "data": [{
