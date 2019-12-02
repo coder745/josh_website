@@ -316,6 +316,21 @@
         "display": true
       },
       {
+        "title": "Refactoring to Form Objects in Rails",
+        "url": "https://www.youtube.com/watch?v=9luYcnfZ7Ok",
+        "display": true
+      },
+      {
+        "title": "Confident Code",
+        "url": "https://www.youtube.com/watch?v=T8J0j2xJFgQ",
+        "display": true
+      },
+      {
+        "title": "Refactoring Fat Models with Patterns",
+        "url": "https://www.youtube.com/watch?v=5yX6ADjyqyE",
+        "display": true
+      },
+      {
         "title": "Practical Object-Oriented Design in Ruby",
         "url": "https://www.youtube.com/playlist?list=PLECibIxMfd0dVOFbn7cbtvuiatC0XvINP",
         "display": true
@@ -659,8 +674,23 @@
         "display": true
       },
       {
+        "title": "Essential RubyOnRails patterns",
+        "url": "https://medium.com/selleo/essential-rubyonrails-patterns-part-1-service-objects-1af9f9573ca1",
+        "display": true
+      },
+      {
+        "title": "Rails Service Objects: A Comprehensive Guide",
+        "url": "https://www.toptal.com/ruby-on-rails/rails-service-objects-tutorial",
+        "display": true
+      },
+      {
         "title": "Conventional Commits",
         "url": "https://conventionalcommits.org",
+        "display": true
+      },
+      {
+        "title": "7 Patterns to Refactor Fat ActiveRecord Models",
+        "url": "https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models/",
         "display": true
       },
       {
