@@ -505,8 +505,18 @@
         "display": true
       },
       {
+        "title": "Rails Design Patterns",
+        "url": "https://naturaily.com/blog/ruby-on-rails-design-patterns",
+        "display": true
+      },
+      {
         "title": "Rails API",
         "url": "https://api.rubyonrails.org",
+        "display": true
+      },
+      {
+        "title": "Ruby Docs",
+        "url": "https://ruby-doc.org",
         "display": true
       },
       {
