@@ -6,3 +6,5 @@ _site/
 old_content.txt
 node_modules/
 yarn-error.log
+.idea/
+.jekyll-cache/
