@@ -7,10 +7,12 @@ export default class Api {
   getData(url) {
     let token = window.localStorage.getItem('token');
     return fetch(url
-      ,{ headers: { 'Authorization': 'token ' + token }, }
-    ).then((response) => {
+      , {headers: {'Authorization': 'token ' + token},}
+    )
+      .then((response) => {
       return response.json();
-    });
+    }
+    );
   }
 
   test() {
