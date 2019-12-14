@@ -1381,11 +1381,20 @@ weight: 45
       <pre><code class='bash'>
         python -m SimpleHTTPServer
       </code></pre>
+
+      <h4>Start Simple Server with Python 3</h4>
+      <pre><code class='bash'>
+        python -m http.server
+      </code></pre>
     </article>
 
     <article>
       <a name='rails'></a>
       <h3>Rails</h3>
+
+      <h4>Inheriting Directly from ActionController::Base</h4>
+      <p>Inheriting directly from: "ActionController::Base" instead of: "ApplicationController" will circumvent any code in your application_controller.rb file. Essentially it is like "skip running anything in the application_controller.rb file". "ApplicationController" inherits from "ActionController::Base".</p>
+
       <h4>Output image path from console</h4>
       <pre><code class='bash'>
         ActionController::Base.helpers.asset_path('image.jpg')
