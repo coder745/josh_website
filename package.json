@@ -29,5 +29,7 @@
     "jest": "^24.9.0",
     "jest-fetch-mock": "^2.1.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "handlebars": "4.3.0"
+  }
 }
